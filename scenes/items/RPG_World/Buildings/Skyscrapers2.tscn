@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/isometric_rpg_world/isometricvill_v2/isometricvill - v2/Building_Assets/Skyscrapers/Skyscrapers2.png" id="2_tex"]
+
+[node name="Skyscrapers2" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Skyscrapers2"
+category = "RPG_Buildings"
+kind = "build"
+direction = "SE"
+footprint = Vector2i(9, 14)
+origin_offset = Vector2(237.885242, 671.506617)
+total_frames = 1
+has_collision = true
+directions_data = {"SE": {"file": "../../isometric_rpg_world/isometricvill_v2/isometricvill - v2/Building_Assets/Skyscrapers/Skyscrapers2.png", "origin": [237.885242, 671.506617], "footprint": [9, 14], "frame_width": 408, "frame_height": 854, "grid_original": {"origin": [204, 846], "footprint": [6, 6]}, "alignment_transform": [1.023244631618024, 0.004924266645159464, 0.009068632309557734, 1.0292180217566282], "alignment_base": [[18.0, 781.379133], [158.114758, 850.664781], [378.0, 740.792265]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [158.114758, 850.664781]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-237.885242, -671.506617)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 96, 48, 0, 96, -96, 48)

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Starlight_Menagerie_v1_2_5/Added_Starlight_Menagerie_v1_2_5_Starlight_Menagerie_hex_rows_Sz_1_line_3_barricade_01b019be_SE.png" id="2"]
+
+[node name="Added_Starlight_Menagerie_v1_2_5_Starlight_Menagerie_hex_rows_Sz_1_line_3_barricade_01b019be" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Starlight_Menagerie_v1_2_5_Starlight_Menagerie_hex_rows_Sz_1_line_3_barricade_01b019be"
+category = "Added Starlight Menagerie - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 20)
+origin_offset = Vector2(276.868933, 114.517841)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Starlight_Menagerie_v1_2_5/Added_Starlight_Menagerie_v1_2_5_Starlight_Menagerie_hex_rows_Sz_1_line_3_barricade_01b019be_SE.png", "frame_width": 343, "frame_height": 300, "frames": 1, "origin": [276.868933, 114.517841], "footprint": [4, 20], "grid_original": {"origin": [76, 236], "footprint": [7, 1]}, "alignment_transform": [1.2673516872300234, 0.04434435595135449, 0.15646038950922975, 1.096376072002936], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [52.131067, 298.730048], "alignment_base": [[5.0, 271.44926], [52.131067, 298.730048], [324.0, 141.798629]]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-276.868933, -114.517841)
+hframes = 1

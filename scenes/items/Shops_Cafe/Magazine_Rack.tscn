@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Shops_Cafe/Magazine_Rack_SE.png" id="2_tex"]
+
+[node name="Magazine_Rack" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Magazine_Rack"
+category = "Shops & Cafe"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(16, 28)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Shops_Cafe/Magazine_Rack_SE.png", "frame_width": 23, "frame_height": 38, "origin": [16, 28], "footprint": [1, 1], "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 216, "y": 511, "w": 23, "h": 38}, "grid_method": "authored", "grid_contact": [16, 44]}, "SW": {"file": "Sprites/Shops_Cafe/Magazine_Rack_SW.png", "frame_width": 23, "frame_height": 38, "origin": [7, 28], "footprint": [1, 1], "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 241, "y": 511, "w": 23, "h": 38}, "grid_method": "authored", "grid_contact": [7, 44]}, "NW": {"file": "Sprites/Shops_Cafe/Magazine_Rack_NW.png", "frame_width": 23, "frame_height": 39, "origin": [7, 23], "footprint": [1, 1], "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 266, "y": 511, "w": 23, "h": 39}, "grid_method": "authored", "grid_contact": [7, 39]}, "NE": {"file": "Sprites/Shops_Cafe/Magazine_Rack_NE.png", "frame_width": 23, "frame_height": 39, "origin": [16, 23], "footprint": [1, 1], "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 291, "y": 511, "w": 23, "h": 39}, "grid_method": "authored", "grid_contact": [16, 39]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-16, -28)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, 0, 16, -16, 8)

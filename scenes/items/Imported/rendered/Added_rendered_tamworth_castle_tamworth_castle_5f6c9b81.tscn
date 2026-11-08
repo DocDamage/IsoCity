@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_tamworth_castle_tamworth_castle_5f6c9b81_SE.png" id="2"]
+
+[node name="Added_rendered_tamworth_castle_tamworth_castle_5f6c9b81" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_tamworth_castle_tamworth_castle_5f6c9b81"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(214.0, 129.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_tamworth_castle_tamworth_castle_5f6c9b81_SE.png", "frame_width": 492, "frame_height": 324, "frames": 1, "origin": [214.0, 129.0], "footprint": [12, 12], "grid_original": {"origin": [134, 252], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [214.0, 321.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_tamworth_castle_tamworth_castle_5f6c9b81_E.png", "frame_width": 492, "frame_height": 316, "frames": 1, "origin": [242.0, 121.0], "footprint": [12, 12], "grid_original": {"origin": [134, 244], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [242.0, 313.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_tamworth_castle_tamworth_castle_5f6c9b81_NE.png", "frame_width": 492, "frame_height": 279, "frames": 1, "origin": [260.0, 84.0], "footprint": [12, 12], "grid_original": {"origin": [134, 207], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [260.0, 276.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_tamworth_castle_tamworth_castle_5f6c9b81_N.png", "frame_width": 494, "frame_height": 291, "frames": 1, "origin": [237.0, 96.0], "footprint": [12, 12], "grid_original": {"origin": [135, 219], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [237.0, 288.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_tamworth_castle_tamworth_castle_5f6c9b81_NW.png", "frame_width": 492, "frame_height": 280, "frames": 1, "origin": [244.5, 85.0], "footprint": [12, 12], "grid_original": {"origin": [134, 208], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [244.5, 277.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_tamworth_castle_tamworth_castle_5f6c9b81_W.png", "frame_width": 492, "frame_height": 308, "frames": 1, "origin": [302.0, 113.0], "footprint": [12, 12], "grid_original": {"origin": [134, 236], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [302.0, 305.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_tamworth_castle_tamworth_castle_5f6c9b81_SW.png", "frame_width": 492, "frame_height": 330, "frames": 1, "origin": [258.0, 135.0], "footprint": [12, 12], "grid_original": {"origin": [134, 258], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [258.0, 327.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_tamworth_castle_tamworth_castle_5f6c9b81_S.png", "frame_width": 494, "frame_height": 328, "frames": 1, "origin": [240.0, 133.0], "footprint": [12, 12], "grid_original": {"origin": [135, 256], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [240.0, 325.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-214.0, -129.0)
+hframes = 1

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Exo_Lunar_Desolation_v1_3_6/Added_Exo_Lunar_Desolation_v1_3_6_Exo_Lunar_Desolation_Hydrofeatures_Hydrofeature_Co_2d301ff0_SE.png" id="2"]
+
+[node name="Added_Exo_Lunar_Desolation_v1_3_6_Exo_Lunar_Desolation_Hydrofeatures_Hydrofeature_Co_2d301ff0" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Exo_Lunar_Desolation_v1_3_6_Exo_Lunar_Desolation_Hydrofeatures_Hydrofeature_Co_2d301ff0"
+category = "Added Exo-Lunar Desolation - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(16, 16)
+origin_offset = Vector2(255.30851, 23.960916)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Exo_Lunar_Desolation_v1_3_6/Added_Exo_Lunar_Desolation_v1_3_6_Exo_Lunar_Desolation_Hydrofeatures_Hydrofeature_Co_2d301ff0_SE.png", "frame_width": 512, "frame_height": 301, "frames": 1, "origin": [255.30851, 23.960916], "footprint": [16, 16], "grid_original": {"origin": [144, 229], "footprint": [8, 1]}, "alignment_transform": [1.0919778294152844, 0.009032534755615995, 0.030365413714694478, 0.9348392830917881], "alignment_base": [[17.0, 163.185414], [247.69149, 297.878375], [486.0, 158.653877]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [247.69149, 297.878375]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-255.30851, -23.960916)
+hframes = 1

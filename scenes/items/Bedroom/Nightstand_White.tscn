@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Bedroom/Nightstand_White_SE.png" id="2_tex"]
+
+[node name="Nightstand_White" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Nightstand_White"
+category = "Bedroom"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(14, 17)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Bedroom/Nightstand_White_SE.png", "frame_width": 25, "frame_height": 31, "origin": [14, 17], "footprint": [1, 1], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 200, "y": 387, "w": 25, "h": 31}, "grid_method": "authored", "grid_contact": [14, 33]}, "SW": {"file": "Sprites/Bedroom/Nightstand_White_SW.png", "frame_width": 25, "frame_height": 31, "origin": [11, 17], "footprint": [1, 1], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 227, "y": 387, "w": 25, "h": 31}, "grid_method": "authored", "grid_contact": [11, 33]}, "NW": {"file": "Sprites/Bedroom/Nightstand_White_NW.png", "frame_width": 25, "frame_height": 30, "origin": [11, 15], "footprint": [1, 1], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 254, "y": 387, "w": 25, "h": 30}, "grid_method": "authored", "grid_contact": [11, 31]}, "NE": {"file": "Sprites/Bedroom/Nightstand_White_NE.png", "frame_width": 25, "frame_height": 30, "origin": [14, 15], "footprint": [1, 1], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 281, "y": 387, "w": 25, "h": 30}, "grid_method": "authored", "grid_contact": [14, 31]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-14, -17)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, 0, 16, -16, 8)

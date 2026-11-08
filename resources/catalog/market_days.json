@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "hosts": ["2d:Supermarket", "3d:HanX_Shop/Shop_Grocery", "3d:HanX_Shop/Market_Cart"],
+  "vendors": {
+    "fruit": {"name": "Fruit stall", "item": "Market fruit", "stall": "3d:HanX_Shop/Stall_Fruit", "goods": "2d:Supplemental_Supermarket_kit_apples_crate_ca0b0004", "hanx_goods": "3d:HanX_Shop/Crate_Apples"},
+    "vegetables": {"name": "Vegetable stall", "item": "Market vegetables", "stall": "3d:HanX_Shop/Stall_Vegetable", "goods": "2d:Supplemental_Supermarket_kit_veg_box_d416d592", "hanx_goods": "3d:HanX_Shop/Crate_Cabbages"},
+    "flowers": {"name": "Flower stall", "item": "Market flowers", "stall": "3d:HanX_Shop/Stall_Flower", "goods": "3d:HanX_Shop/Flower_Bucket", "hanx_goods": "3d:HanX_Shop/Flower_Bucket"}
+  }
+}

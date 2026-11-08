@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Archology_South_v1_4_8/Added_Archology_South_v1_4_8_Archology_South_Structures_Building_size_5_heihgt__02f44697_SE.png" id="2"]
+
+[node name="Added_Archology_South_v1_4_8_Archology_South_Structures_Building_size_5_heihgt__02f44697" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Archology_South_v1_4_8_Archology_South_Structures_Building_size_5_heihgt__02f44697"
+category = "Added Archology South - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(203.0, 274.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Archology_South_v1_4_8/Added_Archology_South_v1_4_8_Archology_South_Structures_Building_size_5_heihgt__02f44697_SE.png", "frame_width": 512, "frame_height": 467, "frames": 1, "origin": [203.0, 274.0], "footprint": [12, 12], "grid_original": {"origin": [256, 211], "footprint": [16, 16]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [203.0, 466.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-203.0, -274.0)
+hframes = 1

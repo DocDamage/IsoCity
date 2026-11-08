@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Tile_Helipad.glb" id="1_3mfit"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_odksu"]
+size = Vector3(8, 0.25, 8)
+
+[node name="Tile_Helipad" type="StaticBody3D" unique_id=1845003389]
+collision_mask = 0
+metadata/authored_footprint = [-4.0, -0.15, -4.0, 8.0, 0.25, 8.0]
+
+[node name="Model" type="Node3D" parent="." unique_id=1607768787]
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1636830216 instance=ExtResource("1_3mfit")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=60086256]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.025000006, 0)
+shape = SubResource("BoxShape3D_odksu")

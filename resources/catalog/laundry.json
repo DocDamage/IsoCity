@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "seconds": {"wash": 6, "dry": 5, "fold": 3},
+  "detergent_capacity": 8,
+  "starter_detergent": 3,
+  "customers": {
+    "alex": {"name": "Alex", "items": ["Shirt", "Trousers"]},
+    "jules": {"name": "Jules", "items": ["Towel", "Sheet", "Pillowcase", "Shirt"]},
+    "sam": {"name": "Sam", "items": ["Sweater", "Socks"]}
+  },
+  "stations": {
+    "2d:Washing_Machine": {"role": "wash", "capacity": 4},
+    "2d:Clothes_Dryer": {"role": "dry", "capacity": 4},
+    "2d:Clothes_Display_Table": {"role": "fold"},
+    "2d:Dining_Table_White": {"role": "fold"},
+    "2d:Checkout_Counter": {"role": "counter"},
+    "3d:HanX_Shop/Checkout_Counter": {"role": "counter"},
+    "2d:Laundry_Basket": {"role": "basket"},
+    "2d:Laundry_Hamper": {"role": "basket"},
+    "2d:Binder_Shelf": {"role": "supply"},
+    "3d:HanX_Shop/Shelf_Wall": {"role": "supply"},
+    "2d:Supplemental_Laundromat_kit_front_loader_bdc414ea": {"role": "wash", "capacity": 4},
+    "2d:Supplemental_Laundromat_kit_top_loader_5f763bec": {"role": "wash", "capacity": 4},
+    "2d:Supplemental_Laundromat_kit_industrial_washer_29a09cf7": {"role": "wash", "capacity": 6},
+    "2d:Supplemental_Laundromat_kit_dryer_stack_double_609ca3da": {"role": "dry", "capacity": 6},
+    "2d:Supplemental_Laundromat_kit_folding_table_3b3f1c1f": {"role": "fold"},
+    "2d:Supplemental_Laundromat_kit_laundry_basket_049231c7": {"role": "basket"},
+    "2d:Supplemental_Laundromat_kit_laundry_cart_cdfdacbc": {"role": "basket"},
+    "2d:Supplemental_Laundromat_kit_detergent_bottle_c7fc54c8": {"role": "supply"},
+    "2d:Supplemental_Laundromat_kit_powder_box_8e0ede24": {"role": "supply"},
+    "2d:Supplemental_Laundromat_kit_soap_vending_7c16fa47": {"role": "supply"},
+    "2d:Supplemental_Laundromat_kit_washer_dryer_stack_96577eed": {"role": "wash", "capacity": 4, "dual": true}
+  }
+}

@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Satellites/10_spy_sat.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(3.0, 1.1105795577471789, 2.589540700312918)
+
+[node name="10_spy_sat" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-1.5, 0.0, -1.294770350156459, 3.0, 1.1105795577471789, 2.589540700312918]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(0.000919417585648688, 0.5588343263265247, -0.0071022065070657624)
+scale = Vector3(2.9928729974036044, 2.9928729974036044, 2.9928729974036044)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.5552897788735894, 0)
+shape = SubResource("CollisionShape")
+disabled = true

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Hercynian_Lowlands_v1_6/Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Structures_Silo_Building_2x1_Si_07a35aca_SE.png" id="2"]
+
+[node name="Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Structures_Silo_Building_2x1_Si_07a35aca" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Structures_Silo_Building_2x1_Si_07a35aca"
+category = "Added Hercynian Lowlands - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 12)
+origin_offset = Vector2(153.757634, 211.318908)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Hercynian_Lowlands_v1_6/Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Structures_Silo_Building_2x1_Si_07a35aca_SE.png", "frame_width": 366, "frame_height": 332, "frames": 1, "origin": [153.757634, 211.318908], "footprint": [4, 12], "grid_original": {"origin": [183, 156], "footprint": [11, 11]}, "alignment_transform": [1.150692729929348, -0.06702455644139811, -0.2416923030351283, 0.9984162157858374], "alignment_base": [[5.0, 297.484962], [68.242366, 333.781239], [217.0, 247.615185]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [68.242366, 333.781239]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-153.757634, -211.318908)
+hframes = 1

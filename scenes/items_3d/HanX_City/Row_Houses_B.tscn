@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/hanx_lowpoly/low-poly-city-pack-hanx-city-pack/HanX_City_Pack/GLB/Row_Houses_B.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1"]
+size = Vector3(8.000000000, 10.879999161, 8.069999695)
+
+[node name="Row_Houses_B" type="StaticBody3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000000000, 5.289999485, -0.035000324)
+shape = SubResource("BoxShape3D_1")

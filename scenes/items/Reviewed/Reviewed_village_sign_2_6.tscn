@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/reviewed_prepared/Reviewed_village_sign_2_6_SE.png" id="2"]
+[node name="Reviewed_village_sign_2_6" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1")
+item_id = "Reviewed_village_sign_2_6"
+category = "Reviewed isometricvill - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(13.0, 78)
+scale = Vector2(1, 1)
+total_frames = 1
+animation_fps = 8
+has_collision = true
+directions_data = {"SE": {"file": "../../reviewed_prepared/Reviewed_village_sign_2_6_SE.png", "frame_width": 32, "frame_height": 96, "frames": 1, "origin": [13.0, 78], "footprint": [1, 1], "source_contact": [13.0, 94], "grid_contact": [13.0, 94], "render_contact": [13.0, 94], "grid_method": "reviewed source contact and virtual footprint"}, "SW": {"file": "../../reviewed_prepared/Reviewed_village_sign_2_6_SW.png", "frame_width": 32, "frame_height": 96, "frames": 1, "origin": [18.0, 78], "footprint": [1, 1], "source_contact": [18.0, 94], "grid_contact": [18.0, 94], "render_contact": [18.0, 94], "grid_method": "reviewed source contact and virtual footprint"}}
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-13.0, -78)
+hframes = 1

@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/hanx_lowpoly/low-poly-park-nature-pack-hanx-park-pack/HanX_Park_Pack/GLB/Signpost.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1"]
+size = Vector3(1.480740070, 2.619999886, 0.946870029)
+
+[node name="Signpost" type="StaticBody3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.037550032, 1.289999962, 0.056115001)
+shape = SubResource("BoxShape3D_1")

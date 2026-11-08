@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/loose/Added_loose_isometric_four_buildings_part_004_59e9fc34_SE.png" id="2"]
+
+[node name="Added_loose_isometric_four_buildings_part_004_59e9fc34" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_loose_isometric_four_buildings_part_004_59e9fc34"
+category = "Added loose - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 4)
+origin_offset = Vector2(69.506109, 44.532401)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/loose/Added_loose_isometric_four_buildings_part_004_59e9fc34_SE.png", "frame_width": 182, "frame_height": 130, "frames": 1, "origin": [69.506109, 44.532401], "footprint": [8, 4], "grid_original": {"origin": [91, 34], "footprint": [6, 6]}, "alignment_transform": [1.1128975828867835, 0.04435036517133095, 0.17815424963215776, 1.113594039411757], "alignment_base": [[7.0, 75.757576], [113.493891, 128.987887], [176.0, 97.762712]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [113.493891, 128.987887]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-69.506109, -44.532401)
+hframes = 1

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_aircraft_spaceship_aircraft_spaceship_1495b668_SE.png" id="2"]
+
+[node name="Added_rendered_aircraft_spaceship_aircraft_spaceship_1495b668" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_rendered_aircraft_spaceship_aircraft_spaceship_1495b668"
+category = "Added rendered - Vehicles"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(169.0, 53.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_spaceship_aircraft_spaceship_1495b668_SE.png", "frame_width": 186, "frame_height": 120, "frames": 1, "origin": [169.0, 53.0], "footprint": [4, 4], "grid_original": {"origin": [45, 80], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [169.0, 117.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_spaceship_aircraft_spaceship_1495b668_E.png", "frame_width": 184, "frame_height": 133, "frames": 1, "origin": [91.5, 98.0], "footprint": [2, 2], "grid_original": {"origin": [44, 93], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [91.5, 130.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_spaceship_aircraft_spaceship_1495b668_NE.png", "frame_width": 186, "frame_height": 120, "frames": 1, "origin": [16.0, 53.0], "footprint": [4, 4], "grid_original": {"origin": [45, 80], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [16.0, 117.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_spaceship_aircraft_spaceship_1495b668_N.png", "frame_width": 202, "frame_height": 112, "frames": 1, "origin": [158.0, 13.0], "footprint": [6, 6], "grid_original": {"origin": [53, 72], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [158.0, 109.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_spaceship_aircraft_spaceship_1495b668_NW.png", "frame_width": 186, "frame_height": 116, "frames": 1, "origin": [112.0, 49.0], "footprint": [4, 4], "grid_original": {"origin": [45, 76], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [112.0, 113.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_spaceship_aircraft_spaceship_1495b668_W.png", "frame_width": 184, "frame_height": 129, "frames": 1, "origin": [91.5, 62.0], "footprint": [4, 4], "grid_original": {"origin": [44, 89], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [91.5, 126.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_spaceship_aircraft_spaceship_1495b668_SW.png", "frame_width": 186, "frame_height": 116, "frames": 1, "origin": [73.0, 49.0], "footprint": [4, 4], "grid_original": {"origin": [45, 76], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [73.0, 113.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_spaceship_aircraft_spaceship_1495b668_S.png", "frame_width": 202, "frame_height": 112, "frames": 1, "origin": [43.0, 13.0], "footprint": [6, 6], "grid_original": {"origin": [53, 72], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [43.0, 109.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-169.0, -53.0)
+hframes = 1

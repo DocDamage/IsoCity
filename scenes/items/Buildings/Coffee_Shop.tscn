@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Buildings/Coffee_Shop_SE.png" id="2_tex"]
+
+[node name="Coffee_Shop" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Coffee_Shop"
+category = "Buildings"
+kind = "build"
+direction = "SE"
+footprint = Vector2i(3, 3)
+origin_offset = Vector2(48, 45)
+total_frames = 2
+animation_fps = 1
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Buildings/Coffee_Shop_SE.png", "frame_width": 94, "frame_height": 91, "origin": [48, 45], "footprint": [3, 3], "layout": "horizontal strip of 2 frames", "sheet": {"file": "Sheets/Buildings_Sheet.png", "x": 0, "y": 0, "w": 94, "h": 91}, "grid_method": "authored", "grid_contact": [48, 93]}, "SW": {"file": "Sprites/Buildings/Coffee_Shop_SW.png", "frame_width": 94, "frame_height": 91, "origin": [46, 45], "footprint": [3, 3], "layout": "horizontal strip of 2 frames", "sheet": {"file": "Sheets/Buildings_Sheet.png", "x": 96, "y": 0, "w": 94, "h": 91}, "grid_method": "authored", "grid_contact": [46, 93]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-48, -45)
+hframes = 2
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 48, 24, 0, 48, -48, 24)

@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_character.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/supplemental_prepared/Characters_Orange_shirt_girl/Supplemental_Characters_Orange_shir_ReadyIdle_6cb1c23a.png" id="2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_idle"]
+atlas = ExtResource("2")
+region = Rect2(1792, 0, 896, 64)
+filter_clip = true
+
+[sub_resource type="CircleShape2D" id="BodyShape"]
+radius = 4.0
+
+[node name="Supplemental_Characters_Orange_shir_ReadyIdle_6cb1c23a_Character" type="CharacterBody2D"]
+scale = Vector2(1.0, 1.0)
+collision_layer = 0
+collision_mask = 1
+script = ExtResource("1")
+item_id = "Supplemental_Characters_Orange_shir_ReadyIdle_6cb1c23a_Character"
+direction = "SE"
+directions_data = {"S": {"file": "../../supplemental_prepared/Characters_Orange_shirt_girl/Supplemental_Characters_Orange_shir_ReadyIdle_6cb1c23a.png", "region": [0, 0, 896, 64], "frame_width": 64, "frame_height": 64, "frames": 14, "origin": [32.542857142857144, 41.75], "footprint": [1, 1], "render_contact": [32.542857142857144, 41.75], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [32.542857142857144, 57.17857142857143]}, "SW": {"file": "../../supplemental_prepared/Characters_Orange_shirt_girl/Supplemental_Characters_Orange_shir_ReadyIdle_6cb1c23a.png", "region": [896, 0, 896, 64], "frame_width": 64, "frame_height": 64, "frames": 14, "origin": [29.432692307692307, 41.0], "footprint": [1, 1], "render_contact": [29.432692307692307, 41.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [29.432692307692307, 56.42857142857143]}, "SE": {"file": "../../supplemental_prepared/Characters_Orange_shirt_girl/Supplemental_Characters_Orange_shir_ReadyIdle_6cb1c23a.png", "region": [1792, 0, 896, 64], "frame_width": 64, "frame_height": 64, "frames": 14, "origin": [35.479166666666664, 41.0], "footprint": [1, 1], "render_contact": [35.479166666666664, 41.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [35.479166666666664, 56.42857142857143]}, "W": {"file": "../../supplemental_prepared/Characters_Orange_shirt_girl/Supplemental_Characters_Orange_shir_ReadyIdle_6cb1c23a.png", "region": [2688, 0, 896, 64], "frame_width": 64, "frame_height": 64, "frames": 14, "origin": [28.102564102564102, 40.0], "footprint": [1, 1], "render_contact": [28.102564102564102, 40.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [28.102564102564102, 55.42857142857143]}, "E": {"file": "../../supplemental_prepared/Characters_Orange_shirt_girl/Supplemental_Characters_Orange_shir_ReadyIdle_6cb1c23a.png", "region": [3584, 0, 896, 64], "frame_width": 64, "frame_height": 64, "frames": 14, "origin": [28.145833333333332, 40.5], "footprint": [1, 1], "render_contact": [28.145833333333332, 40.5], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [28.145833333333332, 55.92857142857143]}, "N": {"file": "../../supplemental_prepared/Characters_Orange_shirt_girl/Supplemental_Characters_Orange_shir_ReadyIdle_6cb1c23a.png", "region": [4480, 0, 896, 64], "frame_width": 64, "frame_height": 64, "frames": 14, "origin": [33.325471698113205, 41.25], "footprint": [1, 1], "render_contact": [33.325471698113205, 41.25], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [33.325471698113205, 56.67857142857143]}, "NW": {"file": "../../supplemental_prepared/Characters_Orange_shirt_girl/Supplemental_Characters_Orange_shir_ReadyIdle_6cb1c23a.png", "region": [5376, 0, 896, 64], "frame_width": 64, "frame_height": 64, "frames": 14, "origin": [35.45, 40.5], "footprint": [1, 1], "render_contact": [35.45, 40.5], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [35.45, 55.92857142857143]}, "NE": {"file": "../../supplemental_prepared/Characters_Orange_shirt_girl/Supplemental_Characters_Orange_shir_ReadyIdle_6cb1c23a.png", "region": [6272, 0, 896, 64], "frame_width": 64, "frame_height": 64, "frames": 14, "origin": [30.227777777777778, 41.25], "footprint": [1, 1], "render_contact": [30.227777777777778, 41.25], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [30.227777777777778, 56.67857142857143]}}
+origin_offset = Vector2(35.479166666666664, 41.0)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_idle")
+centered = false
+offset = Vector2(-35.479166666666664, -41.0)
+hframes = 14
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("BodyShape")

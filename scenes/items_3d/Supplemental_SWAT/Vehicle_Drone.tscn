@@ -1,0 +1,20 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Vehicle_Drone.glb" id="1_i4xqb"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_yihyg"]
+size = Vector3(1.10486, 0.31, 1.10486)
+
+[node name="Vehicle_Drone" type="StaticBody3D" unique_id=814506451]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.55243, 0.0, -0.55243, 1.10486, 0.31, 1.10486]
+
+[node name="Model" type="Node3D" parent="." unique_id=1080123885]
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1762779785 instance=ExtResource("1_i4xqb")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=648226165]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.155, 0)
+shape = SubResource("BoxShape3D_yihyg")
+disabled = true

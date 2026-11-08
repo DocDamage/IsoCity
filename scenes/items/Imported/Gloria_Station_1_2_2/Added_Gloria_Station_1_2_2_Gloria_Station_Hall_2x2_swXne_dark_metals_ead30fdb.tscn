@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Gloria_Station_1_2_2/Added_Gloria_Station_1_2_2_Gloria_Station_Hall_2x2_swXne_dark_metals_ead30fdb_SE.png" id="2"]
+
+[node name="Added_Gloria_Station_1_2_2_Gloria_Station_Hall_2x2_swXne_dark_metals_ead30fdb" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Gloria_Station_1_2_2_Gloria_Station_Hall_2x2_swXne_dark_metals_ead30fdb"
+category = "Added Gloria Station 1.2.2 - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(235.227076, 234.648693)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Gloria_Station_1_2_2/Added_Gloria_Station_1_2_2_Gloria_Station_Hall_2x2_swXne_dark_metals_ead30fdb_SE.png", "frame_width": 444, "frame_height": 432, "frames": 1, "origin": [235.227076, 234.648693], "footprint": [12, 12], "grid_original": {"origin": [222, 208], "footprint": [14, 14]}, "alignment_transform": [1.143635404385899, -0.01732713630476021, -0.04431341818970047, 0.9865894801842944], "alignment_base": [[71.0, 329.069338], [242.772924, 429.391037], [407.0, 334.970392]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [242.772924, 429.391037]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-235.227076, -234.648693)
+hframes = 1

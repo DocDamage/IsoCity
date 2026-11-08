@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Kitchen_Dining/Electric_Kettle_SE.png" id="2_tex"]
+
+[node name="Electric_Kettle" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Electric_Kettle"
+category = "Kitchen & Dining"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(6, 5)
+total_frames = 4
+animation_fps = 5
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Kitchen_Dining/Electric_Kettle_SE.png", "frame_width": 12, "frame_height": 16, "origin": [6, 5], "footprint": [1, 1], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Kitchen_Dining_Sheet.png", "x": 336, "y": 292, "w": 12, "h": 16}, "grid_method": "authored", "grid_contact": [6, 21]}, "SW": {"file": "Sprites/Kitchen_Dining/Electric_Kettle_SW.png", "frame_width": 13, "frame_height": 17, "origin": [7, 6], "footprint": [1, 1], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Kitchen_Dining_Sheet.png", "x": 350, "y": 292, "w": 13, "h": 17}, "grid_method": "authored", "grid_contact": [7, 22]}, "NW": {"file": "Sprites/Kitchen_Dining/Electric_Kettle_NW.png", "frame_width": 12, "frame_height": 21, "origin": [6, 10], "footprint": [1, 1], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Kitchen_Dining_Sheet.png", "x": 365, "y": 292, "w": 12, "h": 21}, "grid_method": "authored", "grid_contact": [6, 26]}, "NE": {"file": "Sprites/Kitchen_Dining/Electric_Kettle_NE.png", "frame_width": 13, "frame_height": 20, "origin": [6, 9], "footprint": [1, 1], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Kitchen_Dining_Sheet.png", "x": 379, "y": 292, "w": 13, "h": 20}, "grid_method": "authored", "grid_contact": [6, 25]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-6, -5)
+hframes = 4
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, 0, 16, -16, 8)

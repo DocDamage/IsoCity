@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/cars/Added_cars_cars_Chevrolet_Bel_Air_move_6503d307_SE.png" id="2"]
+
+[node name="Added_cars_cars_Chevrolet_Bel_Air_move_6503d307" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_cars_cars_Chevrolet_Bel_Air_move_6503d307"
+category = "Added cars - Vehicles"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(98.0, 63.0)
+total_frames = 2
+animation_fps = 8.0
+has_collision = true
+directions_data = {"E": {"file": "../../imported_prepared/cars/Added_cars_cars_Chevrolet_Bel_Air_move_6503d307_E.png", "frame_width": 151, "frame_height": 75, "frames": 2, "origin": [42.0, 10.0], "footprint": [4, 4], "grid_original": {"origin": [44, 43], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [42.0, 74.0]}, "N": {"file": "../../imported_prepared/cars/Added_cars_cars_Chevrolet_Bel_Air_move_6503d307_N.png", "frame_width": 86, "frame_height": 95, "frames": 2, "origin": [42.0, 62.0], "footprint": [2, 2], "grid_original": {"origin": [27, 71], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [42.0, 94.0]}, "NE": {"file": "../../imported_prepared/cars/Added_cars_cars_Chevrolet_Bel_Air_move_6503d307_NE.png", "frame_width": 156, "frame_height": 96, "frames": 2, "origin": [42.5, 30.0], "footprint": [4, 4], "grid_original": {"origin": [46, 64], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [42.5, 94.0]}, "NW": {"file": "../../imported_prepared/cars/Added_cars_cars_Chevrolet_Bel_Air_move_6503d307_NW.png", "frame_width": 156, "frame_height": 96, "frames": 2, "origin": [112.5, 30.0], "footprint": [4, 4], "grid_original": {"origin": [46, 64], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [112.5, 94.0]}, "S": {"file": "../../imported_prepared/cars/Added_cars_cars_Chevrolet_Bel_Air_move_6503d307_S.png", "frame_width": 85, "frame_height": 95, "frames": 2, "origin": [42.0, 62.0], "footprint": [2, 2], "grid_original": {"origin": [26, 71], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [42.0, 94.0]}, "SE": {"file": "../../imported_prepared/cars/Added_cars_cars_Chevrolet_Bel_Air_move_6503d307_SE.png", "frame_width": 154, "frame_height": 96, "frames": 2, "origin": [98.0, 63.0], "footprint": [2, 2], "grid_original": {"origin": [45, 64], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [98.0, 95.0]}, "SW": {"file": "../../imported_prepared/cars/Added_cars_cars_Chevrolet_Bel_Air_move_6503d307_SW.png", "frame_width": 154, "frame_height": 96, "frames": 2, "origin": [55.0, 63.0], "footprint": [2, 2], "grid_original": {"origin": [45, 64], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [55.0, 95.0]}, "W": {"file": "../../imported_prepared/cars/Added_cars_cars_Chevrolet_Bel_Air_move_6503d307_W.png", "frame_width": 151, "frame_height": 75, "frames": 2, "origin": [108.0, 10.0], "footprint": [4, 4], "grid_original": {"origin": [44, 43], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [108.0, 74.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-98.0, -63.0)
+hframes = 2

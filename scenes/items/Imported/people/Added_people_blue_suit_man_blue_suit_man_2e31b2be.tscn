@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/people/Added_people_blue_suit_man_blue_suit_man_2e31b2be_SE.png" id="2"]
+
+[node name="Added_people_blue_suit_man_blue_suit_man_2e31b2be" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_people_blue_suit_man_blue_suit_man_2e31b2be"
+category = "Added people - People"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(13.5, 59.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/people/Added_people_blue_suit_man_blue_suit_man_2e31b2be_SE.png", "frame_width": 28, "frame_height": 79, "frames": 1, "origin": [13.5, 59.0], "footprint": [1, 1], "grid_original": {"origin": [14, 63], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [13.5, 75.0]}, "E": {"file": "../../imported_prepared/people/Added_people_blue_suit_man_blue_suit_man_2e31b2be_E.png", "frame_width": 32, "frame_height": 76, "frames": 1, "origin": [6.0, 56.0], "footprint": [1, 1], "grid_original": {"origin": [16, 60], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [6.0, 72.0]}, "NE": {"file": "../../imported_prepared/people/Added_people_blue_suit_man_blue_suit_man_2e31b2be_NE.png", "frame_width": 35, "frame_height": 70, "frames": 1, "origin": [19.0, 50.0], "footprint": [1, 1], "grid_original": {"origin": [18, 54], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [19.0, 66.0]}, "N": {"file": "../../imported_prepared/people/Added_people_blue_suit_man_blue_suit_man_2e31b2be_N.png", "frame_width": 29, "frame_height": 70, "frames": 1, "origin": [15.0, 50.0], "footprint": [1, 1], "grid_original": {"origin": [14, 54], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [15.0, 66.0]}, "NW": {"file": "../../imported_prepared/people/Added_people_blue_suit_man_blue_suit_man_2e31b2be_NW.png", "frame_width": 28, "frame_height": 72, "frames": 1, "origin": [15.0, 52.0], "footprint": [1, 1], "grid_original": {"origin": [14, 56], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [15.0, 68.0]}, "W": {"file": "../../imported_prepared/people/Added_people_blue_suit_man_blue_suit_man_2e31b2be_W.png", "frame_width": 32, "frame_height": 74, "frames": 1, "origin": [15.0, 54.0], "footprint": [1, 1], "grid_original": {"origin": [16, 58], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [15.0, 70.0]}, "SW": {"file": "../../imported_prepared/people/Added_people_blue_suit_man_blue_suit_man_2e31b2be_SW.png", "frame_width": 36, "frame_height": 74, "frames": 1, "origin": [24.0, 54.0], "footprint": [1, 1], "grid_original": {"origin": [18, 58], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [24.0, 70.0]}, "S": {"file": "../../imported_prepared/people/Added_people_blue_suit_man_blue_suit_man_2e31b2be_S.png", "frame_width": 29, "frame_height": 78, "frames": 1, "origin": [21.0, 58.0], "footprint": [1, 1], "grid_original": {"origin": [14, 62], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [21.0, 74.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-13.5, -59.0)
+hframes = 1

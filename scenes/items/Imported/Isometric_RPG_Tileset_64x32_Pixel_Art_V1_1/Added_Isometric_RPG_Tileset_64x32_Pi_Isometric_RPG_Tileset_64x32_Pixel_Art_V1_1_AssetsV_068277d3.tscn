@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Isometric_RPG_Tileset_64x32_Pixel_Art_V1_1/Added_Isometric_RPG_Tileset_64x32_Pi_Isometric_RPG_Tileset_64x32_Pixel_Art_V1_1_AssetsV_068277d3_SE.png" id="2"]
+
+[node name="Added_Isometric_RPG_Tileset_64x32_Pi_Isometric_RPG_Tileset_64x32_Pixel_Art_V1_1_AssetsV_068277d3" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_Isometric_RPG_Tileset_64x32_Pi_Isometric_RPG_Tileset_64x32_Pixel_Art_V1_1_AssetsV_068277d3"
+category = "Added Isometric RPG Tileset 64x32 Pixel Art V1.1 - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(31.977693, 1.712984)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Isometric_RPG_Tileset_64x32_Pixel_Art_V1_1/Added_Isometric_RPG_Tileset_64x32_Pi_Isometric_RPG_Tileset_64x32_Pixel_Art_V1_1_AssetsV_068277d3_SE.png", "frame_width": 64, "frame_height": 32, "frames": 1, "origin": [31.977693, 1.712984], "footprint": [2, 2], "grid_original": {"origin": [32, 16], "footprint": [1, 1]}, "alignment_transform": [1.0850638655191165, 0.00982224233339879, 0.03507256420113003, 1.0829556262425237], "alignment_base": [[2.0, 16.759259], [31.022307, 31.270413], [61.0, 16.224138]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [31.022307, 31.270413]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-31.977693, -1.712984)
+hframes = 1

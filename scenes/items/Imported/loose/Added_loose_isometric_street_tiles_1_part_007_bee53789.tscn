@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/loose/Added_loose_isometric_street_tiles_1_part_007_bee53789_SE.png" id="2"]
+
+[node name="Added_loose_isometric_street_tiles_1_part_007_bee53789" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_loose_isometric_street_tiles_1_part_007_bee53789"
+category = "Added loose - Nature"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(6, 6)
+origin_offset = Vector2(80.534676, 11.856157)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/loose/Added_loose_isometric_street_tiles_1_part_007_bee53789_SE.png", "frame_width": 162, "frame_height": 82, "frames": 1, "origin": [80.534676, 11.856157], "footprint": [6, 6], "grid_original": {"origin": [81, 2], "footprint": [5, 5]}, "alignment_transform": [1.2715228139177572, -0.0003972374167209719, 0.0011764870635850855, 1.2807817121448235], "alignment_base": [[5.0, 49.309842], [80.465324, 86.81036], [156.0, 49.356675]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [80.465324, 86.81036]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-80.534676, -11.856157)
+hframes = 1

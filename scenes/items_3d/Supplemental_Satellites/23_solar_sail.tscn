@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Satellites/23_solar_sail.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(7.0, 1.284966929674678, 6.670163147572457)
+
+[node name="23_solar_sail" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-3.5, 0.0, -3.3350815737862285, 7.0, 1.284966929674678, 6.670163147572457]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(-0.000913549825715027, 0.6481432077496133, 0.01577319729834115)
+scale = Vector3(6.98260717666668, 6.98260717666668, 6.98260717666668)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.642483464837339, 0)
+shape = SubResource("CollisionShape")
+disabled = true

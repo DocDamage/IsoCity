@@ -1,0 +1,290 @@
+{
+  "version": 1,
+  "assets": {
+    "2d:Sedan_Blue": {
+      "roles": [
+        "traffic"
+      ],
+      "weight": 50,
+      "scale": 0.5,
+      "length": 2.0,
+      "width": 1.0,
+      "speed": 8,
+      "acceleration": 3,
+      "turn_road_width": 2,
+      "heading": "sprite_cardinal",
+      "default": true
+    },
+    "2d:Hatchback_Mint": {
+      "roles": [
+        "traffic"
+      ],
+      "weight": 50,
+      "scale": 0.45,
+      "length": 1.8,
+      "width": 0.9,
+      "speed": 7,
+      "acceleration": 3,
+      "turn_road_width": 2,
+      "heading": "sprite_cardinal"
+    },
+    "2d:SUV_Green": {
+      "roles": [
+        "traffic"
+      ],
+      "weight": 50,
+      "scale": 0.58,
+      "length": 2.32,
+      "width": 1.16,
+      "speed": 6,
+      "acceleration": 3,
+      "turn_road_width": 3.5,
+      "heading": "sprite_cardinal"
+    },
+    "2d:Box_Truck": {
+      "roles": [
+        "traffic"
+      ],
+      "weight": 50,
+      "scale": 0.72,
+      "length": 4.32,
+      "width": 1.44,
+      "speed": 4.5,
+      "acceleration": 3,
+      "turn_road_width": 5.2,
+      "heading": "sprite_cardinal"
+    },
+    "2d:City_Bus": {
+      "roles": [
+        "transit"
+      ],
+      "weight": 50,
+      "scale": 0.8,
+      "length": 6.4,
+      "width": 1.6,
+      "speed": 8,
+      "acceleration": 3,
+      "turn_road_width": 4.8,
+      "heading": "sprite_cardinal",
+      "default": true
+    },
+    "2d:School_Bus": {
+      "roles": [
+        "transit"
+      ],
+      "weight": 50,
+      "scale": 0.7,
+      "length": 5.6,
+      "width": 1.4,
+      "speed": 8,
+      "acceleration": 3,
+      "turn_road_width": 4.5,
+      "heading": "sprite_cardinal"
+    },
+    "2d:Fire_Truck": {
+      "roles": [
+        "fire"
+      ],
+      "weight": 50,
+      "scale": 0.4,
+      "length": 3.2,
+      "width": 0.8,
+      "speed": 4,
+      "acceleration": 3,
+      "turn_road_width": 3.8,
+      "heading": "sprite_cardinal",
+      "default": true
+    },
+    "2d:Ambulance": {
+      "roles": [
+        "medical"
+      ],
+      "weight": 50,
+      "scale": 0.4,
+      "length": 2.4,
+      "width": 0.8,
+      "speed": 4,
+      "acceleration": 3,
+      "turn_road_width": 3.5,
+      "heading": "sprite_cardinal",
+      "default": true
+    },
+    "2d:Police_Car": {
+      "roles": [
+        "police"
+      ],
+      "weight": 50,
+      "scale": 0.4,
+      "length": 1.6,
+      "width": 0.8,
+      "speed": 4,
+      "acceleration": 3,
+      "turn_road_width": 2,
+      "heading": "sprite_cardinal",
+      "default": true
+    },
+    "2d:Garbage_Truck": {
+      "roles": [
+        "sanitation"
+      ],
+      "weight": 50,
+      "scale": 0.4,
+      "length": 2.4,
+      "width": 0.8,
+      "speed": 4,
+      "acceleration": 3,
+      "turn_road_width": 3.8,
+      "heading": "sprite_cardinal",
+      "default": true
+    },
+    "3d:HanX_Traffic/Car_Sedan": {
+      "roles": [
+        "traffic"
+      ],
+      "weight": 50,
+      "scale": 0.5,
+      "length": 2.315,
+      "width": 1.04,
+      "speed": 8,
+      "acceleration": 3,
+      "turn_road_width": 3.5,
+      "heading": "model_plus_z",
+      "default": true
+    },
+    "3d:HanX_Traffic/Car_Hatchback": {
+      "roles": [
+        "traffic"
+      ],
+      "weight": 50,
+      "scale": 0.43,
+      "length": 1.7544,
+      "width": 0.8686,
+      "speed": 7,
+      "acceleration": 3,
+      "turn_road_width": 2,
+      "heading": "model_plus_z"
+    },
+    "3d:HanX_Traffic/Car_SUV": {
+      "roles": [
+        "traffic"
+      ],
+      "weight": 50,
+      "scale": 0.5,
+      "length": 2.4725,
+      "width": 1.09,
+      "speed": 6,
+      "acceleration": 3,
+      "turn_road_width": 3.7,
+      "heading": "model_plus_z"
+    },
+    "3d:HanX_Traffic/Truck_Box": {
+      "roles": [
+        "traffic"
+      ],
+      "weight": 50,
+      "scale": 0.55,
+      "length": 4.2873,
+      "width": 1.331,
+      "speed": 4.5,
+      "acceleration": 3,
+      "turn_road_width": 5.2,
+      "heading": "model_plus_z"
+    },
+    "3d:HanX_Traffic/Bus_City": {
+      "roles": [
+        "transit"
+      ],
+      "weight": 50,
+      "scale": 0.519691,
+      "length": 6.4,
+      "width": 1.6542,
+      "speed": 8,
+      "acceleration": 3,
+      "turn_road_width": 4.8,
+      "heading": "model_plus_z",
+      "default": true
+    },
+    "3d:HanX_School/School_Bus": {
+      "roles": [
+        "transit"
+      ],
+      "weight": 50,
+      "scale": 0.53,
+      "length": 5.7426,
+      "width": 1.5688,
+      "speed": 8,
+      "acceleration": 3,
+      "turn_road_width": 4.5,
+      "heading": "model_plus_z"
+    },
+    "3d:HanX_Traffic/Truck_Fire": {
+      "roles": [
+        "fire"
+      ],
+      "weight": 50,
+      "scale": 0.264755,
+      "length": 2.4,
+      "width": 0.6672,
+      "speed": 4,
+      "acceleration": 3,
+      "turn_road_width": 3.8,
+      "heading": "model_plus_z",
+      "default": true
+    },
+    "3d:HanX_Traffic/Van_Ambulance": {
+      "roles": [
+        "medical"
+      ],
+      "weight": 50,
+      "scale": 0.360169,
+      "length": 2.1718,
+      "width": 0.85,
+      "speed": 4,
+      "acceleration": 3,
+      "turn_road_width": 3.5,
+      "heading": "model_plus_z",
+      "default": true
+    },
+    "3d:HanX_Traffic/Car_Police": {
+      "roles": [
+        "police"
+      ],
+      "weight": 50,
+      "scale": 0.408654,
+      "length": 1.935,
+      "width": 0.85,
+      "speed": 4,
+      "acceleration": 3,
+      "turn_road_width": 2,
+      "heading": "model_plus_z",
+      "default": true
+    },
+    "3d:HanX_Construction/Dump_Truck": {
+      "roles": [
+        "sanitation"
+      ],
+      "weight": 50,
+      "scale": 0.279605,
+      "length": 2.1572,
+      "width": 0.85,
+      "speed": 4,
+      "acceleration": 3,
+      "turn_road_width": 3.8,
+      "heading": "model_plus_z",
+      "default": true
+    },
+    "2d:Supplemental_Flipped_Fleet_EU_city_car_9a4bf3c7": {
+      "roles": [
+        "traffic"
+      ],
+      "weight": 50,
+      "scale": 0.25,
+      "length": 2.0,
+      "width": 1.0,
+      "speed": 6,
+      "acceleration": 3,
+      "turn_road_width": 3.2,
+      "heading": "sprite_reviewed"
+    }
+  }
+}

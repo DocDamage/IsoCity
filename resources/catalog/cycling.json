@@ -1,0 +1,188 @@
+{
+  "version": 1,
+  "profiles": {
+    "bicycle": {
+      "label": "Bicycle",
+      "max_speed": 4.8,
+      "reverse_speed": 1.2,
+      "acceleration": 2.6,
+      "braking": 7.0,
+      "steering": 2.65,
+      "reach": 1.75,
+      "extent": [
+        0.39,
+        0.85
+      ],
+      "height": 1.9,
+      "access": [
+        "shared",
+        "cycle"
+      ],
+      "pose": "sit",
+      "seat": [
+        0,
+        1.018,
+        -0.19
+      ],
+      "hands": [
+        0,
+        1.018,
+        0.4
+      ],
+      "feet": [
+        0.0,
+        0.29,
+        -0.02
+      ]
+    },
+    "scooter": {
+      "label": "Scooter",
+      "max_speed": 5.8,
+      "reverse_speed": 0.8,
+      "acceleration": 4.2,
+      "braking": 8.4,
+      "steering": 2.2,
+      "reach": 1.65,
+      "extent": [
+        0.34,
+        0.72
+      ],
+      "height": 1.92,
+      "access": [
+        "shared",
+        "cycle"
+      ],
+      "pose": "idle",
+      "seat": [
+        0.0,
+        0.16,
+        -0.16
+      ],
+      "hands": [
+        0.0,
+        1.05,
+        0.37
+      ],
+      "feet": [
+        0.0,
+        0.16,
+        -0.15
+      ]
+    }
+  },
+  "assets": {
+    "3d:HanX_Traffic/Bicycle": {
+      "kind": "bicycle",
+      "modes": [
+        "2d",
+        "3d"
+      ]
+    },
+    "3d:HanX_Traffic/Scooter": {
+      "kind": "scooter",
+      "modes": [
+        "2d",
+        "3d"
+      ],
+      "pose": "sit",
+      "seat": [
+        0,
+        0.9,
+        -0.33
+      ],
+      "hands": [
+        0,
+        1.215,
+        0.64
+      ],
+      "feet": [
+        0,
+        0.34,
+        0.14
+      ],
+      "extent": [
+        0.4,
+        0.86
+      ],
+      "height": 1.9
+    },
+    "2d:Bicycle": {
+      "kind": "bicycle",
+      "modes": [
+        "2d"
+      ],
+      "pixel": {
+        "SE": [
+          7,
+          11
+        ],
+        "SW": [
+          11,
+          11
+        ],
+        "NE": [
+          7,
+          12
+        ],
+        "NW": [
+          11,
+          12
+        ]
+      }
+    },
+    "2d:Electric_Scooter": {
+      "kind": "scooter",
+      "modes": [
+        "2d"
+      ],
+      "pixel": {
+        "SE": [
+          7,
+          12
+        ],
+        "SW": [
+          10,
+          12
+        ],
+        "NE": [
+          7,
+          16
+        ],
+        "NW": [
+          10,
+          16
+        ]
+      },
+      "foreground": {
+        "SE": [
+          10,
+          7
+        ],
+        "SW": [
+          0,
+          7
+        ],
+        "NE": [
+          10,
+          7
+        ],
+        "NW": [
+          0,
+          8
+        ]
+      }
+    }
+  },
+  "pixel_yaw": {
+    "SW": 0,
+    "SE": 90,
+    "NE": 180,
+    "NW": 270
+  },
+  "racks": [
+    "2d:Bike_Rack",
+    "3d:HanX_City/Bike_Rack",
+    "3d:HanX_Park/Bike_Rack",
+    "3d:HanX_School/Bike_Rack"
+  ]
+}

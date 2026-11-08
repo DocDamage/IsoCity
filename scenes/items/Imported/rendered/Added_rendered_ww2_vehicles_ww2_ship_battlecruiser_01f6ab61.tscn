@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_battlecruiser_01f6ab61_SE.png" id="2"]
+
+[node name="Added_rendered_ww2_vehicles_ww2_ship_battlecruiser_01f6ab61" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_ww2_vehicles_ww2_ship_battlecruiser_01f6ab61"
+category = "Added rendered - Vehicles"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(279.5, 115.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_battlecruiser_01f6ab61_SE.png", "frame_width": 296, "frame_height": 182, "frames": 1, "origin": [279.5, 115.0], "footprint": [4, 4], "grid_original": {"origin": [68, 126], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [279.5, 179.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_battlecruiser_01f6ab61_E.png", "frame_width": 54, "frame_height": 250, "frames": 1, "origin": [26.5, 183.0], "footprint": [4, 4], "grid_original": {"origin": [27, 234], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [26.5, 247.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_battlecruiser_01f6ab61_NE.png", "frame_width": 296, "frame_height": 182, "frames": 1, "origin": [16.0, 115.0], "footprint": [4, 4], "grid_original": {"origin": [68, 126], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [16.0, 179.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_battlecruiser_01f6ab61_N.png", "frame_width": 416, "frame_height": 74, "frames": 1, "origin": [230.0, -121.0], "footprint": [12, 12], "grid_original": {"origin": [96, 2], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [230.0, 71.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_battlecruiser_01f6ab61_NW.png", "frame_width": 296, "frame_height": 187, "frames": 1, "origin": [279.0, 120.0], "footprint": [4, 4], "grid_original": {"origin": [68, 131], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [279.0, 184.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_battlecruiser_01f6ab61_W.png", "frame_width": 54, "frame_height": 254, "frames": 1, "origin": [26.5, 187.0], "footprint": [4, 4], "grid_original": {"origin": [27, 238], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [26.5, 251.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_battlecruiser_01f6ab61_SW.png", "frame_width": 296, "frame_height": 187, "frames": 1, "origin": [16.5, 120.0], "footprint": [4, 4], "grid_original": {"origin": [68, 131], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [16.5, 184.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_battlecruiser_01f6ab61_S.png", "frame_width": 416, "frame_height": 74, "frames": 1, "origin": [184.5, -121.0], "footprint": [12, 12], "grid_original": {"origin": [96, 2], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [184.5, 71.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-279.5, -115.0)
+hframes = 1

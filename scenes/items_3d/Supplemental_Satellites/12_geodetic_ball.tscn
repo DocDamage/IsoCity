@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Satellites/12_geodetic_ball.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(2.998475245998281, 2.4792036833552595, 3.0)
+
+[node name="12_geodetic_ball" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-1.4992376229991404, 0.0, -1.5, 2.998475245998281, 2.4792036833552595, 3.0]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(-0.0007393934455656397, 1.2519155041362666, -6.859433169700714e-05)
+scale = Vector3(2.9891478422242477, 2.9891478422242477, 2.9891478422242477)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 1.2396018416776298, 0)
+shape = SubResource("CollisionShape")
+disabled = true

@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Bedroom/Bunk_Bed_SE.png" id="2_tex"]
+
+[node name="Bunk_Bed" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Bunk_Bed"
+category = "Bedroom"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 1)
+origin_offset = Vector2(17, 41)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Bedroom/Bunk_Bed_SE.png", "frame_width": 50, "frame_height": 66, "origin": [17, 41], "footprint": [2, 1], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 204, "y": 319, "w": 50, "h": 66}, "grid_method": "authored", "grid_contact": [33, 65]}, "SW": {"file": "Sprites/Bedroom/Bunk_Bed_SW.png", "frame_width": 50, "frame_height": 66, "origin": [33, 41], "footprint": [1, 2], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 256, "y": 319, "w": 50, "h": 66}, "grid_method": "authored", "grid_contact": [17, 65]}, "NW": {"file": "Sprites/Bedroom/Bunk_Bed_NW.png", "frame_width": 50, "frame_height": 66, "origin": [17, 41], "footprint": [2, 1], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 308, "y": 319, "w": 50, "h": 66}, "grid_method": "authored", "grid_contact": [33, 65]}, "NE": {"file": "Sprites/Bedroom/Bunk_Bed_NE.png", "frame_width": 50, "frame_height": 66, "origin": [33, 41], "footprint": [1, 2], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 360, "y": 319, "w": 50, "h": 66}, "grid_method": "authored", "grid_contact": [17, 65]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-17, -41)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 32, 16, 16, 24, -16, 8)

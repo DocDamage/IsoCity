@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "starter_stock": {"flour": 4, "tomato": 4, "herbs": 3},
+  "recipes": {
+    "tomato_pan_bread": {
+      "name": "Tomato pan bread",
+      "inputs": {"flour": 2, "tomato": 1},
+      "tool": "pan",
+      "seconds": {"prep": 2, "cook": 5, "serve": 1},
+      "serving_art": "3d:HanX_Shop/Bread_Basket"
+    },
+    "herb_pan_bread": {
+      "name": "Herb pan bread",
+      "inputs": {"flour": 1, "herbs": 1},
+      "tool": "pan",
+      "seconds": {"prep": 2, "cook": 4, "serve": 1},
+      "serving_art": "3d:HanX_Shop/Bread_Basket"
+    }
+  },
+  "stations": {
+    "2d:Kitchen_Island": {"role": "prep"},
+    "2d:Counter_White": {"role": "prep"},
+    "2d:Counter_Wood": {"role": "prep"},
+    "2d:Stove_Oven": {"role": "cook"},
+    "2d:Stove_Cooking": {"role": "cook", "tool": "pan"},
+    "2d:Cafe_Counter": {"role": "serve"},
+    "3d:HanX_Shop/Cafe_Counter": {"role": "serve"},
+    "2d:Fridge_White": {"role": "pantry"},
+    "2d:Produce_Stand": {"role": "pantry"},
+    "2d:Supplemental_Kitchen_cookware_kit_cast_skillet_eea39bdc": {"role": "utensil", "tool": "pan"},
+    "2d:Supplemental_Kitchen_cookware_kit_saute_pan_3b1aeba4": {"role": "utensil", "tool": "pan"}
+  }
+}

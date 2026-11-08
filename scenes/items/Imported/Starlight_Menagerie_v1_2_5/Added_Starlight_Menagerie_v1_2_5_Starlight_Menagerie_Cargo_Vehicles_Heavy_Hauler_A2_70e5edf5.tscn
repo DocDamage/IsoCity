@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Starlight_Menagerie_v1_2_5/Added_Starlight_Menagerie_v1_2_5_Starlight_Menagerie_Cargo_Vehicles_Heavy_Hauler_A2_70e5edf5_SE.png" id="2"]
+
+[node name="Added_Starlight_Menagerie_v1_2_5_Starlight_Menagerie_Cargo_Vehicles_Heavy_Hauler_A2_70e5edf5" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Starlight_Menagerie_v1_2_5_Starlight_Menagerie_Cargo_Vehicles_Heavy_Hauler_A2_70e5edf5"
+category = "Added Starlight Menagerie - Vehicles"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 8)
+origin_offset = Vector2(120.0, 223.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Starlight_Menagerie_v1_2_5/Added_Starlight_Menagerie_v1_2_5_Starlight_Menagerie_Cargo_Vehicles_Heavy_Hauler_A2_70e5edf5_SE.png", "frame_width": 512, "frame_height": 353, "frames": 1, "origin": [120.0, 223.0], "footprint": [8, 8], "grid_original": {"origin": [144, 281], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [120.0, 351.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-120.0, -223.0)
+hframes = 1

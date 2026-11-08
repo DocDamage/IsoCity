@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Brutalist_Metropole_v1_1_2/Added_Brutalist_Metropole_v1_1_2_Brutalist_Metropole_Infrastructure_Raised_Transitw_d3014faa_SE.png" id="2"]
+
+[node name="Added_Brutalist_Metropole_v1_1_2_Brutalist_Metropole_Infrastructure_Raised_Transitw_d3014faa" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Brutalist_Metropole_v1_1_2_Brutalist_Metropole_Infrastructure_Raised_Transitw_d3014faa"
+category = "Added Brutalist Metropole - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(16, 12)
+origin_offset = Vector2(176.149072, 229.036509)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Brutalist_Metropole_v1_1_2/Added_Brutalist_Metropole_v1_1_2_Brutalist_Metropole_Infrastructure_Raised_Transitw_d3014faa_SE.png", "frame_width": 387, "frame_height": 441, "frames": 1, "origin": [176.149072, 229.036509], "footprint": [16, 12], "grid_original": {"origin": [82, 369], "footprint": [8, 1]}, "alignment_transform": [1.2316907593568311, 0.02288730056529646, 0.09608735183414024, 1.0708415588589357], "alignment_base": [[13.0, 322.172642], [211.850928, 437.454719], [375.0, 344.318586]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [211.850928, 437.454719]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-176.149072, -229.036509)
+hframes = 1

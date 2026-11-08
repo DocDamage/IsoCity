@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/City_Ground/Sidewalk_Curb_MY.png" id="2_tex"]
+
+[node name="Sidewalk_Curb_MY" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Sidewalk_Curb_MY"
+category = "City Ground"
+kind = "tile"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(16, 1)
+total_frames = 1
+animation_fps = 4.0
+has_collision = false
+directions_data = {"SE": {"file": "Sprites/City_Ground/Sidewalk_Curb_MY.png", "frame_width": 32, "frame_height": 16, "origin": [16, 1], "footprint": [1, 1], "sheet": {"file": "Sheets/City_Ground_Sheet.png", "x": 374, "y": 18, "w": 32, "h": 16}, "grid_method": "authored", "grid_contact": [16, 17]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-16, -1)
+hframes = 1

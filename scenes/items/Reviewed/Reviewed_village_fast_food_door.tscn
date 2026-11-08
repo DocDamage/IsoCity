@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/reviewed_prepared/Reviewed_village_fast_food_door_Closed.png" id="2"]
+[node name="Reviewed_village_fast_food_door" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1")
+item_id = "Reviewed_village_fast_food_door"
+category = "Reviewed isometricvill - Props"
+kind = "obj"
+direction = "Closed"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(84.5, 107)
+scale = Vector2(1, 1)
+total_frames = 1
+animation_fps = 8
+has_collision = true
+directions_data = {"Closed": {"file": "../../reviewed_prepared/Reviewed_village_fast_food_door_Closed.png", "frame_width": 86, "frame_height": 124, "frames": 1, "origin": [84.5, 107], "footprint": [1, 1], "source_contact": [84.5, 123], "grid_contact": [84.5, 123], "render_contact": [84.5, 123], "grid_method": "reviewed source contact and virtual footprint"}, "Ajar": {"file": "../../reviewed_prepared/Reviewed_village_fast_food_door_Ajar.png", "frame_width": 86, "frame_height": 124, "frames": 1, "origin": [84.5, 107], "footprint": [1, 1], "source_contact": [84.5, 123], "grid_contact": [84.5, 123], "render_contact": [84.5, 123], "grid_method": "reviewed source contact and virtual footprint"}, "Open": {"file": "../../reviewed_prepared/Reviewed_village_fast_food_door_Open.png", "frame_width": 85, "frame_height": 124, "frames": 1, "origin": [83.5, 107], "footprint": [1, 1], "source_contact": [83.5, 123], "grid_contact": [83.5, 123], "render_contact": [83.5, 123], "grid_method": "reviewed source contact and virtual footprint"}}
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-84.5, -107)
+hframes = 1

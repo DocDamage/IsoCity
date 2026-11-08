@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_aviary_aviary_5af0ac_64f598d1_SE.png" id="2"]
+
+[node name="Added_rendered_aviary_aviary_5af0ac_64f598d1" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_aviary_aviary_5af0ac_64f598d1"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(161.5, 294.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_aviary_aviary_5af0ac_64f598d1_SE.png", "frame_width": 300, "frame_height": 361, "frames": 1, "origin": [161.5, 294.0], "footprint": [4, 4], "grid_original": {"origin": [70, 305], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [161.5, 358.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_aviary_aviary_5af0ac_64f598d1_E.png", "frame_width": 368, "frame_height": 353, "frames": 1, "origin": [76.0, 222.0], "footprint": [8, 8], "grid_original": {"origin": [72, 281], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [76.0, 350.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_aviary_aviary_5af0ac_64f598d1_NE.png", "frame_width": 344, "frame_height": 295, "frames": 1, "origin": [211.0, 164.0], "footprint": [8, 8], "grid_original": {"origin": [76, 231], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [211.0, 292.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_aviary_aviary_5af0ac_64f598d1_N.png", "frame_width": 350, "frame_height": 348, "frames": 1, "origin": [165.178437, 160.082094], "footprint": [12, 12], "grid_original": {"origin": [79, 284], "footprint": [7, 1]}, "alignment_transform": [1.193716845356669, -0.03804029123796622, -0.13209578255845206, 1.0334417802415203], "alignment_base": [[14.0, 247.410795], [185.821563, 346.628907], [337.0, 259.300206]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [185.821563, 346.628907]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_aviary_aviary_5af0ac_64f598d1_NW.png", "frame_width": 300, "frame_height": 307, "frames": 1, "origin": [128.0, 176.0], "footprint": [8, 8], "grid_original": {"origin": [70, 251], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [128.0, 304.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_aviary_aviary_5af0ac_64f598d1_W.png", "frame_width": 368, "frame_height": 351, "frames": 1, "origin": [164.0, 220.0], "footprint": [8, 8], "grid_original": {"origin": [72, 279], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [164.0, 348.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_aviary_aviary_5af0ac_64f598d1_SW.png", "frame_width": 344, "frame_height": 343, "frames": 1, "origin": [141.5, 212.0], "footprint": [8, 8], "grid_original": {"origin": [76, 279], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [141.5, 340.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_aviary_aviary_5af0ac_64f598d1_S.png", "frame_width": 350, "frame_height": 375, "frames": 1, "origin": [225.0, 244.0], "footprint": [8, 8], "grid_original": {"origin": [79, 311], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [225.0, 372.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-161.5, -294.0)
+hframes = 1

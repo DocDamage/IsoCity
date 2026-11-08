@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_electrical_substation_electrical_substation_6b41edc6_SE.png" id="2"]
+
+[node name="Added_rendered_electrical_substation_electrical_substation_6b41edc6" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_rendered_electrical_substation_electrical_substation_6b41edc6"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(71.5, 129.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_electrical_substation_electrical_substation_6b41edc6_SE.png", "frame_width": 134, "frame_height": 196, "frames": 1, "origin": [71.5, 129.0], "footprint": [4, 4], "grid_original": {"origin": [67, 132], "footprint": [4, 4]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [71.5, 193.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_electrical_substation_electrical_substation_6b41edc6_E.png", "frame_width": 233, "frame_height": 210, "frames": 1, "origin": [141.811056, 83.512523], "footprint": [6, 10], "grid_original": {"origin": [116, 98], "footprint": [7, 7]}, "alignment_transform": [1.1995675586534627, 0.006323247098567644, 0.022023826629024496, 1.038316064551319], "alignment_base": [[7.0, 161.38134], [86.188944, 207.127785], [221.0, 129.258968]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [86.188944, 207.127785]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_electrical_substation_electrical_substation_6b41edc6_NE.png", "frame_width": 208, "frame_height": 147, "frames": 1, "origin": [103.5, 48.0], "footprint": [6, 6], "grid_original": {"origin": [104, 51], "footprint": [6, 6]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [103.5, 144.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_electrical_substation_electrical_substation_6b41edc6_N.png", "frame_width": 233, "frame_height": 210, "frames": 1, "origin": [90.243934, 83.563235], "footprint": [10, 6], "grid_original": {"origin": [116, 98], "footprint": [7, 7]}, "alignment_transform": [1.19939166692218, -0.006117786476113746, -0.020888801014517233, 1.0387757729852667], "alignment_base": [[11.0, 129.304774], [145.756066, 207.112142], [225.0, 161.370603]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [145.756066, 207.112142]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_electrical_substation_electrical_substation_6b41edc6_NW.png", "frame_width": 134, "frame_height": 196, "frames": 1, "origin": [61.5, 129.0], "footprint": [4, 4], "grid_original": {"origin": [67, 132], "footprint": [4, 4]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [61.5, 193.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_electrical_substation_electrical_substation_6b41edc6_W.png", "frame_width": 233, "frame_height": 210, "frames": 1, "origin": [143.612016, 83.557289], "footprint": [6, 10], "grid_original": {"origin": [116, 98], "footprint": [7, 7]}, "alignment_transform": [1.2022906845204777, 0.01211406565609869, 0.03883552663404044, 1.0412398906580174], "alignment_base": [[8.0, 161.966514], [86.387984, 207.153414], [222.0, 128.744189]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [86.387984, 207.153414]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_electrical_substation_electrical_substation_6b41edc6_SW.png", "frame_width": 208, "frame_height": 154, "frames": 1, "origin": [81.0, 55.0], "footprint": [6, 6], "grid_original": {"origin": [104, 58], "footprint": [6, 6]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [81.0, 151.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_electrical_substation_electrical_substation_6b41edc6_S.png", "frame_width": 233, "frame_height": 210, "frames": 1, "origin": [88.273245, 83.606733], "footprint": [10, 6], "grid_original": {"origin": [116, 98], "footprint": [7, 7]}, "alignment_transform": [1.202633900012374, -0.011353190262966592, -0.04125544659601782, 1.0416184628542913], "alignment_base": [[10.0, 128.835721], [145.726755, 207.118638], [224.0, 161.88965]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [145.726755, 207.118638]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-71.5, -129.0)
+hframes = 1

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_aircraft_ww2_rts_aircraft_ww2_tactical_early_4b59d815_SE.png" id="2"]
+
+[node name="Added_rendered_aircraft_ww2_rts_aircraft_ww2_tactical_early_4b59d815" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_rendered_aircraft_ww2_rts_aircraft_ww2_tactical_early_4b59d815"
+category = "Added rendered - Vehicles"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(46.5, 29.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_ww2_rts_aircraft_ww2_tactical_early_4b59d815_SE.png", "frame_width": 104, "frame_height": 70, "frames": 1, "origin": [46.5, 29.0], "footprint": [2, 2], "grid_original": {"origin": [36, 46], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [46.5, 61.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_ww2_rts_aircraft_ww2_tactical_early_4b59d815_E.png", "frame_width": 142, "frame_height": 75, "frames": 1, "origin": [70.5, 24.0], "footprint": [3, 3], "grid_original": {"origin": [39, 43], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [70.5, 72.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_ww2_rts_aircraft_ww2_tactical_early_4b59d815_NE.png", "frame_width": 104, "frame_height": 67, "frames": 1, "origin": [56.0, 29.0], "footprint": [2, 2], "grid_original": {"origin": [36, 43], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [56.0, 61.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_ww2_rts_aircraft_ww2_tactical_early_4b59d815_N.png", "frame_width": 106, "frame_height": 83, "frames": 1, "origin": [57.0, 64.0], "footprint": [1, 1], "grid_original": {"origin": [37, 59], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [57.0, 80.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_ww2_rts_aircraft_ww2_tactical_early_4b59d815_NW.png", "frame_width": 104, "frame_height": 61, "frames": 1, "origin": [9.0, 26.0], "footprint": [2, 2], "grid_original": {"origin": [36, 37], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [9.0, 58.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_ww2_rts_aircraft_ww2_tactical_early_4b59d815_W.png", "frame_width": 142, "frame_height": 62, "frames": 1, "origin": [70.5, 11.0], "footprint": [3, 3], "grid_original": {"origin": [39, 30], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [70.5, 59.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_ww2_rts_aircraft_ww2_tactical_early_4b59d815_SW.png", "frame_width": 104, "frame_height": 61, "frames": 1, "origin": [94.0, 26.0], "footprint": [2, 2], "grid_original": {"origin": [36, 37], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [94.0, 58.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_ww2_rts_aircraft_ww2_tactical_early_4b59d815_S.png", "frame_width": 106, "frame_height": 83, "frames": 1, "origin": [48.0, 64.0], "footprint": [1, 1], "grid_original": {"origin": [37, 59], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [48.0, 80.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-46.5, -29.0)
+hframes = 1

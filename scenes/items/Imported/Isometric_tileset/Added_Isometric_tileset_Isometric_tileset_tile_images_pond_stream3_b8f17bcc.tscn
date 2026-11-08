@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_pond_stream3_b8f17bcc_SE.png" id="2"]
+
+[node name="Added_Isometric_tileset_Isometric_tileset_tile_images_pond_stream3_b8f17bcc" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_Isometric_tileset_Isometric_tileset_tile_images_pond_stream3_b8f17bcc"
+category = "Added Isometric tileset - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 8)
+origin_offset = Vector2(128.024284, 10.236713)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_pond_stream3_b8f17bcc_SE.png", "frame_width": 256, "frame_height": 129, "frames": 1, "origin": [128.024284, 10.236713], "footprint": [8, 8], "grid_original": {"origin": [64, 81], "footprint": [5, 1]}, "alignment_transform": [1.0893625719123734, -0.00010741671906705497, -0.00885727814321613, 1.093856609645111], "alignment_base": [[11.0, 68.733804], [128.975716, 127.253972], [246.0, 68.756881]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [128.975716, 127.253972]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-128.024284, -10.236713)
+hframes = 1

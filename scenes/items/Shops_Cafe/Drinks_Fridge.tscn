@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Shops_Cafe/Drinks_Fridge_SE.png" id="2_tex"]
+
+[node name="Drinks_Fridge" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Drinks_Fridge"
+category = "Shops & Cafe"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 2)
+origin_offset = Vector2(32, 38)
+total_frames = 2
+animation_fps = 2
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Shops_Cafe/Drinks_Fridge_SE.png", "frame_width": 45, "frame_height": 60, "origin": [32, 38], "footprint": [1, 2], "layout": "horizontal strip of 2 frames", "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 208, "y": 120, "w": 45, "h": 60}, "grid_method": "authored", "grid_contact": [16, 62]}, "SW": {"file": "Sprites/Shops_Cafe/Drinks_Fridge_SW.png", "frame_width": 45, "frame_height": 60, "origin": [13, 38], "footprint": [2, 1], "layout": "horizontal strip of 2 frames", "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 255, "y": 120, "w": 45, "h": 60}, "grid_method": "authored", "grid_contact": [29, 62]}, "NW": {"file": "Sprites/Shops_Cafe/Drinks_Fridge_NW.png", "frame_width": 45, "frame_height": 61, "origin": [29, 37], "footprint": [1, 2], "layout": "horizontal strip of 2 frames", "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 302, "y": 120, "w": 45, "h": 61}, "grid_method": "authored", "grid_contact": [13, 61]}, "NE": {"file": "Sprites/Shops_Cafe/Drinks_Fridge_NE.png", "frame_width": 45, "frame_height": 61, "origin": [16, 37], "footprint": [2, 1], "layout": "horizontal strip of 2 frames", "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 349, "y": 120, "w": 45, "h": 61}, "grid_method": "authored", "grid_contact": [32, 61]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-32, -38)
+hframes = 2
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, -16, 24, -32, 16)

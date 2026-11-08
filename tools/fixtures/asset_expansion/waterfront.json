@@ -1,0 +1,491 @@
+{
+  "document": {
+    "harbor": {
+      "destination": "",
+      "docks": [
+        {
+          "anchor": "harbor_east",
+          "land": [
+            -1.6,
+            0
+          ],
+          "water": [
+            -1.6,
+            2.35000002384186
+          ]
+        },
+        {
+          "anchor": "harbor_north",
+          "land": [
+            -1.6,
+            0
+          ],
+          "water": [
+            -1.6,
+            -2.35000038146973
+          ]
+        }
+      ],
+      "enabled": true,
+      "interval": 10,
+      "origin": "",
+      "pilot": "harbor_pilot",
+      "shuttle": ""
+    },
+    "mode": "3d",
+    "night": false,
+    "objects": [
+      {
+        "asset": "2d:Added_piers_pier_f248daea",
+        "direction": "View_01",
+        "name": "East Pier",
+        "position": [
+          18.6000003814697,
+          0.0,
+          -1.35000002384186
+        ],
+        "scale": 0.55,
+        "uid": "harbor_east"
+      },
+      {
+        "asset": "2d:Added_piers_pier_f248daea",
+        "direction": "View_01",
+        "name": "North Pier",
+        "position": [
+          12.6000003814697,
+          0.0,
+          13.3500003814697
+        ],
+        "scale": 0.55,
+        "uid": "harbor_north"
+      },
+      {
+        "asset": "2d:Added_animated_tireme_c8c74bbe",
+        "direction": "SE",
+        "name": "Pilot trireme",
+        "position": [
+          17,
+          1.25,
+          1
+        ],
+        "scale": 0.3,
+        "uid": "harbor_pilot"
+      }
+    ],
+    "spawn": [
+      16.7,
+      0.025,
+      -1.35
+    ],
+    "template": "blank",
+    "template_revision": 2,
+    "terrain": {
+      "bounds": [
+        -7,
+        -7,
+        24,
+        20
+      ],
+      "enabled": true
+    },
+    "tiles": [],
+    "title": "Golden waterfront",
+    "water_cells": [
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          0,
+          1
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          0,
+          2
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          0,
+          3
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          0,
+          4
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          0,
+          5
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          1,
+          0
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          1,
+          1
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          1,
+          2
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          1,
+          3
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          1,
+          4
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          1,
+          5
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          2,
+          0
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          2,
+          1
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          2,
+          2
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          2,
+          3
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          2,
+          4
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          2,
+          5
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          3,
+          0
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          3,
+          1
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          3,
+          2
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          3,
+          3
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          3,
+          4
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          3,
+          5
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          4,
+          0
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          4,
+          1
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          4,
+          4
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          4,
+          5
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          5,
+          0
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          5,
+          1
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          5,
+          4
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          5,
+          5
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          6,
+          0
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          6,
+          1
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          6,
+          2
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          6,
+          3
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          6,
+          4
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          6,
+          5
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          7,
+          0
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          7,
+          1
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          7,
+          2
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          7,
+          3
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          7,
+          4
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          7,
+          5
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          8,
+          0
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          8,
+          1
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          8,
+          2
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          8,
+          3
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          8,
+          4
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          8,
+          5
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          9,
+          0
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          9,
+          1
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          9,
+          2
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          9,
+          3
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          9,
+          4
+        ],
+        "level": 1.25
+      },
+      {
+        "cell": [
+          9,
+          5
+        ],
+        "level": 1.25
+      }
+    ]
+  },
+  "scenario": "waterfront",
+  "seed": 42,
+  "version": 1
+}

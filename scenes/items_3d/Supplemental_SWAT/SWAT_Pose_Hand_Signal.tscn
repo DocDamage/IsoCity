@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Hand_Signal.glb" id="1_rio2p"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0whnp"]
+size = Vector3(0.93983024, 1.8274579, 0.95727694)
+
+[node name="SWAT_Pose_Hand_Signal" type="StaticBody3D" unique_id=1290692762]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.46991512, 0.0, -0.47863847, 0.93983024, 1.8274579, 0.95727694]
+
+[node name="Model" type="Node3D" parent="." unique_id=1441960309]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.056952685, 0, -0.25117666)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1240704469 instance=ExtResource("1_rio2p")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=788938714]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.91372895, 0)
+shape = SubResource("BoxShape3D_0whnp")
+disabled = true

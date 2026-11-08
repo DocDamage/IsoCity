@@ -1,0 +1,185 @@
+{
+  "version": 1,
+  "queries": [
+    {
+      "query": "wooden barrel",
+      "pack": "MyPilesetProoject",
+      "id": "2d:Added_MyPilesetProoject_MyPilesetProoject_objects_32x32_bir_0e0df441"
+    },
+    {
+      "query": "cut tree stump",
+      "pack": "MyPilesetProoject",
+      "id": "2d:Added_MyPilesetProoject_MyPilesetProoject_objects_32x32_t1_1a9979d9"
+    },
+    {
+      "query": "fallen tree log",
+      "pack": "MyPilesetProoject",
+      "id": "2d:Added_MyPilesetProoject_MyPilesetProoject_objects_32x32_t2_9c0e1704"
+    },
+    {
+      "query": "cargo crate",
+      "pack": "MyPilesetProoject",
+      "id": "2d:Added_MyPilesetProoject_MyPilesetProoject_objects_32x32_box_1d4f3c43"
+    },
+    {
+      "query": "autumn tree",
+      "pack": "MyPilesetProoject",
+      "id": "2d:Added_MyPilesetProoject_MyPilesetProoject_objects_32x32_tree2_f470460c"
+    },
+    {
+      "query": "grass corner",
+      "pack": "PixelArt",
+      "id": "2d:Added_PixelArt_PixelArt_tile_g1_d4407ee9"
+    },
+    {
+      "query": "terrain edge",
+      "pack": "PixelArt",
+      "id": "2d:Added_PixelArt_PixelArt_tile_k1_99e95e25"
+    },
+    {
+      "query": "shoreline",
+      "pack": "PixelArt",
+      "id": "2d:Added_PixelArt_PixelArt_tile_w3_1cdcd832"
+    },
+    {
+      "query": "tree collection atlas",
+      "pack": "PixelArt",
+      "id": "2d:Added_PixelArt_PixelArt_tree96x96_alltree96x96_0004f625"
+    },
+    {
+      "query": "mine entrance",
+      "pack": "isometricStrategy",
+      "id": "2d:Added_isometricStrategy_sprite_Sheet_r01_c03_13db006e"
+    },
+    {
+      "query": "rock quarry",
+      "pack": "isometricStrategy",
+      "id": "2d:Added_isometricStrategy_sprite_Sheet_r01_c04_63601fd6"
+    },
+    {
+      "query": "village well",
+      "pack": "isometricStrategy",
+      "id": "2d:Added_isometricStrategy_sprite_Sheet_r01_c07_5b725044"
+    },
+    {
+      "query": "windmill",
+      "pack": "isometricStrategy",
+      "id": "2d:Added_isometricStrategy_sprite_Sheet_r02_c01_5c85188a"
+    },
+    {
+      "query": "wooden bridge",
+      "pack": "isometricStrategy",
+      "id": "2d:Added_isometricStrategy_sprite_Sheet_r02_c05_a0b31d71"
+    },
+    {
+      "query": "red tent",
+      "pack": "isometricStrategy",
+      "id": "2d:Added_isometricStrategy_sprite_Sheet_r03_c15_fd2bcd3a"
+    },
+    {
+      "query": "wooden fort",
+      "pack": "isometricStrategy",
+      "id": "2d:Added_isometricStrategy_sprite_Sheet_r04_c01_02290005"
+    },
+    {
+      "query": "wheat field",
+      "pack": "isometricStrategy",
+      "id": "2d:Added_isometricStrategy_sprite_Sheet_r06_c01_3e54d1f7"
+    },
+    {
+      "query": "wooden watchtower",
+      "pack": "isometricStrategy",
+      "id": "2d:Added_isometricStrategy_sprite_Sheet_r09_c02_34d66ab3"
+    },
+    {
+      "query": "stone wall",
+      "pack": "isometricStrategy",
+      "id": "2d:Added_isometricStrategy_sprite_Sheet_r10_c01_51d1bcd1"
+    },
+    {
+      "query": "single pine",
+      "pack": "isometricStrategy",
+      "id": "2d:Added_isometricStrategy_sprite_Sheet_r12_c01_2bda9e81"
+    },
+    {
+      "query": "smoking cottage",
+      "pack": "isometricStrategy",
+      "id": "2d:Added_isometricStrategy_sprite_Sheet_r16_c01_7db059e9"
+    },
+    {
+      "query": "open chest",
+      "pack": "isometricStrategy",
+      "id": "2d:Added_isometricStrategy_sprite_Sheet_r19_c03_4ff03847"
+    },
+    {
+      "query": "grass wedge",
+      "pack": "water tileset by Rodwan",
+      "id": "2d:Added_water_tileset_by_Rodwan_Tileset_terrain_r01_c01_a948734b"
+    },
+    {
+      "query": "shoreline detail",
+      "pack": "water tileset by Rodwan",
+      "id": "2d:Added_water_tileset_by_Rodwan_Tileset_terrain_r04_c01_831b9426"
+    },
+    {
+      "query": "water surface",
+      "pack": "water tileset by Rodwan",
+      "id": "2d:Added_water_tileset_by_Rodwan_Tileset_terrain_r31_c01_e894b499"
+    },
+    {
+      "query": "stepping stones",
+      "pack": "CATS ISOMETRIC ASSET PACK",
+      "id": "2d:Added_CATS_ISOMETRIC_ASSET_PACK_full_blocks_r02_c02_efa1d3b1"
+    },
+    {
+      "query": "red rug",
+      "pack": "CATS ISOMETRIC ASSET PACK",
+      "id": "2d:Added_CATS_ISOMETRIC_ASSET_PACK_full_blocks_r03_c09_e42885ca"
+    },
+    {
+      "query": "teal slab",
+      "pack": "CATS ISOMETRIC ASSET PACK",
+      "id": "2d:Added_CATS_ISOMETRIC_ASSET_PACK_half_blocks_r04_c04_93615067"
+    },
+    {
+      "query": "muzzle flash",
+      "pack": "grass_path_folder",
+      "id": "2d:Added_grass_path_folder_cannon_combined_Sheet_part_003_4fc3d3fe"
+    },
+    {
+      "query": "stone pillar",
+      "pack": "MyPilesetProoject1",
+      "id": "2d:Added_MyPilesetProoject1_MyPilesetProoject1_things64x64_d10_55935763"
+    },
+    {
+      "query": "cliff top",
+      "pack": "Rodwan_Cliffs",
+      "id": "2d:Added_Rodwan_Cliffs_Tileset_Cliffs2_r03_c01_60846b6c"
+    },
+    {
+      "query": "golden sand",
+      "pack": "rodwan_tileset2",
+      "id": "2d:Added_rodwan_tileset2_Tileset_terrain2_r09_c03_2f9df594"
+    },
+    {
+      "query": "cut tree stump",
+      "pack": "RPG World",
+      "id": "2d:t1"
+    },
+    {
+      "query": "wooden barrel",
+      "pack": "RPG World",
+      "id": "2d:bir"
+    },
+    {
+      "query": "blue roof cottage",
+      "pack": "RPG World",
+      "id": "2d:1_1"
+    },
+    {
+      "query": "traffic signal",
+      "pack": "loose",
+      "id": "2d:Added_loose_isometric_assets_part_019_0e026223"
+    }
+  ]
+}

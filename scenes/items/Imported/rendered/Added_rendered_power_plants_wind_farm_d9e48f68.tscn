@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_power_plants_wind_farm_d9e48f68_View_01.png" id="2"]
+
+[node name="Added_rendered_power_plants_wind_farm_d9e48f68" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_power_plants_wind_farm_d9e48f68"
+category = "Added rendered - Nature"
+kind = "obj"
+direction = "View_01"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(191.400899, 196.744848)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"View_01": {"file": "../../imported_prepared/rendered/Added_rendered_power_plants_wind_farm_d9e48f68_View_01.png", "frame_width": 384, "frame_height": 388, "frames": 1, "origin": [191.400899, 196.744848], "footprint": [12, 12], "grid_original": {"origin": [192, 196], "footprint": [12, 12]}, "alignment_transform": [1.075630566293306, -0.00028296059112056793, -0.001109364252070144, 0.9990894087575077], "alignment_base": [[13.0, 292.781818], [191.599101, 388.919897], [370.0, 292.882927]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [191.599101, 388.919897]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-191.400899, -196.744848)
+hframes = 1

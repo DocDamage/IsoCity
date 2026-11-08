@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/hanx_lowpoly/low-poly-park-nature-pack-hanx-park-pack/HanX_Park_Pack/GLB/Tree_Oak.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1"]
+size = Vector3(6.645270348, 6.448379993, 6.800869942)
+
+[node name="Tree_Oak" type="StaticBody3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.083305120, 3.142379999, -0.041485071)
+shape = SubResource("BoxShape3D_1")

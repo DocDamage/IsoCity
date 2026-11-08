@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/supplemental_prepared/Pixel_ships/Supplemental_Pixel_ships_A_compact_volcanic_warship_with_f0814a7e.png" id="2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_view"]
+atlas = ExtResource("2")
+region = Rect2(192, 0, 48, 48)
+filter_clip = true
+
+[node name="Supplemental_Pixel_ships_A_compact_volcanic_warship_with_f0814a7e" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Supplemental_Pixel_ships_A_compact_volcanic_warship_with_f0814a7e"
+category = "Supplemental Watercraft"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 1)
+origin_offset = Vector2(24.0, 24)
+total_frames = 1
+animation_fps = 8.0
+has_collision = false
+directions_data = {"E": {"file": "../../supplemental_prepared/Pixel_ships/Supplemental_Pixel_ships_A_compact_volcanic_warship_with_f0814a7e.png", "footprint": [2.0, 1.0], "frame_height": 48.0, "frame_width": 48.0, "frames": 1.0, "grid_contact": [40.0, 48.0], "grid_method": "authored pivot and virtual footprint front", "origin": [24.0, 24.0], "region": [0.0, 0.0, 48.0, 48.0], "render_contact": [24.0, 44.0]}, "N": {"file": "../../supplemental_prepared/Pixel_ships/Supplemental_Pixel_ships_A_compact_volcanic_warship_with_f0814a7e.png", "footprint": [2.0, 1.0], "frame_height": 48.0, "frame_width": 48.0, "frames": 1.0, "grid_contact": [40.0, 48.0], "grid_method": "authored pivot and virtual footprint front", "origin": [24.0, 24.0], "region": [144.0, 0.0, 48.0, 48.0], "render_contact": [24.0, 44.0]}, "NE": {"file": "../../supplemental_prepared/Pixel_ships/Supplemental_Pixel_ships_A_compact_volcanic_warship_with_f0814a7e.png", "footprint": [2.0, 1.0], "frame_height": 48.0, "frame_width": 48.0, "frames": 1.0, "grid_contact": [40.0, 48.0], "grid_method": "authored pivot and virtual footprint front", "origin": [24.0, 24.0], "region": [48.0, 0.0, 48.0, 48.0], "render_contact": [24.0, 40.0]}, "NW": {"file": "../../supplemental_prepared/Pixel_ships/Supplemental_Pixel_ships_A_compact_volcanic_warship_with_f0814a7e.png", "footprint": [2.0, 1.0], "frame_height": 48.0, "frame_width": 48.0, "frames": 1.0, "grid_contact": [40.0, 48.0], "grid_method": "authored pivot and virtual footprint front", "origin": [24.0, 24.0], "region": [96.0, 0.0, 48.0, 48.0], "render_contact": [24.0, 47.0]}, "S": {"file": "../../supplemental_prepared/Pixel_ships/Supplemental_Pixel_ships_A_compact_volcanic_warship_with_f0814a7e.png", "footprint": [2.0, 1.0], "frame_height": 48.0, "frame_width": 48.0, "frames": 1.0, "grid_contact": [40.0, 48.0], "grid_method": "authored pivot and virtual footprint front", "origin": [24.0, 24.0], "region": [288.0, 0.0, 48.0, 48.0], "render_contact": [24.0, 44.0]}, "SE": {"file": "../../supplemental_prepared/Pixel_ships/Supplemental_Pixel_ships_A_compact_volcanic_warship_with_f0814a7e.png", "footprint": [2.0, 1.0], "frame_height": 48.0, "frame_width": 48.0, "frames": 1.0, "grid_contact": [40.0, 48.0], "grid_method": "authored pivot and virtual footprint front", "origin": [24.0, 24.0], "region": [192.0, 0.0, 48.0, 48.0], "render_contact": [24.0, 47.0]}, "SW": {"file": "../../supplemental_prepared/Pixel_ships/Supplemental_Pixel_ships_A_compact_volcanic_warship_with_f0814a7e.png", "footprint": [2.0, 1.0], "frame_height": 48.0, "frame_width": 48.0, "frames": 1.0, "grid_contact": [40.0, 48.0], "grid_method": "authored pivot and virtual footprint front", "origin": [24.0, 24.0], "region": [240.0, 0.0, 48.0, 48.0], "render_contact": [24.0, 40.0]}, "W": {"file": "../../supplemental_prepared/Pixel_ships/Supplemental_Pixel_ships_A_compact_volcanic_warship_with_f0814a7e.png", "footprint": [2.0, 1.0], "frame_height": 48.0, "frame_width": 48.0, "frames": 1.0, "grid_contact": [40.0, 48.0], "grid_method": "authored pivot and virtual footprint front", "origin": [24.0, 24.0], "region": [336.0, 0.0, 48.0, 48.0], "render_contact": [24.0, 44.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_view")
+centered = false
+offset = Vector2(-24.0, -24)
+hframes = 1

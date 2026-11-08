@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_clutter_pontoon_3de063ff_SE.png" id="2"]
+
+[node name="Added_Isometric_tileset_Isometric_tileset_tile_images_clutter_pontoon_3de063ff" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_Isometric_tileset_Isometric_tileset_tile_images_clutter_pontoon_3de063ff"
+category = "Added Isometric tileset - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(94.0, 52.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_clutter_pontoon_3de063ff_SE.png", "frame_width": 194, "frame_height": 125, "frames": 1, "origin": [94.0, 52.0], "footprint": [4, 4], "grid_original": {"origin": [49, 85], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [94.0, 116.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-94.0, -52.0)
+hframes = 1

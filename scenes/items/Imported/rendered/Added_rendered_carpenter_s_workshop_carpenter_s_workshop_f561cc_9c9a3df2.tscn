@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_carpenter_s_workshop_carpenter_s_workshop_f561cc_9c9a3df2_SE.png" id="2"]
+
+[node name="Added_rendered_carpenter_s_workshop_carpenter_s_workshop_f561cc_9c9a3df2" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_carpenter_s_workshop_carpenter_s_workshop_f561cc_9c9a3df2"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(167.0, 116.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_carpenter_s_workshop_carpenter_s_workshop_f561cc_9c9a3df2_SE.png", "frame_width": 336, "frame_height": 311, "frames": 1, "origin": [167.0, 116.0], "footprint": [12, 12], "grid_original": {"origin": [168, 151], "footprint": [10, 10]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [167.0, 308.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_carpenter_s_workshop_carpenter_s_workshop_f561cc_9c9a3df2_E.png", "frame_width": 478, "frame_height": 367, "frames": 1, "origin": [240.907071, 109.287091], "footprint": [16, 16], "grid_original": {"origin": [239, 127], "footprint": [15, 15]}, "alignment_transform": [1.1558931471231304, 0.006300621745960744, 0.021763534112578697, 1.0013462016567423], "alignment_base": [[17.0, 238.523866], [236.092929, 364.973218], [460.0, 235.736443]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [236.092929, 364.973218]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_carpenter_s_workshop_carpenter_s_workshop_f561cc_9c9a3df2_NE.png", "frame_width": 344, "frame_height": 285, "frames": 1, "origin": [171.5, 90.0], "footprint": [12, 12], "grid_original": {"origin": [172, 109], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [171.5, 282.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_carpenter_s_workshop_carpenter_s_workshop_f561cc_9c9a3df2_N.png", "frame_width": 478, "frame_height": 302, "frames": 1, "origin": [237.144868, 43.640657], "footprint": [16, 16], "grid_original": {"origin": [239, 62], "footprint": [15, 15]}, "alignment_transform": [1.153234073343808, -0.004841780079627989, -0.01669027212813945, 0.9986460296213332], "alignment_base": [[17.0, 170.746862], [240.855132, 300.005732], [461.0, 172.899527]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [240.855132, 300.005732]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_carpenter_s_workshop_carpenter_s_workshop_f561cc_9c9a3df2_NW.png", "frame_width": 336, "frame_height": 300, "frames": 1, "origin": [168.0, 105.0], "footprint": [12, 12], "grid_original": {"origin": [168, 140], "footprint": [10, 10]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [168.0, 297.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_carpenter_s_workshop_carpenter_s_workshop_f561cc_9c9a3df2_W.png", "frame_width": 478, "frame_height": 372, "frames": 1, "origin": [240.948131, 114.144472], "footprint": [16, 16], "grid_original": {"origin": [239, 132], "footprint": [15, 15]}, "alignment_transform": [1.1558974264138557, 0.006388536942878387, 0.02212110522888533, 1.0007276588136225], "alignment_base": [[17.0, 243.48106], [236.051869, 369.989584], [460.0, 240.652996]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [236.051869, 369.989584]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_carpenter_s_workshop_carpenter_s_workshop_f561cc_9c9a3df2_SW.png", "frame_width": 344, "frame_height": 313, "frames": 1, "origin": [171.5, 118.0], "footprint": [12, 12], "grid_original": {"origin": [172, 137], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [171.5, 310.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_carpenter_s_workshop_carpenter_s_workshop_f561cc_9c9a3df2_S.png", "frame_width": 478, "frame_height": 383, "frames": 1, "origin": [235.037724, 124.598818], "footprint": [16, 16], "grid_original": {"origin": [239, 143], "footprint": [15, 15]}, "alignment_transform": [1.1533470166465292, -0.007264295347471472, -0.02665443011458679, 0.9987731537233937], "alignment_base": [[16.0, 251.162938], [240.962276, 380.956367], [460.0, 254.392247]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [240.962276, 380.956367]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-167.0, -116.0)
+hframes = 1

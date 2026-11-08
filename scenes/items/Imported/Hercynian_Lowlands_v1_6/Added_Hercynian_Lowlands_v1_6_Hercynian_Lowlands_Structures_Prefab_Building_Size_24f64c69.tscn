@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Hercynian_Lowlands_v1_6/Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Structures_Prefab_Building_Size_24f64c69_SE.png" id="2"]
+
+[node name="Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Structures_Prefab_Building_Size_24f64c69" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Structures_Prefab_Building_Size_24f64c69"
+category = "Added Hercynian Lowlands - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(174.814806, 273.477621)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Hercynian_Lowlands_v1_6/Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Structures_Prefab_Building_Size_24f64c69_SE.png", "frame_width": 465, "frame_height": 454, "frames": 1, "origin": [174.814806, 273.477621], "footprint": [12, 12], "grid_original": {"origin": [232, 214], "footprint": [15, 15]}, "alignment_transform": [1.1779670566102076, -0.023300505048386808, -0.0024064714428974066, 1.0590376718259036], "alignment_base": [[12.0, 360.543771], [175.185194, 454.782437], [338.0, 367.716287]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [175.185194, 454.782437]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-174.814806, -273.477621)
+hframes = 1

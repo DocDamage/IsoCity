@@ -1,0 +1,8 @@
+{
+  "residential":{"label":"Residential","color":"70dba4","homes_required":0,
+    "2d":["2d:House_Blue","2d:House_Brick"],"3d":["3d:HanX_City/Row_Houses_A","3d:HanX_City/Row_Houses_B"]},
+  "commercial":{"label":"Commercial","color":"77b8ff","homes_required":1,
+    "2d":["2d:Coffee_Shop","2d:Supermarket"],"3d":["3d:HanX_City/Cafe_Small"]},
+  "civic":{"label":"Civic","color":"ffc87b","homes_required":2,
+    "2d":["2d:Hopital","2d:Police"],"3d":["3d:HanX_School/School_Building"]}
+}

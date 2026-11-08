@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Hercynian_Lowlands_v1_6/Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Colony_Infrastructure_Sandbags__5a809a14_SE.png" id="2"]
+
+[node name="Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Colony_Infrastructure_Sandbags__5a809a14" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Colony_Infrastructure_Sandbags__5a809a14"
+category = "Added Hercynian Lowlands - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(85.5, -9.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Hercynian_Lowlands_v1_6/Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Colony_Infrastructure_Sandbags__5a809a14_SE.png", "frame_width": 179, "frame_height": 57, "frames": 1, "origin": [85.5, -9.0], "footprint": [4, 4], "grid_original": {"origin": [42, 17], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [85.5, 55.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-85.5, 9.0)
+hframes = 1

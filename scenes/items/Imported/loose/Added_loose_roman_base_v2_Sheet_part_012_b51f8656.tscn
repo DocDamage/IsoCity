@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/loose/Added_loose_roman_base_v2_Sheet_part_012_b51f8656_SE.png" id="2"]
+
+[node name="Added_loose_roman_base_v2_Sheet_part_012_b51f8656" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_loose_roman_base_v2_Sheet_part_012_b51f8656"
+category = "Added loose - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(6, 4)
+origin_offset = Vector2(69.381659, 60.007676)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/loose/Added_loose_roman_base_v2_Sheet_part_012_b51f8656_SE.png", "frame_width": 157, "frame_height": 132, "frames": 1, "origin": [69.381659, 60.007676], "footprint": [6, 4], "grid_original": {"origin": [46, 100], "footprint": [3, 1]}, "alignment_transform": [1.0821592957665849, 0.011633992447107666, 0.15688623420810544, 1.1191952357063992], "alignment_base": [[6.0, 89.258499], [88.618341, 131.287644], [152.0, 102.036821]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [88.618341, 131.287644]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-69.381659, -60.007676)
+hframes = 1

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/art_isometric/Added_art_isometric_art_isometric_exterior_props_bridge2_4eea0392_SE.png" id="2"]
+
+[node name="Added_art_isometric_art_isometric_exterior_props_bridge2_4eea0392" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_art_isometric_art_isometric_exterior_props_bridge2_4eea0392"
+category = "Added art-isometric - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 4)
+origin_offset = Vector2(66.487347, 22.513084)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/art_isometric/Added_art_isometric_art_isometric_exterior_props_bridge2_4eea0392_SE.png", "frame_width": 190, "frame_height": 112, "frames": 1, "origin": [66.487347, 22.513084], "footprint": [8, 4], "grid_original": {"origin": [47, 72], "footprint": [4, 1]}, "alignment_transform": [1.087152731157107, -0.003482681915241592, -0.014202079568341963, 1.0872884255795312], "alignment_base": [[8.0, 51.756757], [126.512653, 110.99839], [185.0, 81.754717]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [126.512653, 110.99839]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-66.487347, -22.513084)
+hframes = 1

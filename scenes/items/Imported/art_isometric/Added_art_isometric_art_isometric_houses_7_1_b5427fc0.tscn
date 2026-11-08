@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/art_isometric/Added_art_isometric_art_isometric_houses_7_1_b5427fc0_SE.png" id="2"]
+
+[node name="Added_art_isometric_art_isometric_houses_7_1_b5427fc0" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_art_isometric_art_isometric_houses_7_1_b5427fc0"
+category = "Added art-isometric - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 6)
+origin_offset = Vector2(102.818198, 153.027867)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/art_isometric/Added_art_isometric_art_isometric_houses_7_1_b5427fc0_SE.png", "frame_width": 203, "frame_height": 252, "frames": 1, "origin": [102.818198, 153.027867], "footprint": [4, 6], "grid_original": {"origin": [102, 156], "footprint": [6, 6]}, "alignment_transform": [0.9986818929853699, -0.018819889119386535, -0.09208592515956382, 0.9902787086443611], "alignment_base": [[11.0, 199.754098], [78.181802, 233.344999], [170.0, 186.618768]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [78.181802, 233.344999]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-102.818198, -153.027867)
+hframes = 1

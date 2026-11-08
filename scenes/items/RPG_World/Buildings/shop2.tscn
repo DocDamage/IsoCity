@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/isometric_rpg_world/isometricvill_v2/isometricvill - v2/Building_Assets/building/shop2.png" id="2_tex"]
+
+[node name="shop2" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "shop2"
+category = "RPG_Buildings"
+kind = "build"
+direction = "SE"
+footprint = Vector2i(13, 7)
+origin_offset = Vector2(112.833256, 252.484351)
+total_frames = 1
+has_collision = true
+directions_data = {"SE": {"file": "../../isometric_rpg_world/isometricvill_v2/isometricvill - v2/Building_Assets/building/shop2.png", "origin": [112.833256, 252.484351], "footprint": [13, 7], "frame_width": 319, "frame_height": 401, "grid_original": {"origin": [159, 393], "footprint": [6, 6]}, "alignment_transform": [1.0882917686584916, -0.014846997408998447, -0.06722822371173115, 1.0933224892422293], "alignment_base": [[13.0, 302.348665], [210.166744, 400.149026], [310.0, 350.284712]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [210.166744, 400.149026]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-112.833256, -252.484351)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 96, 48, 0, 96, -96, 48)

@@ -1,0 +1,20 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Weapon_SMG.glb" id="1_7ctcx"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gv7pp"]
+size = Vector3(0.055200003, 0.287, 0.61)
+
+[node name="Weapon_SMG" type="StaticBody3D" unique_id=1377391724]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.0212, -0.13, -0.25, 0.055200003, 0.287, 0.61]
+
+[node name="Model" type="Node3D" parent="." unique_id=569628318]
+
+[node name="Source" type="Node3D" parent="Model" unique_id=577231740 instance=ExtResource("1_7ctcx")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=829286895]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.006400002, 0.013500005, 0.055000007)
+shape = SubResource("BoxShape3D_gv7pp")
+disabled = true

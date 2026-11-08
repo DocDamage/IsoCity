@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/water_tileset_by_Rodwan/Added_water_tileset_by_Rodwan_Tileset_terrain_r21_c02_57c6fe0e_SE.png" id="2"]
+
+[node name="Added_water_tileset_by_Rodwan_Tileset_terrain_r21_c02_57c6fe0e" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_water_tileset_by_Rodwan_Tileset_terrain_r21_c02_57c6fe0e"
+category = "Added water tileset by Rodwan - Ground"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(16.0, 0.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = false
+directions_data = {"SE": {"file": "../../imported_prepared/water_tileset_by_Rodwan/Added_water_tileset_by_Rodwan_Tileset_terrain_r21_c02_57c6fe0e_SE.png", "frame_width": 10, "frame_height": 16, "frames": 1, "origin": [16.0, 0.0], "footprint": [1, 1], "grid_original": {"origin": [5, 0], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "source tile cell", "grid_contact": [16.0, 16.0], "alignment_base": [[0.0, 8.0], [16.0, 16.0], [32.0, 8.0]]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-16.0, -0.0)
+hframes = 1

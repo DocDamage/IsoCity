@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/supplemental_prepared/RPG_icons/Supplemental_RPG_icons_MK_RPG_Icons_32x32_v1_12_01_FINAL_ICONS_32_32_Ba_6f034631.png" id="2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_view"]
+atlas = ExtResource("2")
+region = Rect2(0, 0, 32, 32)
+filter_clip = true
+
+[node name="Supplemental_RPG_icons_MK_RPG_Icons_32x32_v1_12_01_FINAL_ICONS_32_32_Ba_6f034631" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Supplemental_RPG_icons_MK_RPG_Icons_32x32_v1_12_01_FINAL_ICONS_32_32_Ba_6f034631"
+category = "Supplemental Icons"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(16.0, 32)
+total_frames = 1
+animation_fps = 8.0
+has_collision = false
+directions_data = {"SE": {"file": "../../supplemental_prepared/RPG_icons/Supplemental_RPG_icons_MK_RPG_Icons_32x32_v1_12_01_FINAL_ICONS_32_32_Ba_6f034631.png", "footprint": [1.0, 1.0], "frame_height": 32.0, "frame_width": 32.0, "frames": 1.0, "grid_contact": [16.0, 48.0], "grid_method": "authored pivot and virtual footprint front", "origin": [16.0, 32.0], "region": [0.0, 0.0, 32.0, 32.0], "render_contact": [16.0, 32.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_view")
+centered = false
+offset = Vector2(-16.0, -32)
+hframes = 1

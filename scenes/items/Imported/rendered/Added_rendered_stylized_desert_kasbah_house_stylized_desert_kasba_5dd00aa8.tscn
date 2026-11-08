@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_stylized_desert_kasbah_house_stylized_desert_kasba_5dd00aa8_SE.png" id="2"]
+
+[node name="Added_rendered_stylized_desert_kasbah_house_stylized_desert_kasba_5dd00aa8" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_stylized_desert_kasbah_house_stylized_desert_kasba_5dd00aa8"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(151.5, 140.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_desert_kasbah_house_stylized_desert_kasba_5dd00aa8_SE.png", "frame_width": 344, "frame_height": 335, "frames": 1, "origin": [151.5, 140.0], "footprint": [12, 12], "grid_original": {"origin": [172, 159], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [151.5, 332.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_desert_kasbah_house_stylized_desert_kasba_5dd00aa8_E.png", "frame_width": 452, "frame_height": 392, "frames": 1, "origin": [236.172759, 148.092449], "footprint": [12, 16], "grid_original": {"origin": [226, 168], "footprint": [14, 14]}, "alignment_transform": [1.064019796847503, -0.046814778517597744, -0.16196626304326922, 0.9219487629733133], "alignment_base": [[15.0, 275.698072], [212.827241, 389.870619], [434.0, 262.264996]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [212.827241, 389.870619]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_desert_kasbah_house_stylized_desert_kasba_5dd00aa8_NE.png", "frame_width": 324, "frame_height": 372, "frames": 1, "origin": [161.0, 178.0], "footprint": [12, 12], "grid_original": {"origin": [162, 212], "footprint": [10, 10]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [161.0, 370.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_desert_kasbah_house_stylized_desert_kasba_5dd00aa8_N.png", "frame_width": 437, "frame_height": 435, "frames": 1, "origin": [214.092824, 199.14849], "footprint": [16, 12], "grid_original": {"origin": [218, 211], "footprint": [14, 14]}, "alignment_transform": [1.1031681687401131, 0.06664449121735784, 0.2321847516125452, 0.9557210888450198], "alignment_base": [[16.0, 313.409645], [222.907176, 432.911849], [421.0, 318.650694]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [222.907176, 432.911849]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_desert_kasbah_house_stylized_desert_kasba_5dd00aa8_NW.png", "frame_width": 344, "frame_height": 376, "frames": 1, "origin": [193.0, 181.0], "footprint": [12, 12], "grid_original": {"origin": [172, 200], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [193.0, 373.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_desert_kasbah_house_stylized_desert_kasba_5dd00aa8_W.png", "frame_width": 452, "frame_height": 443, "frames": 1, "origin": [223.560804, 198.894628], "footprint": [16, 16], "grid_original": {"origin": [226, 219], "footprint": [14, 14]}, "alignment_transform": [1.2250584908080966, -0.007630501790796385, -0.024740424577874842, 1.0599289144406256], "alignment_base": [[17.0, 318.170398], [228.439196, 440.455379], [435.0, 321.179609]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [228.439196, 440.455379]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_desert_kasbah_house_stylized_desert_kasba_5dd00aa8_SW.png", "frame_width": 326, "frame_height": 381, "frames": 1, "origin": [166.0, 186.0], "footprint": [12, 12], "grid_original": {"origin": [163, 221], "footprint": [10, 10]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [166.0, 378.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_desert_kasbah_house_stylized_desert_kasba_5dd00aa8_S.png", "frame_width": 437, "frame_height": 403, "frames": 1, "origin": [214.377306, 166.549954], "footprint": [16, 12], "grid_original": {"origin": [218, 179], "footprint": [14, 14]}, "alignment_transform": [1.1034541366349704, 0.06794770715021689, 0.23480015465414028, 0.9555949880629443], "alignment_base": [[16.0, 281.116569], [222.622694, 400.372596], [421.0, 285.805981]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [222.622694, 400.372596]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-151.5, -140.0)
+hframes = 1

@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_character.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/supplemental_prepared/Characters_Boxer/Supplemental_Characters_Boxer_Idle1_1bd6858c.png" id="2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_idle"]
+atlas = ExtResource("2")
+region = Rect2(3906, 66, 1953, 66)
+filter_clip = true
+
+[sub_resource type="CircleShape2D" id="BodyShape"]
+radius = 4.0
+
+[node name="Supplemental_Characters_Boxer_Idle1_1bd6858c_Character" type="CharacterBody2D"]
+scale = Vector2(1.0, 1.0)
+collision_layer = 0
+collision_mask = 1
+script = ExtResource("1")
+item_id = "Supplemental_Characters_Boxer_Idle1_1bd6858c_Character"
+direction = "SE"
+directions_data = {"SW": {"file": "../../supplemental_prepared/Characters_Boxer/Supplemental_Characters_Boxer_Idle1_1bd6858c.png", "region": [0, 0, 1953, 66], "frame_width": 63, "frame_height": 66, "frames": 31, "origin": [34.292682926829265, 57.0], "footprint": [1, 1], "render_contact": [34.292682926829265, 57.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [34.292682926829265, 79.28571428571428]}, "W": {"file": "../../supplemental_prepared/Characters_Boxer/Supplemental_Characters_Boxer_Idle1_1bd6858c.png", "region": [1953, 0, 1953, 66], "frame_width": 63, "frame_height": 66, "frames": 31, "origin": [28.72, 56.5], "footprint": [1, 1], "render_contact": [28.72, 56.5], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [28.72, 78.78571428571428]}, "NW": {"file": "../../supplemental_prepared/Characters_Boxer/Supplemental_Characters_Boxer_Idle1_1bd6858c.png", "region": [3906, 0, 1953, 66], "frame_width": 63, "frame_height": 66, "frames": 31, "origin": [25.017857142857142, 55.0], "footprint": [1, 1], "render_contact": [25.017857142857142, 55.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [25.017857142857142, 77.28571428571428]}, "N": {"file": "../../supplemental_prepared/Characters_Boxer/Supplemental_Characters_Boxer_Idle1_1bd6858c.png", "region": [5859, 0, 1953, 66], "frame_width": 63, "frame_height": 66, "frames": 31, "origin": [35.62, 54.5], "footprint": [1, 1], "render_contact": [35.62, 54.5], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [35.62, 76.78571428571428]}, "NE": {"file": "../../supplemental_prepared/Characters_Boxer/Supplemental_Characters_Boxer_Idle1_1bd6858c.png", "region": [0, 66, 1953, 66], "frame_width": 63, "frame_height": 66, "frames": 31, "origin": [34.33582089552239, 56.0], "footprint": [1, 1], "render_contact": [34.33582089552239, 56.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [34.33582089552239, 78.28571428571428]}, "E": {"file": "../../supplemental_prepared/Characters_Boxer/Supplemental_Characters_Boxer_Idle1_1bd6858c.png", "region": [1953, 66, 1953, 66], "frame_width": 63, "frame_height": 66, "frames": 31, "origin": [29.61904761904762, 56.5], "footprint": [1, 1], "render_contact": [29.61904761904762, 56.5], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [29.61904761904762, 78.78571428571428]}, "SE": {"file": "../../supplemental_prepared/Characters_Boxer/Supplemental_Characters_Boxer_Idle1_1bd6858c.png", "region": [3906, 66, 1953, 66], "frame_width": 63, "frame_height": 66, "frames": 31, "origin": [25.544117647058822, 55.5], "footprint": [1, 1], "render_contact": [25.544117647058822, 55.5], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [25.544117647058822, 77.78571428571428]}, "S": {"file": "../../supplemental_prepared/Characters_Boxer/Supplemental_Characters_Boxer_Idle1_1bd6858c.png", "region": [5859, 66, 1953, 66], "frame_width": 63, "frame_height": 66, "frames": 31, "origin": [38.515151515151516, 55.0], "footprint": [1, 1], "render_contact": [38.515151515151516, 55.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [38.515151515151516, 77.28571428571428]}}
+origin_offset = Vector2(25.544117647058822, 55.5)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_idle")
+centered = false
+offset = Vector2(-25.544117647058822, -55.5)
+hframes = 31
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("BodyShape")

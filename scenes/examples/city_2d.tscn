@@ -1,0 +1,2261 @@
+[gd_scene format=4]
+
+[ext_resource type="Script" path="res://scripts/builder/play_scene.gd" id="1_cpp3j"]
+[ext_resource type="Shader" path="res://scripts/isometric_tile_rotation.gdshader" id="2_dheba"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Tilesets/City_Ground_Iso_Tileset_32x16.png" id="3_a11k8"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Tilesets/Animated_Tiles_32x16.png" id="4_jgv2j"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Tilesets/Floors_Iso_Tileset_32x16.png" id="5_jbkkf"]
+[ext_resource type="PackedScene" path="res://scenes/items/Buildings/Coffee_Shop.tscn" id="6_edpwf"]
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="7_rh0aq"]
+[ext_resource type="PackedScene" path="res://scenes/items/Buildings/Apartment_Building.tscn" id="8_fpu2a"]
+[ext_resource type="PackedScene" path="res://scenes/items/Buildings/Bakery.tscn" id="9_u5mgp"]
+[ext_resource type="PackedScene" path="res://scenes/items/Street_Props/Street_Light.tscn" id="10_j01nx"]
+[ext_resource type="PackedScene" path="res://scenes/items/Vehicles/Sedan_Red.tscn" id="11_ha6qs"]
+[ext_resource type="PackedScene" path="res://scenes/items/Vehicles/Taxi.tscn" id="12_ufaso"]
+[ext_resource type="PackedScene" path="res://scenes/items/Nature_Park/Tree_Oak.tscn" id="13_omvgq"]
+[ext_resource type="PackedScene" path="res://scenes/items/Street_Props/Park_Bench.tscn" id="14_0fv2h"]
+[ext_resource type="PackedScene" path="res://scenes/items/Nature_Park/Fountain.tscn" id="15_1ycjk"]
+[ext_resource type="PackedScene" path="res://scenes/items/Nature_Park/Tree_Cherry_Blossom.tscn" id="16_eobu2"]
+[ext_resource type="PackedScene" path="res://scenes/items/Characters/Office_Worker.tscn" id="17_2l2sc"]
+[ext_resource type="Script" path="res://scripts/iso_character.gd" id="18_j0w1q"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5j7vr"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(0, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ih0br"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(0, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_s0r11"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(0, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0v7cs"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(0, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wy86l"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(0, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_edqvf"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(0, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_lum1h"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(0, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_rfbe2"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(0, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_e6xrl"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(0, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8cmum"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(0, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_a6kjy"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(0, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7nsnb"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(0, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8br45"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(0, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3as2u"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(0, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3sgs3"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(0, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_u8mm5"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(0, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5am11"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(0, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_2o0j2"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(0, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_q3rlk"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(32, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1xhys"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(32, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_v3271"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(32, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_euiqk"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(32, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jstsg"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(32, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_o15j4"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(32, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_50s80"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(32, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fniso"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(32, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dbpro"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(32, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_kbith"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(32, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_b4tgn"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(32, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_x5arw"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(32, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wx20a"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(32, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_gsblc"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(32, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_e3n1m"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(32, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_uhd0r"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(32, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ry74y"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(32, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_j45t0"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(32, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_edoun"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(64, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_e4iro"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(64, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7frc6"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(64, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5t5js"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(64, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1v7n1"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(64, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fi7aw"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(64, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hh5dk"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(64, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_6yd1i"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(64, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_uaxva"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(64, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jk1dy"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(64, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_qwm2y"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(64, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dagfx"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(64, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dh04l"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(64, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cpfw7"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(64, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xl7ri"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(64, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ld5k2"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(64, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1jpj3"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(64, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_bmsp1"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(64, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hf0g2"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(96, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_61g8x"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(96, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_sa1a7"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(96, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_qdswm"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(96, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_qtbdk"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(96, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_x8b2s"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(96, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hcfpn"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(96, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_623eo"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(96, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_paigq"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(96, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_gjl8v"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(96, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_217m0"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(96, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_60soq"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(96, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_07ark"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(96, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5xeha"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(96, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7jord"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(96, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_nrbux"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(96, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_j6vkm"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(96, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wssa1"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(96, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5btuu"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(128, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mtj87"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(128, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_awqpa"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(128, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ytijk"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(128, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ywla0"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(128, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ev3af"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(128, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_85h8p"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(128, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ygn63"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(128, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_nq2vw"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(128, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_n1adr"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(128, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jjpf3"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(128, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_bc6rq"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(128, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4xmwy"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(128, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dv8t4"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(128, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1xa3y"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(128, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_yweqk"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(128, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dobg7"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(128, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_qqcn0"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(128, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_u6bch"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(160, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_bkf6u"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(160, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_d0na1"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(160, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_uf2by"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(160, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cbsf0"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(160, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4kvxt"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(160, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_qe8t5"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(160, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_s8bn8"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(160, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wonnu"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(160, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4rqj3"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(160, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_uc36g"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(160, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_x2n6r"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(160, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_h2njq"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(160, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7pdoj"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(160, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_80nmj"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(160, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dha34"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(160, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jvm5y"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(160, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_6mphu"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(160, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fmln4"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(192, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_knh2j"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(192, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_k82yl"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(192, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ywya4"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(192, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_br6t8"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(192, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vvgjf"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(192, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_rmlaa"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(192, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_d5785"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(192, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hpcqj"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(192, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mw60m"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(192, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_e6ypd"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(192, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_pka47"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(192, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_c7ebc"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(192, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_r3u6j"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(192, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_nkocr"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(192, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_n23al"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(192, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mppt0"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(192, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dwajp"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(192, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4ctvl"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(224, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mpyhi"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(224, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_duyva"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(224, 0)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3psmm"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(224, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_shhl3"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(224, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_brrw6"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(224, 16)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5x181"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(224, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vnoei"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(224, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ahhag"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(224, 32)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_naq33"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(224, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8v2ij"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(224, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_y83n4"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(224, 48)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7qchp"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(224, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_y1o2a"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(224, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_exrou"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(224, 64)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0gchl"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(224, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8f2wh"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(224, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_2jgm2"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(224, 80)
+shader_parameter/frame_columns = 1
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qnxgf"]
+texture = ExtResource("3_a11k8")
+texture_region_size = Vector2i(32, 16)
+use_texture_padding = false
+0:0/next_alternative_id = 4
+0:0/0 = 0
+0:0/1 = 1
+0:0/1/material = SubResource("ShaderMaterial_5j7vr")
+0:0/2 = 2
+0:0/2/material = SubResource("ShaderMaterial_ih0br")
+0:0/3 = 3
+0:0/3/material = SubResource("ShaderMaterial_s0r11")
+1:0/next_alternative_id = 4
+1:0/0 = 0
+1:0/1 = 1
+1:0/1/material = SubResource("ShaderMaterial_q3rlk")
+1:0/2 = 2
+1:0/2/material = SubResource("ShaderMaterial_1xhys")
+1:0/3 = 3
+1:0/3/material = SubResource("ShaderMaterial_v3271")
+2:0/next_alternative_id = 4
+2:0/0 = 0
+2:0/1 = 1
+2:0/1/material = SubResource("ShaderMaterial_edoun")
+2:0/2 = 2
+2:0/2/material = SubResource("ShaderMaterial_e4iro")
+2:0/3 = 3
+2:0/3/material = SubResource("ShaderMaterial_7frc6")
+3:0/next_alternative_id = 4
+3:0/0 = 0
+3:0/1 = 1
+3:0/1/material = SubResource("ShaderMaterial_hf0g2")
+3:0/2 = 2
+3:0/2/material = SubResource("ShaderMaterial_61g8x")
+3:0/3 = 3
+3:0/3/material = SubResource("ShaderMaterial_sa1a7")
+4:0/next_alternative_id = 4
+4:0/0 = 0
+4:0/1 = 1
+4:0/1/material = SubResource("ShaderMaterial_5btuu")
+4:0/2 = 2
+4:0/2/material = SubResource("ShaderMaterial_mtj87")
+4:0/3 = 3
+4:0/3/material = SubResource("ShaderMaterial_awqpa")
+5:0/next_alternative_id = 4
+5:0/0 = 0
+5:0/1 = 1
+5:0/1/material = SubResource("ShaderMaterial_u6bch")
+5:0/2 = 2
+5:0/2/material = SubResource("ShaderMaterial_bkf6u")
+5:0/3 = 3
+5:0/3/material = SubResource("ShaderMaterial_d0na1")
+6:0/next_alternative_id = 4
+6:0/0 = 0
+6:0/1 = 1
+6:0/1/material = SubResource("ShaderMaterial_fmln4")
+6:0/2 = 2
+6:0/2/material = SubResource("ShaderMaterial_knh2j")
+6:0/3 = 3
+6:0/3/material = SubResource("ShaderMaterial_k82yl")
+7:0/next_alternative_id = 4
+7:0/0 = 0
+7:0/1 = 1
+7:0/1/material = SubResource("ShaderMaterial_4ctvl")
+7:0/2 = 2
+7:0/2/material = SubResource("ShaderMaterial_mpyhi")
+7:0/3 = 3
+7:0/3/material = SubResource("ShaderMaterial_duyva")
+0:1/next_alternative_id = 4
+0:1/0 = 0
+0:1/1 = 1
+0:1/1/material = SubResource("ShaderMaterial_0v7cs")
+0:1/2 = 2
+0:1/2/material = SubResource("ShaderMaterial_wy86l")
+0:1/3 = 3
+0:1/3/material = SubResource("ShaderMaterial_edqvf")
+1:1/next_alternative_id = 4
+1:1/0 = 0
+1:1/1 = 1
+1:1/1/material = SubResource("ShaderMaterial_euiqk")
+1:1/2 = 2
+1:1/2/material = SubResource("ShaderMaterial_jstsg")
+1:1/3 = 3
+1:1/3/material = SubResource("ShaderMaterial_o15j4")
+2:1/next_alternative_id = 4
+2:1/0 = 0
+2:1/1 = 1
+2:1/1/material = SubResource("ShaderMaterial_5t5js")
+2:1/2 = 2
+2:1/2/material = SubResource("ShaderMaterial_1v7n1")
+2:1/3 = 3
+2:1/3/material = SubResource("ShaderMaterial_fi7aw")
+3:1/next_alternative_id = 4
+3:1/0 = 0
+3:1/1 = 1
+3:1/1/material = SubResource("ShaderMaterial_qdswm")
+3:1/2 = 2
+3:1/2/material = SubResource("ShaderMaterial_qtbdk")
+3:1/3 = 3
+3:1/3/material = SubResource("ShaderMaterial_x8b2s")
+4:1/next_alternative_id = 4
+4:1/0 = 0
+4:1/1 = 1
+4:1/1/material = SubResource("ShaderMaterial_ytijk")
+4:1/2 = 2
+4:1/2/material = SubResource("ShaderMaterial_ywla0")
+4:1/3 = 3
+4:1/3/material = SubResource("ShaderMaterial_ev3af")
+5:1/next_alternative_id = 4
+5:1/0 = 0
+5:1/1 = 1
+5:1/1/material = SubResource("ShaderMaterial_uf2by")
+5:1/2 = 2
+5:1/2/material = SubResource("ShaderMaterial_cbsf0")
+5:1/3 = 3
+5:1/3/material = SubResource("ShaderMaterial_4kvxt")
+6:1/next_alternative_id = 4
+6:1/0 = 0
+6:1/1 = 1
+6:1/1/material = SubResource("ShaderMaterial_ywya4")
+6:1/2 = 2
+6:1/2/material = SubResource("ShaderMaterial_br6t8")
+6:1/3 = 3
+6:1/3/material = SubResource("ShaderMaterial_vvgjf")
+7:1/next_alternative_id = 4
+7:1/0 = 0
+7:1/1 = 1
+7:1/1/material = SubResource("ShaderMaterial_3psmm")
+7:1/2 = 2
+7:1/2/material = SubResource("ShaderMaterial_shhl3")
+7:1/3 = 3
+7:1/3/material = SubResource("ShaderMaterial_brrw6")
+0:2/next_alternative_id = 4
+0:2/0 = 0
+0:2/1 = 1
+0:2/1/material = SubResource("ShaderMaterial_lum1h")
+0:2/2 = 2
+0:2/2/material = SubResource("ShaderMaterial_rfbe2")
+0:2/3 = 3
+0:2/3/material = SubResource("ShaderMaterial_e6xrl")
+1:2/next_alternative_id = 4
+1:2/0 = 0
+1:2/1 = 1
+1:2/1/material = SubResource("ShaderMaterial_50s80")
+1:2/2 = 2
+1:2/2/material = SubResource("ShaderMaterial_fniso")
+1:2/3 = 3
+1:2/3/material = SubResource("ShaderMaterial_dbpro")
+2:2/next_alternative_id = 4
+2:2/0 = 0
+2:2/1 = 1
+2:2/1/material = SubResource("ShaderMaterial_hh5dk")
+2:2/2 = 2
+2:2/2/material = SubResource("ShaderMaterial_6yd1i")
+2:2/3 = 3
+2:2/3/material = SubResource("ShaderMaterial_uaxva")
+3:2/next_alternative_id = 4
+3:2/0 = 0
+3:2/1 = 1
+3:2/1/material = SubResource("ShaderMaterial_hcfpn")
+3:2/2 = 2
+3:2/2/material = SubResource("ShaderMaterial_623eo")
+3:2/3 = 3
+3:2/3/material = SubResource("ShaderMaterial_paigq")
+4:2/next_alternative_id = 4
+4:2/0 = 0
+4:2/1 = 1
+4:2/1/material = SubResource("ShaderMaterial_85h8p")
+4:2/2 = 2
+4:2/2/material = SubResource("ShaderMaterial_ygn63")
+4:2/3 = 3
+4:2/3/material = SubResource("ShaderMaterial_nq2vw")
+5:2/next_alternative_id = 4
+5:2/0 = 0
+5:2/1 = 1
+5:2/1/material = SubResource("ShaderMaterial_qe8t5")
+5:2/2 = 2
+5:2/2/material = SubResource("ShaderMaterial_s8bn8")
+5:2/3 = 3
+5:2/3/material = SubResource("ShaderMaterial_wonnu")
+6:2/next_alternative_id = 4
+6:2/0 = 0
+6:2/1 = 1
+6:2/1/material = SubResource("ShaderMaterial_rmlaa")
+6:2/2 = 2
+6:2/2/material = SubResource("ShaderMaterial_d5785")
+6:2/3 = 3
+6:2/3/material = SubResource("ShaderMaterial_hpcqj")
+7:2/next_alternative_id = 4
+7:2/0 = 0
+7:2/1 = 1
+7:2/1/material = SubResource("ShaderMaterial_5x181")
+7:2/2 = 2
+7:2/2/material = SubResource("ShaderMaterial_vnoei")
+7:2/3 = 3
+7:2/3/material = SubResource("ShaderMaterial_ahhag")
+0:3/next_alternative_id = 4
+0:3/0 = 0
+0:3/1 = 1
+0:3/1/material = SubResource("ShaderMaterial_8cmum")
+0:3/2 = 2
+0:3/2/material = SubResource("ShaderMaterial_a6kjy")
+0:3/3 = 3
+0:3/3/material = SubResource("ShaderMaterial_7nsnb")
+1:3/next_alternative_id = 4
+1:3/0 = 0
+1:3/1 = 1
+1:3/1/material = SubResource("ShaderMaterial_kbith")
+1:3/2 = 2
+1:3/2/material = SubResource("ShaderMaterial_b4tgn")
+1:3/3 = 3
+1:3/3/material = SubResource("ShaderMaterial_x5arw")
+2:3/next_alternative_id = 4
+2:3/0 = 0
+2:3/1 = 1
+2:3/1/material = SubResource("ShaderMaterial_jk1dy")
+2:3/2 = 2
+2:3/2/material = SubResource("ShaderMaterial_qwm2y")
+2:3/3 = 3
+2:3/3/material = SubResource("ShaderMaterial_dagfx")
+3:3/next_alternative_id = 4
+3:3/0 = 0
+3:3/1 = 1
+3:3/1/material = SubResource("ShaderMaterial_gjl8v")
+3:3/2 = 2
+3:3/2/material = SubResource("ShaderMaterial_217m0")
+3:3/3 = 3
+3:3/3/material = SubResource("ShaderMaterial_60soq")
+4:3/next_alternative_id = 4
+4:3/0 = 0
+4:3/1 = 1
+4:3/1/material = SubResource("ShaderMaterial_n1adr")
+4:3/2 = 2
+4:3/2/material = SubResource("ShaderMaterial_jjpf3")
+4:3/3 = 3
+4:3/3/material = SubResource("ShaderMaterial_bc6rq")
+5:3/next_alternative_id = 4
+5:3/0 = 0
+5:3/1 = 1
+5:3/1/material = SubResource("ShaderMaterial_4rqj3")
+5:3/2 = 2
+5:3/2/material = SubResource("ShaderMaterial_uc36g")
+5:3/3 = 3
+5:3/3/material = SubResource("ShaderMaterial_x2n6r")
+6:3/next_alternative_id = 4
+6:3/0 = 0
+6:3/1 = 1
+6:3/1/material = SubResource("ShaderMaterial_mw60m")
+6:3/2 = 2
+6:3/2/material = SubResource("ShaderMaterial_e6ypd")
+6:3/3 = 3
+6:3/3/material = SubResource("ShaderMaterial_pka47")
+7:3/next_alternative_id = 4
+7:3/0 = 0
+7:3/1 = 1
+7:3/1/material = SubResource("ShaderMaterial_naq33")
+7:3/2 = 2
+7:3/2/material = SubResource("ShaderMaterial_8v2ij")
+7:3/3 = 3
+7:3/3/material = SubResource("ShaderMaterial_y83n4")
+0:4/next_alternative_id = 4
+0:4/0 = 0
+0:4/1 = 1
+0:4/1/material = SubResource("ShaderMaterial_8br45")
+0:4/2 = 2
+0:4/2/material = SubResource("ShaderMaterial_3as2u")
+0:4/3 = 3
+0:4/3/material = SubResource("ShaderMaterial_3sgs3")
+1:4/next_alternative_id = 4
+1:4/0 = 0
+1:4/1 = 1
+1:4/1/material = SubResource("ShaderMaterial_wx20a")
+1:4/2 = 2
+1:4/2/material = SubResource("ShaderMaterial_gsblc")
+1:4/3 = 3
+1:4/3/material = SubResource("ShaderMaterial_e3n1m")
+2:4/next_alternative_id = 4
+2:4/0 = 0
+2:4/1 = 1
+2:4/1/material = SubResource("ShaderMaterial_dh04l")
+2:4/2 = 2
+2:4/2/material = SubResource("ShaderMaterial_cpfw7")
+2:4/3 = 3
+2:4/3/material = SubResource("ShaderMaterial_xl7ri")
+3:4/next_alternative_id = 4
+3:4/0 = 0
+3:4/1 = 1
+3:4/1/material = SubResource("ShaderMaterial_07ark")
+3:4/2 = 2
+3:4/2/material = SubResource("ShaderMaterial_5xeha")
+3:4/3 = 3
+3:4/3/material = SubResource("ShaderMaterial_7jord")
+4:4/next_alternative_id = 4
+4:4/0 = 0
+4:4/1 = 1
+4:4/1/material = SubResource("ShaderMaterial_4xmwy")
+4:4/2 = 2
+4:4/2/material = SubResource("ShaderMaterial_dv8t4")
+4:4/3 = 3
+4:4/3/material = SubResource("ShaderMaterial_1xa3y")
+5:4/next_alternative_id = 4
+5:4/0 = 0
+5:4/1 = 1
+5:4/1/material = SubResource("ShaderMaterial_h2njq")
+5:4/2 = 2
+5:4/2/material = SubResource("ShaderMaterial_7pdoj")
+5:4/3 = 3
+5:4/3/material = SubResource("ShaderMaterial_80nmj")
+6:4/next_alternative_id = 4
+6:4/0 = 0
+6:4/1 = 1
+6:4/1/material = SubResource("ShaderMaterial_c7ebc")
+6:4/2 = 2
+6:4/2/material = SubResource("ShaderMaterial_r3u6j")
+6:4/3 = 3
+6:4/3/material = SubResource("ShaderMaterial_nkocr")
+7:4/next_alternative_id = 4
+7:4/0 = 0
+7:4/1 = 1
+7:4/1/material = SubResource("ShaderMaterial_7qchp")
+7:4/2 = 2
+7:4/2/material = SubResource("ShaderMaterial_y1o2a")
+7:4/3 = 3
+7:4/3/material = SubResource("ShaderMaterial_exrou")
+0:5/next_alternative_id = 4
+0:5/0 = 0
+0:5/1 = 1
+0:5/1/material = SubResource("ShaderMaterial_u8mm5")
+0:5/2 = 2
+0:5/2/material = SubResource("ShaderMaterial_5am11")
+0:5/3 = 3
+0:5/3/material = SubResource("ShaderMaterial_2o0j2")
+1:5/next_alternative_id = 4
+1:5/0 = 0
+1:5/1 = 1
+1:5/1/material = SubResource("ShaderMaterial_uhd0r")
+1:5/2 = 2
+1:5/2/material = SubResource("ShaderMaterial_ry74y")
+1:5/3 = 3
+1:5/3/material = SubResource("ShaderMaterial_j45t0")
+2:5/next_alternative_id = 4
+2:5/0 = 0
+2:5/1 = 1
+2:5/1/material = SubResource("ShaderMaterial_ld5k2")
+2:5/2 = 2
+2:5/2/material = SubResource("ShaderMaterial_1jpj3")
+2:5/3 = 3
+2:5/3/material = SubResource("ShaderMaterial_bmsp1")
+3:5/next_alternative_id = 4
+3:5/0 = 0
+3:5/1 = 1
+3:5/1/material = SubResource("ShaderMaterial_nrbux")
+3:5/2 = 2
+3:5/2/material = SubResource("ShaderMaterial_j6vkm")
+3:5/3 = 3
+3:5/3/material = SubResource("ShaderMaterial_wssa1")
+4:5/next_alternative_id = 4
+4:5/0 = 0
+4:5/1 = 1
+4:5/1/material = SubResource("ShaderMaterial_yweqk")
+4:5/2 = 2
+4:5/2/material = SubResource("ShaderMaterial_dobg7")
+4:5/3 = 3
+4:5/3/material = SubResource("ShaderMaterial_qqcn0")
+5:5/next_alternative_id = 4
+5:5/0 = 0
+5:5/1 = 1
+5:5/1/material = SubResource("ShaderMaterial_dha34")
+5:5/2 = 2
+5:5/2/material = SubResource("ShaderMaterial_jvm5y")
+5:5/3 = 3
+5:5/3/material = SubResource("ShaderMaterial_6mphu")
+6:5/next_alternative_id = 4
+6:5/0 = 0
+6:5/1 = 1
+6:5/1/material = SubResource("ShaderMaterial_n23al")
+6:5/2 = 2
+6:5/2/material = SubResource("ShaderMaterial_mppt0")
+6:5/3 = 3
+6:5/3/material = SubResource("ShaderMaterial_dwajp")
+7:5/next_alternative_id = 4
+7:5/0 = 0
+7:5/1 = 1
+7:5/1/material = SubResource("ShaderMaterial_0gchl")
+7:5/2 = 2
+7:5/2/material = SubResource("ShaderMaterial_8f2wh")
+7:5/3 = 3
+7:5/3/material = SubResource("ShaderMaterial_2jgm2")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_arvl4"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(0, 0)
+shader_parameter/frame_columns = 4
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ump38"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(0, 0)
+shader_parameter/frame_columns = 4
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_58kg6"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(0, 0)
+shader_parameter/frame_columns = 4
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_y2h43"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 1
+shader_parameter/region_origin = Vector2(0, 16)
+shader_parameter/frame_columns = 4
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_qri62"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 2
+shader_parameter/region_origin = Vector2(0, 16)
+shader_parameter/frame_columns = 4
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_w24gd"]
+shader = ExtResource("2_dheba")
+shader_parameter/quarter_turns = 3
+shader_parameter/region_origin = Vector2(0, 16)
+shader_parameter/frame_columns = 4
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dvrcs"]
+texture = ExtResource("4_jgv2j")
+texture_region_size = Vector2i(32, 16)
+use_texture_padding = false
+0:0/next_alternative_id = 4
+0:0/animation_columns = 4
+0:0/animation_speed = 4.0
+0:0/animation_frame_0/duration = 1.0
+0:0/animation_frame_1/duration = 1.0
+0:0/animation_frame_2/duration = 1.0
+0:0/animation_frame_3/duration = 1.0
+0:0/0 = 0
+0:0/1 = 1
+0:0/1/material = SubResource("ShaderMaterial_arvl4")
+0:0/2 = 2
+0:0/2/material = SubResource("ShaderMaterial_ump38")
+0:0/3 = 3
+0:0/3/material = SubResource("ShaderMaterial_58kg6")
+0:1/next_alternative_id = 4
+0:1/animation_columns = 4
+0:1/animation_speed = 4.0
+0:1/animation_frame_0/duration = 1.0
+0:1/animation_frame_1/duration = 1.0
+0:1/animation_frame_2/duration = 1.0
+0:1/animation_frame_3/duration = 1.0
+0:1/0 = 0
+0:1/1 = 1
+0:1/1/material = SubResource("ShaderMaterial_y2h43")
+0:1/2 = 2
+0:1/2/material = SubResource("ShaderMaterial_qri62")
+0:1/3 = 3
+0:1/3/material = SubResource("ShaderMaterial_w24gd")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lbuql"]
+texture = ExtResource("5_jbkkf")
+texture_region_size = Vector2i(32, 16)
+use_texture_padding = false
+0:0/next_alternative_id = 4
+0:0/0 = 0
+0:0/1 = 1
+0:0/1/material = SubResource("ShaderMaterial_5j7vr")
+0:0/2 = 2
+0:0/2/material = SubResource("ShaderMaterial_ih0br")
+0:0/3 = 3
+0:0/3/material = SubResource("ShaderMaterial_s0r11")
+1:0/next_alternative_id = 4
+1:0/0 = 0
+1:0/1 = 1
+1:0/1/material = SubResource("ShaderMaterial_q3rlk")
+1:0/2 = 2
+1:0/2/material = SubResource("ShaderMaterial_1xhys")
+1:0/3 = 3
+1:0/3/material = SubResource("ShaderMaterial_v3271")
+2:0/next_alternative_id = 4
+2:0/0 = 0
+2:0/1 = 1
+2:0/1/material = SubResource("ShaderMaterial_edoun")
+2:0/2 = 2
+2:0/2/material = SubResource("ShaderMaterial_e4iro")
+2:0/3 = 3
+2:0/3/material = SubResource("ShaderMaterial_7frc6")
+3:0/next_alternative_id = 4
+3:0/0 = 0
+3:0/1 = 1
+3:0/1/material = SubResource("ShaderMaterial_hf0g2")
+3:0/2 = 2
+3:0/2/material = SubResource("ShaderMaterial_61g8x")
+3:0/3 = 3
+3:0/3/material = SubResource("ShaderMaterial_sa1a7")
+4:0/next_alternative_id = 4
+4:0/0 = 0
+4:0/1 = 1
+4:0/1/material = SubResource("ShaderMaterial_5btuu")
+4:0/2 = 2
+4:0/2/material = SubResource("ShaderMaterial_mtj87")
+4:0/3 = 3
+4:0/3/material = SubResource("ShaderMaterial_awqpa")
+5:0/next_alternative_id = 4
+5:0/0 = 0
+5:0/1 = 1
+5:0/1/material = SubResource("ShaderMaterial_u6bch")
+5:0/2 = 2
+5:0/2/material = SubResource("ShaderMaterial_bkf6u")
+5:0/3 = 3
+5:0/3/material = SubResource("ShaderMaterial_d0na1")
+6:0/next_alternative_id = 4
+6:0/0 = 0
+6:0/1 = 1
+6:0/1/material = SubResource("ShaderMaterial_fmln4")
+6:0/2 = 2
+6:0/2/material = SubResource("ShaderMaterial_knh2j")
+6:0/3 = 3
+6:0/3/material = SubResource("ShaderMaterial_k82yl")
+7:0/next_alternative_id = 4
+7:0/0 = 0
+7:0/1 = 1
+7:0/1/material = SubResource("ShaderMaterial_4ctvl")
+7:0/2 = 2
+7:0/2/material = SubResource("ShaderMaterial_mpyhi")
+7:0/3 = 3
+7:0/3/material = SubResource("ShaderMaterial_duyva")
+0:1/next_alternative_id = 4
+0:1/0 = 0
+0:1/1 = 1
+0:1/1/material = SubResource("ShaderMaterial_0v7cs")
+0:1/2 = 2
+0:1/2/material = SubResource("ShaderMaterial_wy86l")
+0:1/3 = 3
+0:1/3/material = SubResource("ShaderMaterial_edqvf")
+1:1/next_alternative_id = 4
+1:1/0 = 0
+1:1/1 = 1
+1:1/1/material = SubResource("ShaderMaterial_euiqk")
+1:1/2 = 2
+1:1/2/material = SubResource("ShaderMaterial_jstsg")
+1:1/3 = 3
+1:1/3/material = SubResource("ShaderMaterial_o15j4")
+2:1/next_alternative_id = 4
+2:1/0 = 0
+2:1/1 = 1
+2:1/1/material = SubResource("ShaderMaterial_5t5js")
+2:1/2 = 2
+2:1/2/material = SubResource("ShaderMaterial_1v7n1")
+2:1/3 = 3
+2:1/3/material = SubResource("ShaderMaterial_fi7aw")
+3:1/next_alternative_id = 4
+3:1/0 = 0
+3:1/1 = 1
+3:1/1/material = SubResource("ShaderMaterial_qdswm")
+3:1/2 = 2
+3:1/2/material = SubResource("ShaderMaterial_qtbdk")
+3:1/3 = 3
+3:1/3/material = SubResource("ShaderMaterial_x8b2s")
+4:1/next_alternative_id = 4
+4:1/0 = 0
+4:1/1 = 1
+4:1/1/material = SubResource("ShaderMaterial_ytijk")
+4:1/2 = 2
+4:1/2/material = SubResource("ShaderMaterial_ywla0")
+4:1/3 = 3
+4:1/3/material = SubResource("ShaderMaterial_ev3af")
+5:1/next_alternative_id = 4
+5:1/0 = 0
+5:1/1 = 1
+5:1/1/material = SubResource("ShaderMaterial_uf2by")
+5:1/2 = 2
+5:1/2/material = SubResource("ShaderMaterial_cbsf0")
+5:1/3 = 3
+5:1/3/material = SubResource("ShaderMaterial_4kvxt")
+6:1/next_alternative_id = 4
+6:1/0 = 0
+6:1/1 = 1
+6:1/1/material = SubResource("ShaderMaterial_ywya4")
+6:1/2 = 2
+6:1/2/material = SubResource("ShaderMaterial_br6t8")
+6:1/3 = 3
+6:1/3/material = SubResource("ShaderMaterial_vvgjf")
+7:1/next_alternative_id = 4
+7:1/0 = 0
+7:1/1 = 1
+7:1/1/material = SubResource("ShaderMaterial_3psmm")
+7:1/2 = 2
+7:1/2/material = SubResource("ShaderMaterial_shhl3")
+7:1/3 = 3
+7:1/3/material = SubResource("ShaderMaterial_brrw6")
+0:2/next_alternative_id = 4
+0:2/0 = 0
+0:2/1 = 1
+0:2/1/material = SubResource("ShaderMaterial_lum1h")
+0:2/2 = 2
+0:2/2/material = SubResource("ShaderMaterial_rfbe2")
+0:2/3 = 3
+0:2/3/material = SubResource("ShaderMaterial_e6xrl")
+1:2/next_alternative_id = 4
+1:2/0 = 0
+1:2/1 = 1
+1:2/1/material = SubResource("ShaderMaterial_50s80")
+1:2/2 = 2
+1:2/2/material = SubResource("ShaderMaterial_fniso")
+1:2/3 = 3
+1:2/3/material = SubResource("ShaderMaterial_dbpro")
+2:2/next_alternative_id = 4
+2:2/0 = 0
+2:2/1 = 1
+2:2/1/material = SubResource("ShaderMaterial_hh5dk")
+2:2/2 = 2
+2:2/2/material = SubResource("ShaderMaterial_6yd1i")
+2:2/3 = 3
+2:2/3/material = SubResource("ShaderMaterial_uaxva")
+3:2/next_alternative_id = 4
+3:2/0 = 0
+3:2/1 = 1
+3:2/1/material = SubResource("ShaderMaterial_hcfpn")
+3:2/2 = 2
+3:2/2/material = SubResource("ShaderMaterial_623eo")
+3:2/3 = 3
+3:2/3/material = SubResource("ShaderMaterial_paigq")
+4:2/next_alternative_id = 4
+4:2/0 = 0
+4:2/1 = 1
+4:2/1/material = SubResource("ShaderMaterial_85h8p")
+4:2/2 = 2
+4:2/2/material = SubResource("ShaderMaterial_ygn63")
+4:2/3 = 3
+4:2/3/material = SubResource("ShaderMaterial_nq2vw")
+5:2/next_alternative_id = 4
+5:2/0 = 0
+5:2/1 = 1
+5:2/1/material = SubResource("ShaderMaterial_qe8t5")
+5:2/2 = 2
+5:2/2/material = SubResource("ShaderMaterial_s8bn8")
+5:2/3 = 3
+5:2/3/material = SubResource("ShaderMaterial_wonnu")
+6:2/next_alternative_id = 4
+6:2/0 = 0
+6:2/1 = 1
+6:2/1/material = SubResource("ShaderMaterial_rmlaa")
+6:2/2 = 2
+6:2/2/material = SubResource("ShaderMaterial_d5785")
+6:2/3 = 3
+6:2/3/material = SubResource("ShaderMaterial_hpcqj")
+7:2/next_alternative_id = 4
+7:2/0 = 0
+7:2/1 = 1
+7:2/1/material = SubResource("ShaderMaterial_5x181")
+7:2/2 = 2
+7:2/2/material = SubResource("ShaderMaterial_vnoei")
+7:2/3 = 3
+7:2/3/material = SubResource("ShaderMaterial_ahhag")
+0:3/next_alternative_id = 4
+0:3/0 = 0
+0:3/1 = 1
+0:3/1/material = SubResource("ShaderMaterial_8cmum")
+0:3/2 = 2
+0:3/2/material = SubResource("ShaderMaterial_a6kjy")
+0:3/3 = 3
+0:3/3/material = SubResource("ShaderMaterial_7nsnb")
+1:3/next_alternative_id = 4
+1:3/0 = 0
+1:3/1 = 1
+1:3/1/material = SubResource("ShaderMaterial_kbith")
+1:3/2 = 2
+1:3/2/material = SubResource("ShaderMaterial_b4tgn")
+1:3/3 = 3
+1:3/3/material = SubResource("ShaderMaterial_x5arw")
+2:3/next_alternative_id = 4
+2:3/0 = 0
+2:3/1 = 1
+2:3/1/material = SubResource("ShaderMaterial_jk1dy")
+2:3/2 = 2
+2:3/2/material = SubResource("ShaderMaterial_qwm2y")
+2:3/3 = 3
+2:3/3/material = SubResource("ShaderMaterial_dagfx")
+3:3/next_alternative_id = 4
+3:3/0 = 0
+3:3/1 = 1
+3:3/1/material = SubResource("ShaderMaterial_gjl8v")
+3:3/2 = 2
+3:3/2/material = SubResource("ShaderMaterial_217m0")
+3:3/3 = 3
+3:3/3/material = SubResource("ShaderMaterial_60soq")
+4:3/next_alternative_id = 4
+4:3/0 = 0
+4:3/1 = 1
+4:3/1/material = SubResource("ShaderMaterial_n1adr")
+4:3/2 = 2
+4:3/2/material = SubResource("ShaderMaterial_jjpf3")
+4:3/3 = 3
+4:3/3/material = SubResource("ShaderMaterial_bc6rq")
+5:3/next_alternative_id = 4
+5:3/0 = 0
+5:3/1 = 1
+5:3/1/material = SubResource("ShaderMaterial_4rqj3")
+5:3/2 = 2
+5:3/2/material = SubResource("ShaderMaterial_uc36g")
+5:3/3 = 3
+5:3/3/material = SubResource("ShaderMaterial_x2n6r")
+6:3/next_alternative_id = 4
+6:3/0 = 0
+6:3/1 = 1
+6:3/1/material = SubResource("ShaderMaterial_mw60m")
+6:3/2 = 2
+6:3/2/material = SubResource("ShaderMaterial_e6ypd")
+6:3/3 = 3
+6:3/3/material = SubResource("ShaderMaterial_pka47")
+7:3/next_alternative_id = 4
+7:3/0 = 0
+7:3/1 = 1
+7:3/1/material = SubResource("ShaderMaterial_naq33")
+7:3/2 = 2
+7:3/2/material = SubResource("ShaderMaterial_8v2ij")
+7:3/3 = 3
+7:3/3/material = SubResource("ShaderMaterial_y83n4")
+
+[sub_resource type="TileSet" id="TileSet_yclks"]
+tile_shape = 1
+tile_layout = 5
+tile_size = Vector2i(32, 16)
+sources/0 = SubResource("TileSetAtlasSource_qnxgf")
+sources/1 = SubResource("TileSetAtlasSource_dvrcs")
+sources/2 = SubResource("TileSetAtlasSource_lbuql")
+
+[node name="MyCity" type="Node2D" unique_id=278057392]
+y_sort_enabled = true
+script = ExtResource("1_cpp3j")
+
+[node name="Ground" type="TileMapLayer" parent="." unique_id=152801754]
+z_index = -5
+position = Vector2(-16, 0)
+tile_map_data = PackedByteArray("AADy//T/AAABAAQAAADy//X/AAABAAQAAADy//b/AAABAAQAAADy//f/AAABAAQAAADy//j/AAABAAQAAADy//n/AAABAAQAAADy//r/AAABAAQAAADy//v/AAABAAQAAADy//z/AAABAAQAAADy//3/AAABAAQAAADy//7/AAAGAAIAAADy////AAAAAAAAAADy/wAAAAAEAAAAAADy/wEAAAAAAAAAAADy/wIAAAAGAAIAAADy/wMAAAABAAQAAADy/wQAAAABAAQAAADy/wUAAAABAAQAAADy/wYAAAABAAQAAADy/wcAAAABAAQAAADy/wgAAAABAAQAAADy/wkAAAABAAQAAADy/woAAAABAAQAAADy/wsAAAABAAQAAADz//T/AAABAAQAAADz//X/AAABAAQAAADz//b/AAABAAQAAADz//f/AAABAAQAAADz//j/AAABAAQAAADz//n/AAABAAQAAADz//r/AAABAAQAAADz//v/AAABAAQAAADz//z/AAABAAQAAADz//3/AAABAAQAAADz//7/AAAGAAIAAADz////AAAAAAAAAADz/wAAAAAEAAAAAADz/wEAAAAAAAAAAADz/wIAAAAGAAIAAADz/wMAAAABAAQAAADz/wQAAAABAAQAAADz/wUAAAABAAQAAADz/wYAAAABAAQAAADz/wcAAAABAAQAAADz/wgAAAABAAQAAADz/wkAAAABAAQAAADz/woAAAABAAQAAADz/wsAAAABAAQAAAD0//T/AAABAAQAAAD0//X/AAABAAQAAAD0//b/AAABAAQAAAD0//f/AAABAAQAAAD0//j/AAABAAQAAAD0//n/AAABAAQAAAD0//r/AAABAAQAAAD0//v/AAABAAQAAAD0//z/AAABAAQAAAD0//3/AAABAAQAAAD0//7/AAAGAAIAAAD0////AAAAAAAAAAD0/wAAAAAEAAAAAAD0/wEAAAAAAAAAAAD0/wIAAAAGAAIAAAD0/wMAAAABAAQAAAD0/wQAAAABAAQAAAD0/wUAAAABAAQAAAD0/wYAAAABAAQAAAD0/wcAAAABAAQAAAD0/wgAAAABAAQAAAD0/wkAAAABAAQAAAD0/woAAAABAAQAAAD0/wsAAAABAAQAAAD1//T/AAABAAQAAAD1//X/AAABAAQAAAD1//b/AAABAAQAAAD1//f/AAABAAQAAAD1//j/AAABAAQAAAD1//n/AAABAAQAAAD1//r/AAABAAQAAAD1//v/AAABAAQAAAD1//z/AAABAAQAAAD1//3/AAABAAQAAAD1//7/AAAGAAIAAAD1////AAAAAAAAAAD1/wAAAAAEAAAAAAD1/wEAAAAAAAAAAAD1/wIAAAAGAAIAAAD1/wMAAAABAAQAAAD1/wQAAAABAAQAAAD1/wUAAAABAAQAAAD1/wYAAAABAAQAAAD1/wcAAAABAAQAAAD1/wgAAAABAAQAAAD1/wkAAAABAAQAAAD1/woAAAABAAQAAAD1/wsAAAABAAQAAAD2//T/AAABAAQAAAD2//X/AAABAAQAAAD2//b/AAABAAQAAAD2//f/AAABAAQAAAD2//j/AAABAAQAAAD2//n/AAABAAQAAAD2//r/AAABAAQAAAD2//v/AAABAAQAAAD2//z/AAABAAQAAAD2//3/AAABAAQAAAD2//7/AAAGAAIAAAD2////AAAAAAAAAAD2/wAAAAAEAAAAAAD2/wEAAAAAAAAAAAD2/wIAAAAGAAIAAAD2/wMAAAABAAQAAAD2/wQAAAABAAQAAAD2/wUAAAABAAQAAAD2/wYAAAABAAQAAAD2/wcAAAABAAQAAAD2/wgAAAABAAQAAAD2/wkAAAABAAQAAAD2/woAAAABAAQAAAD2/wsAAAABAAQAAAD3//T/AAABAAQAAAD3//X/AAABAAQAAAD3//b/AAABAAQAAAD3//f/AAABAAQAAAD3//j/AAABAAQAAAD3//n/AAABAAQAAAD3//r/AAABAAQAAAD3//v/AAABAAQAAAD3//z/AAABAAQAAAD3//3/AAABAAQAAAD3//7/AAAGAAIAAAD3////AAAAAAAAAAD3/wAAAAAEAAAAAAD3/wEAAAAAAAAAAAD3/wIAAAAGAAIAAAD3/wMAAAABAAQAAAD3/wQAAAABAAQAAAD3/wUAAAABAAQAAAD3/wYAAAABAAQAAAD3/wcAAAABAAQAAAD3/wgAAAABAAQAAAD3/wkAAAABAAQAAAD3/woAAAABAAQAAAD3/wsAAAABAAQAAAD4//T/AAABAAQAAAD4//X/AAABAAQAAAD4//b/AAABAAQAAAD4//f/AAABAAQAAAD4//j/AAABAAQAAAD4//n/AAABAAQAAAD4//r/AAABAAQAAAD4//v/AAABAAQAAAD4//z/AAABAAQAAAD4//3/AAABAAQAAAD4//7/AAAGAAIAAAD4////AAAAAAAAAAD4/wAAAAAEAAAAAAD4/wEAAAAAAAAAAAD4/wIAAAAGAAIAAAD4/wMAAAABAAQAAAD4/wQAAAABAAQAAAD4/wUAAAABAAQAAAD4/wYAAAABAAQAAAD4/wcAAAABAAQAAAD4/wgAAAABAAQAAAD4/wkAAAABAAQAAAD4/woAAAABAAQAAAD4/wsAAAABAAQAAAD5//T/AAABAAQAAAD5//X/AAABAAQAAAD5//b/AAABAAQAAAD5//f/AAABAAQAAAD5//j/AAABAAQAAAD5//n/AAABAAQAAAD5//r/AAABAAQAAAD5//v/AAABAAQAAAD5//z/AAABAAQAAAD5//3/AAABAAQAAAD5//7/AAAGAAIAAAD5////AAAAAAAAAAD5/wAAAAAEAAAAAAD5/wEAAAAAAAAAAAD5/wIAAAAGAAIAAAD5/wMAAAABAAQAAAD5/wQAAAABAAQAAAD5/wUAAAABAAQAAAD5/wYAAAABAAQAAAD5/wcAAAABAAQAAAD5/wgAAAABAAQAAAD5/wkAAAABAAQAAAD5/woAAAABAAQAAAD5/wsAAAABAAQAAAD6//T/AAABAAQAAAD6//X/AAABAAQAAAD6//b/AAABAAQAAAD6//f/AAABAAQAAAD6//j/AAABAAQAAAD6//n/AAABAAQAAAD6//r/AAABAAQAAAD6//v/AAABAAQAAAD6//z/AAABAAQAAAD6//3/AAABAAQAAAD6//7/AAAGAAIAAAD6////AAAAAAAAAAD6/wAAAAAEAAAAAAD6/wEAAAAAAAAAAAD6/wIAAAAGAAIAAAD6/wMAAAABAAQAAAD6/wQAAAABAAQAAAD6/wUAAAABAAQAAAD6/wYAAAABAAQAAAD6/wcAAAABAAQAAAD6/wgAAAABAAQAAAD6/wkAAAABAAQAAAD6/woAAAABAAQAAAD6/wsAAAABAAQAAAD7//T/AAABAAQAAAD7//X/AAABAAQAAAD7//b/AAABAAQAAAD7//f/AAABAAQAAAD7//j/AAABAAQAAAD7//n/AAABAAQAAAD7//r/AAABAAQAAAD7//v/AAABAAQAAAD7//z/AAABAAQAAAD7//3/AAABAAQAAAD7//7/AAAGAAIAAAD7////AAAAAAAAAAD7/wAAAAAEAAAAAAD7/wEAAAAAAAAAAAD7/wIAAAAGAAIAAAD7/wMAAAABAAQAAAD7/wQAAAABAAQAAAD7/wUAAAABAAQAAAD7/wYAAAABAAQAAAD7/wcAAAABAAQAAAD7/wgAAAABAAQAAAD7/wkAAAABAAQAAAD7/woAAAABAAQAAAD7/wsAAAABAAQAAAD8//T/AAABAAQAAAD8//X/AAABAAQAAAD8//b/AAABAAQAAAD8//f/AAABAAQAAAD8//j/AAABAAQAAAD8//n/AAABAAQAAAD8//r/AAABAAQAAAD8//v/AAABAAQAAAD8//z/AAABAAQAAAD8//3/AAABAAQAAAD8//7/AAAGAAIAAAD8////AAAAAAAAAAD8/wAAAAAEAAAAAAD8/wEAAAAAAAAAAAD8/wIAAAAGAAIAAAD8/wMAAAABAAQAAAD8/wQAAAABAAQAAAD8/wUAAAABAAQAAAD8/wYAAAABAAQAAAD8/wcAAAABAAQAAAD8/wgAAAABAAQAAAD8/wkAAAABAAQAAAD8/woAAAABAAQAAAD8/wsAAAABAAQAAAD9//T/AAABAAQAAAD9//X/AAABAAQAAAD9//b/AAABAAQAAAD9//f/AAABAAQAAAD9//j/AAABAAQAAAD9//n/AAABAAQAAAD9//r/AAABAAQAAAD9//v/AAABAAQAAAD9//z/AAABAAQAAAD9//3/AAABAAQAAAD9//7/AAAGAAIAAAD9////AAAAAAAAAAD9/wAAAAAEAAAAAAD9/wEAAAAAAAAAAAD9/wIAAAAGAAIAAAD9/wMAAAABAAQAAAD9/wQAAAABAAQAAAD9/wUAAAABAAQAAAD9/wYAAAABAAQAAAD9/wcAAAABAAQAAAD9/wgAAAABAAQAAAD9/wkAAAABAAQAAAD9/woAAAABAAQAAAD9/wsAAAABAAQAAAD+//T/AAABAAQAAAD+//X/AAABAAQAAAD+//b/AAABAAQAAAD+//f/AAABAAQAAAD+//j/AAABAAQAAAD+//n/AAABAAQAAAD+//r/AAABAAQAAAD+//v/AAABAAQAAAD+//z/AAABAAQAAAD+//3/AAABAAQAAAD+//7/AAAGAAIAAAD+////AAAAAAAAAAD+/wAAAAAEAAAAAAD+/wEAAAAAAAAAAAD+/wIAAAAGAAIAAAD+/wMAAAABAAQAAAD+/wQAAAABAAQAAAD+/wUAAAABAAQAAAD+/wYAAAABAAQAAAD+/wcAAAABAAQAAAD+/wgAAAABAAQAAAD+/wkAAAABAAQAAAD+/woAAAABAAQAAAD+/wsAAAABAAQAAAD///T/AAABAAQAAAD///X/AAABAAQAAAD///b/AAABAAQAAAD///f/AAABAAQAAAD///j/AAABAAQAAAD///n/AAABAAQAAAD///r/AAABAAQAAAD///v/AAABAAQAAAD///z/AAABAAQAAAD///3/AAABAAQAAAD///7/AAAGAAIAAAD/////AAAAAAAAAAD//wAAAAAEAAAAAAD//wEAAAAAAAAAAAD//wIAAAAGAAIAAAD//wMAAAABAAQAAAD//wQAAAABAAQAAAD//wUAAAABAAQAAAD//wYAAAABAAQAAAD//wcAAAABAAQAAAD//wgAAAABAAQAAAD//wkAAAABAAQAAAD//woAAAABAAQAAAD//wsAAAABAAQAAAAAAPT/AAABAAQAAAAAAPX/AAABAAQAAAAAAPb/AAABAAQAAAAAAPf/AAABAAQAAAAAAPj/AAABAAQAAAAAAPn/AAABAAQAAAAAAPr/AAABAAQAAAAAAPv/AAABAAQAAAAAAPz/AAABAAQAAAAAAP3/AAABAAQAAAAAAP7/AAAGAAIAAAAAAP//AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAGAAIAAAAAAAMAAAABAAQAAAAAAAQAAAABAAQAAAAAAAUAAAABAAQAAAAAAAYAAAABAAQAAAAAAAcAAAABAAQAAAAAAAgAAAABAAQAAAAAAAkAAAABAAQAAAAAAAoAAAABAAQAAAAAAAsAAAABAAQAAAABAPT/AAABAAQAAAABAPX/AAABAAQAAAABAPb/AAABAAQAAAABAPf/AAABAAQAAAABAPj/AAABAAQAAAABAPn/AAABAAQAAAABAPr/AAABAAQAAAABAPv/AAABAAQAAAABAPz/AAABAAQAAAABAP3/AAABAAQAAAABAP7/AAAGAAIAAAABAP//AAAAAAAAAAABAAAAAAAEAAAAAAABAAEAAAAAAAAAAAABAAIAAAAGAAIAAAABAAMAAAABAAQAAAABAAQAAAABAAQAAAABAAUAAAABAAQAAAABAAYAAAABAAQAAAABAAcAAAABAAQAAAABAAgAAAABAAQAAAABAAkAAAABAAQAAAABAAoAAAABAAQAAAABAAsAAAABAAQAAAACAPT/AAABAAQAAAACAPX/AAABAAQAAAACAPb/AAABAAQAAAACAPf/AAABAAQAAAACAPj/AAABAAQAAAACAPn/AAABAAQAAAACAPr/AAABAAQAAAACAPv/AAABAAQAAAACAPz/AAABAAQAAAACAP3/AAABAAQAAAACAP7/AAAGAAIAAAACAP//AAAAAAAAAAACAAAAAAAEAAAAAAACAAEAAAAAAAAAAAACAAIAAAAGAAIAAAACAAMAAAABAAQAAAACAAQAAAABAAQAAAACAAUAAAABAAQAAAACAAYAAAABAAQAAAACAAcAAAABAAQAAAACAAgAAAABAAQAAAACAAkAAAABAAQAAAACAAoAAAABAAQAAAACAAsAAAABAAQAAAADAPT/AAABAAQAAAADAPX/AAABAAQAAAADAPb/AAABAAQAAAADAPf/AAABAAQAAAADAPj/AAABAAQAAAADAPn/AAABAAQAAAADAPr/AAABAAQAAAADAPv/AAABAAQAAAADAPz/AAABAAQAAAADAP3/AAABAAQAAAADAP7/AAAGAAIAAAADAP//AAAAAAAAAAADAAAAAAAEAAAAAAADAAEAAAAAAAAAAAADAAIAAAAGAAIAAAADAAMAAAABAAQAAAADAAQAAAABAAQAAAADAAUAAAABAAQAAAADAAYAAAABAAQAAAADAAcAAAABAAQAAAADAAgAAAABAAQAAAADAAkAAAABAAQAAAADAAoAAAABAAQAAAADAAsAAAABAAQAAAAEAPT/AAABAAQAAAAEAPX/AAABAAQAAAAEAPb/AAABAAQAAAAEAPf/AAABAAQAAAAEAPj/AAABAAQAAAAEAPn/AAABAAQAAAAEAPr/AAABAAQAAAAEAPv/AAABAAQAAAAEAPz/AAABAAQAAAAEAP3/AAABAAQAAAAEAP7/AAAGAAIAAAAEAP//AAAAAAAAAAAEAAAAAAAEAAAAAAAEAAEAAAAAAAAAAAAEAAIAAAAGAAIAAAAEAAMAAAABAAQAAAAEAAQAAAABAAQAAAAEAAUAAAABAAQAAAAEAAYAAAABAAQAAAAEAAcAAAABAAQAAAAEAAgAAAABAAQAAAAEAAkAAAABAAQAAAAEAAoAAAABAAQAAAAEAAsAAAABAAQAAAAFAPT/AAABAAQAAAAFAPX/AAABAAQAAAAFAPb/AAABAAQAAAAFAPf/AAABAAQAAAAFAPj/AAABAAQAAAAFAPn/AAABAAQAAAAFAPr/AAABAAQAAAAFAPv/AAABAAQAAAAFAPz/AAABAAQAAAAFAP3/AAABAAQAAAAFAP7/AAAGAAIAAAAFAP//AAAAAAAAAAAFAAAAAAAEAAAAAAAFAAEAAAAAAAAAAAAFAAIAAAAGAAIAAAAFAAMAAAABAAQAAAAFAAQAAAABAAQAAAAFAAUAAAABAAQAAAAFAAYAAAABAAQAAAAFAAcAAAABAAQAAAAFAAgAAAABAAQAAAAFAAkAAAABAAQAAAAFAAoAAAABAAQAAAAFAAsAAAABAAQAAAAGAPT/AAABAAQAAAAGAPX/AAABAAQAAAAGAPb/AAABAAQAAAAGAPf/AAABAAQAAAAGAPj/AAABAAQAAAAGAPn/AAABAAQAAAAGAPr/AAABAAQAAAAGAPv/AAABAAQAAAAGAPz/AAABAAQAAAAGAP3/AAABAAQAAAAGAP7/AAAGAAIAAAAGAP//AAAAAAAAAAAGAAAAAAAEAAAAAAAGAAEAAAAAAAAAAAAGAAIAAAAGAAIAAAAGAAMAAAABAAQAAAAGAAQAAAABAAQAAAAGAAUAAAABAAQAAAAGAAYAAAABAAQAAAAGAAcAAAABAAQAAAAGAAgAAAABAAQAAAAGAAkAAAABAAQAAAAGAAoAAAABAAQAAAAGAAsAAAABAAQAAAAHAPT/AAABAAQAAAAHAPX/AAABAAQAAAAHAPb/AAABAAQAAAAHAPf/AAABAAQAAAAHAPj/AAABAAQAAAAHAPn/AAABAAQAAAAHAPr/AAABAAQAAAAHAPv/AAABAAQAAAAHAPz/AAABAAQAAAAHAP3/AAABAAQAAAAHAP7/AAAGAAIAAAAHAP//AAAAAAAAAAAHAAAAAAAEAAAAAAAHAAEAAAAAAAAAAAAHAAIAAAAGAAIAAAAHAAMAAAABAAQAAAAHAAQAAAABAAQAAAAHAAUAAAABAAQAAAAHAAYAAAABAAQAAAAHAAcAAAABAAQAAAAHAAgAAAABAAQAAAAHAAkAAAABAAQAAAAHAAoAAAABAAQAAAAHAAsAAAABAAQAAAAIAPT/AAABAAQAAAAIAPX/AAABAAQAAAAIAPb/AAABAAQAAAAIAPf/AAABAAQAAAAIAPj/AAABAAQAAAAIAPn/AAABAAQAAAAIAPr/AAABAAQAAAAIAPv/AAABAAQAAAAIAPz/AAABAAQAAAAIAP3/AAABAAQAAAAIAP7/AAAGAAIAAAAIAP//AAAAAAAAAAAIAAAAAAAEAAAAAAAIAAEAAAAAAAAAAAAIAAIAAAAGAAIAAAAIAAMAAAABAAQAAAAIAAQAAAABAAQAAAAIAAUAAAABAAQAAAAIAAYAAAABAAQAAAAIAAcAAAABAAQAAAAIAAgAAAABAAQAAAAIAAkAAAABAAQAAAAIAAoAAAABAAQAAAAIAAsAAAABAAQAAAAJAPT/AAABAAQAAAAJAPX/AAABAAQAAAAJAPb/AAABAAQAAAAJAPf/AAABAAQAAAAJAPj/AAABAAQAAAAJAPn/AAABAAQAAAAJAPr/AAABAAQAAAAJAPv/AAABAAQAAAAJAPz/AAABAAQAAAAJAP3/AAABAAQAAAAJAP7/AAAGAAIAAAAJAP//AAAAAAAAAAAJAAAAAAAEAAAAAAAJAAEAAAAAAAAAAAAJAAIAAAAGAAIAAAAJAAMAAAABAAQAAAAJAAQAAAABAAQAAAAJAAUAAAABAAQAAAAJAAYAAAABAAQAAAAJAAcAAAABAAQAAAAJAAgAAAABAAQAAAAJAAkAAAABAAQAAAAJAAoAAAABAAQAAAAJAAsAAAABAAQAAAAKAPT/AAABAAQAAAAKAPX/AAABAAQAAAAKAPb/AAABAAQAAAAKAPf/AAABAAQAAAAKAPj/AAABAAQAAAAKAPn/AAABAAQAAAAKAPr/AAABAAQAAAAKAPv/AAABAAQAAAAKAPz/AAABAAQAAAAKAP3/AAABAAQAAAAKAP7/AAAGAAIAAAAKAP//AAAAAAAAAAAKAAAAAAAEAAAAAAAKAAEAAAAAAAAAAAAKAAIAAAAGAAIAAAAKAAMAAAABAAQAAAAKAAQAAAABAAQAAAAKAAUAAAABAAQAAAAKAAYAAAABAAQAAAAKAAcAAAABAAQAAAAKAAgAAAABAAQAAAAKAAkAAAABAAQAAAAKAAoAAAABAAQAAAAKAAsAAAABAAQAAAALAPT/AAABAAQAAAALAPX/AAABAAQAAAALAPb/AAABAAQAAAALAPf/AAABAAQAAAALAPj/AAABAAQAAAALAPn/AAABAAQAAAALAPr/AAABAAQAAAALAPv/AAABAAQAAAALAPz/AAABAAQAAAALAP3/AAABAAQAAAALAP7/AAAGAAIAAAALAP//AAAAAAAAAAALAAAAAAAEAAAAAAALAAEAAAAAAAAAAAALAAIAAAAGAAIAAAALAAMAAAABAAQAAAALAAQAAAABAAQAAAALAAUAAAABAAQAAAALAAYAAAABAAQAAAALAAcAAAABAAQAAAALAAgAAAABAAQAAAALAAkAAAABAAQAAAALAAoAAAABAAQAAAALAAsAAAABAAQAAAAMAPT/AAABAAQAAAAMAPX/AAABAAQAAAAMAPb/AAABAAQAAAAMAPf/AAABAAQAAAAMAPj/AAABAAQAAAAMAPn/AAABAAQAAAAMAPr/AAABAAQAAAAMAPv/AAABAAQAAAAMAPz/AAABAAQAAAAMAP3/AAABAAQAAAAMAP7/AAAGAAIAAAAMAP//AAAAAAAAAAAMAAAAAAAEAAAAAAAMAAEAAAAAAAAAAAAMAAIAAAAGAAIAAAAMAAMAAAABAAQAAAAMAAQAAAABAAQAAAAMAAUAAAABAAQAAAAMAAYAAAABAAQAAAAMAAcAAAABAAQAAAAMAAgAAAABAAQAAAAMAAkAAAABAAQAAAAMAAoAAAABAAQAAAAMAAsAAAABAAQAAAANAPT/AAABAAQAAAANAPX/AAABAAQAAAANAPb/AAABAAQAAAANAPf/AAABAAQAAAANAPj/AAABAAQAAAANAPn/AAABAAQAAAANAPr/AAABAAQAAAANAPv/AAABAAQAAAANAPz/AAABAAQAAAANAP3/AAABAAQAAAANAP7/AAAGAAIAAAANAP//AAAAAAAAAAANAAAAAAAEAAAAAAANAAEAAAAAAAAAAAANAAIAAAAGAAIAAAANAAMAAAABAAQAAAANAAQAAAABAAQAAAANAAUAAAABAAQAAAANAAYAAAABAAQAAAANAAcAAAABAAQAAAANAAgAAAABAAQAAAANAAkAAAABAAQAAAANAAoAAAABAAQAAAANAAsAAAABAAQAAAA=")
+tile_set = SubResource("TileSet_yclks")
+
+[node name="Lighting" type="CanvasModulate" parent="." unique_id=531277921]
+
+[node name="Objects" type="Node2D" parent="." unique_id=1504266701]
+y_sort_enabled = true
+
+[node name="Coffee_Shop" type="Node2D" parent="Objects" unique_id=2016099591 instance=ExtResource("6_edpwf")]
+y_sort_enabled = true
+position = Vector2(-48, -136)
+script = ExtResource("7_rh0aq")
+item_id = "Coffee_Shop"
+category = "Buildings"
+kind = "build"
+animation_fps = 1.0
+footprint = Vector2i(3, 3)
+origin_offset = Vector2(48, 45)
+total_frames = 2
+directions_data = {
+"SE": {
+"file": "Sprites/Buildings/Coffee_Shop_SE.png",
+"footprint": [3, 3],
+"frame_height": 91,
+"frame_width": 94,
+"layout": "horizontal strip of 2 frames",
+"origin": [48, 45],
+"sheet": {
+"file": "Sheets/Buildings_Sheet.png",
+"h": 91,
+"w": 94,
+"x": 0,
+"y": 0
+}
+},
+"SW": {
+"file": "Sprites/Buildings/Coffee_Shop_SW.png",
+"footprint": [3, 3],
+"frame_height": 91,
+"frame_width": 94,
+"layout": "horizontal strip of 2 frames",
+"origin": [46, 45],
+"sheet": {
+"file": "Sheets/Buildings_Sheet.png",
+"h": 91,
+"w": 94,
+"x": 96,
+"y": 0
+}
+}
+}
+
+[node name="Apartment_Building" type="Node2D" parent="Objects" unique_id=357188629 instance=ExtResource("8_fpu2a")]
+y_sort_enabled = true
+position = Vector2(80, -88)
+script = ExtResource("7_rh0aq")
+item_id = "Apartment_Building"
+category = "Buildings"
+kind = "build"
+animation_fps = 1.0
+footprint = Vector2i(3, 3)
+origin_offset = Vector2(48, 117)
+total_frames = 2
+directions_data = {
+"SE": {
+"file": "Sprites/Buildings/Apartment_Building_SE.png",
+"footprint": [3, 3],
+"frame_height": 163,
+"frame_width": 92,
+"layout": "horizontal strip of 2 frames",
+"origin": [48, 117],
+"sheet": {
+"file": "Sheets/Buildings_Sheet.png",
+"h": 163,
+"w": 92,
+"x": 0,
+"y": 425
+}
+},
+"SW": {
+"file": "Sprites/Buildings/Apartment_Building_SW.png",
+"footprint": [3, 3],
+"frame_height": 163,
+"frame_width": 92,
+"layout": "horizontal strip of 2 frames",
+"origin": [44, 117],
+"sheet": {
+"file": "Sheets/Buildings_Sheet.png",
+"h": 163,
+"w": 92,
+"x": 94,
+"y": 425
+}
+}
+}
+
+[node name="Bakery" type="Node2D" parent="Objects" unique_id=2010896011 instance=ExtResource("9_u5mgp")]
+y_sort_enabled = true
+position = Vector2(192, -16)
+script = ExtResource("7_rh0aq")
+item_id = "Bakery"
+category = "Buildings"
+kind = "build"
+animation_fps = 1.0
+footprint = Vector2i(3, 3)
+origin_offset = Vector2(48, 45)
+total_frames = 2
+directions_data = {
+"SE": {
+"file": "Sprites/Buildings/Bakery_SE.png",
+"footprint": [3, 3],
+"frame_height": 91,
+"frame_width": 94,
+"layout": "horizontal strip of 2 frames",
+"origin": [48, 45],
+"sheet": {
+"file": "Sheets/Buildings_Sheet.png",
+"h": 91,
+"w": 94,
+"x": 192,
+"y": 0
+}
+},
+"SW": {
+"file": "Sprites/Buildings/Bakery_SW.png",
+"footprint": [3, 3],
+"frame_height": 91,
+"frame_width": 94,
+"layout": "horizontal strip of 2 frames",
+"origin": [46, 45],
+"sheet": {
+"file": "Sheets/Buildings_Sheet.png",
+"h": 91,
+"w": 94,
+"x": 288,
+"y": 0
+}
+}
+}
+
+[node name="Street_Light" type="Node2D" parent="Objects" unique_id=789995501 instance=ExtResource("10_j01nx")]
+y_sort_enabled = true
+position = Vector2(-64, -64)
+script = ExtResource("7_rh0aq")
+item_id = "Street_Light"
+category = "Street Props"
+kind = "obj"
+animation_fps = 1.0
+origin_offset = Vector2(12, 44)
+total_frames = 2
+directions_data = {
+"NE": {
+"file": "Sprites/Street_Props/Street_Light_NE.png",
+"footprint": [1, 1],
+"frame_height": 54,
+"frame_width": 16,
+"layout": "horizontal strip of 2 frames",
+"origin": [4, 44],
+"sheet": {
+"file": "Sheets/Street_Props_Sheet.png",
+"h": 54,
+"w": 16,
+"x": 54,
+"y": 0
+}
+},
+"NW": {
+"file": "Sprites/Street_Props/Street_Light_NW.png",
+"footprint": [1, 1],
+"frame_height": 57,
+"frame_width": 16,
+"layout": "horizontal strip of 2 frames",
+"origin": [4, 47],
+"sheet": {
+"file": "Sheets/Street_Props_Sheet.png",
+"h": 57,
+"w": 16,
+"x": 36,
+"y": 0
+}
+},
+"SE": {
+"file": "Sprites/Street_Props/Street_Light_SE.png",
+"footprint": [1, 1],
+"frame_height": 54,
+"frame_width": 16,
+"layout": "horizontal strip of 2 frames",
+"origin": [12, 44],
+"sheet": {
+"file": "Sheets/Street_Props_Sheet.png",
+"h": 54,
+"w": 16,
+"x": 0,
+"y": 0
+}
+},
+"SW": {
+"file": "Sprites/Street_Props/Street_Light_SW.png",
+"footprint": [1, 1],
+"frame_height": 57,
+"frame_width": 16,
+"layout": "horizontal strip of 2 frames",
+"origin": [12, 47],
+"sheet": {
+"file": "Sheets/Street_Props_Sheet.png",
+"h": 57,
+"w": 16,
+"x": 18,
+"y": 0
+}
+}
+}
+
+[node name="Street_Light2" type="Node2D" parent="Objects" unique_id=1652978400 instance=ExtResource("10_j01nx")]
+y_sort_enabled = true
+position = Vector2(96, 16)
+script = ExtResource("7_rh0aq")
+item_id = "Street_Light"
+category = "Street Props"
+kind = "obj"
+animation_fps = 1.0
+origin_offset = Vector2(12, 44)
+total_frames = 2
+directions_data = {
+"NE": {
+"file": "Sprites/Street_Props/Street_Light_NE.png",
+"footprint": [1, 1],
+"frame_height": 54,
+"frame_width": 16,
+"layout": "horizontal strip of 2 frames",
+"origin": [4, 44],
+"sheet": {
+"file": "Sheets/Street_Props_Sheet.png",
+"h": 54,
+"w": 16,
+"x": 54,
+"y": 0
+}
+},
+"NW": {
+"file": "Sprites/Street_Props/Street_Light_NW.png",
+"footprint": [1, 1],
+"frame_height": 57,
+"frame_width": 16,
+"layout": "horizontal strip of 2 frames",
+"origin": [4, 47],
+"sheet": {
+"file": "Sheets/Street_Props_Sheet.png",
+"h": 57,
+"w": 16,
+"x": 36,
+"y": 0
+}
+},
+"SE": {
+"file": "Sprites/Street_Props/Street_Light_SE.png",
+"footprint": [1, 1],
+"frame_height": 54,
+"frame_width": 16,
+"layout": "horizontal strip of 2 frames",
+"origin": [12, 44],
+"sheet": {
+"file": "Sheets/Street_Props_Sheet.png",
+"h": 54,
+"w": 16,
+"x": 0,
+"y": 0
+}
+},
+"SW": {
+"file": "Sprites/Street_Props/Street_Light_SW.png",
+"footprint": [1, 1],
+"frame_height": 57,
+"frame_width": 16,
+"layout": "horizontal strip of 2 frames",
+"origin": [12, 47],
+"sheet": {
+"file": "Sheets/Street_Props_Sheet.png",
+"h": 57,
+"w": 16,
+"x": 18,
+"y": 0
+}
+}
+}
+
+[node name="Sedan_Red" type="Node2D" parent="Objects" unique_id=157332508 instance=ExtResource("11_ha6qs")]
+y_sort_enabled = true
+position = Vector2(-96, -32)
+script = ExtResource("7_rh0aq")
+item_id = "Sedan_Red"
+category = "Vehicles"
+kind = "obj"
+footprint = Vector2i(2, 1)
+origin_offset = Vector2(14, 9)
+directions_data = {
+"NE": {
+"file": "Sprites/Vehicles/Sedan_Red_NE.png",
+"footprint": [1, 2],
+"frame_height": 30,
+"frame_width": 45,
+"origin": [31, 9],
+"sheet": {
+"file": "Sheets/Vehicles_Sheet.png",
+"h": 30,
+"w": 45,
+"x": 141,
+"y": 0
+}
+},
+"NW": {
+"file": "Sprites/Vehicles/Sedan_Red_NW.png",
+"footprint": [2, 1],
+"frame_height": 30,
+"frame_width": 45,
+"origin": [15, 8],
+"sheet": {
+"file": "Sheets/Vehicles_Sheet.png",
+"h": 30,
+"w": 45,
+"x": 94,
+"y": 0
+}
+},
+"SE": {
+"file": "Sprites/Vehicles/Sedan_Red_SE.png",
+"footprint": [2, 1],
+"frame_height": 30,
+"frame_width": 45,
+"origin": [14, 9],
+"sheet": {
+"file": "Sheets/Vehicles_Sheet.png",
+"h": 30,
+"w": 45,
+"x": 0,
+"y": 0
+}
+},
+"SW": {
+"file": "Sprites/Vehicles/Sedan_Red_SW.png",
+"footprint": [1, 2],
+"frame_height": 30,
+"frame_width": 45,
+"origin": [30, 8],
+"sheet": {
+"file": "Sheets/Vehicles_Sheet.png",
+"h": 30,
+"w": 45,
+"x": 47,
+"y": 0
+}
+}
+}
+
+[node name="Taxi" type="Node2D" parent="Objects" unique_id=13343909 instance=ExtResource("12_ufaso")]
+y_sort_enabled = true
+position = Vector2(64, 16)
+script = ExtResource("7_rh0aq")
+item_id = "Taxi"
+category = "Vehicles"
+kind = "obj"
+direction = "NW"
+footprint = Vector2i(2, 1)
+origin_offset = Vector2(15, 8)
+directions_data = {
+"NE": {
+"file": "Sprites/Vehicles/Taxi_NE.png",
+"footprint": [1, 2],
+"frame_height": 30,
+"frame_width": 45,
+"origin": [31, 9],
+"sheet": {
+"file": "Sheets/Vehicles_Sheet.png",
+"h": 30,
+"w": 45,
+"x": 337,
+"y": 142
+}
+},
+"NW": {
+"file": "Sprites/Vehicles/Taxi_NW.png",
+"footprint": [2, 1],
+"frame_height": 30,
+"frame_width": 45,
+"origin": [15, 8],
+"sheet": {
+"file": "Sheets/Vehicles_Sheet.png",
+"h": 30,
+"w": 45,
+"x": 290,
+"y": 142
+}
+},
+"SE": {
+"file": "Sprites/Vehicles/Taxi_SE.png",
+"footprint": [2, 1],
+"frame_height": 30,
+"frame_width": 45,
+"origin": [14, 9],
+"sheet": {
+"file": "Sheets/Vehicles_Sheet.png",
+"h": 30,
+"w": 45,
+"x": 196,
+"y": 142
+}
+},
+"SW": {
+"file": "Sprites/Vehicles/Taxi_SW.png",
+"footprint": [1, 2],
+"frame_height": 30,
+"frame_width": 45,
+"origin": [30, 8],
+"sheet": {
+"file": "Sheets/Vehicles_Sheet.png",
+"h": 30,
+"w": 45,
+"x": 243,
+"y": 142
+}
+}
+}
+
+[node name="Tree_Oak" type="Node2D" parent="Objects" unique_id=2030710736 instance=ExtResource("13_omvgq")]
+y_sort_enabled = true
+position = Vector2(-240, -24)
+script = ExtResource("7_rh0aq")
+item_id = "Tree_Oak"
+category = "Nature & Park"
+kind = "obj"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(19, 28)
+directions_data = {
+"SE": {
+"file": "Sprites/Nature_Park/Tree_Oak.png",
+"footprint": [2, 2],
+"frame_height": 46,
+"frame_width": 37,
+"origin": [19, 28],
+"sheet": {
+"file": "Sheets/Nature_Park_Sheet.png",
+"h": 46,
+"w": 37,
+"x": 253,
+"y": 0
+}
+}
+}
+
+[node name="Park_Bench" type="Node2D" parent="Objects" unique_id=109480795 instance=ExtResource("14_0fv2h")]
+y_sort_enabled = true
+position = Vector2(-160, 16)
+script = ExtResource("7_rh0aq")
+item_id = "Park_Bench"
+category = "Street Props"
+kind = "obj"
+footprint = Vector2i(1, 2)
+origin_offset = Vector2(28, 15)
+directions_data = {
+"NE": {
+"file": "Sprites/Street_Props/Park_Bench_NE.png",
+"footprint": [2, 1],
+"frame_height": 32,
+"frame_width": 39,
+"origin": [12, 11],
+"sheet": {
+"file": "Sheets/Street_Props_Sheet.png",
+"h": 32,
+"w": 39,
+"x": 464,
+"y": 59
+}
+},
+"NW": {
+"file": "Sprites/Street_Props/Park_Bench_NW.png",
+"footprint": [1, 2],
+"frame_height": 32,
+"frame_width": 39,
+"origin": [27, 11],
+"sheet": {
+"file": "Sheets/Street_Props_Sheet.png",
+"h": 32,
+"w": 39,
+"x": 423,
+"y": 59
+}
+},
+"SE": {
+"file": "Sprites/Street_Props/Park_Bench_SE.png",
+"footprint": [1, 2],
+"frame_height": 37,
+"frame_width": 39,
+"origin": [28, 15],
+"sheet": {
+"file": "Sheets/Street_Props_Sheet.png",
+"h": 37,
+"w": 39,
+"x": 341,
+"y": 59
+}
+},
+"SW": {
+"file": "Sprites/Street_Props/Park_Bench_SW.png",
+"footprint": [2, 1],
+"frame_height": 36,
+"frame_width": 39,
+"origin": [11, 15],
+"sheet": {
+"file": "Sheets/Street_Props_Sheet.png",
+"h": 36,
+"w": 39,
+"x": 382,
+"y": 59
+}
+}
+}
+
+[node name="Fountain" type="Node2D" parent="Objects" unique_id=696853043 instance=ExtResource("15_1ycjk")]
+y_sort_enabled = true
+position = Vector2(-64, 64)
+script = ExtResource("7_rh0aq")
+item_id = "Fountain"
+category = "Nature & Park"
+kind = "obj"
+animation_fps = 6.0
+footprint = Vector2i(3, 3)
+origin_offset = Vector2(33, 8)
+total_frames = 4
+directions_data = {
+"SE": {
+"file": "Sprites/Nature_Park/Fountain.png",
+"footprint": [3, 3],
+"frame_height": 49,
+"frame_width": 66,
+"layout": "horizontal strip of 4 frames",
+"origin": [33, 8],
+"sheet": {
+"file": "Sheets/Nature_Park_Sheet.png",
+"h": 49,
+"w": 66,
+"x": 345,
+"y": 50
+}
+}
+}
+
+[node name="Tree_Cherry_Blossom" type="Node2D" parent="Objects" unique_id=1713175766 instance=ExtResource("16_eobu2")]
+y_sort_enabled = true
+position = Vector2(32, 112)
+script = ExtResource("7_rh0aq")
+item_id = "Tree_Cherry_Blossom"
+category = "Nature & Park"
+kind = "obj"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(18, 27)
+directions_data = {
+"SE": {
+"file": "Sprites/Nature_Park/Tree_Cherry_Blossom.png",
+"footprint": [2, 2],
+"frame_height": 45,
+"frame_width": 35,
+"origin": [18, 27],
+"sheet": {
+"file": "Sheets/Nature_Park_Sheet.png",
+"h": 45,
+"w": 35,
+"x": 361,
+"y": 0
+}
+}
+}
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=795062372]
+zoom = Vector2(2, 2)
+
+[node name="Player" type="CharacterBody2D" parent="." unique_id=297435382 instance=ExtResource("17_2l2sc")]
+y_sort_enabled = true
+position = Vector2(0, 60)
+script = ExtResource("18_j0w1q")
+directions_data = {
+"NE": {
+"file": "Sprites/Characters/Office_Worker_NE.png",
+"footprint": [1, 1],
+"frame_height": 41,
+"frame_width": 21,
+"layout": "horizontal strip of 9 frames",
+"origin": [10, 29],
+"sheet": {
+"file": "Sheets/Characters_Sheet.png",
+"h": 41,
+"w": 21,
+"x": 69,
+"y": 0
+}
+},
+"NW": {
+"file": "Sprites/Characters/Office_Worker_NW.png",
+"footprint": [1, 1],
+"frame_height": 41,
+"frame_width": 21,
+"layout": "horizontal strip of 9 frames",
+"origin": [11, 29],
+"sheet": {
+"file": "Sheets/Characters_Sheet.png",
+"h": 41,
+"w": 21,
+"x": 46,
+"y": 0
+}
+},
+"SE": {
+"file": "Sprites/Characters/Office_Worker_SE.png",
+"footprint": [1, 1],
+"frame_height": 41,
+"frame_width": 21,
+"layout": "horizontal strip of 9 frames",
+"origin": [10, 28],
+"sheet": {
+"file": "Sheets/Characters_Sheet.png",
+"h": 41,
+"w": 21,
+"x": 0,
+"y": 0
+}
+},
+"SW": {
+"file": "Sprites/Characters/Office_Worker_SW.png",
+"footprint": [1, 1],
+"frame_height": 41,
+"frame_width": 21,
+"layout": "horizontal strip of 9 frames",
+"origin": [11, 28],
+"sheet": {
+"file": "Sheets/Characters_Sheet.png",
+"h": 41,
+"w": 21,
+"x": 23,
+"y": 0
+}
+}
+}
+origin_offset = Vector2(10, 28)

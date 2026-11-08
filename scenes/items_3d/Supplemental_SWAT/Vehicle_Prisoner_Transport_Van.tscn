@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Vehicle_Prisoner_Transport_Van.glb" id="1_libal"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_t2qg7"]
+size = Vector3(2.38, 3.3863702, 6.336)
+
+[node name="Vehicle_Prisoner_Transport_Van" type="StaticBody3D" unique_id=1664157702]
+collision_mask = 0
+metadata/authored_footprint = [-1.19, 0.0, -3.168, 2.38, 3.3863702, 6.336]
+
+[node name="Model" type="Node3D" parent="." unique_id=1029290623]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.01363, 0.029999971)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1353421190 instance=ExtResource("1_libal")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1805160352]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6931851, 0)
+shape = SubResource("BoxShape3D_t2qg7")

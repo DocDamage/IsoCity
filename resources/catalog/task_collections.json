@@ -1,0 +1,234 @@
+{
+  "version": 1,
+  "tasks": {
+    "classroom": {
+      "name": "Furnish a classroom",
+      "note": "Desks, seating and teaching supplies.",
+      "sets": [
+        {
+          "id": "hanx",
+          "name": "HanX models",
+          "items": [
+            {
+              "asset": "3d:HanX_School/Student_Desk",
+              "part": "essential",
+              "site": "indoor"
+            },
+            {
+              "asset": "3d:HanX_School/Student_Chair",
+              "part": "essential",
+              "site": "indoor"
+            },
+            {
+              "asset": "3d:HanX_School/Chalkboard",
+              "part": "essential",
+              "site": "indoor"
+            },
+            {
+              "asset": "3d:HanX_School/Teacher_Desk",
+              "part": "extra",
+              "site": "indoor"
+            },
+            {
+              "asset": "3d:HanX_School/Teacher_Chair",
+              "part": "extra",
+              "site": "indoor"
+            },
+            {
+              "asset": "3d:HanX_School/Bookshelf",
+              "part": "extra",
+              "site": "indoor"
+            },
+            {
+              "asset": "3d:HanX_School/Globe",
+              "part": "extra",
+              "site": "indoor"
+            },
+            {
+              "asset": "3d:HanX_School/Wall_Clock",
+              "part": "extra",
+              "site": "indoor"
+            }
+          ]
+        },
+        {
+          "id": "classroom_sprites",
+          "name": "Classroom school sprites",
+          "items": [
+            {
+              "asset": "2d:Supplemental_Classroom_school_kit_student_desk_5d5a19f2",
+              "part": "essential",
+              "site": "indoor"
+            },
+            {
+              "asset": "2d:Supplemental_Classroom_school_kit_chalkboard_0d544920",
+              "part": "essential",
+              "site": "indoor"
+            },
+            {
+              "asset": "2d:Supplemental_Classroom_school_kit_teacher_desk_1d5eb17f",
+              "part": "extra",
+              "site": "indoor"
+            },
+            {
+              "asset": "2d:Supplemental_Classroom_school_kit_globe_stand_f5a25287",
+              "part": "extra",
+              "site": "indoor"
+            },
+            {
+              "asset": "2d:Supplemental_Classroom_school_kit_notebook_stack_cf7e089e",
+              "part": "extra",
+              "site": "indoor"
+            }
+          ]
+        }
+      ]
+    },
+    "cafe": {
+      "name": "Open a café",
+      "note": "Counter, dining and display furnishings.",
+      "sets": [
+        {
+          "id": "hanx",
+          "name": "HanX models",
+          "items": [
+            {
+              "asset": "3d:HanX_Shop/Cafe_Counter",
+              "part": "essential",
+              "site": "indoor"
+            },
+            {
+              "asset": "3d:HanX_Shop/Cafe_Table_Set",
+              "part": "essential",
+              "site": "indoor"
+            },
+            {
+              "asset": "3d:HanX_Shop/Pastry_Display",
+              "part": "essential",
+              "site": "indoor"
+            },
+            {
+              "asset": "3d:HanX_Shop/Fridge_Drinks",
+              "part": "extra",
+              "site": "indoor"
+            },
+            {
+              "asset": "3d:HanX_Shop/Bread_Basket",
+              "part": "extra",
+              "site": "indoor"
+            },
+            {
+              "asset": "3d:HanX_Shop/Sign_A_Frame",
+              "part": "extra",
+              "site": "indoor"
+            },
+            {
+              "asset": "3d:HanX_Shop/Planter_Box",
+              "part": "extra",
+              "site": "indoor"
+            }
+          ]
+        }
+      ]
+    },
+    "campsite": {
+      "name": "Build a campsite",
+      "note": "Coordinated outdoor camping gear.",
+      "sets": [
+        {
+          "id": "camping",
+          "name": "Camping gear sprites",
+          "items": [
+            {
+              "asset": "2d:Supplemental_Camping_gear_kit_dome_tent_ae1e2dc1",
+              "part": "essential",
+              "site": "outdoor"
+            },
+            {
+              "asset": "2d:Supplemental_Camping_gear_kit_sleeping_bag_1d485faf",
+              "part": "essential",
+              "site": "outdoor"
+            },
+            {
+              "asset": "2d:Supplemental_Camping_gear_kit_camp_chair_512edf6a",
+              "part": "essential",
+              "site": "outdoor"
+            },
+            {
+              "asset": "2d:Supplemental_Camping_gear_kit_camp_table_21ab81cb",
+              "part": "extra",
+              "site": "outdoor"
+            },
+            {
+              "asset": "2d:Supplemental_Camping_gear_kit_camp_stove_5cbaa2d4",
+              "part": "extra",
+              "site": "outdoor"
+            },
+            {
+              "asset": "2d:Supplemental_Camping_gear_kit_lantern_8493cf92",
+              "part": "extra",
+              "site": "outdoor"
+            },
+            {
+              "asset": "2d:Supplemental_Camping_gear_kit_cool_box_f3011cfa",
+              "part": "extra",
+              "site": "outdoor"
+            },
+            {
+              "asset": "2d:Supplemental_Camping_gear_kit_campfire_e8155646",
+              "part": "extra",
+              "site": "outdoor"
+            }
+          ]
+        }
+      ]
+    },
+    "garage": {
+      "name": "Set up a garage",
+      "note": "Workshop furnishings and an optional yard vehicle.",
+      "sets": [
+        {
+          "id": "hanx",
+          "name": "HanX models",
+          "items": [
+            {
+              "asset": "3d:HanX_GasStation/Workbench",
+              "part": "essential",
+              "site": "indoor"
+            },
+            {
+              "asset": "3d:HanX_GasStation/Tool_Chest",
+              "part": "essential",
+              "site": "indoor"
+            },
+            {
+              "asset": "3d:HanX_GasStation/Tire_Rack",
+              "part": "essential",
+              "site": "indoor"
+            },
+            {
+              "asset": "3d:HanX_GasStation/Floor_Jack",
+              "part": "extra",
+              "site": "indoor"
+            },
+            {
+              "asset": "3d:HanX_GasStation/Tire_Stack",
+              "part": "extra",
+              "site": "indoor"
+            },
+            {
+              "asset": "3d:HanX_GasStation/Fire_Extinguisher",
+              "part": "extra",
+              "site": "indoor"
+            },
+            {
+              "asset": "3d:HanX_GasStation/Car_Coupe",
+              "part": "extra",
+              "site": "outdoor"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

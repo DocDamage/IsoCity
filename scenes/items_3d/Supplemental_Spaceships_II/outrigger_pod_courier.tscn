@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Spaceships_II/outrigger_pod_courier.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(6.0, 1.2229361763776825, 4.185567544074237)
+
+[node name="outrigger_pod_courier" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-3.0, 0.0, -2.0927837720371185, 6.0, 1.2229361763776825, 4.185567544074237]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(-0.00018453821508757415, 0.6046940572519734, -0.0164882045167925)
+scale = Vector3(5.976906360512147, 5.976906360512147, 5.976906360512147)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.6114680881888412, 0)
+shape = SubResource("CollisionShape")
+disabled = true

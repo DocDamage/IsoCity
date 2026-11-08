@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "foundation": {
+    "site": "3d:HanX_Construction/Site_Office",
+    "supply": "3d:HanX_Construction/Shipping_Container",
+    "goods": "masonry",
+    "quantity": 4,
+    "reward": 150,
+    "tasks": [
+      {"id": "west_barrier", "title": "Install the first barrier", "asset": "3d:HanX_Construction/Barrier_Plastic_Red", "offset": [-3.5, 1.0], "scale": 0.8},
+      {"id": "east_barrier", "title": "Install the second barrier", "asset": "3d:HanX_Construction/Barrier_Plastic_White", "offset": [3.5, 1.0], "scale": 0.8},
+      {"id": "foundation", "title": "Set the foundation reinforcement", "asset": "3d:HanX_Construction/Foundation_Rebar", "offset": [0.0, 7.0], "scale": 0.48}
+    ]
+  }
+}

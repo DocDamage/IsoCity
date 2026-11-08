@@ -1,0 +1,39 @@
+{
+  "kinds": {
+    "traffic": {"label":"Traffic", "stream":"res://assets/audio/traffic.wav", "range":28, "gain":0.55},
+    "fountain": {"label":"Fountains", "stream":"res://assets/audio/fountain.wav", "range":26, "gain":0.60},
+    "birds": {"label":"Birds", "stream":"res://assets/audio/birds.wav", "range":34, "gain":0.70},
+    "shop": {"label":"Shops", "stream":"res://assets/audio/shop.wav", "range":18, "gain":0.45},
+    "interior": {"label":"Interiors", "stream":"res://assets/audio/interior.wav", "range":48, "gain":0.45},
+    "school": {"label":"School activity", "stream":"res://assets/audio/school.wav", "range":16, "gain":0.62},
+    "arcade": {"label":"Arcade games", "stream":"res://assets/audio/arcade.wav", "range":13, "gain":0.74},
+    "workshop": {"label":"Workshops", "stream":"res://assets/audio/workshop.wav", "range":19, "gain":0.70},
+    "market": {"label":"Market days", "stream":"res://assets/audio/market.wav", "range":25, "gain":0.71},
+    "harbor": {"label":"Harbor shores", "stream":"res://assets/audio/harbor.wav", "range":24, "gain":0.68}
+  },
+  "assets": {
+    "2d:Added_piers_pier_f248daea":"harbor",
+    "2d:Fountain":"fountain",
+    "3d:HanX_Park/Fountain_Tiered":"fountain",
+    "3d:HanX_City/Fountain":"fountain",
+    "2d:Tree_Oak":"birds",
+    "2d:Tree_Cherry_Blossom":"birds",
+    "3d:HanX_Park/Tree_Oak":"birds",
+    "3d:HanX_Park/Tree_Pine":"birds",
+    "3d:HanX_Park/Tree_Spruce":"birds",
+    "3d:HanX_Park/Tree_Willow":"birds",
+    "3d:HanX_Park/Tree_Birch":"birds",
+    "3d:HanX_Park/Tree_Cherry_Blossom":"birds",
+    "3d:HanX_Park/Tree_Maple":"birds",
+    "3d:HanX_Park/Tree_Maple_Autumn":"birds",
+    "3d:HanX_Park/Tree_Poplar":"birds",
+    "3d:HanX_Park/Tree_Cypress":"birds",
+    "3d:HanX_Park/Tree_Fruit":"birds",
+    "3d:HanX_Park/Tree_Palm":"birds",
+    "3d:HanX_Park/Tree_Round_Large":"birds",
+    "3d:HanX_Park/Tree_Round_Small":"birds",
+    "3d:HanX_City/Street_Tree":"birds",
+    "3d:HanX_City/Street_Tree_Tall":"birds",
+    "3d:HanX_School/Tree_Round":"birds"
+  }
+}

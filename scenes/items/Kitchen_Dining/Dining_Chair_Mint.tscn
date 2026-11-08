@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Kitchen_Dining/Dining_Chair_Mint_SE.png" id="2_tex"]
+
+[node name="Dining_Chair_Mint" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Dining_Chair_Mint"
+category = "Kitchen & Dining"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(10, 16)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Kitchen_Dining/Dining_Chair_Mint_SE.png", "frame_width": 19, "frame_height": 29, "origin": [10, 16], "footprint": [1, 1], "sheet": {"file": "Sheets/Kitchen_Dining_Sheet.png", "x": 374, "y": 373, "w": 19, "h": 29}, "grid_method": "authored", "grid_contact": [10, 32]}, "SW": {"file": "Sprites/Kitchen_Dining/Dining_Chair_Mint_SW.png", "frame_width": 19, "frame_height": 29, "origin": [9, 16], "footprint": [1, 1], "sheet": {"file": "Sheets/Kitchen_Dining_Sheet.png", "x": 395, "y": 373, "w": 19, "h": 29}, "grid_method": "authored", "grid_contact": [9, 32]}, "NW": {"file": "Sprites/Kitchen_Dining/Dining_Chair_Mint_NW.png", "frame_width": 19, "frame_height": 25, "origin": [9, 12], "footprint": [1, 1], "sheet": {"file": "Sheets/Kitchen_Dining_Sheet.png", "x": 416, "y": 373, "w": 19, "h": 25}, "grid_method": "authored", "grid_contact": [9, 28]}, "NE": {"file": "Sprites/Kitchen_Dining/Dining_Chair_Mint_NE.png", "frame_width": 19, "frame_height": 25, "origin": [10, 12], "footprint": [1, 1], "sheet": {"file": "Sheets/Kitchen_Dining_Sheet.png", "x": 437, "y": 373, "w": 19, "h": 25}, "grid_method": "authored", "grid_contact": [10, 28]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-10, -16)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, 0, 16, -16, 8)

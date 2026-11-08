@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_corner_shop_stylized_tier_i_corner_shop_stylized_t_1b49f9e3_SE.png" id="2"]
+
+[node name="Added_rendered_corner_shop_stylized_tier_i_corner_shop_stylized_t_1b49f9e3" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_corner_shop_stylized_tier_i_corner_shop_stylized_t_1b49f9e3"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(169.5, 87.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_corner_shop_stylized_tier_i_corner_shop_stylized_t_1b49f9e3_SE.png", "frame_width": 340, "frame_height": 282, "frames": 1, "origin": [169.5, 87.0], "footprint": [12, 12], "grid_original": {"origin": [170, 106], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [169.5, 279.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_corner_shop_stylized_tier_i_corner_shop_stylized_t_1b49f9e3_E.png", "frame_width": 482, "frame_height": 343, "frames": 1, "origin": [241.553919, 82.297668], "footprint": [16, 16], "grid_original": {"origin": [241, 103], "footprint": [15, 15]}, "alignment_transform": [1.1454395856433233, 0.0027266759982092492, 0.009356335865378651, 0.9920786445220775], "alignment_base": [[17.0, 211.936872], [239.446081, 340.34752], [464.0, 210.708316]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [239.446081, 340.34752]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_corner_shop_stylized_tier_i_corner_shop_stylized_t_1b49f9e3_NE.png", "frame_width": 344, "frame_height": 329, "frames": 1, "origin": [171.5, 134.0], "footprint": [12, 12], "grid_original": {"origin": [172, 153], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [171.5, 326.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_corner_shop_stylized_tier_i_corner_shop_stylized_t_1b49f9e3_N.png", "frame_width": 482, "frame_height": 378, "frames": 1, "origin": [239.458137, 117.336764], "footprint": [16, 16], "grid_original": {"origin": [241, 138], "footprint": [15, 15]}, "alignment_transform": [1.1454395466247922, -0.0027540428257128435, -0.00924955013410389, 0.9921047464840538], "alignment_base": [[17.0, 245.737864], [241.541863, 375.379818], [464.0, 246.978718]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [241.541863, 375.379818]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_corner_shop_stylized_tier_i_corner_shop_stylized_t_1b49f9e3_NW.png", "frame_width": 340, "frame_height": 329, "frames": 1, "origin": [169.5, 134.0], "footprint": [12, 12], "grid_original": {"origin": [170, 153], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [169.5, 326.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_corner_shop_stylized_tier_i_corner_shop_stylized_t_1b49f9e3_W.png", "frame_width": 482, "frame_height": 408, "frames": 1, "origin": [241.625265, 147.321317], "footprint": [16, 16], "grid_original": {"origin": [241, 168], "footprint": [15, 15]}, "alignment_transform": [1.1454419984814117, 0.002793413371752318, 0.009989307186635266, 0.9920375005945126], "alignment_base": [[17.0, 276.981205], [239.374735, 405.382415], [464.0, 275.722527]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [239.374735, 405.382415]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_corner_shop_stylized_tier_i_corner_shop_stylized_t_1b49f9e3_SW.png", "frame_width": 344, "frame_height": 329, "frames": 1, "origin": [171.5, 134.0], "footprint": [12, 12], "grid_original": {"origin": [172, 153], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [171.5, 326.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_corner_shop_stylized_tier_i_corner_shop_stylized_t_1b49f9e3_S.png", "frame_width": 482, "frame_height": 374, "frames": 1, "origin": [239.47396, 113.262065], "footprint": [16, 16], "grid_original": {"origin": [241, 134], "footprint": [15, 15]}, "alignment_transform": [1.1454374422294986, -0.002567316231776362, -0.009106744647933596, 0.991850916539888], "alignment_base": [[17.0, 241.737864], [241.52604, 371.370682], [464.0, 242.894883]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [241.52604, 371.370682]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-169.5, -87.0)
+hframes = 1

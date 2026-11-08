@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/isometricvill/Added_isometricvill_isometricvill_Building_Assets_Gas_Staton_Gas_Stati_5cfcb57a_SE.png" id="2"]
+
+[node name="Added_isometricvill_isometricvill_Building_Assets_Gas_Staton_Gas_Stati_5cfcb57a" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_isometricvill_isometricvill_Building_Assets_Gas_Staton_Gas_Stati_5cfcb57a"
+category = "Added isometricvill - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(16, 20)
+origin_offset = Vector2(282.41299, 53.650249)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/isometricvill/Added_isometricvill_isometricvill_Building_Assets_Gas_Staton_Gas_Stati_5cfcb57a_SE.png", "frame_width": 512, "frame_height": 295, "frames": 1, "origin": [282.41299, 53.650249], "footprint": [16, 20], "grid_original": {"origin": [256, 39], "footprint": [16, 16]}, "alignment_transform": [1.2039116779962074, 0.005380522820184655, 0.023298441839012807, 1.1957903897850706], "alignment_base": [[14.0, 188.660702], [224.58701, 294.755326], [493.0, 159.744873]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [224.58701, 294.755326]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-282.41299, -53.650249)
+hframes = 1

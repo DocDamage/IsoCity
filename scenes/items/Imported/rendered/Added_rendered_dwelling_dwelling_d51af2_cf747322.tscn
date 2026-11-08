@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_dwelling_dwelling_d51af2_cf747322_SE.png" id="2"]
+
+[node name="Added_rendered_dwelling_dwelling_d51af2_cf747322" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_dwelling_dwelling_d51af2_cf747322"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(167.0, 85.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_dwelling_dwelling_d51af2_cf747322_SE.png", "frame_width": 344, "frame_height": 280, "frames": 1, "origin": [167.0, 85.0], "footprint": [12, 12], "grid_original": {"origin": [172, 104], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [167.0, 277.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_dwelling_dwelling_d51af2_cf747322_E.png", "frame_width": 400, "frame_height": 272, "frames": 1, "origin": [206.5, 78.0], "footprint": [12, 12], "grid_original": {"origin": [200, 80], "footprint": [12, 12]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [206.5, 270.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_dwelling_dwelling_d51af2_cf747322_NE.png", "frame_width": 344, "frame_height": 279, "frames": 1, "origin": [172.0, 84.0], "footprint": [12, 12], "grid_original": {"origin": [172, 103], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [172.0, 276.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_dwelling_dwelling_d51af2_cf747322_N.png", "frame_width": 397, "frame_height": 319, "frames": 1, "origin": [204.0, 124.0], "footprint": [12, 12], "grid_original": {"origin": [198, 127], "footprint": [12, 12]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [204.0, 316.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_dwelling_dwelling_d51af2_cf747322_NW.png", "frame_width": 344, "frame_height": 301, "frames": 1, "origin": [154.0, 106.0], "footprint": [12, 12], "grid_original": {"origin": [172, 125], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [154.0, 298.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_dwelling_dwelling_d51af2_cf747322_W.png", "frame_width": 400, "frame_height": 354, "frames": 1, "origin": [210.0, 159.0], "footprint": [12, 12], "grid_original": {"origin": [200, 162], "footprint": [12, 12]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [210.0, 351.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_dwelling_dwelling_d51af2_cf747322_SW.png", "frame_width": 344, "frame_height": 315, "frames": 1, "origin": [169.0, 120.0], "footprint": [12, 12], "grid_original": {"origin": [172, 139], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [169.0, 312.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_dwelling_dwelling_d51af2_cf747322_S.png", "frame_width": 397, "frame_height": 321, "frames": 1, "origin": [190.0, 126.0], "footprint": [12, 12], "grid_original": {"origin": [198, 129], "footprint": [12, 12]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [190.0, 318.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-167.0, -85.0)
+hframes = 1

@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/SWAT_Commander.glb" id="1_opfae"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cgh1e"]
+size = Vector3(1.788, 1.834, 0.382)
+
+[node name="SWAT_Commander" type="StaticBody3D" unique_id=1183162022]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.894, 0.0, -0.191, 1.788, 1.834, 0.382]
+
+[node name="Model" type="Node3D" parent="." unique_id=1174949689]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.040999994)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=694367537 instance=ExtResource("1_opfae")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=48125367]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.917, 0)
+shape = SubResource("BoxShape3D_cgh1e")
+disabled = true

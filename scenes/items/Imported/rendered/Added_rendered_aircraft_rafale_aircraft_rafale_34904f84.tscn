@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_aircraft_rafale_aircraft_rafale_34904f84_SE.png" id="2"]
+
+[node name="Added_rendered_aircraft_rafale_aircraft_rafale_34904f84" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_rendered_aircraft_rafale_aircraft_rafale_34904f84"
+category = "Added rendered - Vehicles"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(3, 3)
+origin_offset = Vector2(94.5, 26.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_rafale_aircraft_rafale_34904f84_SE.png", "frame_width": 118, "frame_height": 77, "frames": 1, "origin": [94.5, 26.0], "footprint": [3, 3], "grid_original": {"origin": [43, 53], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [94.5, 74.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_rafale_aircraft_rafale_34904f84_E.png", "frame_width": 112, "frame_height": 94, "frames": 1, "origin": [55.0, 74.0], "footprint": [1, 1], "grid_original": {"origin": [40, 70], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [55.0, 90.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_rafale_aircraft_rafale_34904f84_NE.png", "frame_width": 119, "frame_height": 77, "frames": 1, "origin": [23.0, 26.0], "footprint": [3, 3], "grid_original": {"origin": [44, 53], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [23.0, 74.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_rafale_aircraft_rafale_34904f84_N.png", "frame_width": 122, "frame_height": 69, "frames": 1, "origin": [98.5, 34.0], "footprint": [2, 2], "grid_original": {"origin": [29, 37], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [98.5, 66.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_rafale_aircraft_rafale_34904f84_NW.png", "frame_width": 118, "frame_height": 74, "frames": 1, "origin": [38.0, 38.0], "footprint": [2, 2], "grid_original": {"origin": [43, 50], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [38.0, 70.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_rafale_aircraft_rafale_34904f84_W.png", "frame_width": 112, "frame_height": 72, "frames": 1, "origin": [56.0, 21.0], "footprint": [3, 3], "grid_original": {"origin": [40, 48], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [56.0, 69.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_rafale_aircraft_rafale_34904f84_SW.png", "frame_width": 119, "frame_height": 70, "frames": 1, "origin": [79.0, 34.0], "footprint": [2, 2], "grid_original": {"origin": [44, 46], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [79.0, 66.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_rafale_aircraft_rafale_34904f84_S.png", "frame_width": 122, "frame_height": 69, "frames": 1, "origin": [22.5, 34.0], "footprint": [2, 2], "grid_original": {"origin": [29, 37], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [22.5, 66.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-94.5, -26.0)
+hframes = 1

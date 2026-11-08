@@ -1,0 +1,20 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Weapon_Halligan_Bar.glb" id="1_kp8uu"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_me21q"]
+size = Vector3(0.054, 0.241, 0.91555)
+
+[node name="Weapon_Halligan_Bar" type="StaticBody3D" unique_id=1479839197]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.027, -0.126, -0.50155, 0.054, 0.241, 0.91555]
+
+[node name="Model" type="Node3D" parent="." unique_id=746040205]
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1019101073 instance=ExtResource("1_kp8uu")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=750434723]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0055000037, -0.043775022)
+shape = SubResource("BoxShape3D_me21q")
+disabled = true

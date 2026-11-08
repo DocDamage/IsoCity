@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/hanx_lowpoly/low-poly-construction-pack-hanx-construction-pack/HanX_Construction_Pack/GLB/Wheelbarrow.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1"]
+size = Vector3(0.680000007, 0.722990036, 1.824309945)
+
+[node name="Wheelbarrow" type="StaticBody3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000000000, 0.358505011, -0.071455002)
+shape = SubResource("BoxShape3D_1")

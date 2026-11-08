@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/isometric_rpg_world/art_isometric/art-isometric/modularFancesPack/woodenFence.png" id="2_tex"]
+
+[node name="woodenFence" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "woodenFence"
+category = "RPG_Nature"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(63.5, 35.994863)
+total_frames = 1
+has_collision = true
+directions_data = {"SE": {"file": "../../isometric_rpg_world/art_isometric/art-isometric/modularFancesPack/woodenFence.png", "origin": [63.5, 35.994863], "footprint": [4, 4], "frame_width": 128, "frame_height": 96, "grid_original": {"origin": [64, 88], "footprint": [3, 3]}, "alignment_transform": [1.0756302521008403, 0.0, 0.0, 1.0753622609814146], "alignment_base": [[4.0, 65.752277], [63.5, 95.509691], [123.0, 65.752277]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [63.5, 95.509691]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-63.5, -35.994863)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 48, 24, 0, 48, -48, 24)

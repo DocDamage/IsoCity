@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Exo_Lunar_Desolation_v1_3_6/Added_Exo_Lunar_Desolation_v1_3_6_Exo_Lunar_Desolation_Structures_Moonbase1_building_c0355c58_SE.png" id="2"]
+
+[node name="Added_Exo_Lunar_Desolation_v1_3_6_Exo_Lunar_Desolation_Structures_Moonbase1_building_c0355c58" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Exo_Lunar_Desolation_v1_3_6_Exo_Lunar_Desolation_Structures_Moonbase1_building_c0355c58"
+category = "Added Exo-Lunar Desolation - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 16)
+origin_offset = Vector2(216.648555, 98.393568)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Exo_Lunar_Desolation_v1_3_6/Added_Exo_Lunar_Desolation_v1_3_6_Exo_Lunar_Desolation_Structures_Moonbase1_building_c0355c58_SE.png", "frame_width": 457, "frame_height": 309, "frames": 1, "origin": [216.648555, 98.393568], "footprint": [12, 16], "grid_original": {"origin": [228, 85], "footprint": [14, 14]}, "alignment_transform": [1.2355790900560262, -0.008377914166401101, -0.02659791135934131, 1.0695441632425977], "alignment_base": [[12.0, 216.467675], [169.351445, 307.458099], [374.0, 189.383992]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [169.351445, 307.458099]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-216.648555, -98.393568)
+hframes = 1

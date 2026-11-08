@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/hanx_lowpoly/low-poly-shop-market-pack-hanx-shop-pack/HanX_Shop_Pack/GLB/Shop_Bakery.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1"]
+size = Vector3(8.000000000, 9.500000000, 7.319999695)
+
+[node name="Shop_Bakery" type="StaticBody3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000000000, 4.750000000, -0.310000181)
+shape = SubResource("BoxShape3D_1")

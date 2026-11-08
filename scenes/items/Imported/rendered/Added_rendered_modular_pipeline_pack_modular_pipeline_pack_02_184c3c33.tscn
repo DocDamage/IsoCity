@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_modular_pipeline_pack_modular_pipeline_pack_02_184c3c33_SE.png" id="2"]
+
+[node name="Added_rendered_modular_pipeline_pack_modular_pipeline_pack_02_184c3c33" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_modular_pipeline_pack_modular_pipeline_pack_02_184c3c33"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(79.0, 273.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_modular_pipeline_pack_modular_pipeline_pack_02_184c3c33_SE.png", "frame_width": 344, "frame_height": 340, "frames": 1, "origin": [79.0, 273.0], "footprint": [4, 4], "grid_original": {"origin": [76, 276], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [79.0, 337.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_modular_pipeline_pack_modular_pipeline_pack_02_184c3c33_E.png", "frame_width": 320, "frame_height": 296, "frames": 1, "origin": [79.0, 229.0], "footprint": [4, 4], "grid_original": {"origin": [64, 232], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [79.0, 293.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_modular_pipeline_pack_modular_pipeline_pack_02_184c3c33_NE.png", "frame_width": 156, "frame_height": 289, "frames": 1, "origin": [77.5, 222.0], "footprint": [4, 4], "grid_original": {"origin": [46, 257], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [77.5, 286.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_modular_pipeline_pack_modular_pipeline_pack_02_184c3c33_N.png", "frame_width": 320, "frame_height": 296, "frames": 1, "origin": [240.0, 229.0], "footprint": [4, 4], "grid_original": {"origin": [64, 232], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [240.0, 293.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_modular_pipeline_pack_modular_pipeline_pack_02_184c3c33_NW.png", "frame_width": 344, "frame_height": 340, "frames": 1, "origin": [264.0, 273.0], "footprint": [4, 4], "grid_original": {"origin": [76, 276], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [264.0, 337.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_modular_pipeline_pack_modular_pipeline_pack_02_184c3c33_W.png", "frame_width": 320, "frame_height": 440, "frames": 1, "origin": [241.0, 373.0], "footprint": [4, 4], "grid_original": {"origin": [64, 376], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [241.0, 437.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_modular_pipeline_pack_modular_pipeline_pack_02_184c3c33_SW.png", "frame_width": 156, "frame_height": 478, "frames": 1, "origin": [78.0, 411.0], "footprint": [4, 4], "grid_original": {"origin": [46, 446], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [78.0, 475.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_modular_pipeline_pack_modular_pipeline_pack_02_184c3c33_S.png", "frame_width": 320, "frame_height": 440, "frames": 1, "origin": [78.0, 373.0], "footprint": [4, 4], "grid_original": {"origin": [64, 376], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [78.0, 437.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-79.0, -273.0)
+hframes = 1

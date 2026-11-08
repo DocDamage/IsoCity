@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_mesopotamian_temple_ruins_tier_i_concept_mesopotam_a1c00bde_SE.png" id="2"]
+
+[node name="Added_rendered_mesopotamian_temple_ruins_tier_i_concept_mesopotam_a1c00bde" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_mesopotamian_temple_ruins_tier_i_concept_mesopotam_a1c00bde"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(159.0, 125.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_mesopotamian_temple_ruins_tier_i_concept_mesopotam_a1c00bde_SE.png", "frame_width": 344, "frame_height": 320, "frames": 1, "origin": [159.0, 125.0], "footprint": [12, 12], "grid_original": {"origin": [172, 144], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [159.0, 317.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_mesopotamian_temple_ruins_tier_i_concept_mesopotam_a1c00bde_E.png", "frame_width": 482, "frame_height": 339, "frames": 1, "origin": [238.205346, 91.233012], "footprint": [16, 16], "grid_original": {"origin": [241, 99], "footprint": [15, 15]}, "alignment_transform": [1.1479740089235415, 0.0005003778027021788, -0.01614579726404841, 1.0031217131220804], "alignment_base": [[17.0, 218.945018], [241.794654, 346.43455], [463.0, 218.722544]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [241.794654, 346.43455]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_mesopotamian_temple_ruins_tier_i_concept_mesopotam_a1c00bde_NE.png", "frame_width": 344, "frame_height": 329, "frames": 1, "origin": [172.0, 134.0], "footprint": [12, 12], "grid_original": {"origin": [172, 153], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [172.0, 326.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_mesopotamian_temple_ruins_tier_i_concept_mesopotam_a1c00bde_N.png", "frame_width": 480, "frame_height": 435, "frames": 1, "origin": [237.501963, 186.785732], "footprint": [16, 16], "grid_original": {"origin": [240, 195], "footprint": [15, 15]}, "alignment_transform": [1.1506498100125138, -0.0049004917787566216, -0.017892201059406365, 0.9962314851321308], "alignment_base": [[17.0, 314.185271], [241.498037, 443.773778], [462.0, 316.374239]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [241.498037, 443.773778]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_mesopotamian_temple_ruins_tier_i_concept_mesopotam_a1c00bde_NW.png", "frame_width": 344, "frame_height": 455, "frames": 1, "origin": [173.0, 260.0], "footprint": [12, 12], "grid_original": {"origin": [172, 279], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [173.0, 452.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_mesopotamian_temple_ruins_tier_i_concept_mesopotam_a1c00bde_W.png", "frame_width": 482, "frame_height": 512, "frames": 1, "origin": [241.426184, 263.893166], "footprint": [16, 16], "grid_original": {"origin": [241, 272], "footprint": [15, 15]}, "alignment_transform": [1.1454340219432841, 0.0024314306466285407, 0.008222532159262386, 0.9921008879418941], "alignment_base": [[17.0, 393.462324], [239.573816, 521.935979], [464.0, 392.366821]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [239.573816, 521.935979]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_mesopotamian_temple_ruins_tier_i_concept_mesopotam_a1c00bde_SW.png", "frame_width": 344, "frame_height": 446, "frames": 1, "origin": [172.0, 251.0], "footprint": [12, 12], "grid_original": {"origin": [172, 270], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [172.0, 443.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_mesopotamian_temple_ruins_tier_i_concept_mesopotam_a1c00bde_S.png", "frame_width": 480, "frame_height": 421, "frames": 1, "origin": [239.940471, 171.809753], "footprint": [16, 16], "grid_original": {"origin": [240, 181], "footprint": [15, 15]}, "alignment_transform": [1.150583841282901, 0.00556754638269652, 0.003914138363861341, 0.9885960550855148], "alignment_base": [[17.0, 302.541846], [239.059529, 430.767801], [462.0, 300.035708]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [239.059529, 430.767801]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-159.0, -125.0)
+hframes = 1

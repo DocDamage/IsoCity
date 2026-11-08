@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Bedroom/Ladder_Shelf_SE.png" id="2_tex"]
+
+[node name="Ladder_Shelf" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Ladder_Shelf"
+category = "Bedroom"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(15, 34)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Bedroom/Ladder_Shelf_SE.png", "frame_width": 22, "frame_height": 46, "origin": [15, 34], "footprint": [1, 1], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 196, "y": 665, "w": 22, "h": 46}, "grid_method": "authored", "grid_contact": [15, 50]}, "SW": {"file": "Sprites/Bedroom/Ladder_Shelf_SW.png", "frame_width": 22, "frame_height": 46, "origin": [7, 34], "footprint": [1, 1], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 220, "y": 665, "w": 22, "h": 46}, "grid_method": "authored", "grid_contact": [7, 50]}, "NW": {"file": "Sprites/Bedroom/Ladder_Shelf_NW.png", "frame_width": 22, "frame_height": 44, "origin": [7, 28], "footprint": [1, 1], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 244, "y": 665, "w": 22, "h": 44}, "grid_method": "authored", "grid_contact": [7, 44]}, "NE": {"file": "Sprites/Bedroom/Ladder_Shelf_NE.png", "frame_width": 22, "frame_height": 44, "origin": [15, 28], "footprint": [1, 1], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 268, "y": 665, "w": 22, "h": 44}, "grid_method": "authored", "grid_contact": [15, 44]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-15, -34)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, 0, 16, -16, 8)

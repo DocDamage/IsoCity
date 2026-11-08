@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Prop_Rope_Coil.glb" id="1_3nhst"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hsm7n"]
+size = Vector3(0.79928, 0.1126, 0.7895)
+
+[node name="Prop_Rope_Coil" type="StaticBody3D" unique_id=1346854391]
+collision_mask = 0
+metadata/authored_footprint = [-0.39964, 0.0, -0.39475, 0.79928, 0.1126, 0.7895]
+
+[node name="Model" type="Node3D" parent="." unique_id=1269152726]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.08636001, -0.00069, 0.07117)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1584953877 instance=ExtResource("1_3nhst")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1856896476]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0563, 0)
+shape = SubResource("BoxShape3D_hsm7n")

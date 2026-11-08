@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/cars/Added_cars_cars_Police_Car_Idle_f07c9224_SE.png" id="2"]
+
+[node name="Added_cars_cars_Police_Car_Idle_f07c9224" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_cars_cars_Police_Car_Idle_f07c9224"
+category = "Added cars - Vehicles"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(96.0, 60.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"E": {"file": "../../imported_prepared/cars/Added_cars_cars_Police_Car_Idle_f07c9224_E.png", "frame_width": 155, "frame_height": 77, "frames": 1, "origin": [83.5, 12.0], "footprint": [4, 4], "grid_original": {"origin": [46, 45], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [83.5, 76.0]}, "N": {"file": "../../imported_prepared/cars/Added_cars_cars_Police_Car_Idle_f07c9224_N.png", "frame_width": 84, "frame_height": 121, "frames": 1, "origin": [41.5, 85.0], "footprint": [2, 2], "grid_original": {"origin": [26, 97], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [41.5, 117.0]}, "NE": {"file": "../../imported_prepared/cars/Added_cars_cars_Police_Car_Idle_f07c9224_NE.png", "frame_width": 150, "frame_height": 95, "frames": 1, "origin": [59.0, 60.0], "footprint": [2, 2], "grid_original": {"origin": [43, 63], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [59.0, 92.0]}, "NW": {"file": "../../imported_prepared/cars/Added_cars_cars_Police_Car_Idle_f07c9224_NW.png", "frame_width": 150, "frame_height": 95, "frames": 1, "origin": [90.0, 60.0], "footprint": [2, 2], "grid_original": {"origin": [43, 63], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [90.0, 92.0]}, "S": {"file": "../../imported_prepared/cars/Added_cars_cars_Police_Car_Idle_f07c9224_S.png", "frame_width": 93, "frame_height": 115, "frames": 1, "origin": [44.0, 80.0], "footprint": [2, 2], "grid_original": {"origin": [30, 91], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [44.0, 112.0]}, "SE": {"file": "../../imported_prepared/cars/Added_cars_cars_Police_Car_Idle_f07c9224_SE.png", "frame_width": 158, "frame_height": 96, "frames": 1, "origin": [96.0, 60.0], "footprint": [2, 2], "grid_original": {"origin": [47, 64], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [96.0, 92.0]}, "SW": {"file": "../../imported_prepared/cars/Added_cars_cars_Police_Car_Idle_f07c9224_SW.png", "frame_width": 158, "frame_height": 96, "frames": 1, "origin": [61.0, 60.0], "footprint": [2, 2], "grid_original": {"origin": [47, 64], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [61.0, 92.0]}, "W": {"file": "../../imported_prepared/cars/Added_cars_cars_Police_Car_Idle_f07c9224_W.png", "frame_width": 155, "frame_height": 77, "frames": 1, "origin": [70.5, 12.0], "footprint": [4, 4], "grid_original": {"origin": [46, 45], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [70.5, 76.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-96.0, -60.0)
+hframes = 1

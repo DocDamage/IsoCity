@@ -1,0 +1,20 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Gear_Ammo_Box.glb" id="1_0cakt"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_e67ho"]
+size = Vector3(0.302, 0.194, 0.142)
+
+[node name="Gear_Ammo_Box" type="StaticBody3D" unique_id=1468962081]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.151, 0.0, -0.071, 0.302, 0.194, 0.142]
+
+[node name="Model" type="Node3D" parent="." unique_id=1838223253]
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1285106363 instance=ExtResource("1_0cakt")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=533963741]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.097, 0)
+shape = SubResource("BoxShape3D_e67ho")
+disabled = true

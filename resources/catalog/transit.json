@@ -1,0 +1,5 @@
+{
+  "vehicles":{"2d":"2d:City_Bus","3d":"3d:HanX_Traffic/Bus_City"},
+  "stops":["2d:Bus_Stop_Sign","2d:Bus_Shelter","3d:HanX_Traffic/Bus_Stop"],
+  "line_defaults":{"enabled":true,"headway":60,"dwell":6,"offset":0,"capacity":16,"color":"77b8ff"}
+}

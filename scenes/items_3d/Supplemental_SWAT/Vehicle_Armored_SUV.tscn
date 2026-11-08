@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Vehicle_Armored_SUV.glb" id="1_lud1u"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3q7co"]
+size = Vector3(2.66, 2.78569, 6.072)
+
+[node name="Vehicle_Armored_SUV" type="StaticBody3D" unique_id=1863798361]
+collision_mask = 0
+metadata/authored_footprint = [-1.33, 0.0, -3.036, 2.66, 2.78569, 6.072]
+
+[node name="Model" type="Node3D" parent="." unique_id=1849582880]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.01431, -0.11599994)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1237899184 instance=ExtResource("1_lud1u")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=555860878]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.392845, 0)
+shape = SubResource("BoxShape3D_3q7co")

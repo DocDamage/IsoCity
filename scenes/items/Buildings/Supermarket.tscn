@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Buildings/Supermarket_SE.png" id="2_tex"]
+
+[node name="Supermarket" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Supermarket"
+category = "Buildings"
+kind = "build"
+direction = "SE"
+footprint = Vector2i(3, 4)
+origin_offset = Vector2(64, 35)
+total_frames = 2
+animation_fps = 1
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Buildings/Supermarket_SE.png", "frame_width": 110, "frame_height": 89, "origin": [64, 35], "footprint": [3, 4], "layout": "horizontal strip of 2 frames", "sheet": {"file": "Sheets/Buildings_Sheet.png", "x": 758, "y": 425, "w": 110, "h": 89}, "grid_method": "authored", "grid_contact": [48, 91]}, "SW": {"file": "Sprites/Buildings/Supermarket_SW.png", "frame_width": 110, "frame_height": 89, "origin": [46, 35], "footprint": [4, 3], "layout": "horizontal strip of 2 frames", "sheet": {"file": "Sheets/Buildings_Sheet.png", "x": 870, "y": 425, "w": 110, "h": 89}, "grid_method": "authored", "grid_contact": [62, 91]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-64, -35)
+hframes = 2
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 48, 24, -16, 56, -64, 32)

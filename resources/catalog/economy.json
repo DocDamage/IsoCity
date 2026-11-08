@@ -1,0 +1,2318 @@
+{
+  "profiles": {
+    "object": {
+      "construction": 100,
+      "upkeep": 1,
+      "income": 0
+    },
+    "building": {
+      "construction": 2500,
+      "upkeep": 30,
+      "income": 0
+    },
+    "home": {
+      "construction": 2000,
+      "upkeep": 12,
+      "income": 45
+    },
+    "work": {
+      "construction": 3500,
+      "upkeep": 30,
+      "income": 90
+    },
+    "shop": {
+      "construction": 3000,
+      "upkeep": 40,
+      "income": 120
+    },
+    "park": {
+      "construction": 150,
+      "upkeep": 5,
+      "income": 0
+    },
+    "station": {
+      "construction": 5000,
+      "upkeep": 140,
+      "income": 0
+    },
+    "vehicle": {
+      "construction": 500,
+      "upkeep": 8,
+      "income": 0
+    },
+    "ground": {
+      "construction": 10,
+      "upkeep": 0,
+      "income": 0
+    },
+    "door": {
+      "construction": 80,
+      "upkeep": 0,
+      "income": 0
+    }
+  },
+  "roads": {
+    "narrow": 80,
+    "standard": 200,
+    "sidewalks": 40,
+    "crossing": 20,
+    "upkeep": 2,
+    "style_percent": {
+      "asphalt": 100,
+      "brick": 125,
+      "gravel": 75
+    }
+  },
+  "assets": {
+    "2d:Supplemental_Water_towers_abandoned_derelict_16bit_dither_flat_539495e3": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_abandoned_derelict_16bit_dither_studio_484160ba": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_abandoned_derelict_16bit_dither_sun_93150088": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_abandoned_derelict_16bit_flat_63e02ae8": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_abandoned_derelict_16bit_studio_82508a84": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_abandoned_derelict_16bit_sun_8cf96be1": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_abandoned_derelict_24bit_flat_52b602b9": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_abandoned_derelict_24bit_studio_fdf06e30": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_abandoned_derelict_24bit_sun_d4e5d838": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_abandoned_derelict_nopalette_flat_3a2d85a4": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_abandoned_derelict_nopalette_studio_17d20da8": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_abandoned_derelict_nopalette_sun_2fd7a72f": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_abandoned_derelict_voyager_dither_flat_9b5ab971": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_abandoned_derelict_voyager_dither_studio_02da43c0": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_abandoned_derelict_voyager_dither_sun_be311df1": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_abandoned_derelict_voyager_flat_5674723d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_abandoned_derelict_voyager_studio_4291c065": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_abandoned_derelict_voyager_sun_397f2514": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_brick_tower_tank_16bit_dither_flat_cfc61cc4": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_brick_tower_tank_16bit_dither_studio_3c5272ff": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_brick_tower_tank_16bit_dither_sun_f7a34ef5": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_brick_tower_tank_16bit_flat_8cdde39d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_brick_tower_tank_16bit_studio_02bb8f11": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_brick_tower_tank_16bit_sun_5389af7a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_brick_tower_tank_24bit_flat_3b82eb5c": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_brick_tower_tank_24bit_studio_6daca92b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_brick_tower_tank_24bit_sun_8470739b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_brick_tower_tank_nopalette_flat_75cd3457": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_brick_tower_tank_nopalette_studio_dc0f8830": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_brick_tower_tank_nopalette_sun_2582b6b0": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_brick_tower_tank_voyager_dither_flat_1b67f070": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_brick_tower_tank_voyager_dither_studio_9cf77f9a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_brick_tower_tank_voyager_dither_sun_f370b9eb": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_brick_tower_tank_voyager_flat_090a9f89": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_brick_tower_tank_voyager_studio_d3e4d719": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_brick_tower_tank_voyager_sun_ae04f736": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_catwalk_tank_16bit_dither_flat_6386c79a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_catwalk_tank_16bit_dither_studio_dceb44ef": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_catwalk_tank_16bit_dither_sun_b3caded2": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_catwalk_tank_16bit_flat_42622554": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_catwalk_tank_16bit_studio_789761ed": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_catwalk_tank_16bit_sun_6956dd84": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_catwalk_tank_24bit_flat_5f649bf7": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_catwalk_tank_24bit_studio_a45306f2": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_catwalk_tank_24bit_sun_d2bb6b5c": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_catwalk_tank_nopalette_flat_cde8984b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_catwalk_tank_nopalette_studio_04d846f0": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_catwalk_tank_nopalette_sun_2e713d67": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_catwalk_tank_voyager_dither_flat_7813c081": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_catwalk_tank_voyager_dither_studio_ffdb21d9": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_catwalk_tank_voyager_dither_sun_9dca96fc": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_catwalk_tank_voyager_flat_03e5d659": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_catwalk_tank_voyager_studio_b2ce4f4a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_catwalk_tank_voyager_sun_769a45ab": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_checkered_red_white_16bit_dither_flat_0e80b5d5": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_checkered_red_white_16bit_dither_studio_284632d0": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_checkered_red_white_16bit_dither_sun_c5852f0b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_checkered_red_white_16bit_flat_a5462d1a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_checkered_red_white_16bit_studio_0feb7764": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_checkered_red_white_16bit_sun_b65a77ea": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_checkered_red_white_24bit_flat_8deeb98e": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_checkered_red_white_24bit_studio_3984cd1a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_checkered_red_white_24bit_sun_744dd797": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_checkered_red_white_nopalette_flat_186b2cf8": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_checkered_red_white_nopalette_studio_e4eeebe2": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_checkered_red_white_nopalette_sun_0ed41767": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_checkered_red_white_voyager_dither_flat_8fe62d56": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_checkered_red_white_voyager_dither_studio_1b910c09": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_checkered_red_white_voyager_dither_sun_486a442e": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_checkered_red_white_voyager_flat_1c8d46d8": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_checkered_red_white_voyager_studio_79b31034": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_checkered_red_white_voyager_sun_1849b8bb": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_classic_spheroid_16bit_dither_flat_28e168f4": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_classic_spheroid_16bit_dither_studio_b42a7009": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_classic_spheroid_16bit_dither_sun_8cde2f45": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_classic_spheroid_16bit_flat_c921fdca": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_classic_spheroid_16bit_studio_680f19b8": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_classic_spheroid_16bit_sun_f00925f9": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_classic_spheroid_24bit_flat_344d3c13": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_classic_spheroid_24bit_studio_48f3d549": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_classic_spheroid_24bit_sun_43994b48": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_classic_spheroid_nopalette_flat_0f0f3500": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_classic_spheroid_nopalette_studio_1e706cb4": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_classic_spheroid_nopalette_sun_139dce80": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_classic_spheroid_voyager_dither_flat_0ede176e": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_classic_spheroid_voyager_dither_studio_d66ccb73": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_classic_spheroid_voyager_dither_sun_02bebb0d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_classic_spheroid_voyager_flat_3a41363d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_classic_spheroid_voyager_studio_bd5ba0bb": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_classic_spheroid_voyager_sun_8357627e": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_composite_mushroom_16bit_dither_flat_531f6ff3": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_composite_mushroom_16bit_dither_studio_e6e3d5f3": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_composite_mushroom_16bit_dither_sun_ed76d8ac": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_composite_mushroom_16bit_flat_48717322": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_composite_mushroom_16bit_studio_5030042a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_composite_mushroom_16bit_sun_40b8a96e": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_composite_mushroom_24bit_flat_c1ba9086": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_composite_mushroom_24bit_studio_0ea84c9b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_composite_mushroom_24bit_sun_429e89c3": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_composite_mushroom_nopalette_flat_a2f761da": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_composite_mushroom_nopalette_studio_3f4c87ac": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_composite_mushroom_nopalette_sun_c43c3c3f": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_composite_mushroom_voyager_dither_flat_0d7d3142": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_composite_mushroom_voyager_dither_studio_11bc6155": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_composite_mushroom_voyager_dither_sun_71307041": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_composite_mushroom_voyager_flat_9cc6c74c": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_composite_mushroom_voyager_studio_d95bfac7": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_composite_mushroom_voyager_sun_0b332365": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_desert_tower_16bit_dither_flat_1062b0e3": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_desert_tower_16bit_dither_studio_5ef42f57": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_desert_tower_16bit_dither_sun_9d3b147a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_desert_tower_16bit_flat_2ff9c127": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_desert_tower_16bit_studio_4d428e84": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_desert_tower_16bit_sun_129fa03a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_desert_tower_24bit_flat_3bdf6e45": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_desert_tower_24bit_studio_156f4c91": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_desert_tower_24bit_sun_ae721b03": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_desert_tower_nopalette_flat_4b78beb6": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_desert_tower_nopalette_studio_69c09a3b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_desert_tower_nopalette_sun_206907a0": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_desert_tower_voyager_dither_flat_1accc82a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_desert_tower_voyager_dither_studio_8fccf072": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_desert_tower_voyager_dither_sun_843b5ee5": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_desert_tower_voyager_flat_0d8b1b7f": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_desert_tower_voyager_studio_bb4e7f28": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_desert_tower_voyager_sun_64f8fcf1": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_farm_galvanised_16bit_dither_flat_d89b4820": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_farm_galvanised_16bit_dither_studio_069af150": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_farm_galvanised_16bit_dither_sun_5af2b6ba": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_farm_galvanised_16bit_flat_25739941": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_farm_galvanised_16bit_studio_0104c94d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_farm_galvanised_16bit_sun_6230fbd6": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_farm_galvanised_24bit_flat_26467021": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_farm_galvanised_24bit_studio_073f6e21": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_farm_galvanised_24bit_sun_f3d040eb": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_farm_galvanised_nopalette_flat_0d9ca9a4": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_farm_galvanised_nopalette_studio_bd4ce181": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_farm_galvanised_nopalette_sun_592671c4": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_farm_galvanised_voyager_dither_flat_fc0365e7": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_farm_galvanised_voyager_dither_studio_f0267009": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_farm_galvanised_voyager_dither_sun_404ecb89": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_farm_galvanised_voyager_flat_64c61f28": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_farm_galvanised_voyager_studio_8e065470": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_farm_galvanised_voyager_sun_569fff5e": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_golf_ball_pedestal_16bit_dither_flat_859cff5b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_golf_ball_pedestal_16bit_dither_studio_40f0ecb2": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_golf_ball_pedestal_16bit_dither_sun_10694e5e": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_golf_ball_pedestal_16bit_flat_8eb8b8c3": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_golf_ball_pedestal_16bit_studio_ae9623ef": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_golf_ball_pedestal_16bit_sun_9f63d67b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_golf_ball_pedestal_24bit_flat_1994a31a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_golf_ball_pedestal_24bit_studio_c7b7ed6b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_golf_ball_pedestal_24bit_sun_91b2464c": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_golf_ball_pedestal_nopalette_flat_d99bc0ec": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_golf_ball_pedestal_nopalette_studio_8d0ddb57": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_golf_ball_pedestal_nopalette_sun_fa0aaac1": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_golf_ball_pedestal_voyager_dither_flat_e6fdfef4": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_golf_ball_pedestal_voyager_dither_studio_e4cd76d2": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_golf_ball_pedestal_voyager_dither_sun_5f1fb09f": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_golf_ball_pedestal_voyager_flat_9ecb725d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_golf_ball_pedestal_voyager_studio_1254081e": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_golf_ball_pedestal_voyager_sun_6532b8a9": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_hydropillar_16bit_dither_flat_e4d0f7f9": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_hydropillar_16bit_dither_studio_a1076bcd": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_hydropillar_16bit_dither_sun_6b8a1fe2": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_hydropillar_16bit_flat_4d2cd6fc": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_hydropillar_16bit_studio_4508fcdc": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_hydropillar_16bit_sun_dec0247e": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_hydropillar_24bit_flat_4f109aa4": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_hydropillar_24bit_studio_cabe5aeb": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_hydropillar_24bit_sun_7c88ab0e": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_hydropillar_nopalette_flat_17fdca37": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_hydropillar_nopalette_studio_52db144b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_hydropillar_nopalette_sun_79a53e18": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_hydropillar_voyager_dither_flat_52039909": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_hydropillar_voyager_dither_studio_a737934d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_hydropillar_voyager_dither_sun_106f63b0": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_hydropillar_voyager_flat_f8594e31": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_hydropillar_voyager_studio_7f9cde8b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_hydropillar_voyager_sun_75917bb9": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_japanese_rooftop_16bit_dither_flat_0a230bac": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_japanese_rooftop_16bit_dither_studio_88ea0321": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_japanese_rooftop_16bit_dither_sun_eb3becf1": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_japanese_rooftop_16bit_flat_f70e9f2a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_japanese_rooftop_16bit_studio_0cfcc921": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_japanese_rooftop_16bit_sun_90eb1bfd": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_japanese_rooftop_24bit_flat_8bf38af8": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_japanese_rooftop_24bit_studio_5c31e880": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_japanese_rooftop_24bit_sun_0179bed1": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_japanese_rooftop_nopalette_flat_5be73922": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_japanese_rooftop_nopalette_studio_112476cd": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_japanese_rooftop_nopalette_sun_32382d3d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_japanese_rooftop_voyager_dither_flat_2bf538e7": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_japanese_rooftop_voyager_dither_studio_b67f2852": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_japanese_rooftop_voyager_dither_sun_aeec4716": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_japanese_rooftop_voyager_flat_1e99b6e9": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_japanese_rooftop_voyager_studio_84eeffaa": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_japanese_rooftop_voyager_sun_81364fa9": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_medieval_stone_16bit_dither_flat_9c9eac6e": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_medieval_stone_16bit_dither_studio_13e52675": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_medieval_stone_16bit_dither_sun_170b8bc8": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_medieval_stone_16bit_flat_55bf5d0c": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_medieval_stone_16bit_studio_53b2b77d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_medieval_stone_16bit_sun_2090c089": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_medieval_stone_24bit_flat_d5d0f6d6": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_medieval_stone_24bit_studio_94682529": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_medieval_stone_24bit_sun_176a6617": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_medieval_stone_nopalette_flat_fef7dd9b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_medieval_stone_nopalette_studio_7c3a9104": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_medieval_stone_nopalette_sun_5305ba07": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_medieval_stone_voyager_dither_flat_f37d3d67": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_medieval_stone_voyager_dither_studio_ff2621a1": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_medieval_stone_voyager_dither_sun_80cd16e2": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_medieval_stone_voyager_flat_54a655d4": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_medieval_stone_voyager_studio_5ff5ba56": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_medieval_stone_voyager_sun_6dcd617d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_multi_column_ellipsoid_16bit_dither_flat_ca42dd44": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_multi_column_ellipsoid_16bit_dither_studio_75016afb": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_multi_column_ellipsoid_16bit_dither_sun_c42dbeed": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_multi_column_ellipsoid_16bit_flat_1c169025": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_multi_column_ellipsoid_16bit_studio_10109e2a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_multi_column_ellipsoid_16bit_sun_4d3f268c": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_multi_column_ellipsoid_24bit_flat_d83a62b5": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_multi_column_ellipsoid_24bit_studio_bc1483be": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_multi_column_ellipsoid_24bit_sun_b970a1d7": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_multi_column_ellipsoid_nopalette_flat_21eabab2": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_multi_column_ellipsoid_nopalette_studio_b049df91": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_multi_column_ellipsoid_nopalette_sun_a36a8080": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_multi_column_ellipsoid_voyager_dither_flat_9969fcbd": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_multi_column_ellipsoid_voyager_dither_studio_71649006": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_multi_column_ellipsoid_voyager_dither_sun_90bc0ef9": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_multi_column_ellipsoid_voyager_flat_279fec62": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_multi_column_ellipsoid_voyager_studio_b10be1e8": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_multi_column_ellipsoid_voyager_sun_669b9f7c": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_nyc_rooftop_barrel_16bit_dither_flat_ed0b045b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_nyc_rooftop_barrel_16bit_dither_studio_9114d8dd": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_nyc_rooftop_barrel_16bit_dither_sun_5f285b8a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_nyc_rooftop_barrel_16bit_flat_11141009": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_nyc_rooftop_barrel_16bit_studio_32f803a6": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_nyc_rooftop_barrel_16bit_sun_4ac07de6": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_nyc_rooftop_barrel_24bit_flat_1d3892a8": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_nyc_rooftop_barrel_24bit_studio_4cb88fd4": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_nyc_rooftop_barrel_24bit_sun_1b7f1dee": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_nyc_rooftop_barrel_nopalette_flat_98125d77": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_nyc_rooftop_barrel_nopalette_studio_d87a967c": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_nyc_rooftop_barrel_nopalette_sun_8c21300a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_nyc_rooftop_barrel_voyager_dither_flat_bb412718": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_nyc_rooftop_barrel_voyager_dither_studio_bdf2dba8": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_nyc_rooftop_barrel_voyager_dither_sun_4acdec64": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_nyc_rooftop_barrel_voyager_flat_8952f1cb": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_nyc_rooftop_barrel_voyager_studio_8041eb64": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_nyc_rooftop_barrel_voyager_sun_63faeab0": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_peach_novelty_16bit_dither_flat_9361861b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_peach_novelty_16bit_dither_studio_941c5372": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_peach_novelty_16bit_dither_sun_bf169be0": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_peach_novelty_16bit_flat_554c5959": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_peach_novelty_16bit_studio_d51d663f": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_peach_novelty_16bit_sun_e5d276db": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_peach_novelty_24bit_flat_8791307a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_peach_novelty_24bit_studio_323d3956": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_peach_novelty_24bit_sun_14bae70a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_peach_novelty_nopalette_flat_01f410ce": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_peach_novelty_nopalette_studio_34c689f8": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_peach_novelty_nopalette_sun_4b743241": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_peach_novelty_voyager_dither_flat_fcf0bca6": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_peach_novelty_voyager_dither_studio_b9ef66ba": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_peach_novelty_voyager_dither_sun_5af75bce": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_peach_novelty_voyager_flat_1f26068c": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_peach_novelty_voyager_studio_62e7473d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_peach_novelty_voyager_sun_04bbce8c": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_prairie_timber_16bit_dither_flat_0093d003": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_prairie_timber_16bit_dither_studio_2d765c22": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_prairie_timber_16bit_dither_sun_bda5a849": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_prairie_timber_16bit_flat_df83b026": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_prairie_timber_16bit_studio_ad40f16d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_prairie_timber_16bit_sun_d9000865": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_prairie_timber_24bit_flat_3107eda8": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_prairie_timber_24bit_studio_ee2cc4c6": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_prairie_timber_24bit_sun_0775f7f7": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_prairie_timber_nopalette_flat_b29b4d7b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_prairie_timber_nopalette_studio_1e114e1c": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_prairie_timber_nopalette_sun_7c57771e": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_prairie_timber_voyager_dither_flat_b941200e": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_prairie_timber_voyager_dither_studio_c1fc999f": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_prairie_timber_voyager_dither_sun_e53627d6": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_prairie_timber_voyager_flat_0691b2ab": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_prairie_timber_voyager_studio_7cf6b3b0": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_prairie_timber_voyager_sun_adcf89c5": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_pumpkin_novelty_16bit_dither_flat_4bb3b797": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_pumpkin_novelty_16bit_dither_studio_56a53ff8": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_pumpkin_novelty_16bit_dither_sun_81f0d8d6": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_pumpkin_novelty_16bit_flat_7d365310": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_pumpkin_novelty_16bit_studio_df232cd3": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_pumpkin_novelty_16bit_sun_c997e176": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_pumpkin_novelty_24bit_flat_c922919a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_pumpkin_novelty_24bit_studio_a280c3a0": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_pumpkin_novelty_24bit_sun_aea66e79": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_pumpkin_novelty_nopalette_flat_e7ef88b4": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_pumpkin_novelty_nopalette_studio_0d125c14": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_pumpkin_novelty_nopalette_sun_00383579": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_pumpkin_novelty_voyager_dither_flat_a989f2f1": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_pumpkin_novelty_voyager_dither_studio_5c2902b3": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_pumpkin_novelty_voyager_dither_sun_eb361595": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_pumpkin_novelty_voyager_flat_27106b2c": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_pumpkin_novelty_voyager_studio_e66dde4a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_pumpkin_novelty_voyager_sun_973cc43b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_railway_tank_16bit_dither_flat_6695ab38": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_railway_tank_16bit_dither_studio_aab350af": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_railway_tank_16bit_dither_sun_529b4f79": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_railway_tank_16bit_flat_0f8ee49d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_railway_tank_16bit_studio_5ca3af80": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_railway_tank_16bit_sun_1c5a13c5": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_railway_tank_24bit_flat_0600f250": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_railway_tank_24bit_studio_648b377a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_railway_tank_24bit_sun_4e2621d8": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_railway_tank_nopalette_flat_a300af35": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_railway_tank_nopalette_studio_8fc27f4c": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_railway_tank_nopalette_sun_ad4da462": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_railway_tank_voyager_dither_flat_e6b0a3c5": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_railway_tank_voyager_dither_studio_2131026b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_railway_tank_voyager_dither_sun_08c4955e": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_railway_tank_voyager_flat_4898b36f": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_railway_tank_voyager_studio_9561e72d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_railway_tank_voyager_sun_907e70a4": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_riveted_cylinder_16bit_dither_flat_e1604cdc": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_riveted_cylinder_16bit_dither_studio_77f459f1": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_riveted_cylinder_16bit_dither_sun_76a8e361": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_riveted_cylinder_16bit_flat_73e0e810": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_riveted_cylinder_16bit_studio_3fb1a358": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_riveted_cylinder_16bit_sun_d88ba893": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_riveted_cylinder_24bit_flat_94f3e3b0": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_riveted_cylinder_24bit_studio_0710f284": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_riveted_cylinder_24bit_sun_5a849b23": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_riveted_cylinder_nopalette_flat_4dadbe97": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_riveted_cylinder_nopalette_studio_48afe044": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_riveted_cylinder_nopalette_sun_5535a7b0": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_riveted_cylinder_voyager_dither_flat_21fdef04": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_riveted_cylinder_voyager_dither_studio_b2a03b87": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_riveted_cylinder_voyager_dither_sun_ef0c091e": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_riveted_cylinder_voyager_flat_55422241": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_riveted_cylinder_voyager_studio_8244ac5c": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_riveted_cylinder_voyager_sun_d09b4813": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_rocket_novelty_16bit_dither_flat_7cbf36ae": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_rocket_novelty_16bit_dither_studio_885a9a98": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_rocket_novelty_16bit_dither_sun_7b53adbf": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_rocket_novelty_16bit_flat_a69bdc63": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_rocket_novelty_16bit_studio_9f8b91ab": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_rocket_novelty_16bit_sun_e5a92f06": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_rocket_novelty_24bit_flat_e35860b7": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_rocket_novelty_24bit_studio_dec3e213": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_rocket_novelty_24bit_sun_09f0c2a1": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_rocket_novelty_nopalette_flat_be9444c8": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_rocket_novelty_nopalette_studio_47249069": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_rocket_novelty_nopalette_sun_aa156605": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_rocket_novelty_voyager_dither_flat_d4ebdd5b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_rocket_novelty_voyager_dither_studio_53eba13a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_rocket_novelty_voyager_dither_sun_dbed9760": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_rocket_novelty_voyager_flat_5cc60982": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_rocket_novelty_voyager_studio_494cc613": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_rocket_novelty_voyager_sun_f1cf58e2": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_scifi_industrial_16bit_dither_flat_81413885": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_scifi_industrial_16bit_dither_studio_98fdf016": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_scifi_industrial_16bit_dither_sun_f025ebc6": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_scifi_industrial_16bit_flat_48e306d7": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_scifi_industrial_16bit_studio_5f14794a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_scifi_industrial_16bit_sun_b5f5331f": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_scifi_industrial_24bit_flat_f465b7f5": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_scifi_industrial_24bit_studio_3a8eab3b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_scifi_industrial_24bit_sun_8bfaa55e": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_scifi_industrial_nopalette_flat_8a3eaa22": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_scifi_industrial_nopalette_studio_8309a296": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_scifi_industrial_nopalette_sun_f0e7398c": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_scifi_industrial_voyager_dither_flat_010ee90a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_scifi_industrial_voyager_dither_studio_57289b98": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_scifi_industrial_voyager_dither_sun_36b6ed7f": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_scifi_industrial_voyager_flat_10a7b50e": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_scifi_industrial_voyager_studio_d512513f": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_scifi_industrial_voyager_sun_f330e502": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_standpipe_16bit_dither_flat_9b8b10e8": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_standpipe_16bit_dither_studio_27d6fd3d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_standpipe_16bit_dither_sun_e9ecfdbf": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_standpipe_16bit_flat_e9b4fd8c": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_standpipe_16bit_studio_4af4d551": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_standpipe_16bit_sun_696b03f9": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_standpipe_24bit_flat_d858ee98": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_standpipe_24bit_studio_2aa7f8f6": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_standpipe_24bit_sun_86ab7e1e": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_standpipe_nopalette_flat_fd315cc9": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_standpipe_nopalette_studio_fce6938b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_standpipe_nopalette_sun_d2fae911": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_standpipe_voyager_dither_flat_fd705c26": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_standpipe_voyager_dither_studio_9a3b102c": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_standpipe_voyager_dither_sun_c724588d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_standpipe_voyager_flat_866f1758": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_standpipe_voyager_studio_d0fa2582": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_standpipe_voyager_sun_4d9f5b92": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_strawberry_novelty_16bit_dither_flat_7a58c607": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_strawberry_novelty_16bit_dither_studio_8c98a9c0": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_strawberry_novelty_16bit_dither_sun_f9bf677b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_strawberry_novelty_16bit_flat_ca5d3b89": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_strawberry_novelty_16bit_studio_8553c882": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_strawberry_novelty_16bit_sun_c58a0f2f": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_strawberry_novelty_24bit_flat_6921d789": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_strawberry_novelty_24bit_studio_29cb3847": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_strawberry_novelty_24bit_sun_4308658d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_strawberry_novelty_nopalette_flat_6e322780": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_strawberry_novelty_nopalette_studio_0f083ad4": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_strawberry_novelty_nopalette_sun_1af58ba0": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_strawberry_novelty_voyager_dither_flat_6f0997ce": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_strawberry_novelty_voyager_dither_studio_5f08f06d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_strawberry_novelty_voyager_dither_sun_4d307658": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_strawberry_novelty_voyager_flat_f9e8c953": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_strawberry_novelty_voyager_studio_37f914e4": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_strawberry_novelty_voyager_sun_e49b19b5": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_toroidal_tank_16bit_dither_flat_ae5f51aa": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_toroidal_tank_16bit_dither_studio_eb4bd037": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_toroidal_tank_16bit_dither_sun_d6fc68ec": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_toroidal_tank_16bit_flat_a1734b2d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_toroidal_tank_16bit_studio_2f42e916": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_toroidal_tank_16bit_sun_ef75ecd4": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_toroidal_tank_24bit_flat_bc0b27fb": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_toroidal_tank_24bit_studio_9c137281": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_toroidal_tank_24bit_sun_7e19ad92": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_toroidal_tank_nopalette_flat_e9efe1b9": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_toroidal_tank_nopalette_studio_421150cf": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_toroidal_tank_nopalette_sun_f1d49af9": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_toroidal_tank_voyager_dither_flat_0f8e6963": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_toroidal_tank_voyager_dither_studio_d7495227": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_toroidal_tank_voyager_dither_sun_3d9091a2": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_toroidal_tank_voyager_flat_093ff62e": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_toroidal_tank_voyager_studio_5638366d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_toroidal_tank_voyager_sun_bebc7641": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_twin_tank_16bit_dither_flat_c6239f03": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_twin_tank_16bit_dither_studio_2eb69d7f": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_twin_tank_16bit_dither_sun_e9fe1d0b": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_twin_tank_16bit_flat_bfb71e52": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_twin_tank_16bit_studio_965df7e2": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_twin_tank_16bit_sun_89eeddcf": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_twin_tank_24bit_flat_9849977f": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_twin_tank_24bit_studio_eb8480d1": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_twin_tank_24bit_sun_6a8a4297": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_twin_tank_nopalette_flat_4c393fcd": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_twin_tank_nopalette_studio_0c973a75": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_twin_tank_nopalette_sun_44e240c6": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_twin_tank_voyager_dither_flat_d255636a": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_twin_tank_voyager_dither_studio_cccdf40d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_twin_tank_voyager_dither_sun_5c774fca": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_twin_tank_voyager_flat_705bc258": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_twin_tank_voyager_studio_57b66895": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    },
+    "2d:Supplemental_Water_towers_twin_tank_voyager_sun_191ab63d": {
+      "construction": 1800,
+      "upkeep": 20,
+      "income": 0
+    }
+  }
+}

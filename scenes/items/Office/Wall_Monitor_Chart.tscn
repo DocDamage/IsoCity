@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Office/Wall_Monitor_Chart_SE.png" id="2_tex"]
+
+[node name="Wall_Monitor_Chart" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Wall_Monitor_Chart"
+category = "Office"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 2)
+origin_offset = Vector2(32, 34)
+total_frames = 4
+animation_fps = 2
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Office/Wall_Monitor_Chart_SE.png", "frame_width": 34, "frame_height": 31, "origin": [32, 34], "footprint": [1, 2], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Office_Sheet.png", "x": 121, "y": 301, "w": 34, "h": 31}, "grid_method": "authored", "grid_contact": [16, 58]}, "SW": {"file": "Sprites/Office/Wall_Monitor_Chart_SW.png", "frame_width": 34, "frame_height": 31, "origin": [2, 34], "footprint": [2, 1], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Office_Sheet.png", "x": 157, "y": 301, "w": 34, "h": 31}, "grid_method": "authored", "grid_contact": [18, 58]}, "NW": {"file": "Sprites/Office/Wall_Monitor_Chart_NW.png", "frame_width": 34, "frame_height": 31, "origin": [18, 27], "footprint": [1, 2], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Office_Sheet.png", "x": 193, "y": 301, "w": 34, "h": 31}, "grid_method": "authored", "grid_contact": [2, 51]}, "NE": {"file": "Sprites/Office/Wall_Monitor_Chart_NE.png", "frame_width": 34, "frame_height": 31, "origin": [16, 27], "footprint": [2, 1], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Office_Sheet.png", "x": 229, "y": 301, "w": 34, "h": 31}, "grid_method": "authored", "grid_contact": [32, 51]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-32, -34)
+hframes = 4
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, -16, 24, -32, 16)

@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Gear_Smoke_Grenade.glb" id="1_8ap2s"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_juiva"]
+size = Vector3(0.06385, 0.136, 0.062)
+
+[node name="Gear_Smoke_Grenade" type="StaticBody3D" unique_id=710600964]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.031925, 0.0, -0.031, 0.06385, 0.136, 0.062]
+
+[node name="Model" type="Node3D" parent="." unique_id=900499869]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0014249999, 0, 0)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=422635011 instance=ExtResource("1_8ap2s")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=973718215]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.068, 0)
+shape = SubResource("BoxShape3D_juiva")
+disabled = true

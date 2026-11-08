@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/hanx_lowpoly/low-poly-park-nature-pack-hanx-park-pack/HanX_Park_Pack/GLB/Fence_Wood.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1"]
+size = Vector3(2.150000095, 1.079999924, 0.129899994)
+
+[node name="Fence_Wood" type="StaticBody3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000000000, 0.519999981, 0.000000000)
+shape = SubResource("BoxShape3D_1")

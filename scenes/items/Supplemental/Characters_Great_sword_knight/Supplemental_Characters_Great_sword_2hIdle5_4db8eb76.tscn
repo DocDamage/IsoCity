@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/supplemental_prepared/Characters_Great_sword_knight/Supplemental_Characters_Great_sword_2hIdle5_4db8eb76.png" id="2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_view"]
+atlas = ExtResource("2")
+region = Rect2(0, 384, 3328, 128)
+filter_clip = true
+
+[node name="Supplemental_Characters_Great_sword_2hIdle5_4db8eb76" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Supplemental_Characters_Great_sword_2hIdle5_4db8eb76"
+category = "Supplemental Characters"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(65.51578947368421, 66.0)
+total_frames = 26
+animation_fps = 7.042253521126761
+has_collision = false
+directions_data = {"SW": {"file": "../../supplemental_prepared/Characters_Great_sword_knight/Supplemental_Characters_Great_sword_2hIdle5_4db8eb76.png", "region": [0, 0, 3328, 128], "frame_width": 128, "frame_height": 128, "frames": 26, "origin": [62.44736842105263, 67.5], "footprint": [1, 1], "render_contact": [62.44736842105263, 67.5], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [62.44736842105263, 83.5]}, "W": {"file": "../../supplemental_prepared/Characters_Great_sword_knight/Supplemental_Characters_Great_sword_2hIdle5_4db8eb76.png", "region": [3328, 0, 3328, 128], "frame_width": 128, "frame_height": 128, "frames": 26, "origin": [60.20783132530121, 66.0], "footprint": [1, 1], "render_contact": [60.20783132530121, 66.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [60.20783132530121, 82.0]}, "NW": {"file": "../../supplemental_prepared/Characters_Great_sword_knight/Supplemental_Characters_Great_sword_2hIdle5_4db8eb76.png", "region": [0, 128, 3328, 128], "frame_width": 128, "frame_height": 128, "frames": 26, "origin": [64.78693181818181, 64.75], "footprint": [1, 1], "render_contact": [64.78693181818181, 64.75], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [64.78693181818181, 80.75]}, "N": {"file": "../../supplemental_prepared/Characters_Great_sword_knight/Supplemental_Characters_Great_sword_2hIdle5_4db8eb76.png", "region": [3328, 128, 3328, 128], "frame_width": 128, "frame_height": 128, "frames": 26, "origin": [67.18333333333334, 66.25], "footprint": [1, 1], "render_contact": [67.18333333333334, 66.25], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [67.18333333333334, 82.25]}, "NE": {"file": "../../supplemental_prepared/Characters_Great_sword_knight/Supplemental_Characters_Great_sword_2hIdle5_4db8eb76.png", "region": [0, 256, 3328, 128], "frame_width": 128, "frame_height": 128, "frames": 26, "origin": [65.471875, 66.75], "footprint": [1, 1], "render_contact": [65.471875, 66.75], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [65.471875, 82.75]}, "E": {"file": "../../supplemental_prepared/Characters_Great_sword_knight/Supplemental_Characters_Great_sword_2hIdle5_4db8eb76.png", "region": [3328, 256, 3328, 128], "frame_width": 128, "frame_height": 128, "frames": 26, "origin": [63.25480769230769, 67.0], "footprint": [1, 1], "render_contact": [63.25480769230769, 67.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [63.25480769230769, 83.0]}, "SE": {"file": "../../supplemental_prepared/Characters_Great_sword_knight/Supplemental_Characters_Great_sword_2hIdle5_4db8eb76.png", "region": [0, 384, 3328, 128], "frame_width": 128, "frame_height": 128, "frames": 26, "origin": [65.51578947368421, 66.0], "footprint": [1, 1], "render_contact": [65.51578947368421, 66.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [65.51578947368421, 82.0]}, "S": {"file": "../../supplemental_prepared/Characters_Great_sword_knight/Supplemental_Characters_Great_sword_2hIdle5_4db8eb76.png", "region": [3328, 384, 3328, 128], "frame_width": 128, "frame_height": 128, "frames": 26, "origin": [66.55555555555556, 67.5], "footprint": [1, 1], "render_contact": [66.55555555555556, 67.5], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [66.55555555555556, 83.5]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_view")
+centered = false
+offset = Vector2(-65.51578947368421, -66.0)
+hframes = 26

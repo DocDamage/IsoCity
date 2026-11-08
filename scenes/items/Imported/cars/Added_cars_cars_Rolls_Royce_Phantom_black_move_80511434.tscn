@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/cars/Added_cars_cars_Rolls_Royce_Phantom_black_move_80511434_SE.png" id="2"]
+
+[node name="Added_cars_cars_Rolls_Royce_Phantom_black_move_80511434" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_cars_cars_Rolls_Royce_Phantom_black_move_80511434"
+category = "Added cars - Vehicles"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(96.0, 60.0)
+total_frames = 2
+animation_fps = 8.0
+has_collision = true
+directions_data = {"E": {"file": "../../imported_prepared/cars/Added_cars_cars_Rolls_Royce_Phantom_black_move_80511434_E.png", "frame_width": 155, "frame_height": 76, "frames": 2, "origin": [83.5, 11.0], "footprint": [4, 4], "grid_original": {"origin": [46, 44], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [83.5, 75.0]}, "N": {"file": "../../imported_prepared/cars/Added_cars_cars_Rolls_Royce_Phantom_black_move_80511434_N.png", "frame_width": 84, "frame_height": 122, "frames": 2, "origin": [41.5, 85.0], "footprint": [2, 2], "grid_original": {"origin": [26, 98], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [41.5, 117.0]}, "NE": {"file": "../../imported_prepared/cars/Added_cars_cars_Rolls_Royce_Phantom_black_move_80511434_NE.png", "frame_width": 158, "frame_height": 96, "frames": 2, "origin": [61.0, 60.0], "footprint": [2, 2], "grid_original": {"origin": [47, 64], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [61.0, 92.0]}, "NW": {"file": "../../imported_prepared/cars/Added_cars_cars_Rolls_Royce_Phantom_black_move_80511434_NW.png", "frame_width": 154, "frame_height": 95, "frames": 2, "origin": [93.0, 60.0], "footprint": [2, 2], "grid_original": {"origin": [45, 63], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [93.0, 92.0]}, "S": {"file": "../../imported_prepared/cars/Added_cars_cars_Rolls_Royce_Phantom_black_move_80511434_S.png", "frame_width": 93, "frame_height": 116, "frames": 2, "origin": [44.0, 80.0], "footprint": [2, 2], "grid_original": {"origin": [30, 92], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [44.0, 112.0]}, "SE": {"file": "../../imported_prepared/cars/Added_cars_cars_Rolls_Royce_Phantom_black_move_80511434_SE.png", "frame_width": 158, "frame_height": 96, "frames": 2, "origin": [96.0, 60.0], "footprint": [2, 2], "grid_original": {"origin": [47, 64], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [96.0, 92.0]}, "SW": {"file": "../../imported_prepared/cars/Added_cars_cars_Rolls_Royce_Phantom_black_move_80511434_SW.png", "frame_width": 158, "frame_height": 96, "frames": 2, "origin": [61.0, 60.0], "footprint": [2, 2], "grid_original": {"origin": [47, 64], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [61.0, 92.0]}, "W": {"file": "../../imported_prepared/cars/Added_cars_cars_Rolls_Royce_Phantom_black_move_80511434_W.png", "frame_width": 155, "frame_height": 76, "frames": 2, "origin": [70.5, 11.0], "footprint": [4, 4], "grid_original": {"origin": [46, 44], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [70.5, 75.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-96.0, -60.0)
+hframes = 2

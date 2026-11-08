@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Golbanc_Homestead_v1_6_1/Added_Golbanc_Homestead_v1_6_1_Golbanc_Homestead_River_Coast_Waterway_1_coast_str_8af35242_SE.png" id="2"]
+
+[node name="Added_Golbanc_Homestead_v1_6_1_Golbanc_Homestead_River_Coast_Waterway_1_coast_str_8af35242" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Golbanc_Homestead_v1_6_1_Golbanc_Homestead_River_Coast_Waterway_1_coast_str_8af35242"
+category = "Added Golbanc Homestead - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(16, 16)
+origin_offset = Vector2(256.314973, 24.47494)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Golbanc_Homestead_v1_6_1/Added_Golbanc_Homestead_v1_6_1_Golbanc_Homestead_River_Coast_Waterway_1_coast_str_8af35242_SE.png", "frame_width": 512, "frame_height": 301, "frames": 1, "origin": [256.314973, 24.47494], "footprint": [16, 16], "grid_original": {"origin": [256, 45], "footprint": [16, 16]}, "alignment_transform": [1.0943937683999687, 0.010213482864513734, 0.0345651970782449, 0.9372313704291217], "alignment_base": [[18.0, 163.644445], [247.685027, 297.713918], [486.0, 158.544413]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [247.685027, 297.713918]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-256.314973, -24.47494)
+hframes = 1

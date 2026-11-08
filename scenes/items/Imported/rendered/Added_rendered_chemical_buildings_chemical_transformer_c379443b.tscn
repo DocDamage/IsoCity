@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_chemical_buildings_chemical_transformer_c379443b_SE.png" id="2"]
+
+[node name="Added_rendered_chemical_buildings_chemical_transformer_c379443b" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_rendered_chemical_buildings_chemical_transformer_c379443b"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(36.0, 111.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_chemical_buildings_chemical_transformer_c379443b_SE.png", "frame_width": 72, "frame_height": 146, "frames": 1, "origin": [36.0, 111.0], "footprint": [2, 2], "grid_original": {"origin": [36, 114], "footprint": [2, 2]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [36.0, 143.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_chemical_buildings_chemical_transformer_c379443b_E.png", "frame_width": 99, "frame_height": 145, "frames": 1, "origin": [26.0, 110.0], "footprint": [2, 2], "grid_original": {"origin": [50, 97], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [26.0, 142.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_chemical_buildings_chemical_transformer_c379443b_NE.png", "frame_width": 98, "frame_height": 153, "frames": 1, "origin": [78.0, 118.0], "footprint": [2, 2], "grid_original": {"origin": [49, 105], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [78.0, 150.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_chemical_buildings_chemical_transformer_c379443b_N.png", "frame_width": 100, "frame_height": 168, "frames": 1, "origin": [44.0, 101.0], "footprint": [4, 4], "grid_original": {"origin": [50, 120], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [44.0, 165.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_chemical_buildings_chemical_transformer_c379443b_NW.png", "frame_width": 72, "frame_height": 165, "frames": 1, "origin": [33.0, 130.0], "footprint": [2, 2], "grid_original": {"origin": [36, 133], "footprint": [2, 2]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [33.0, 162.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_chemical_buildings_chemical_transformer_c379443b_W.png", "frame_width": 99, "frame_height": 169, "frames": 1, "origin": [55.0, 134.0], "footprint": [2, 2], "grid_original": {"origin": [50, 121], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [55.0, 166.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_chemical_buildings_chemical_transformer_c379443b_SW.png", "frame_width": 98, "frame_height": 153, "frames": 1, "origin": [19.0, 118.0], "footprint": [2, 2], "grid_original": {"origin": [49, 105], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [19.0, 150.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_chemical_buildings_chemical_transformer_c379443b_S.png", "frame_width": 100, "frame_height": 145, "frames": 1, "origin": [73.5, 79.0], "footprint": [4, 4], "grid_original": {"origin": [50, 97], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [73.5, 143.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-36.0, -111.0)
+hframes = 1

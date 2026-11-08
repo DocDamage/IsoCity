@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Prop_Command_Tent.glb" id="1_g6lmc"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tq7y8"]
+size = Vector3(4.1659803, 2.9574401, 3.16598)
+
+[node name="Prop_Command_Tent" type="StaticBody3D" unique_id=1136838095]
+collision_mask = 0
+metadata/authored_footprint = [-2.0829902, 0.0, -1.58299, 4.1659803, 2.9574401, 3.16598]
+
+[node name="Model" type="Node3D" parent="." unique_id=969993937]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.007989883, 0.00744, -0.007990003)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1539433395 instance=ExtResource("1_g6lmc")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=594840982]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4787201, 0)
+shape = SubResource("BoxShape3D_tq7y8")

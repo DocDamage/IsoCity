@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Shops_Cafe/Burger_Grill_SE.png" id="2_tex"]
+
+[node name="Burger_Grill" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Burger_Grill"
+category = "Shops & Cafe"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 2)
+origin_offset = Vector2(32, 19)
+total_frames = 4
+animation_fps = 6
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Shops_Cafe/Burger_Grill_SE.png", "frame_width": 48, "frame_height": 43, "origin": [32, 19], "footprint": [1, 2], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 202, "y": 613, "w": 48, "h": 43}, "grid_method": "authored", "grid_contact": [16, 43]}, "SW": {"file": "Sprites/Shops_Cafe/Burger_Grill_SW.png", "frame_width": 48, "frame_height": 40, "origin": [16, 16], "footprint": [2, 1], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 252, "y": 613, "w": 48, "h": 40}, "grid_method": "authored", "grid_contact": [32, 40]}, "NW": {"file": "Sprites/Shops_Cafe/Burger_Grill_NW.png", "frame_width": 48, "frame_height": 42, "origin": [32, 18], "footprint": [1, 2], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 302, "y": 613, "w": 48, "h": 42}, "grid_method": "authored", "grid_contact": [16, 42]}, "NE": {"file": "Sprites/Shops_Cafe/Burger_Grill_NE.png", "frame_width": 48, "frame_height": 41, "origin": [16, 17], "footprint": [2, 1], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 352, "y": 613, "w": 48, "h": 41}, "grid_method": "authored", "grid_contact": [32, 41]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-32, -19)
+hframes = 4
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, -16, 24, -32, 16)

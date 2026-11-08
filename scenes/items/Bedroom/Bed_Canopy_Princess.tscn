@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Bedroom/Bed_Canopy_Princess_SE.png" id="2_tex"]
+
+[node name="Bed_Canopy_Princess" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Bed_Canopy_Princess"
+category = "Bedroom"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(31, 37)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Bedroom/Bed_Canopy_Princess_SE.png", "frame_width": 62, "frame_height": 69, "origin": [31, 37], "footprint": [2, 2], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 252, "y": 156, "w": 62, "h": 69}, "grid_method": "authored", "grid_contact": [31, 69]}, "SW": {"file": "Sprites/Bedroom/Bed_Canopy_Princess_SW.png", "frame_width": 62, "frame_height": 69, "origin": [31, 37], "footprint": [2, 2], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 316, "y": 156, "w": 62, "h": 69}, "grid_method": "authored", "grid_contact": [31, 69]}, "NW": {"file": "Sprites/Bedroom/Bed_Canopy_Princess_NW.png", "frame_width": 62, "frame_height": 69, "origin": [31, 37], "footprint": [2, 2], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 380, "y": 156, "w": 62, "h": 69}, "grid_method": "authored", "grid_contact": [31, 69]}, "NE": {"file": "Sprites/Bedroom/Bed_Canopy_Princess_NE.png", "frame_width": 62, "frame_height": 69, "origin": [31, 37], "footprint": [2, 2], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 444, "y": 156, "w": 62, "h": 69}, "grid_method": "authored", "grid_contact": [31, 69]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-31, -37)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 32, 16, 0, 32, -32, 16)

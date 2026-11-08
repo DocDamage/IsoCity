@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Living_Room/Bookshelf_Low_Wide_SE.png" id="2_tex"]
+
+[node name="Bookshelf_Low_Wide" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Bookshelf_Low_Wide"
+category = "Living Room"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 2)
+origin_offset = Vector2(33, 21)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Living_Room/Bookshelf_Low_Wide_SE.png", "frame_width": 41, "frame_height": 41, "origin": [33, 21], "footprint": [1, 2], "sheet": {"file": "Sheets/Living_Room_Sheet.png", "x": 328, "y": 394, "w": 41, "h": 41}, "grid_method": "authored", "grid_contact": [17, 45]}, "SW": {"file": "Sprites/Living_Room/Bookshelf_Low_Wide_SW.png", "frame_width": 41, "frame_height": 41, "origin": [8, 21], "footprint": [2, 1], "sheet": {"file": "Sheets/Living_Room_Sheet.png", "x": 371, "y": 394, "w": 41, "h": 41}, "grid_method": "authored", "grid_contact": [24, 45]}, "NW": {"file": "Sprites/Living_Room/Bookshelf_Low_Wide_NW.png", "frame_width": 41, "frame_height": 41, "origin": [24, 16], "footprint": [1, 2], "sheet": {"file": "Sheets/Living_Room_Sheet.png", "x": 414, "y": 394, "w": 41, "h": 41}, "grid_method": "authored", "grid_contact": [8, 40]}, "NE": {"file": "Sprites/Living_Room/Bookshelf_Low_Wide_NE.png", "frame_width": 41, "frame_height": 41, "origin": [17, 16], "footprint": [2, 1], "sheet": {"file": "Sheets/Living_Room_Sheet.png", "x": 457, "y": 394, "w": 41, "h": 41}, "grid_method": "authored", "grid_contact": [33, 40]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-33, -21)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, -16, 24, -32, 16)

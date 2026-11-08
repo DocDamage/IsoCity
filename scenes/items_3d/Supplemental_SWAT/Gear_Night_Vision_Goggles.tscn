@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Gear_Night_Vision_Goggles.glb" id="1_xuwxb"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vslwl"]
+size = Vector3(0.11234, 0.07717001, 0.098000005)
+
+[node name="Gear_Night_Vision_Goggles" type="StaticBody3D" unique_id=629587325]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.05617, 0.0, -0.049000002, 0.11234, 0.07717001, 0.098000005]
+
+[node name="Model" type="Node3D" parent="." unique_id=177861229]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.00183, 0.0009999983)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=565049437 instance=ExtResource("1_xuwxb")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=789297120]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.038585003, 0)
+shape = SubResource("BoxShape3D_vslwl")
+disabled = true

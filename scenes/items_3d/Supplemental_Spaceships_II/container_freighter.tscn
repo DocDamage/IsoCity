@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Spaceships_II/container_freighter.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(2.2678658056611227, 1.1167756280342072, 6.0)
+
+[node name="container_freighter" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-1.1339329028305614, 0.0, -3.0, 2.2678658056611227, 1.1167756280342072, 6.0]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(0.0004672189829661544, 0.5444447066324256, -0.00023721581296347465)
+scale = Vector3(5.975707106145171, 5.975707106145171, 5.975707106145171)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.5583878140171036, 0)
+shape = SubResource("CollisionShape")
+disabled = true

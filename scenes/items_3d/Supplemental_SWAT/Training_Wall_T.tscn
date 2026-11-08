@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Training_Wall_T.glb" id="1_qi0on"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cfmhl"]
+size = Vector3(4, 2.65, 2.13)
+
+[node name="Training_Wall_T" type="StaticBody3D" unique_id=601297751]
+collision_mask = 0
+metadata/authored_footprint = [-2.0, 0.0, -2.0, 4.0, 2.65, 2.13]
+
+[node name="Model" type="Node3D" parent="." unique_id=1770070705]
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1665133800 instance=ExtResource("1_qi0on")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=92433811]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.325, -0.93499994)
+shape = SubResource("BoxShape3D_cfmhl")

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_ancient_desert_dwelling_ancient_desert_dwelling_d9_8bf3a432_SE.png" id="2"]
+
+[node name="Added_rendered_ancient_desert_dwelling_ancient_desert_dwelling_d9_8bf3a432" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_ancient_desert_dwelling_ancient_desert_dwelling_d9_8bf3a432"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(166.0, 200.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_ancient_desert_dwelling_ancient_desert_dwelling_d9_8bf3a432_SE.png", "frame_width": 332, "frame_height": 394, "frames": 1, "origin": [166.0, 200.0], "footprint": [12, 12], "grid_original": {"origin": [166, 234], "footprint": [10, 10]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [166.0, 392.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_ancient_desert_dwelling_ancient_desert_dwelling_d9_8bf3a432_E.png", "frame_width": 453, "frame_height": 397, "frames": 1, "origin": [216.625021, 174.12918], "footprint": [16, 16], "grid_original": {"origin": [226, 173], "footprint": [14, 14]}, "alignment_transform": [1.2295666118172073, -0.023151716587925253, -0.08049001533535205, 1.06553733015802], "alignment_base": [[16.0, 289.897237], [232.374979, 414.725761], [433.0, 298.957704]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [232.374979, 414.725761]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_ancient_desert_dwelling_ancient_desert_dwelling_d9_8bf3a432_NE.png", "frame_width": 344, "frame_height": 375, "frames": 1, "origin": [144.5, 180.0], "footprint": [12, 12], "grid_original": {"origin": [172, 199], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [144.5, 372.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_ancient_desert_dwelling_ancient_desert_dwelling_d9_8bf3a432_N.png", "frame_width": 404, "frame_height": 442, "frames": 1, "origin": [234.0, 249.0], "footprint": [12, 12], "grid_original": {"origin": [202, 234], "footprint": [13, 13]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [234.0, 441.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_ancient_desert_dwelling_ancient_desert_dwelling_d9_8bf3a432_NW.png", "frame_width": 332, "frame_height": 457, "frames": 1, "origin": [187.5, 262.0], "footprint": [12, 12], "grid_original": {"origin": [166, 297], "footprint": [10, 10]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [187.5, 454.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_ancient_desert_dwelling_ancient_desert_dwelling_d9_8bf3a432_W.png", "frame_width": 453, "frame_height": 490, "frames": 1, "origin": [146.5, 231.0], "footprint": [16, 16], "grid_original": {"origin": [226, 266], "footprint": [14, 14]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [146.5, 487.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_ancient_desert_dwelling_ancient_desert_dwelling_d9_8bf3a432_SW.png", "frame_width": 344, "frame_height": 458, "frames": 1, "origin": [228.0, 263.0], "footprint": [12, 12], "grid_original": {"origin": [172, 282], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [228.0, 455.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_ancient_desert_dwelling_ancient_desert_dwelling_d9_8bf3a432_S.png", "frame_width": 404, "frame_height": 466, "frames": 1, "origin": [234.238985, 270.000047], "footprint": [12, 16], "grid_original": {"origin": [202, 258], "footprint": [13, 13]}, "alignment_transform": [1.2176312345567255, 0.019389493230733856, 0.06791096304751032, 1.0542071891796887], "alignment_base": [[17.0, 395.41387], [169.761015, 483.667908], [387.0, 358.254085]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [169.761015, 483.667908]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-166.0, -200.0)
+hframes = 1

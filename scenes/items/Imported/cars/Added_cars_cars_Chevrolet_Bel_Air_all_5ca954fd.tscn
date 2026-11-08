@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/cars/Added_cars_cars_Chevrolet_Bel_Air_all_5ca954fd_SE.png" id="2"]
+
+[node name="Added_cars_cars_Chevrolet_Bel_Air_all_5ca954fd" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_cars_cars_Chevrolet_Bel_Air_all_5ca954fd"
+category = "Added cars - Vehicles"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(16, 16)
+origin_offset = Vector2(304.0, -222.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/cars/Added_cars_cars_Chevrolet_Bel_Air_all_5ca954fd_SE.png", "frame_width": 512, "frame_height": 35, "frames": 1, "origin": [304.0, -222.0], "footprint": [16, 16], "grid_original": {"origin": [144, 0], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [304.0, 34.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-304.0, 222.0)
+hframes = 1

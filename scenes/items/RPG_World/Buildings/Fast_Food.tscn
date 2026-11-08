@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/isometric_rpg_world/isometricvill/isometricvill/Building_Assets/fast food/Fast Food.png" id="2_tex"]
+
+[node name="Fast_Food" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Fast_Food"
+category = "RPG_Buildings"
+kind = "build"
+direction = "SE"
+footprint = Vector2i(15, 10)
+origin_offset = Vector2(183.998032, 208.249787)
+total_frames = 1
+has_collision = true
+directions_data = {"SE": {"file": "../../isometric_rpg_world/isometricvill/isometricvill/Building_Assets/fast food/Fast Food.png", "origin": [183.998032, 208.249787], "footprint": [15, 10], "frame_width": 434, "frame_height": 403, "grid_original": {"origin": [217, 394], "footprint": [6, 6]}, "alignment_transform": [1.0391386554423196, -0.0067474922159453665, -0.02701310462530454, 1.0391502098275958], "alignment_base": [[32.0, 284.248804], [266.001968, 401.247218], [418.0, 325.248201]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [266.001968, 401.247218]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-183.998032, -208.249787)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 96, 48, 0, 96, -96, 48)

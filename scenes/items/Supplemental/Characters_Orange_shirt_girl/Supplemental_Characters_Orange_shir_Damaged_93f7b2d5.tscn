@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/supplemental_prepared/Characters_Orange_shirt_girl/Supplemental_Characters_Orange_shir_Damaged_93f7b2d5.png" id="2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_view"]
+atlas = ExtResource("2")
+region = Rect2(1280, 0, 640, 64)
+filter_clip = true
+
+[node name="Supplemental_Characters_Orange_shir_Damaged_93f7b2d5" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Supplemental_Characters_Orange_shir_Damaged_93f7b2d5"
+category = "Supplemental Characters"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(35.479166666666664, 41.0)
+total_frames = 10
+animation_fps = 12.0
+has_collision = false
+directions_data = {"S": {"file": "../../supplemental_prepared/Characters_Orange_shirt_girl/Supplemental_Characters_Orange_shir_Damaged_93f7b2d5.png", "region": [0, 0, 640, 64], "frame_width": 64, "frame_height": 64, "frames": 10, "origin": [32.542857142857144, 41.75], "footprint": [1, 1], "render_contact": [32.542857142857144, 41.75], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [32.542857142857144, 57.75]}, "SW": {"file": "../../supplemental_prepared/Characters_Orange_shirt_girl/Supplemental_Characters_Orange_shir_Damaged_93f7b2d5.png", "region": [640, 0, 640, 64], "frame_width": 64, "frame_height": 64, "frames": 10, "origin": [29.432692307692307, 41.0], "footprint": [1, 1], "render_contact": [29.432692307692307, 41.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [29.432692307692307, 57.0]}, "SE": {"file": "../../supplemental_prepared/Characters_Orange_shirt_girl/Supplemental_Characters_Orange_shir_Damaged_93f7b2d5.png", "region": [1280, 0, 640, 64], "frame_width": 64, "frame_height": 64, "frames": 10, "origin": [35.479166666666664, 41.0], "footprint": [1, 1], "render_contact": [35.479166666666664, 41.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [35.479166666666664, 57.0]}, "W": {"file": "../../supplemental_prepared/Characters_Orange_shirt_girl/Supplemental_Characters_Orange_shir_Damaged_93f7b2d5.png", "region": [1920, 0, 640, 64], "frame_width": 64, "frame_height": 64, "frames": 10, "origin": [28.102564102564102, 40.0], "footprint": [1, 1], "render_contact": [28.102564102564102, 40.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [28.102564102564102, 56.0]}, "E": {"file": "../../supplemental_prepared/Characters_Orange_shirt_girl/Supplemental_Characters_Orange_shir_Damaged_93f7b2d5.png", "region": [2560, 0, 640, 64], "frame_width": 64, "frame_height": 64, "frames": 10, "origin": [28.145833333333332, 40.5], "footprint": [1, 1], "render_contact": [28.145833333333332, 40.5], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [28.145833333333332, 56.5]}, "N": {"file": "../../supplemental_prepared/Characters_Orange_shirt_girl/Supplemental_Characters_Orange_shir_Damaged_93f7b2d5.png", "region": [3200, 0, 640, 64], "frame_width": 64, "frame_height": 64, "frames": 10, "origin": [33.325471698113205, 41.25], "footprint": [1, 1], "render_contact": [33.325471698113205, 41.25], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [33.325471698113205, 57.25]}, "NW": {"file": "../../supplemental_prepared/Characters_Orange_shirt_girl/Supplemental_Characters_Orange_shir_Damaged_93f7b2d5.png", "region": [3840, 0, 640, 64], "frame_width": 64, "frame_height": 64, "frames": 10, "origin": [35.45, 40.5], "footprint": [1, 1], "render_contact": [35.45, 40.5], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [35.45, 56.5]}, "NE": {"file": "../../supplemental_prepared/Characters_Orange_shirt_girl/Supplemental_Characters_Orange_shir_Damaged_93f7b2d5.png", "region": [4480, 0, 640, 64], "frame_width": 64, "frame_height": 64, "frames": 10, "origin": [30.227777777777778, 41.25], "footprint": [1, 1], "render_contact": [30.227777777777778, 41.25], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [30.227777777777778, 57.25]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_view")
+centered = false
+offset = Vector2(-35.479166666666664, -41.0)
+hframes = 10

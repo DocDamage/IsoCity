@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Prop_Equipment_Locker.glb" id="1_p1q1s"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lc44i"]
+size = Vector3(0.83852, 1.9, 1.06382)
+
+[node name="Prop_Equipment_Locker" type="StaticBody3D" unique_id=1725366183]
+collision_mask = 0
+metadata/authored_footprint = [-0.41926, 0.0, -0.53191, 0.83852, 1.9, 1.06382]
+
+[node name="Model" type="Node3D" parent="." unique_id=2027514743]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.11925998, 0, -0.28191)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1015944086 instance=ExtResource("1_p1q1s")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1513680624]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.95, 0)
+shape = SubResource("BoxShape3D_lc44i")

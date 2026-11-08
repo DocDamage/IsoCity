@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_destroyer_961746d6_SE.png" id="2"]
+
+[node name="Added_rendered_ww2_vehicles_ww2_ship_destroyer_961746d6" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_rendered_ww2_vehicles_ww2_ship_destroyer_961746d6"
+category = "Added rendered - Vehicles"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(141.0, 58.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_destroyer_961746d6_SE.png", "frame_width": 149, "frame_height": 93, "frames": 1, "origin": [141.0, 58.0], "footprint": [2, 2], "grid_original": {"origin": [42, 61], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [141.0, 90.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_destroyer_961746d6_E.png", "frame_width": 24, "frame_height": 126, "frames": 1, "origin": [11.5, 91.0], "footprint": [2, 2], "grid_original": {"origin": [12, 110], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [11.5, 123.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_destroyer_961746d6_NE.png", "frame_width": 149, "frame_height": 93, "frames": 1, "origin": [7.0, 58.0], "footprint": [2, 2], "grid_original": {"origin": [42, 61], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [7.0, 90.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_destroyer_961746d6_N.png", "frame_width": 210, "frame_height": 43, "frames": 1, "origin": [110.0, -55.0], "footprint": [6, 6], "grid_original": {"origin": [57, 3], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [110.0, 41.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_destroyer_961746d6_NW.png", "frame_width": 149, "frame_height": 97, "frames": 1, "origin": [139.0, 62.0], "footprint": [2, 2], "grid_original": {"origin": [42, 65], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [139.0, 94.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_destroyer_961746d6_W.png", "frame_width": 24, "frame_height": 130, "frames": 1, "origin": [11.5, 95.0], "footprint": [2, 2], "grid_original": {"origin": [12, 114], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [11.5, 127.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_destroyer_961746d6_SW.png", "frame_width": 149, "frame_height": 97, "frames": 1, "origin": [9.0, 62.0], "footprint": [2, 2], "grid_original": {"origin": [42, 65], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [9.0, 94.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_destroyer_961746d6_S.png", "frame_width": 210, "frame_height": 43, "frames": 1, "origin": [98.0, -55.0], "footprint": [6, 6], "grid_original": {"origin": [57, 3], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [98.0, 41.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-141.0, -58.0)
+hframes = 1

@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/hanx_lowpoly/low-poly-city-pack-hanx-city-pack/HanX_City_Pack/GLB/Parking_Garage.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1"]
+size = Vector3(16.003999710, 13.250000000, 8.219999313)
+
+[node name="Parking_Garage" type="StaticBody3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.001999855, 6.474999905, 0.109999657)
+shape = SubResource("BoxShape3D_1")

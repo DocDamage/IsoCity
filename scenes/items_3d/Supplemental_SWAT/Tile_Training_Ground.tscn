@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Tile_Training_Ground.glb" id="1_3i2uu"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_23lfa"]
+size = Vector3(8, 0.25, 8)
+
+[node name="Tile_Training_Ground" type="StaticBody3D" unique_id=1286801214]
+collision_mask = 0
+metadata/authored_footprint = [-4.0, -0.15, -4.0, 8.0, 0.25, 8.0]
+
+[node name="Model" type="Node3D" parent="." unique_id=1986836825]
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1285643179 instance=ExtResource("1_3i2uu")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1913343209]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.025000006, 0)
+shape = SubResource("BoxShape3D_23lfa")

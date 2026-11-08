@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Prop_Spike_Strip.glb" id="1_h340l"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nqfuc"]
+size = Vector3(3.366, 0.11, 0.26)
+
+[node name="Prop_Spike_Strip" type="StaticBody3D" unique_id=567505835]
+collision_mask = 0
+metadata/authored_footprint = [-1.683, 0.0, -0.13, 3.366, 0.11, 0.26]
+
+[node name="Model" type="Node3D" parent="." unique_id=610164040]
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1277833690 instance=ExtResource("1_h340l")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=757882981]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.055, 0)
+shape = SubResource("BoxShape3D_nqfuc")

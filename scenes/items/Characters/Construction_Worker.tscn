@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_character.gd" id="1_char_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Characters/Construction_Worker_SE.png" id="2_tex"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_char"]
+radius = 5.0
+
+[node name="Construction_Worker" type="CharacterBody2D"]
+y_sort_enabled = true
+script = ExtResource("1_char_script")
+item_id = "Construction_Worker"
+direction = "SE"
+origin_offset = Vector2(12, 28)
+is_pet = false
+directions_data = {"SE": {"file": "Sprites/Characters/Construction_Worker_SE.png", "frame_width": 25, "frame_height": 41, "origin": [12, 28], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 261, "y": 45, "w": 25, "h": 41}, "grid_method": "authored", "grid_contact": [12, 44]}, "SW": {"file": "Sprites/Characters/Construction_Worker_SW.png", "frame_width": 25, "frame_height": 41, "origin": [13, 28], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 288, "y": 45, "w": 25, "h": 41}, "grid_method": "authored", "grid_contact": [13, 44]}, "NW": {"file": "Sprites/Characters/Construction_Worker_NW.png", "frame_width": 25, "frame_height": 41, "origin": [13, 29], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 315, "y": 45, "w": 25, "h": 41}, "grid_method": "authored", "grid_contact": [13, 45]}, "NE": {"file": "Sprites/Characters/Construction_Worker_NE.png", "frame_width": 25, "frame_height": 41, "origin": [12, 29], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 342, "y": 45, "w": 25, "h": 41}, "grid_method": "authored", "grid_contact": [12, 45]}}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."] 
+shape = SubResource("CircleShape2D_char")
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-12, -28)
+hframes = 9

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_doors_drawbridge_17d6e329_SE.png" id="2"]
+
+[node name="Added_Isometric_tileset_Isometric_tileset_tile_images_doors_drawbridge_17d6e329" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Isometric_tileset_Isometric_tileset_tile_images_doors_drawbridge_17d6e329"
+category = "Added Isometric tileset - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(16, 16)
+origin_offset = Vector2(226.395945, 265.129452)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_doors_drawbridge_17d6e329_SE.png", "frame_width": 512, "frame_height": 503, "frames": 1, "origin": [226.395945, 265.129452], "footprint": [16, 16], "grid_original": {"origin": [144, 431], "footprint": [8, 1]}, "alignment_transform": [1.1621875911897421, -0.033459773578146224, -0.1327896769511292, 1.1641697297496534], "alignment_base": [[18.0, 369.089481], [251.604055, 485.753173], [460.0, 381.793144]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [251.604055, 485.753173]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-226.395945, -265.129452)
+hframes = 1

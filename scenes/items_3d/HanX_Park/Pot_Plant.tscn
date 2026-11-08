@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/hanx_lowpoly/low-poly-park-nature-pack-hanx-park-pack/HanX_Park_Pack/GLB/Pot_Plant.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1"]
+size = Vector3(1.045249939, 0.921109974, 1.106610060)
+
+[node name="Pot_Plant" type="StaticBody3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.063174963, 0.460554987, -0.012184978)
+shape = SubResource("BoxShape3D_1")

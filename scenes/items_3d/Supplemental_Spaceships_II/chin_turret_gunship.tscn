@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Spaceships_II/chin_turret_gunship.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(5.896313195653028, 1.974351811861411, 6.0)
+
+[node name="chin_turret_gunship" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-2.948156597826514, 0.0, -3.0, 5.896313195653028, 1.974351811861411, 6.0]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(-0.0014372512631703163, 1.0092410478393121, -0.0049234104613625545)
+scale = Vector3(5.95237592901566, 5.95237592901566, 5.95237592901566)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.9871759059307055, 0)
+shape = SubResource("CollisionShape")
+disabled = true

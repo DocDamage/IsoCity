@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Archology_South_v1_4_8/Added_Archology_South_v1_4_8_Archology_South_Infrastructure_Infrastructural_Cra_60b6a7cc_SE.png" id="2"]
+
+[node name="Added_Archology_South_v1_4_8_Archology_South_Infrastructure_Infrastructural_Cra_60b6a7cc" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_Archology_South_v1_4_8_Archology_South_Infrastructure_Infrastructural_Cra_60b6a7cc"
+category = "Added Archology South - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(43.004466, 52.635148)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Archology_South_v1_4_8/Added_Archology_South_v1_4_8_Archology_South_Infrastructure_Infrastructural_Cra_60b6a7cc_SE.png", "frame_width": 70, "frame_height": 79, "frames": 1, "origin": [43.004466, 52.635148], "footprint": [2, 2], "grid_original": {"origin": [35, 63], "footprint": [1, 1]}, "alignment_transform": [1.4271337019747068, -0.03694609899571072, -0.17126855440181754, 1.2883500054297978], "alignment_base": [[22.0, 64.451787], [45.995534, 77.558894], [67.0, 65.742255]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [45.995534, 77.558894]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-43.004466, -52.635148)
+hframes = 1

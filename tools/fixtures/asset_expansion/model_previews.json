@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "description": "I05: stable existing Spaceships II identities, all supported in either document mode. Images are regenerated separately.",
+  "assets": [
+    "3d:Supplemental_Spaceships_II/belly_bay_bomber",
+    "3d:Supplemental_Spaceships_II/boomerang_skiff",
+    "3d:Supplemental_Spaceships_II/bulk_hauler",
+    "3d:Supplemental_Spaceships_II/canard_delta",
+    "3d:Supplemental_Spaceships_II/catamaran_cruiser",
+    "3d:Supplemental_Spaceships_II/chin_turret_gunship",
+    "3d:Supplemental_Spaceships_II/container_freighter",
+    "3d:Supplemental_Spaceships_II/disc_tip_racer",
+    "3d:Supplemental_Spaceships_II/dorsal_engine_courier",
+    "3d:Supplemental_Spaceships_II/drill_miner",
+    "3d:Supplemental_Spaceships_II/forward_swept_skirmisher",
+    "3d:Supplemental_Spaceships_II/four_engine_heavy_bomber",
+    "3d:Supplemental_Spaceships_II/grapple_tug",
+    "3d:Supplemental_Spaceships_II/hammerhead_cruiser",
+    "3d:Supplemental_Spaceships_II/manta_flying_wing",
+    "3d:Supplemental_Spaceships_II/nacelle_escort",
+    "3d:Supplemental_Spaceships_II/outrigger_pod_courier",
+    "3d:Supplemental_Spaceships_II/quad_wing_gunship",
+    "3d:Supplemental_Spaceships_II/ramp_dropship",
+    "3d:Supplemental_Spaceships_II/split_nose_raider",
+    "3d:Supplemental_Spaceships_II/sponson_patrol",
+    "3d:Supplemental_Spaceships_II/t_tail_shuttle",
+    "3d:Supplemental_Spaceships_II/trimaran_escort",
+    "3d:Supplemental_Spaceships_II/twin_boom_interceptor",
+    "3d:Supplemental_Spaceships_II/v_tail_fighter"
+  ]
+}

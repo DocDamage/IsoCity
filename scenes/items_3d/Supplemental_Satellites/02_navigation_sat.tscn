@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Satellites/02_navigation_sat.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(1.6924278466103058, 1.2925713729806487, 3.0)
+
+[node name="02_navigation_sat" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.8462139233051529, 0.0, -1.5, 1.6924278466103058, 1.2925713729806487, 3.0]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(3.153707798147896e-05, 0.6456477288196154, 0.0005913647560621867)
+scale = Vector3(2.989290222127935, 2.989290222127935, 2.989290222127935)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.6462856864903244, 0)
+shape = SubResource("CollisionShape")
+disabled = true

@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Pistol_Aim.glb" id="1_6f1fh"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_japj5"]
+size = Vector3(0.6002408, 1.801408, 0.86658037)
+
+[node name="SWAT_Pose_Pistol_Aim" type="StaticBody3D" unique_id=465192925]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.3001204, 0.0, -0.43329018, 0.6002408, 1.801408, 0.86658037]
+
+[node name="Model" type="Node3D" parent="." unique_id=1759352722]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0083940625, 0, -0.2492019)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=62270299 instance=ExtResource("1_6f1fh")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1376537252]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.900704, 0)
+shape = SubResource("BoxShape3D_japj5")
+disabled = true

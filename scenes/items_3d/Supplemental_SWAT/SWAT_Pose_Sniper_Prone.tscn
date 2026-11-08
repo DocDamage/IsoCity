@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Sniper_Prone.glb" id="1_32s8d"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ypxvx"]
+size = Vector3(0.8018266, 0.6909643, 2.82934)
+
+[node name="SWAT_Pose_Sniper_Prone" type="StaticBody3D" unique_id=1164497913]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.4009133, 0.0, -1.41467, 0.8018266, 0.6909643, 2.82934]
+
+[node name="Model" type="Node3D" parent="." unique_id=2050790360]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.9802322e-08, 0, -0.29723227)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=2107959155 instance=ExtResource("1_32s8d")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2004222976]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.34548214, 0)
+shape = SubResource("BoxShape3D_ypxvx")
+disabled = true

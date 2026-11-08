@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Arcade_machines/13_arcade_13_racer_blue.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(0.8564882184634995, 1.5, 1.36989107467994)
+
+[node name="13_arcade_13_racer_blue" type="StaticBody3D"]
+collision_layer = 1
+collision_mask = 0
+metadata/authored_footprint = [-0.42824410923174977, 0.0, -0.68494553733997, 0.8564882184634995, 1.5, 1.36989107467994]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(-0.0010813697439170284, 0.7498366298356322, 0.001160337928601341)
+scale = Vector3(1.494491022658033, 1.494491022658033, 1.494491022658033)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.75, 0)
+shape = SubResource("CollisionShape")
+disabled = false

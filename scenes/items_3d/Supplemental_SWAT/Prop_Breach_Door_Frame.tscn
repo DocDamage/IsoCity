@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Prop_Breach_Door_Frame.glb" id="1_5fbvp"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_s36oe"]
+size = Vector3(1.6, 2.44, 1.1)
+
+[node name="Prop_Breach_Door_Frame" type="StaticBody3D" unique_id=952132163]
+collision_mask = 0
+metadata/authored_footprint = [-0.8, 0.0, -0.55, 1.6, 2.44, 1.1]
+
+[node name="Model" type="Node3D" parent="." unique_id=1394293398]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.050000012)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1239622810 instance=ExtResource("1_5fbvp")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1013832329]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.22, 0)
+shape = SubResource("BoxShape3D_s36oe")

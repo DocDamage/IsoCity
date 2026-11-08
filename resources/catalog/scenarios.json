@@ -1,0 +1,17 @@
+{
+  "walkable": {"title":"Walkable neighborhood","description":"Connect at least two visible ground-level homes to a workplace, shop and park by walking routes no longer than 64 walking units. Check routes after editing. Nearby targets are checked first; the checker considers up to eight homes and eight targets of each type.","homes":2,"distance":64},
+  "apartment": {"title":"Apartment on a budget","description":"Furnish the challenge apartment with seating, a table, a light and storage. Keep all construction spending within 600 credits. Starting this challenge empties the selected building's room, or creates an apartment if none is selected, and starts a new city budget. The original city can be restored with Undo.","budget":600,
+    "default_asset":{"2d":"2d:Apartment_Building","3d":"3d:HanX_City/Apartment_4F_A"},
+    "shell_assets":["2d:Wall_White","3d:HanX_Shop/Floor_Tile_Store","3d:HanX_Shop/Wall_Store_Segment"],
+    "furniture":{
+      "seating":["2d:Sofa_Teal","2d:Dining_Chair_White","2d:Armchair_Mustard","3d:HanX_Shop/Cafe_Chair","3d:HanX_School/Student_Chair","3d:HanX_Park/Bench_Park"],
+      "table":["2d:Coffee_Table_Wood","2d:Dining_Table_Round","3d:HanX_Shop/Display_Table","3d:HanX_Shop/Cafe_Table_Set","3d:HanX_Park/Picnic_Table"],
+      "lighting":["2d:Floor_Lamp","3d:HanX_Park/Lamp_Bollard","3d:HanX_Park/Lamp_Park"],
+      "storage":["2d:Bookshelf_Tall","3d:HanX_Shop/Shelf_Wall","3d:HanX_Shop/Shelf_Gondola"]
+    }
+  },
+  "construction": {
+    "title": "Foundation construction contract",
+    "description": "Haul masonry from a stocked shipping container to a site office. On foot, install two barriers and set the foundation reinforcement. The reward and installed equipment last for this Walk session."
+  }
+}

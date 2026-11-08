@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Living_Room/TV_Stand_With_TV_SE.png" id="2_tex"]
+
+[node name="TV_Stand_With_TV" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "TV_Stand_With_TV"
+category = "Living Room"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 2)
+origin_offset = Vector2(28, 21)
+total_frames = 4
+animation_fps = 4
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Living_Room/TV_Stand_With_TV_SE.png", "frame_width": 39, "frame_height": 43, "origin": [28, 21], "footprint": [1, 2], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Living_Room_Sheet.png", "x": 0, "y": 349, "w": 39, "h": 43}, "grid_method": "authored", "grid_contact": [12, 45]}, "SW": {"file": "Sprites/Living_Room/TV_Stand_With_TV_SW.png", "frame_width": 39, "frame_height": 43, "origin": [11, 21], "footprint": [2, 1], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Living_Room_Sheet.png", "x": 41, "y": 349, "w": 39, "h": 43}, "grid_method": "authored", "grid_contact": [27, 45]}, "NW": {"file": "Sprites/Living_Room/TV_Stand_With_TV_NW.png", "frame_width": 39, "frame_height": 41, "origin": [27, 19], "footprint": [1, 2], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Living_Room_Sheet.png", "x": 82, "y": 349, "w": 39, "h": 41}, "grid_method": "authored", "grid_contact": [11, 43]}, "NE": {"file": "Sprites/Living_Room/TV_Stand_With_TV_NE.png", "frame_width": 39, "frame_height": 41, "origin": [12, 19], "footprint": [2, 1], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Living_Room_Sheet.png", "x": 123, "y": 349, "w": 39, "h": 41}, "grid_method": "authored", "grid_contact": [28, 43]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-28, -21)
+hframes = 4
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, -16, 24, -32, 16)

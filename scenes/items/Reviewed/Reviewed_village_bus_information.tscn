@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/reviewed_prepared/Reviewed_village_bus_information_SE.png" id="2"]
+[node name="Reviewed_village_bus_information" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1")
+item_id = "Reviewed_village_bus_information"
+category = "Reviewed isometricvill - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(3, 2)
+origin_offset = Vector2(78.5, 76)
+scale = Vector2(0.5, 0.5)
+total_frames = 1
+animation_fps = 8
+has_collision = true
+directions_data = {"SE": {"file": "../../reviewed_prepared/Reviewed_village_bus_information_SE.png", "frame_width": 128, "frame_height": 128, "frames": 1, "origin": [78.5, 76], "footprint": [3, 2], "source_contact": [78.5, 116], "grid_contact": [78.5, 116], "render_contact": [78.5, 116], "grid_method": "reviewed source contact and virtual footprint"}, "SW": {"file": "../../reviewed_prepared/Reviewed_village_bus_information_SW.png", "frame_width": 128, "frame_height": 128, "frames": 1, "origin": [51.5, 78], "footprint": [3, 2], "source_contact": [51.5, 118], "grid_contact": [51.5, 118], "render_contact": [51.5, 118], "grid_method": "reviewed source contact and virtual footprint"}}
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-78.5, -76)
+hframes = 1

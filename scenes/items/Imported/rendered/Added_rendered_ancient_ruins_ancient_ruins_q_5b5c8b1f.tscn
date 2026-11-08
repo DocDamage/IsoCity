@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_ancient_ruins_ancient_ruins_q_5b5c8b1f_SE.png" id="2"]
+
+[node name="Added_rendered_ancient_ruins_ancient_ruins_q_5b5c8b1f" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_rendered_ancient_ruins_ancient_ruins_q_5b5c8b1f"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(24.0, 133.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_ancient_ruins_ancient_ruins_q_5b5c8b1f_SE.png", "frame_width": 188, "frame_height": 200, "frames": 1, "origin": [24.0, 133.0], "footprint": [4, 4], "grid_original": {"origin": [46, 160], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [24.0, 197.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_ancient_ruins_ancient_ruins_q_5b5c8b1f_E.png", "frame_width": 214, "frame_height": 223, "frames": 1, "origin": [138.0, 155.0], "footprint": [4, 4], "grid_original": {"origin": [59, 183], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [138.0, 219.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_ancient_ruins_ancient_ruins_q_5b5c8b1f_NE.png", "frame_width": 170, "frame_height": 203, "frames": 1, "origin": [52.5, 136.0], "footprint": [4, 4], "grid_original": {"origin": [37, 163], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [52.5, 200.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_ancient_ruins_ancient_ruins_q_5b5c8b1f_N.png", "frame_width": 227, "frame_height": 205, "frames": 1, "origin": [118.5, 138.0], "footprint": [4, 4], "grid_original": {"origin": [50, 157], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [118.5, 202.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_ancient_ruins_ancient_ruins_q_5b5c8b1f_NW.png", "frame_width": 188, "frame_height": 179, "frames": 1, "origin": [63.0, 112.0], "footprint": [4, 4], "grid_original": {"origin": [46, 139], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [63.0, 176.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_ancient_ruins_ancient_ruins_q_5b5c8b1f_W.png", "frame_width": 214, "frame_height": 199, "frames": 1, "origin": [111.0, 132.0], "footprint": [4, 4], "grid_original": {"origin": [59, 159], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [111.0, 196.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_ancient_ruins_ancient_ruins_q_5b5c8b1f_SW.png", "frame_width": 170, "frame_height": 191, "frames": 1, "origin": [80.0, 124.0], "footprint": [4, 4], "grid_original": {"origin": [37, 151], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [80.0, 188.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_ancient_ruins_ancient_ruins_q_5b5c8b1f_S.png", "frame_width": 227, "frame_height": 224, "frames": 1, "origin": [123.0, 157.0], "footprint": [4, 4], "grid_original": {"origin": [50, 176], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [123.0, 221.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-24.0, -133.0)
+hframes = 1

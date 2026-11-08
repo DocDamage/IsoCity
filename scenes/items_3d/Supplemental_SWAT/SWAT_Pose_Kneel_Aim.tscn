@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Kneel_Aim.glb" id="1_3mts3"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0ofu5"]
+size = Vector3(0.66996384, 1.4244545, 1.6811217)
+
+[node name="SWAT_Pose_Kneel_Aim" type="StaticBody3D" unique_id=1707526622]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.33498192, 0.0, -0.84056085, 0.66996384, 1.4244545, 1.6811217]
+
+[node name="Model" type="Node3D" parent="." unique_id=1225915418]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.051853895, 0, -0.24440831)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=453594019 instance=ExtResource("1_3mts3")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=487351722]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7122272, 0)
+shape = SubResource("BoxShape3D_0ofu5")
+disabled = true

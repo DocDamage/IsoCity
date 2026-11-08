@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "shelters": {
+    "2d:Supplemental_Camping_gear_kit_dome_tent_ae1e2dc1": 2,
+    "2d:Supplemental_Camping_gear_kit_tunnel_tent_c6a7ca7f": 4,
+    "2d:Supplemental_Camping_gear_kit_tarp_shelter_f4e3b108": 3,
+    "3d:HanX_Park/Gazebo": 4,
+    "3d:Supplemental_SWAT/Prop_Command_Tent": 4
+  },
+  "activities": {
+    "2d:Picnic_Table": "picnic",
+    "3d:HanX_Park/Picnic_Table": "picnic",
+    "2d:Supplemental_Camping_gear_kit_camp_table_21ab81cb": "picnic",
+    "2d:Reviewed_myart_campfire": "fire",
+    "2d:Supplemental_Camping_gear_kit_campfire_e8155646": "fire"
+  }
+}

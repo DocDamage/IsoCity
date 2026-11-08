@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/supplemental_prepared/Characters_Blue_robot/Supplemental_Characters_Blue_robot_StandingShoot_5b065c30.png" id="2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_view"]
+atlas = ExtResource("2")
+region = Rect2(3840, 0, 640, 64)
+filter_clip = true
+
+[node name="Supplemental_Characters_Blue_robot_StandingShoot_5b065c30" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Supplemental_Characters_Blue_robot_StandingShoot_5b065c30"
+category = "Supplemental Characters"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(36.38125, 34.25)
+total_frames = 10
+animation_fps = 20.0
+has_collision = false
+directions_data = {"SW": {"file": "../../supplemental_prepared/Characters_Blue_robot/Supplemental_Characters_Blue_robot_StandingShoot_5b065c30.png", "region": [0, 0, 640, 64], "frame_width": 64, "frame_height": 64, "frames": 10, "origin": [29.176470588235293, 34.75], "footprint": [1, 1], "render_contact": [29.176470588235293, 34.75], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [29.176470588235293, 50.75]}, "W": {"file": "../../supplemental_prepared/Characters_Blue_robot/Supplemental_Characters_Blue_robot_StandingShoot_5b065c30.png", "region": [640, 0, 640, 64], "frame_width": 64, "frame_height": 64, "frames": 10, "origin": [27.194444444444443, 33.25], "footprint": [1, 1], "render_contact": [27.194444444444443, 33.25], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [27.194444444444443, 49.25]}, "NW": {"file": "../../supplemental_prepared/Characters_Blue_robot/Supplemental_Characters_Blue_robot_StandingShoot_5b065c30.png", "region": [1280, 0, 640, 64], "frame_width": 64, "frame_height": 64, "frames": 10, "origin": [36.13235294117647, 33.25], "footprint": [1, 1], "render_contact": [36.13235294117647, 33.25], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [36.13235294117647, 49.25]}, "N": {"file": "../../supplemental_prepared/Characters_Blue_robot/Supplemental_Characters_Blue_robot_StandingShoot_5b065c30.png", "region": [1920, 0, 640, 64], "frame_width": 64, "frame_height": 64, "frames": 10, "origin": [34.37132352941177, 34.5], "footprint": [1, 1], "render_contact": [34.37132352941177, 34.5], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [34.37132352941177, 50.5]}, "NE": {"file": "../../supplemental_prepared/Characters_Blue_robot/Supplemental_Characters_Blue_robot_StandingShoot_5b065c30.png", "region": [2560, 0, 640, 64], "frame_width": 64, "frame_height": 64, "frames": 10, "origin": [31.072727272727274, 35.0], "footprint": [1, 1], "render_contact": [31.072727272727274, 35.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [31.072727272727274, 51.0]}, "E": {"file": "../../supplemental_prepared/Characters_Blue_robot/Supplemental_Characters_Blue_robot_StandingShoot_5b065c30.png", "region": [3200, 0, 640, 64], "frame_width": 64, "frame_height": 64, "frames": 10, "origin": [27.97159090909091, 34.0], "footprint": [1, 1], "render_contact": [27.97159090909091, 34.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [27.97159090909091, 50.0]}, "SE": {"file": "../../supplemental_prepared/Characters_Blue_robot/Supplemental_Characters_Blue_robot_StandingShoot_5b065c30.png", "region": [3840, 0, 640, 64], "frame_width": 64, "frame_height": 64, "frames": 10, "origin": [36.38125, 34.25], "footprint": [1, 1], "render_contact": [36.38125, 34.25], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [36.38125, 50.25]}, "S": {"file": "../../supplemental_prepared/Characters_Blue_robot/Supplemental_Characters_Blue_robot_StandingShoot_5b065c30.png", "region": [4480, 0, 640, 64], "frame_width": 64, "frame_height": 64, "frames": 10, "origin": [32.845238095238095, 35.25], "footprint": [1, 1], "render_contact": [32.845238095238095, 35.25], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [32.845238095238095, 51.25]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_view")
+centered = false
+offset = Vector2(-36.38125, -34.25)
+hframes = 10

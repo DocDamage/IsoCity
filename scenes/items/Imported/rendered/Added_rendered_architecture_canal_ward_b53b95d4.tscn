@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_architecture_canal_ward_b53b95d4_SE.png" id="2"]
+
+[node name="Added_rendered_architecture_canal_ward_b53b95d4" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_architecture_canal_ward_b53b95d4"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 8)
+origin_offset = Vector2(147.5, 180.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_architecture_canal_ward_b53b95d4_SE.png", "frame_width": 296, "frame_height": 311, "frames": 1, "origin": [147.5, 180.0], "footprint": [8, 8], "grid_original": {"origin": [148, 167], "footprint": [9, 9]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [147.5, 308.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_architecture_canal_ward_b53b95d4_E.png", "frame_width": 445, "frame_height": 323, "frames": 1, "origin": [233.768315, 81.862017], "footprint": [12, 16], "grid_original": {"origin": [222, 99], "footprint": [14, 14]}, "alignment_transform": [1.0819123612484707, -0.044174534826360384, -0.15291534064617662, 0.9370094585411071], "alignment_base": [[15.0, 208.153177], [208.231685, 319.716533], [427.0, 193.425373]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [208.231685, 319.716533]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_architecture_canal_ward_b53b95d4_NE.png", "frame_width": 344, "frame_height": 234, "frames": 1, "origin": [175.5, 39.0], "footprint": [12, 12], "grid_original": {"origin": [172, 58], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [175.5, 231.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_architecture_canal_ward_b53b95d4_N.png", "frame_width": 445, "frame_height": 292, "frames": 1, "origin": [209.508416, 51.18204], "footprint": [16, 12], "grid_original": {"origin": [222, 68], "footprint": [14, 14]}, "alignment_transform": [1.0818509444534288, 0.04227891272940813, 0.1463309858967629, 0.9368818731178689], "alignment_base": [[17.0, 162.336978], [236.491584, 289.055338], [429.0, 177.9004]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [236.491584, 289.055338]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_architecture_canal_ward_b53b95d4_NW.png", "frame_width": 296, "frame_height": 301, "frames": 1, "origin": [147.5, 170.0], "footprint": [8, 8], "grid_original": {"origin": [148, 157], "footprint": [9, 9]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [147.5, 298.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_architecture_canal_ward_b53b95d4_W.png", "frame_width": 445, "frame_height": 358, "frames": 1, "origin": [234.541843, 117.198836], "footprint": [12, 16], "grid_original": {"origin": [222, 134], "footprint": [14, 14]}, "alignment_transform": [1.0818434280360831, -0.042119925163164706, -0.1458871227767824, 0.936961994358631], "alignment_base": [[15.0, 243.941345], [207.458157, 355.051853], [427.0, 228.309344]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [207.458157, 355.051853]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_architecture_canal_ward_b53b95d4_SW.png", "frame_width": 344, "frame_height": 274, "frames": 1, "origin": [167.5, 79.0], "footprint": [12, 12], "grid_original": {"origin": [172, 98], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [167.5, 271.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_architecture_canal_ward_b53b95d4_S.png", "frame_width": 445, "frame_height": 350, "frames": 1, "origin": [210.291499, 108.844044], "footprint": [16, 12], "grid_original": {"origin": [222, 126], "footprint": [14, 14]}, "alignment_transform": [1.0819156241482963, 0.044312886782008745, 0.15344492549310113, 0.9369301254223954], "alignment_base": [[17.0, 220.448209], [235.708501, 346.720587], [429.0, 235.116422]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [235.708501, 346.720587]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-147.5, -180.0)
+hframes = 1

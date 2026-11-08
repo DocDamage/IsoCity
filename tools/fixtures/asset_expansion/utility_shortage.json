@@ -1,0 +1,269 @@
+{
+  "document": {
+    "mode": "3d",
+    "night": false,
+    "objects": [
+      {
+        "asset": "2d:Added_Well_Well_Wall_03fb84ee",
+        "direction": "SE",
+        "name": "Well",
+        "position": [
+          -14.0,
+          0.0,
+          0.0
+        ],
+        "scale": 0.6,
+        "uid": "west_well"
+      },
+      {
+        "asset": "3d:HanX_City/Roof_Water_Tank",
+        "direction": "0",
+        "name": "Tank",
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": 0.6,
+        "uid": "west_tank"
+      },
+      {
+        "asset": "3d:HanX_City/Row_Houses_A",
+        "direction": "0",
+        "name": "Home",
+        "position": [
+          14.0,
+          0.0,
+          0.0
+        ],
+        "scale": 0.6,
+        "uid": "west_home"
+      },
+      {
+        "asset": "3d:HanX_Shop/Shop_Cafe",
+        "direction": "0",
+        "name": "Shop",
+        "position": [
+          0.0,
+          0.0,
+          14.0
+        ],
+        "scale": 0.6,
+        "uid": "west_shop"
+      },
+      {
+        "asset": "2d:Added_Well_Well_Wall_03fb84ee",
+        "direction": "SE",
+        "name": "Well",
+        "position": [
+          66.0,
+          0.0,
+          0.0
+        ],
+        "scale": 0.6,
+        "uid": "east_well"
+      },
+      {
+        "asset": "3d:HanX_City/Roof_Water_Tank",
+        "direction": "0",
+        "name": "Tank",
+        "position": [
+          80.0,
+          0.0,
+          0.0
+        ],
+        "scale": 0.6,
+        "uid": "east_tank"
+      },
+      {
+        "asset": "3d:HanX_City/Row_Houses_A",
+        "direction": "0",
+        "name": "Home",
+        "position": [
+          94.0,
+          0.0,
+          0.0
+        ],
+        "scale": 0.6,
+        "uid": "east_home"
+      },
+      {
+        "asset": "3d:HanX_Shop/Shop_Cafe",
+        "direction": "0",
+        "name": "Shop",
+        "position": [
+          80.0,
+          0.0,
+          14.0
+        ],
+        "scale": 0.6,
+        "uid": "east_shop"
+      }
+    ],
+    "spawn": [
+      0,
+      0.2,
+      9
+    ],
+    "template": "blank",
+    "template_revision": 2,
+    "terrain": {
+      "bounds": [
+        -16,
+        -13,
+        76,
+        34
+      ],
+      "enabled": true,
+      "land_color": "64805c"
+    },
+    "tiles": [],
+    "title": "Golden utility shortage",
+    "utilities": {
+      "water": true
+    },
+    "utility_edges": [
+      {
+        "enabled": true,
+        "from": {
+          "object_uid": "west_well",
+          "socket": "outlet"
+        },
+        "kind": "water",
+        "to": {
+          "object_uid": "west_tank",
+          "socket": "west"
+        },
+        "uid": "west_run_1"
+      },
+      {
+        "enabled": true,
+        "from": {
+          "object_uid": "west_tank",
+          "socket": "south"
+        },
+        "kind": "water",
+        "to": {
+          "object_uid": "west_shop",
+          "socket": "inlet"
+        },
+        "uid": "west_run_2"
+      },
+      {
+        "enabled": true,
+        "from": {
+          "object_uid": "west_tank",
+          "socket": "east"
+        },
+        "kind": "water",
+        "to": {
+          "object_uid": "west_home",
+          "socket": "inlet"
+        },
+        "uid": "west_run_3"
+      },
+      {
+        "enabled": true,
+        "from": {
+          "object_uid": "east_well",
+          "socket": "outlet"
+        },
+        "kind": "water",
+        "to": {
+          "object_uid": "east_tank",
+          "socket": "west"
+        },
+        "uid": "east_run_1"
+      },
+      {
+        "enabled": true,
+        "from": {
+          "object_uid": "east_tank",
+          "socket": "south"
+        },
+        "kind": "water",
+        "to": {
+          "object_uid": "east_shop",
+          "socket": "inlet"
+        },
+        "uid": "east_run_2"
+      },
+      {
+        "enabled": true,
+        "from": {
+          "object_uid": "east_tank",
+          "socket": "east"
+        },
+        "kind": "water",
+        "to": {
+          "object_uid": "east_home",
+          "socket": "inlet"
+        },
+        "uid": "east_run_3"
+      }
+    ],
+    "utility_nodes": [
+      {
+        "enabled": true,
+        "kind": "water",
+        "object_uid": "west_well",
+        "quantity": 6,
+        "uid": "west_role_well"
+      },
+      {
+        "enabled": true,
+        "kind": "water",
+        "object_uid": "west_tank",
+        "uid": "west_role_tank"
+      },
+      {
+        "enabled": true,
+        "kind": "water",
+        "object_uid": "west_home",
+        "priority": 60,
+        "quantity": 5,
+        "uid": "west_role_home"
+      },
+      {
+        "enabled": true,
+        "kind": "water",
+        "object_uid": "west_shop",
+        "priority": 30,
+        "quantity": 4,
+        "uid": "west_role_shop"
+      },
+      {
+        "enabled": true,
+        "kind": "water",
+        "object_uid": "east_well",
+        "quantity": 9,
+        "uid": "east_role_well"
+      },
+      {
+        "enabled": true,
+        "kind": "water",
+        "object_uid": "east_tank",
+        "uid": "east_role_tank"
+      },
+      {
+        "enabled": true,
+        "kind": "water",
+        "object_uid": "east_home",
+        "priority": 60,
+        "quantity": 5,
+        "uid": "east_role_home"
+      },
+      {
+        "enabled": true,
+        "kind": "water",
+        "object_uid": "east_shop",
+        "priority": 30,
+        "quantity": 4,
+        "uid": "east_role_shop"
+      }
+    ]
+  },
+  "scenario": "utility_shortage",
+  "seed": 42,
+  "version": 1
+}

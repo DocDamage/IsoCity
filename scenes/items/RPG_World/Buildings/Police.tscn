@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/isometric_rpg_world/isometricvill/isometricvill/Building_Assets/Police/Police.png" id="2_tex"]
+
+[node name="Police" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Police"
+category = "RPG_Buildings"
+kind = "build"
+direction = "SE"
+footprint = Vector2i(17, 13)
+origin_offset = Vector2(225.354105, 311.960931)
+total_frames = 1
+has_collision = true
+directions_data = {"SE": {"file": "../../isometric_rpg_world/isometricvill/isometricvill/Building_Assets/Police/Police.png", "origin": [225.354105, 311.960931], "footprint": [17, 13], "frame_width": 524, "frame_height": 553, "grid_original": {"origin": [262, 545], "footprint": [6, 6]}, "alignment_transform": [1.0003863441277132, -0.0038098948029817274, -0.005485977536293304, 1.0007472750943316], "alignment_base": [[18.0, 415.093865], [290.645895, 552.030288], [498.0, 448.897354]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [290.645895, 552.030288]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-225.354105, -311.960931)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 96, 48, 0, 96, -96, 48)

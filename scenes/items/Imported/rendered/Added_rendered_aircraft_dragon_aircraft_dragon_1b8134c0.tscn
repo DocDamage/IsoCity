@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_aircraft_dragon_aircraft_dragon_1b8134c0_SE.png" id="2"]
+
+[node name="Added_rendered_aircraft_dragon_aircraft_dragon_1b8134c0" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_rendered_aircraft_dragon_aircraft_dragon_1b8134c0"
+category = "Added rendered - Vehicles"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(3, 4)
+origin_offset = Vector2(66.995443, 29.242279)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_dragon_aircraft_dragon_1b8134c0_SE.png", "frame_width": 112, "frame_height": 90, "frames": 1, "origin": [66.995443, 29.242279], "footprint": [3, 4], "grid_original": {"origin": [40, 66], "footprint": [2, 1]}, "alignment_transform": [1.1473829423292965, 0.05623898626788659, 0.19883230398422325, 0.9892549604918547], "alignment_base": [[5.0, 65.114286], [43.004557, 87.214415], [105.0, 51.342408]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [43.004557, 87.214415]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_dragon_aircraft_dragon_1b8134c0_E.png", "frame_width": 98, "frame_height": 80, "frames": 1, "origin": [48.5, 29.0], "footprint": [3, 3], "grid_original": {"origin": [33, 56], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [48.5, 77.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_dragon_aircraft_dragon_1b8134c0_NE.png", "frame_width": 112, "frame_height": 106, "frames": 1, "origin": [44.127692, 45.521555], "footprint": [4, 3], "grid_original": {"origin": [40, 82], "footprint": [2, 1]}, "alignment_transform": [1.1469536285417428, -0.05764461524685628, -0.19499840037283311, 0.9958020958663687], "alignment_base": [[6.0, 67.415608], [67.872308, 103.132148], [106.0, 81.238095]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [67.872308, 103.132148]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_dragon_aircraft_dragon_1b8134c0_N.png", "frame_width": 62, "frame_height": 108, "frames": 1, "origin": [30.5, 73.0], "footprint": [2, 2], "grid_original": {"origin": [31, 92], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [30.5, 105.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_dragon_aircraft_dragon_1b8134c0_NW.png", "frame_width": 112, "frame_height": 105, "frames": 1, "origin": [67.366801, 44.185058], "footprint": [3, 4], "grid_original": {"origin": [40, 81], "footprint": [2, 1]}, "alignment_transform": [1.1500651525151966, 0.05879761973662506, 0.2150306292122368, 0.9927020822542519], "alignment_base": [[5.0, 80.114286], [42.633199, 102.061714], [105.0, 66.132486]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [42.633199, 102.061714]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_dragon_aircraft_dragon_1b8134c0_W.png", "frame_width": 98, "frame_height": 81, "frames": 1, "origin": [48.5, 30.0], "footprint": [3, 3], "grid_original": {"origin": [33, 57], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [48.5, 78.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_dragon_aircraft_dragon_1b8134c0_SW.png", "frame_width": 112, "frame_height": 91, "frames": 1, "origin": [43.897357, 30.360414], "footprint": [4, 3], "grid_original": {"origin": [40, 67], "footprint": [2, 1]}, "alignment_transform": [1.1489226677728661, -0.06074474295189984, -0.20489435399422606, 0.9970658105151391], "alignment_base": [[6.0, 52.122202], [68.102643, 87.999883], [106.0, 66.238095]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [68.102643, 87.999883]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_dragon_aircraft_dragon_1b8134c0_S.png", "frame_width": 62, "frame_height": 87, "frames": 1, "origin": [30.5, 52.0], "footprint": [2, 2], "grid_original": {"origin": [31, 71], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [30.5, 84.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-66.995443, -29.242279)
+hframes = 1

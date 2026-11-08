@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_berber_dwelling_berber_dwelling_cc3e04_1925cf55_SE.png" id="2"]
+
+[node name="Added_rendered_berber_dwelling_berber_dwelling_cc3e04_1925cf55" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_berber_dwelling_berber_dwelling_cc3e04_1925cf55"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(174.0, 214.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_berber_dwelling_berber_dwelling_cc3e04_1925cf55_SE.png", "frame_width": 344, "frame_height": 409, "frames": 1, "origin": [174.0, 214.0], "footprint": [12, 12], "grid_original": {"origin": [172, 233], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [174.0, 406.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_berber_dwelling_berber_dwelling_cc3e04_1925cf55_E.png", "frame_width": 470, "frame_height": 406, "frames": 1, "origin": [234.167724, 152.67454], "footprint": [16, 16], "grid_original": {"origin": [235, 166], "footprint": [15, 15]}, "alignment_transform": [1.1743324176070167, -0.002683627984973347, -0.007754783472302851, 1.0156142895878388], "alignment_base": [[17.0, 278.132801], [235.832276, 404.743135], [453.0, 279.284874]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [235.832276, 404.743135]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_berber_dwelling_berber_dwelling_cc3e04_1925cf55_NE.png", "frame_width": 334, "frame_height": 299, "frames": 1, "origin": [167.0, 104.0], "footprint": [12, 12], "grid_original": {"origin": [167, 139], "footprint": [10, 10]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [167.0, 296.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_berber_dwelling_berber_dwelling_cc3e04_1925cf55_N.png", "frame_width": 464, "frame_height": 345, "frames": 1, "origin": [229.983957, 94.833518], "footprint": [16, 16], "grid_original": {"origin": [232, 121], "footprint": [14, 14]}, "alignment_transform": [1.1879929494855492, -0.004116180786389478, -0.014477629376866474, 1.0289711870688225], "alignment_base": [[16.0, 218.373618], [233.016043, 343.637842], [447.0, 220.097742]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [233.016043, 343.637842]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_berber_dwelling_berber_dwelling_cc3e04_1925cf55_NW.png", "frame_width": 344, "frame_height": 356, "frames": 1, "origin": [165.0, 161.0], "footprint": [12, 12], "grid_original": {"origin": [172, 180], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [165.0, 353.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_berber_dwelling_berber_dwelling_cc3e04_1925cf55_W.png", "frame_width": 470, "frame_height": 427, "frames": 1, "origin": [230.0, 168.0], "footprint": [16, 16], "grid_original": {"origin": [235, 187], "footprint": [15, 15]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [230.0, 424.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_berber_dwelling_berber_dwelling_cc3e04_1925cf55_SW.png", "frame_width": 334, "frame_height": 406, "frames": 1, "origin": [273.5, 211.0], "footprint": [12, 12], "grid_original": {"origin": [167, 246], "footprint": [10, 10]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [273.5, 403.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_berber_dwelling_berber_dwelling_cc3e04_1925cf55_S.png", "frame_width": 464, "frame_height": 481, "frames": 1, "origin": [226.0, 222.0], "footprint": [16, 16], "grid_original": {"origin": [232, 257], "footprint": [14, 14]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [226.0, 478.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-174.0, -214.0)
+hframes = 1

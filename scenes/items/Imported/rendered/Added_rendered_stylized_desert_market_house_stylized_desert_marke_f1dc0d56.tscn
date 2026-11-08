@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_stylized_desert_market_house_stylized_desert_marke_f1dc0d56_SE.png" id="2"]
+
+[node name="Added_rendered_stylized_desert_market_house_stylized_desert_marke_f1dc0d56" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_stylized_desert_market_house_stylized_desert_marke_f1dc0d56"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 8)
+origin_offset = Vector2(149.0, 291.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_desert_market_house_stylized_desert_marke_f1dc0d56_SE.png", "frame_width": 301, "frame_height": 422, "frames": 1, "origin": [149.0, 291.0], "footprint": [8, 8], "grid_original": {"origin": [150, 278], "footprint": [9, 9]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [149.0, 419.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_desert_market_house_stylized_desert_marke_f1dc0d56_E.png", "frame_width": 431, "frame_height": 438, "frames": 1, "origin": [219.482084, 212.257597], "footprint": [12, 16], "grid_original": {"origin": [216, 230], "footprint": [13, 13]}, "alignment_transform": [1.119500296275618, -0.06622525334919302, -0.2294839229505733, 0.9698714989994559], "alignment_base": [[15.0, 330.271295], [209.517916, 442.53565], [414.0, 324.521952]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [209.517916, 442.53565]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_desert_market_house_stylized_desert_marke_f1dc0d56_NE.png", "frame_width": 314, "frame_height": 374, "frames": 1, "origin": [156.0, 243.0], "footprint": [8, 8], "grid_original": {"origin": [157, 214], "footprint": [10, 10]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [156.0, 371.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_desert_market_house_stylized_desert_marke_f1dc0d56_N.png", "frame_width": 431, "frame_height": 412, "frames": 1, "origin": [210.99847, 185.356363], "footprint": [16, 12], "grid_original": {"origin": [216, 204], "footprint": [13, 13]}, "alignment_transform": [1.1167109614616746, 0.06609544980545395, 0.22875386684096932, 0.967066693388813], "alignment_base": [[16.0, 297.953056], [221.00153, 416.300976], [416.0, 303.704283]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [221.00153, 416.300976]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_desert_market_house_stylized_desert_marke_f1dc0d56_NW.png", "frame_width": 300, "frame_height": 384, "frames": 1, "origin": [151.0, 253.0], "footprint": [8, 8], "grid_original": {"origin": [150, 240], "footprint": [9, 9]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [151.0, 381.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_desert_market_house_stylized_desert_marke_f1dc0d56_W.png", "frame_width": 431, "frame_height": 446, "frames": 1, "origin": [219.887241, 221.132212], "footprint": [12, 16], "grid_original": {"origin": [216, 238], "footprint": [13, 13]}, "alignment_transform": [1.1192488436496326, -0.06490338115534278, -0.22544448329951683, 0.9692194476532581], "alignment_base": [[15.0, 339.477057], [209.112759, 451.524514], [414.0, 333.179669]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [209.112759, 451.524514]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_desert_market_house_stylized_desert_marke_f1dc0d56_SW.png", "frame_width": 314, "frame_height": 424, "frames": 1, "origin": [157.0, 293.0], "footprint": [8, 8], "grid_original": {"origin": [157, 264], "footprint": [10, 10]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [157.0, 421.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_desert_market_house_stylized_desert_marke_f1dc0d56_S.png", "frame_width": 431, "frame_height": 473, "frames": 1, "origin": [209.657513, 247.855528], "footprint": [16, 12], "grid_original": {"origin": [216, 265], "footprint": [13, 13]}, "alignment_transform": [1.1165346326908443, 0.06513861149660698, 0.22549123307242896, 0.9670296161519872], "alignment_base": [[15.0, 360.240628], [220.342487, 478.77296], [415.0, 366.38786]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [220.342487, 478.77296]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-149.0, -291.0)
+hframes = 1

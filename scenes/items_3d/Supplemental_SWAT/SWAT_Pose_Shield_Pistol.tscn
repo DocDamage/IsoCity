@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Shield_Pistol.glb" id="1_0dx8c"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hjg7s"]
+size = Vector3(0.81387454, 1.788441, 0.94818)
+
+[node name="SWAT_Pose_Shield_Pistol" type="StaticBody3D" unique_id=1685381952]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.40693727, 0.0, -0.47409, 0.81387454, 1.788441, 0.94818]
+
+[node name="Model" type="Node3D" parent="." unique_id=1938963992]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.035576254, 0, -0.22847779)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=532850992 instance=ExtResource("1_0dx8c")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1811613975]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8942205, 0)
+shape = SubResource("BoxShape3D_hjg7s")
+disabled = true

@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Building_Watchtower.glb" id="1_i4q4x"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_53xoo"]
+size = Vector3(3.73098, 9.92, 3.2)
+
+[node name="Building_Watchtower" type="StaticBody3D" unique_id=1312439319]
+collision_mask = 0
+metadata/authored_footprint = [-1.86549, 0.0, -1.6, 3.73098, 9.92, 3.2]
+
+[node name="Model" type="Node3D" parent="." unique_id=357893232]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.26549006, 0, 0)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1492872254 instance=ExtResource("1_i4q4x")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1869420306]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.96, 0)
+shape = SubResource("BoxShape3D_53xoo")

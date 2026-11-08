@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Spaceships_II/quad_wing_gunship.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(5.5442025365283625, 1.58716817991242, 6.0)
+
+[node name="quad_wing_gunship" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-2.7721012682641812, 0.0, -3.0, 5.5442025365283625, 1.58716817991242, 6.0]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(-1.3327951604704222e-05, 0.8412471550746865, -0.011584300123197335)
+scale = Vector3(5.962824611146648, 5.962824611146648, 5.962824611146648)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.79358408995621, 0)
+shape = SubResource("CollisionShape")
+disabled = true

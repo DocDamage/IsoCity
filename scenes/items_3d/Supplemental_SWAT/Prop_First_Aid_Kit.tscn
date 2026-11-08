@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Prop_First_Aid_Kit.glb" id="1_8cmey"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_i6ehy"]
+size = Vector3(0.725, 0.183, 0.345)
+
+[node name="Prop_First_Aid_Kit" type="StaticBody3D" unique_id=255753618]
+collision_mask = 0
+metadata/authored_footprint = [-0.3625, 0.0, -0.1725, 0.725, 0.183, 0.345]
+
+[node name="Model" type="Node3D" parent="." unique_id=1530341285]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.13750002, 0, -0.017499998)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1501825694 instance=ExtResource("1_8cmey")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1909652543]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0915, 0)
+shape = SubResource("BoxShape3D_i6ehy")

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/loose/Added_loose_isometric_64x128_floor_and_64x_walls_tiles_part_00_1e55487a_SE.png" id="2"]
+
+[node name="Added_loose_isometric_64x128_floor_and_64x_walls_tiles_part_00_1e55487a" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_loose_isometric_64x128_floor_and_64x_walls_tiles_part_00_1e55487a"
+category = "Added loose - Ground"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(64.5, 0.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = false
+directions_data = {"SE": {"file": "../../imported_prepared/loose/Added_loose_isometric_64x128_floor_and_64x_walls_tiles_part_00_1e55487a_SE.png", "frame_width": 129, "frame_height": 65, "frames": 1, "origin": [64.5, 0.0], "footprint": [4, 4], "grid_original": {"origin": [64, 1], "footprint": [4, 4]}, "alignment_transform": [0.9922480620155039, -2.7755575615628914e-17, 0.0, 0.9846153846153847], "alignment_base": [[0.0, 32.5], [64.5, 65.0], [129.0, 32.5]], "alignment_version": 2, "grid_method": "floor bounds", "grid_contact": [64.5, 65.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-64.5, -0.0)
+hframes = 1

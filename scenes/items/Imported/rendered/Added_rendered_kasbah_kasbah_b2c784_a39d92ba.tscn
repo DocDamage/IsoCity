@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_kasbah_kasbah_b2c784_a39d92ba_SE.png" id="2"]
+
+[node name="Added_rendered_kasbah_kasbah_b2c784_a39d92ba" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_kasbah_kasbah_b2c784_a39d92ba"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 8)
+origin_offset = Vector2(159.0, 174.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_kasbah_kasbah_b2c784_a39d92ba_SE.png", "frame_width": 344, "frame_height": 305, "frames": 1, "origin": [159.0, 174.0], "footprint": [8, 8], "grid_original": {"origin": [76, 241], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [159.0, 302.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_kasbah_kasbah_b2c784_a39d92ba_E.png", "frame_width": 409, "frame_height": 335, "frames": 1, "origin": [244.0, 204.0], "footprint": [8, 8], "grid_original": {"origin": [92, 263], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [244.0, 332.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_kasbah_kasbah_b2c784_a39d92ba_NE.png", "frame_width": 300, "frame_height": 330, "frames": 1, "origin": [175.0, 200.0], "footprint": [8, 8], "grid_original": {"origin": [70, 274], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [175.0, 328.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_kasbah_kasbah_b2c784_a39d92ba_N.png", "frame_width": 388, "frame_height": 406, "frames": 1, "origin": [206.272488, 202.88303], "footprint": [12, 12], "grid_original": {"origin": [82, 334], "footprint": [8, 1]}, "alignment_transform": [1.1103472147346949, 0.05994977344314849, 0.21210208276287873, 0.962975420804615], "alignment_base": [[12.0, 314.668429], [167.727512, 404.664673], [362.0, 292.879274]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [167.727512, 404.664673]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_kasbah_kasbah_b2c784_a39d92ba_NW.png", "frame_width": 344, "frame_height": 365, "frames": 1, "origin": [165.0, 234.0], "footprint": [8, 8], "grid_original": {"origin": [76, 301], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [165.0, 362.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_kasbah_kasbah_b2c784_a39d92ba_W.png", "frame_width": 409, "frame_height": 385, "frames": 1, "origin": [193.48544, 163.801134], "footprint": [16, 12], "grid_original": {"origin": [92, 313], "footprint": [8, 1]}, "alignment_transform": [1.1792506814084074, 0.048755931734238464, 0.16832636896319153, 1.0182725656362799], "alignment_base": [[16.0, 266.57663], [216.51456, 382.67887], [394.0, 279.903374]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [216.51456, 382.67887]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_kasbah_kasbah_b2c784_a39d92ba_SW.png", "frame_width": 300, "frame_height": 334, "frames": 1, "origin": [78.0, 203.0], "footprint": [8, 8], "grid_original": {"origin": [70, 278], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [78.0, 331.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_kasbah_kasbah_b2c784_a39d92ba_S.png", "frame_width": 388, "frame_height": 375, "frames": 1, "origin": [188.0, 244.0], "footprint": [8, 8], "grid_original": {"origin": [82, 303], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [188.0, 372.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-159.0, -174.0)
+hframes = 1

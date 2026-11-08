@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/MyPilesetProoject1/Added_MyPilesetProoject1_MyPilesetProoject1_tile32x32_ston_a5d6e80b_SE.png" id="2"]
+
+[node name="Added_MyPilesetProoject1_MyPilesetProoject1_tile32x32_ston_a5d6e80b" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_MyPilesetProoject1_MyPilesetProoject1_tile32x32_ston_a5d6e80b"
+category = "Added MyPilesetProoject1 - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(14.546993, 16.759619)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/MyPilesetProoject1/Added_MyPilesetProoject1_MyPilesetProoject1_tile32x32_ston_a5d6e80b_SE.png", "frame_width": 30, "frame_height": 25, "frames": 1, "origin": [14.546993, 16.759619], "footprint": [1, 1], "grid_original": {"origin": [15, 9], "footprint": [1, 1]}, "alignment_transform": [1.2299744581605174, -0.009444402317099365, 0.1885667548163399, 2.240767078017831], "alignment_base": [[1.0, 20.272727], [13.453007, 23.89542], [27.0, 20.382312]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [13.453007, 23.89542]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-14.546993, -16.759619)
+hframes = 1

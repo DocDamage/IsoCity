@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Buildings/House_Brick_SE.png" id="2_tex"]
+
+[node name="House_Brick" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "House_Brick"
+category = "Buildings"
+kind = "build"
+direction = "SE"
+footprint = Vector2i(3, 3)
+origin_offset = Vector2(47, 62)
+total_frames = 2
+animation_fps = 1
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Buildings/House_Brick_SE.png", "frame_width": 92, "frame_height": 107, "origin": [47, 62], "footprint": [3, 3], "layout": "horizontal strip of 2 frames", "sheet": {"file": "Sheets/Buildings_Sheet.png", "x": 188, "y": 315, "w": 92, "h": 107}, "grid_method": "authored", "grid_contact": [47, 110]}, "SW": {"file": "Sprites/Buildings/House_Brick_SW.png", "frame_width": 92, "frame_height": 107, "origin": [45, 62], "footprint": [3, 3], "layout": "horizontal strip of 2 frames", "sheet": {"file": "Sheets/Buildings_Sheet.png", "x": 282, "y": 315, "w": 92, "h": 107}, "grid_method": "authored", "grid_contact": [45, 110]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-47, -62)
+hframes = 2
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 48, 24, 0, 48, -48, 24)

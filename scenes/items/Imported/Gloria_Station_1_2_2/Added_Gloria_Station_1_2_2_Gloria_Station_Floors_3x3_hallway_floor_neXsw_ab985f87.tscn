@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Gloria_Station_1_2_2/Added_Gloria_Station_1_2_2_Gloria_Station_Floors_3x3_hallway_floor_neXsw_ab985f87_SE.png" id="2"]
+
+[node name="Added_Gloria_Station_1_2_2_Gloria_Station_Floors_3x3_hallway_floor_neXsw_ab985f87" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Gloria_Station_1_2_2_Gloria_Station_Floors_3x3_hallway_floor_neXsw_ab985f87"
+category = "Added Gloria Station 1.2.2 - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(16, 16)
+origin_offset = Vector2(255.367602, 47.281209)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Gloria_Station_1_2_2/Added_Gloria_Station_1_2_2_Gloria_Station_Floors_3x3_hallway_floor_neXsw_ab985f87_SE.png", "frame_width": 512, "frame_height": 321, "frames": 1, "origin": [255.367602, 47.281209], "footprint": [16, 16], "grid_original": {"origin": [256, 65], "footprint": [16, 16]}, "alignment_transform": [1.0801619744723525, 0.001274553408168011, -0.0050127726969008135, 0.9393033573520249], "alignment_base": [[19.0, 183.873144], [256.632398, 319.821902], [493.0, 183.229967]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [256.632398, 319.821902]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-255.367602, -47.281209)
+hframes = 1

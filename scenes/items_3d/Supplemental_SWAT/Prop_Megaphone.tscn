@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Prop_Megaphone.glb" id="1_53kjn"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_avsb7"]
+size = Vector3(0.2125, 0.22123, 0.44)
+
+[node name="Prop_Megaphone" type="StaticBody3D" unique_id=942706721]
+collision_mask = 0
+metadata/authored_footprint = [-0.10625, 0.0, -0.22, 0.2125, 0.22123, 0.44]
+
+[node name="Model" type="Node3D" parent="." unique_id=1901449205]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2e-05, -0.11)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=255771435 instance=ExtResource("1_53kjn")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=488510944]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.110615, 0)
+shape = SubResource("BoxShape3D_avsb7")

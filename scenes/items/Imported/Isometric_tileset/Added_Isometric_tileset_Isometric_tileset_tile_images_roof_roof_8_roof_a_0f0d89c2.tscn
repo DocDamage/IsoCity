@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_roof_roof_8_roof_a_0f0d89c2_SE.png" id="2"]
+
+[node name="Added_Isometric_tileset_Isometric_tileset_tile_images_roof_roof_8_roof_a_0f0d89c2" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Isometric_tileset_Isometric_tileset_tile_images_roof_roof_8_roof_a_0f0d89c2"
+category = "Added Isometric tileset - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 12)
+origin_offset = Vector2(153.198667, 142.78125)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_roof_roof_8_roof_a_0f0d89c2_SE.png", "frame_width": 282, "frame_height": 283, "frames": 1, "origin": [153.198667, 142.78125], "footprint": [8, 12], "grid_original": {"origin": [61, 227], "footprint": [6, 1]}, "alignment_transform": [1.2187440384463673, -0.07117815905731359, -0.28225880384166563, 1.218182849781446], "alignment_base": [[12.0, 213.336946], [130.801333, 272.815751], [272.0, 202.260055]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [130.801333, 272.815751]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-153.198667, -142.78125)
+hframes = 1

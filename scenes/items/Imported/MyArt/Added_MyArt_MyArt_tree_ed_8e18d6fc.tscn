@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/MyArt/Added_MyArt_MyArt_tree_ed_8e18d6fc_SE.png" id="2"]
+
+[node name="Added_MyArt_MyArt_tree_ed_8e18d6fc" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_MyArt_MyArt_tree_ed_8e18d6fc"
+category = "Added MyArt - Nature"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(3, 3)
+origin_offset = Vector2(54.0, -20.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/MyArt/Added_MyArt_MyArt_tree_ed_8e18d6fc_SE.png", "frame_width": 92, "frame_height": 29, "frames": 1, "origin": [54.0, -20.0], "footprint": [3, 3], "grid_original": {"origin": [46, 0], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [54.0, 28.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-54.0, 20.0)
+hframes = 1

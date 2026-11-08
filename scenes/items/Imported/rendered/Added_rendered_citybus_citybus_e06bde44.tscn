@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_citybus_citybus_e06bde44_SE.png" id="2"]
+
+[node name="Added_rendered_citybus_citybus_e06bde44" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_rendered_citybus_citybus_e06bde44"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 2)
+origin_offset = Vector2(29.247398, 32.340474)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_citybus_citybus_e06bde44_SE.png", "frame_width": 142, "frame_height": 108, "frames": 1, "origin": [29.247398, 32.340474], "footprint": [8, 2], "grid_original": {"origin": [39, 76], "footprint": [3, 1]}, "alignment_transform": [1.3489164793263995, -0.0877107585535894, -0.27732404059613147, 1.1740987688676385], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [115.752602, 106.940192], "alignment_base": [[8.0, 44.380666], [115.752602, 106.940192], [137.0, 94.9]]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_citybus_citybus_e06bde44_E.png", "frame_width": 46, "frame_height": 126, "frames": 1, "origin": [22.5, 91.0], "footprint": [2, 2], "grid_original": {"origin": [23, 110], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [22.5, 123.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_citybus_citybus_e06bde44_NE.png", "frame_width": 142, "frame_height": 108, "frames": 1, "origin": [25.0, 74.0], "footprint": [2, 2], "grid_original": {"origin": [39, 76], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [25.0, 106.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_citybus_citybus_e06bde44_N.png", "frame_width": 170, "frame_height": 54, "frames": 1, "origin": [84.0, -13.0], "footprint": [4, 4], "grid_original": {"origin": [37, 14], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [84.0, 51.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_citybus_citybus_e06bde44_NW.png", "frame_width": 142, "frame_height": 106, "frames": 1, "origin": [30.126237, 28.677516], "footprint": [8, 2], "grid_original": {"origin": [39, 74], "footprint": [3, 1]}, "alignment_transform": [1.3494792680562564, -0.07726284173771958, -0.28100918444803047, 1.1566736414164223], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [116.873763, 103.635877], "alignment_base": [[9.0, 41.099107], [116.873763, 103.635877], [138.0, 91.214286]]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_citybus_citybus_e06bde44_W.png", "frame_width": 46, "frame_height": 122, "frames": 1, "origin": [23.0, 87.0], "footprint": [2, 2], "grid_original": {"origin": [23, 106], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [23.0, 119.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_citybus_citybus_e06bde44_SW.png", "frame_width": 142, "frame_height": 106, "frames": 1, "origin": [24.5, 71.0], "footprint": [2, 2], "grid_original": {"origin": [39, 74], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [24.5, 103.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_citybus_citybus_e06bde44_S.png", "frame_width": 170, "frame_height": 54, "frames": 1, "origin": [85.0, -13.0], "footprint": [4, 4], "grid_original": {"origin": [37, 14], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [85.0, 51.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-29.247398, -32.340474)
+hframes = 1

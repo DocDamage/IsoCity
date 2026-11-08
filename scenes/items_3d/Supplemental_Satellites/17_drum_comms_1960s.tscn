@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Satellites/17_drum_comms_1960s.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(3.0, 1.9069301017546754, 2.2704595110010253)
+
+[node name="17_drum_comms_1960s" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-1.5, 0.0, -1.1352297555005126, 3.0, 1.9069301017546754, 2.2704595110010253]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(-4.352556092013655e-05, 0.9532724859469525, 0.006556572764035268)
+scale = Vector3(2.9927776110222895, 2.9927776110222895, 2.9927776110222895)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.9534650508773377, 0)
+shape = SubResource("CollisionShape")
+disabled = true

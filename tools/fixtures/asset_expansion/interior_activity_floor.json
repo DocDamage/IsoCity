@@ -1,0 +1,227 @@
+{
+  "document": {
+    "citizens": {
+      "enabled": true,
+      "population": 2,
+      "seed": 42
+    },
+    "mode": "3d",
+    "night": false,
+    "objects": [
+      {
+        "asset": "3d:HanX_School/School_Building",
+        "direction": "0",
+        "interior": {
+          "exit": [
+            0,
+            0.2,
+            8
+          ],
+          "floor_links": [
+            {
+              "end": [
+                0,
+                -5
+              ],
+              "kind": "elevator",
+              "lower": "ground",
+              "start": [
+                0,
+                -5
+              ],
+              "uid": "activity_lift",
+              "upper": "upper",
+              "width": 1.8
+            }
+          ],
+          "floors": [
+            {
+              "height": 3,
+              "name": "Upper activity room",
+              "room": {
+                "exit": [
+                  0,
+                  0.2,
+                  8
+                ],
+                "interior_room": true,
+                "mode": "3d",
+                "night": false,
+                "objects": [
+                  {
+                    "asset": "3d:HanX_School/Student_Chair",
+                    "direction": "0",
+                    "position": [
+                      -4,
+                      0,
+                      -2
+                    ],
+                    "scale": 1,
+                    "uid": "upper_seat"
+                  }
+                ],
+                "spawn": [
+                  0,
+                  0.2,
+                  9
+                ],
+                "template": "blank",
+                "template_revision": 2,
+                "tiles": [],
+                "title": "Upper activity room"
+              },
+              "uid": "upper"
+            }
+          ],
+          "interior_room": true,
+          "mode": "3d",
+          "night": false,
+          "objects": [
+            {
+              "asset": "3d:HanX_School/Teacher_Desk",
+              "direction": "0",
+              "position": [
+                -7,
+                0,
+                -6
+              ],
+              "scale": 1,
+              "uid": "teacher"
+            },
+            {
+              "asset": "3d:HanX_School/Student_Desk",
+              "direction": "0",
+              "position": [
+                -8,
+                0,
+                -3
+              ],
+              "scale": 1,
+              "uid": "desk_a"
+            },
+            {
+              "asset": "3d:HanX_School/Student_Desk",
+              "direction": "0",
+              "position": [
+                -5,
+                0,
+                -3
+              ],
+              "scale": 1,
+              "uid": "desk_b"
+            },
+            {
+              "asset": "3d:HanX_School/Student_Chair",
+              "direction": "0",
+              "position": [
+                -8,
+                0,
+                -1.8
+              ],
+              "scale": 1,
+              "uid": "seat_a"
+            },
+            {
+              "asset": "3d:HanX_School/Student_Chair",
+              "direction": "0",
+              "position": [
+                -5,
+                0,
+                -1.8
+              ],
+              "scale": 1,
+              "uid": "seat_b"
+            },
+            {
+              "asset": "3d:HanX_Shop/Cafe_Counter",
+              "direction": "0",
+              "position": [
+                -7,
+                0,
+                4
+              ],
+              "scale": 1,
+              "uid": "counter"
+            },
+            {
+              "asset": "2d:Washing_Machine",
+              "direction": "SE",
+              "position": [
+                8,
+                0,
+                -4
+              ],
+              "scale": 0.85,
+              "uid": "washer"
+            },
+            {
+              "asset": "2d:Clothes_Dryer",
+              "direction": "SE",
+              "position": [
+                11,
+                0,
+                -4
+              ],
+              "scale": 0.85,
+              "uid": "dryer"
+            },
+            {
+              "asset": "2d:Kitchen_Island",
+              "direction": "SE",
+              "position": [
+                7,
+                0,
+                2
+              ],
+              "scale": 0.9,
+              "uid": "prep"
+            },
+            {
+              "asset": "2d:Stove_Oven",
+              "direction": "SE",
+              "position": [
+                11,
+                0,
+                3
+              ],
+              "scale": 0.9,
+              "uid": "range"
+            }
+          ],
+          "spawn": [
+            0,
+            0.2,
+            9
+          ],
+          "template": "blank",
+          "template_revision": 2,
+          "tiles": [],
+          "title": "Classroom and activity hall"
+        },
+        "position": [
+          0,
+          0,
+          -12
+        ],
+        "scale": 0.4,
+        "school": {
+          "capacity": 2,
+          "enabled": true
+        },
+        "uid": "community_school"
+      }
+    ],
+    "spawn": [
+      0,
+      0.2,
+      9
+    ],
+    "template": "blank",
+    "template_revision": 2,
+    "tiles": [],
+    "title": "Golden interior activity floor"
+  },
+  "scenario": "interior_activity_floor",
+  "seed": 42,
+  "version": 1
+}

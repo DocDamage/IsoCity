@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Prop_Gear_Crate_Closed.glb" id="1_6f71e"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_r4gko"]
+size = Vector3(1.08, 0.463, 0.628)
+
+[node name="Prop_Gear_Crate_Closed" type="StaticBody3D" unique_id=210571766]
+collision_mask = 0
+metadata/authored_footprint = [-0.54, 0.0, -0.314, 1.08, 0.463, 0.628]
+
+[node name="Model" type="Node3D" parent="." unique_id=1602261320]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.006000012)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=747986544 instance=ExtResource("1_6f71e")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=492405989]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2315, 0)
+shape = SubResource("BoxShape3D_r4gko")

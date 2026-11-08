@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_character.gd" id="1_char_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Characters/Barista_SE.png" id="2_tex"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_char"]
+radius = 5.0
+
+[node name="Barista" type="CharacterBody2D"]
+y_sort_enabled = true
+script = ExtResource("1_char_script")
+item_id = "Barista"
+direction = "SE"
+origin_offset = Vector2(11, 29)
+is_pet = false
+directions_data = {"SE": {"file": "Sprites/Characters/Barista_SE.png", "frame_width": 22, "frame_height": 42, "origin": [11, 29], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 184, "y": 0, "w": 22, "h": 42}, "grid_method": "authored", "grid_contact": [11, 45]}, "SW": {"file": "Sprites/Characters/Barista_SW.png", "frame_width": 22, "frame_height": 42, "origin": [11, 29], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 208, "y": 0, "w": 22, "h": 42}, "grid_method": "authored", "grid_contact": [11, 45]}, "NW": {"file": "Sprites/Characters/Barista_NW.png", "frame_width": 22, "frame_height": 41, "origin": [11, 29], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 232, "y": 0, "w": 22, "h": 41}, "grid_method": "authored", "grid_contact": [11, 45]}, "NE": {"file": "Sprites/Characters/Barista_NE.png", "frame_width": 22, "frame_height": 41, "origin": [11, 29], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 256, "y": 0, "w": 22, "h": 41}, "grid_method": "authored", "grid_contact": [11, 45]}}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."] 
+shape = SubResource("CircleShape2D_char")
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-11, -29)
+hframes = 9

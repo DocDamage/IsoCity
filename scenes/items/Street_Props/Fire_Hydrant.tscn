@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Street_Props/Fire_Hydrant_SE.png" id="2_tex"]
+
+[node name="Fire_Hydrant" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Fire_Hydrant"
+category = "Street Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(6, 6)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Street_Props/Fire_Hydrant_SE.png", "frame_width": 12, "frame_height": 17, "origin": [6, 6], "footprint": [1, 1], "sheet": {"file": "Sheets/Street_Props_Sheet.png", "x": 182, "y": 132, "w": 12, "h": 17}, "grid_method": "authored", "grid_contact": [6, 22]}, "SW": {"file": "Sprites/Street_Props/Fire_Hydrant_SW.png", "frame_width": 12, "frame_height": 17, "origin": [6, 6], "footprint": [1, 1], "sheet": {"file": "Sheets/Street_Props_Sheet.png", "x": 196, "y": 132, "w": 12, "h": 17}, "grid_method": "authored", "grid_contact": [6, 22]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-6, -6)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, 0, 16, -16, 8)

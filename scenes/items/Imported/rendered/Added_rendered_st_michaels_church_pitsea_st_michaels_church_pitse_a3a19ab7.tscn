@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_st_michaels_church_pitsea_st_michaels_church_pitse_a3a19ab7_SE.png" id="2"]
+
+[node name="Added_rendered_st_michaels_church_pitsea_st_michaels_church_pitse_a3a19ab7" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_rendered_st_michaels_church_pitsea_st_michaels_church_pitse_a3a19ab7"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(39.5, 137.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_st_michaels_church_pitsea_st_michaels_church_pitse_a3a19ab7_SE.png", "frame_width": 80, "frame_height": 172, "frames": 1, "origin": [39.5, 137.0], "footprint": [2, 2], "grid_original": {"origin": [24, 148], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [39.5, 169.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_st_michaels_church_pitsea_st_michaels_church_pitse_a3a19ab7_E.png", "frame_width": 118, "frame_height": 184, "frames": 1, "origin": [60.980974, 120.447842], "footprint": [4, 4], "grid_original": {"origin": [43, 160], "footprint": [2, 1]}, "alignment_transform": [1.2218269044533092, 0.02940629039214887, 0.10000876204594178, 1.058144907486322], "alignment_base": [[6.0, 152.217391], [56.019026, 181.068946], [111.0, 149.299397]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [56.019026, 181.068946]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_st_michaels_church_pitsea_st_michaels_church_pitse_a3a19ab7_NE.png", "frame_width": 88, "frame_height": 167, "frames": 1, "origin": [43.5, 132.0], "footprint": [2, 2], "grid_original": {"origin": [28, 143], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [43.5, 164.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_st_michaels_church_pitsea_st_michaels_church_pitse_a3a19ab7_N.png", "frame_width": 118, "frame_height": 183, "frames": 1, "origin": [56.048335, 119.375853], "footprint": [4, 4], "grid_original": {"origin": [43, 159], "footprint": [2, 1]}, "alignment_transform": [1.2217084582250124, -0.028489629866468413, -0.09868295168049013, 1.05659928318627], "alignment_base": [[6.0, 148.312217], [60.951665, 180.07975], [111.0, 151.143386]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [60.951665, 180.07975]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_st_michaels_church_pitsea_st_michaels_church_pitse_a3a19ab7_NW.png", "frame_width": 80, "frame_height": 170, "frames": 1, "origin": [39.5, 135.0], "footprint": [2, 2], "grid_original": {"origin": [24, 146], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [39.5, 167.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_st_michaels_church_pitsea_st_michaels_church_pitse_a3a19ab7_W.png", "frame_width": 118, "frame_height": 185, "frames": 1, "origin": [60.980974, 121.447842], "footprint": [4, 4], "grid_original": {"origin": [43, 161], "footprint": [2, 1]}, "alignment_transform": [1.2218269044533092, 0.02940629039214887, 0.10000876204594178, 1.058144907486322], "alignment_base": [[6.0, 153.217391], [56.019026, 182.068946], [111.0, 150.299397]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [56.019026, 182.068946]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_st_michaels_church_pitsea_st_michaels_church_pitse_a3a19ab7_SW.png", "frame_width": 88, "frame_height": 168, "frames": 1, "origin": [43.5, 133.0], "footprint": [2, 2], "grid_original": {"origin": [28, 144], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [43.5, 165.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_st_michaels_church_pitsea_st_michaels_church_pitse_a3a19ab7_S.png", "frame_width": 118, "frame_height": 185, "frames": 1, "origin": [56.048335, 121.375853], "footprint": [4, 4], "grid_original": {"origin": [43, 161], "footprint": [2, 1]}, "alignment_transform": [1.2217084582250124, -0.028489629866468413, -0.09868295168049013, 1.05659928318627], "alignment_base": [[6.0, 150.312217], [60.951665, 182.07975], [111.0, 153.143386]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [60.951665, 182.07975]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-39.5, -137.0)
+hframes = 1

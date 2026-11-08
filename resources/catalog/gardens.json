@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "crops": {
+    "lettuce": {
+      "name": "Lettuce", "seasons": ["spring", "summer", "autumn"],
+      "seconds": 8, "yield": 3, "seed_price": 2, "harvest_credit": 6,
+      "art": "2d:Supplemental_Garden_greenhouse_kit_lettuce_row_76c56a73"
+    },
+    "tomato": {
+      "name": "Tomato", "seasons": ["summer", "autumn"],
+      "seconds": 12, "yield": 4, "seed_price": 3, "harvest_credit": 9,
+      "art": "2d:Supplemental_Garden_greenhouse_kit_tomato_plant_45d13e31"
+    },
+    "pumpkin": {
+      "name": "Pumpkin", "seasons": ["summer", "autumn"],
+      "seconds": 16, "yield": 5, "seed_price": 4, "harvest_credit": 12,
+      "art": "2d:Supplemental_Garden_greenhouse_kit_pumpkin_patch_84cdf2a5"
+    }
+  },
+  "sites": {
+    "2d:Planter_Box": {"role": "bed", "height": 1.3},
+    "3d:HanX_City/Ground_Garden": {"role": "bed", "height": 2.2},
+    "3d:HanX_City/Planter_Box": {"role": "bed", "height": 1.1},
+    "2d:Supplemental_Garden_greenhouse_kit_raised_bed_39ed9dc1": {"role": "bed", "height": 1.5, "crop_art": true},
+    "2d:Supplemental_Garden_greenhouse_kit_greenhouse_814e7d66": {"role": "greenhouse", "height": 3.3},
+    "2d:Supplemental_Garden_greenhouse_kit_cold_frame_a529c038": {"role": "greenhouse", "height": 1.5},
+    "2d:Supplemental_Garden_greenhouse_kit_seed_trays_f52de2d2": {"role": "seeds"},
+    "2d:Supplemental_Garden_greenhouse_kit_watering_can_701d8b78": {"role": "water"},
+    "2d:Supplemental_Garden_greenhouse_kit_hose_reel_278adf89": {"role": "water"},
+    "2d:Supplemental_Garden_greenhouse_kit_soil_bag_a0a327e9": {"role": "soil"},
+    "2d:Supplemental_Garden_greenhouse_kit_compost_bin_1bac2ef7": {"role": "compost"},
+    "2d:Produce_Stand": {"role": "share"},
+    "3d:HanX_Shop/Stall_Vegetable": {"role": "share"}
+  }
+}

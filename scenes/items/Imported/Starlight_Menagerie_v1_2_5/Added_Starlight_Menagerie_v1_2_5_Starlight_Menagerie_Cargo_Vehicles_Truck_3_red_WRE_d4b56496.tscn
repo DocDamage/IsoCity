@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Starlight_Menagerie_v1_2_5/Added_Starlight_Menagerie_v1_2_5_Starlight_Menagerie_Cargo_Vehicles_Truck_3_red_WRE_d4b56496_SE.png" id="2"]
+
+[node name="Added_Starlight_Menagerie_v1_2_5_Starlight_Menagerie_Cargo_Vehicles_Truck_3_red_WRE_d4b56496" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_Starlight_Menagerie_v1_2_5_Starlight_Menagerie_Cargo_Vehicles_Truck_3_red_WRE_d4b56496"
+category = "Added Starlight Menagerie - Vehicles"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(94.0, 72.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Starlight_Menagerie_v1_2_5/Added_Starlight_Menagerie_v1_2_5_Starlight_Menagerie_Cargo_Vehicles_Truck_3_red_WRE_d4b56496_SE.png", "frame_width": 227, "frame_height": 137, "frames": 1, "origin": [94.0, 72.0], "footprint": [4, 4], "grid_original": {"origin": [50, 89], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [94.0, 136.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-94.0, -72.0)
+hframes = 1

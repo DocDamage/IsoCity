@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Breacher_Ram.glb" id="1_t183w"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qrh1a"]
+size = Vector3(0.77115947, 1.7643294, 1.081538)
+
+[node name="SWAT_Pose_Breacher_Ram" type="StaticBody3D" unique_id=183574265]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.38557974, 0.0, -0.540769, 0.77115947, 1.7643294, 1.081538]
+
+[node name="Model" type="Node3D" parent="." unique_id=626439351]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.06915608, 0, -0.20411527)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=998448730 instance=ExtResource("1_t183w")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=540850729]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8821647, 0)
+shape = SubResource("BoxShape3D_qrh1a")
+disabled = true

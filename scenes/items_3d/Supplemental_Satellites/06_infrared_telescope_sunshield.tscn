@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Satellites/06_infrared_telescope_sunshield.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(2.7947364521544147, 2.641623468882043, 3.0)
+
+[node name="06_infrared_telescope_sunshield" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-1.3973682260772073, 0.0, -1.5, 2.7947364521544147, 2.641623468882043, 3.0]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(-0.009154204039508623, 1.3209289259204997, -0.0005526522200958099)
+scale = Vector3(2.9880649917586024, 2.9880649917586024, 2.9880649917586024)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 1.3208117344410215, 0)
+shape = SubResource("CollisionShape")
+disabled = true

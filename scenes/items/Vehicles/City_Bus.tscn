@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Vehicles/City_Bus_SE.png" id="2_tex"]
+
+[node name="City_Bus" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "City_Bus"
+category = "Vehicles"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 1)
+origin_offset = Vector2(15, 22)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Vehicles/City_Bus_SE.png", "frame_width": 79, "frame_height": 60, "origin": [15, 22], "footprint": [4, 1], "sheet": {"file": "Sheets/Vehicles_Sheet.png", "x": 290, "y": 182, "w": 79, "h": 60}, "grid_method": "authored", "grid_contact": [63, 62]}, "SW": {"file": "Sprites/Vehicles/City_Bus_SW.png", "frame_width": 79, "frame_height": 60, "origin": [63, 22], "footprint": [1, 4], "sheet": {"file": "Sheets/Vehicles_Sheet.png", "x": 371, "y": 182, "w": 79, "h": 60}, "grid_method": "authored", "grid_contact": [15, 62]}, "NW": {"file": "Sprites/Vehicles/City_Bus_NW.png", "frame_width": 79, "frame_height": 60, "origin": [16, 22], "footprint": [4, 1], "sheet": {"file": "Sheets/Vehicles_Sheet.png", "x": 0, "y": 244, "w": 79, "h": 60}, "grid_method": "authored", "grid_contact": [64, 62]}, "NE": {"file": "Sprites/Vehicles/City_Bus_NE.png", "frame_width": 79, "frame_height": 60, "origin": [64, 22], "footprint": [1, 4], "sheet": {"file": "Sheets/Vehicles_Sheet.png", "x": 81, "y": 244, "w": 79, "h": 60}, "grid_method": "authored", "grid_contact": [16, 62]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-15, -22)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 64, 32, 48, 40, -16, 8)

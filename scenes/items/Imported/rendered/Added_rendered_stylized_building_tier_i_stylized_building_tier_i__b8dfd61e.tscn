@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_stylized_building_tier_i_stylized_building_tier_i__b8dfd61e_SE.png" id="2"]
+
+[node name="Added_rendered_stylized_building_tier_i_stylized_building_tier_i__b8dfd61e" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_stylized_building_tier_i_stylized_building_tier_i__b8dfd61e"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(58.0, 263.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_building_tier_i_stylized_building_tier_i__b8dfd61e_SE.png", "frame_width": 106, "frame_height": 330, "frames": 1, "origin": [58.0, 263.0], "footprint": [4, 4], "grid_original": {"origin": [53, 282], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [58.0, 327.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_building_tier_i_stylized_building_tier_i__b8dfd61e_E.png", "frame_width": 132, "frame_height": 336, "frames": 1, "origin": [64.257757, 267.32976], "footprint": [4, 4], "grid_original": {"origin": [66, 272], "footprint": [4, 4]}, "alignment_transform": [1.116517436209937, -0.03080469015915599, -0.10900556129710637, 0.9665869853961608], "alignment_base": [[10.0, 298.706767], [70.742243, 333.748772], [125.0, 302.371765]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [70.742243, 333.748772]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_building_tier_i_stylized_building_tier_i__b8dfd61e_NE.png", "frame_width": 88, "frame_height": 314, "frames": 1, "origin": [43.5, 247.0], "footprint": [4, 4], "grid_original": {"origin": [44, 266], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [43.5, 311.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_building_tier_i_stylized_building_tier_i__b8dfd61e_N.png", "frame_width": 132, "frame_height": 336, "frames": 1, "origin": [66.829979, 267.32817], "footprint": [4, 4], "grid_original": {"origin": [66, 272], "footprint": [4, 4]}, "alignment_transform": [1.1166647489559858, 0.03126492163601896, 0.11196145821398196, 0.9666403072367682], "alignment_base": [[6.0, 302.4], [60.170021, 333.752281], [121.0, 298.680451]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [60.170021, 333.752281]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_building_tier_i_stylized_building_tier_i__b8dfd61e_NW.png", "frame_width": 106, "frame_height": 330, "frames": 1, "origin": [47.0, 263.0], "footprint": [4, 4], "grid_original": {"origin": [53, 282], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [47.0, 327.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_building_tier_i_stylized_building_tier_i__b8dfd61e_W.png", "frame_width": 132, "frame_height": 351, "frames": 1, "origin": [69.0, 285.0], "footprint": [4, 4], "grid_original": {"origin": [66, 287], "footprint": [4, 4]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [69.0, 349.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_building_tier_i_stylized_building_tier_i__b8dfd61e_SW.png", "frame_width": 88, "frame_height": 336, "frames": 1, "origin": [43.0, 269.0], "footprint": [4, 4], "grid_original": {"origin": [44, 288], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [43.0, 333.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_building_tier_i_stylized_building_tier_i__b8dfd61e_S.png", "frame_width": 132, "frame_height": 351, "frames": 1, "origin": [62.0, 284.0], "footprint": [4, 4], "grid_original": {"origin": [66, 287], "footprint": [4, 4]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [62.0, 348.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-58.0, -263.0)
+hframes = 1

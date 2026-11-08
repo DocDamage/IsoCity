@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_pressure_exchange_industrial_vessel_and_service_ga_32aa38cf_SE.png" id="2"]
+
+[node name="Added_rendered_pressure_exchange_industrial_vessel_and_service_ga_32aa38cf" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_pressure_exchange_industrial_vessel_and_service_ga_32aa38cf"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(89.5, 230.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_pressure_exchange_industrial_vessel_and_service_ga_32aa38cf_SE.png", "frame_width": 180, "frame_height": 297, "frames": 1, "origin": [89.5, 230.0], "footprint": [4, 4], "grid_original": {"origin": [42, 257], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [89.5, 294.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_pressure_exchange_industrial_vessel_and_service_ga_32aa38cf_E.png", "frame_width": 368, "frame_height": 287, "frames": 1, "origin": [233.694579, 87.019681], "footprint": [8, 16], "grid_original": {"origin": [72, 215], "footprint": [8, 1]}, "alignment_transform": [1.1199316546558864, -0.00952575878522055, -0.03358936583908945, 0.9701925697875304], "alignment_base": [[9.0, 216.746106], [125.305421, 283.854327], [350.0, 154.127902]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [125.305421, 283.854327]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_pressure_exchange_industrial_vessel_and_service_ga_32aa38cf_NE.png", "frame_width": 344, "frame_height": 174, "frames": 1, "origin": [171.5, 43.0], "footprint": [8, 8], "grid_original": {"origin": [76, 110], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [171.5, 171.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_pressure_exchange_industrial_vessel_and_service_ga_32aa38cf_N.png", "frame_width": 368, "frame_height": 286, "frames": 1, "origin": [132.332857, 85.404969], "footprint": [16, 8], "grid_original": {"origin": [72, 214], "footprint": [8, 1]}, "alignment_transform": [1.1173549540191723, 0.00860806861221286, 0.029547929093539982, 0.9675394276828575], "alignment_base": [[16.0, 152.587142], [241.667143, 282.873762], [358.0, 215.691589]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [241.667143, 282.873762]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_pressure_exchange_industrial_vessel_and_service_ga_32aa38cf_NW.png", "frame_width": 180, "frame_height": 296, "frames": 1, "origin": [89.5, 229.0], "footprint": [4, 4], "grid_original": {"origin": [42, 256], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [89.5, 293.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_pressure_exchange_industrial_vessel_and_service_ga_32aa38cf_W.png", "frame_width": 368, "frame_height": 288, "frames": 1, "origin": [233.694579, 88.019681], "footprint": [8, 16], "grid_original": {"origin": [72, 216], "footprint": [8, 1]}, "alignment_transform": [1.1199316546558864, -0.00952575878522055, -0.03358936583908945, 0.9701925697875304], "alignment_base": [[9.0, 217.746106], [125.305421, 284.854327], [350.0, 155.127902]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [125.305421, 284.854327]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_pressure_exchange_industrial_vessel_and_service_ga_32aa38cf_SW.png", "frame_width": 344, "frame_height": 190, "frames": 1, "origin": [171.5, 59.0], "footprint": [8, 8], "grid_original": {"origin": [76, 126], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [171.5, 187.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_pressure_exchange_industrial_vessel_and_service_ga_32aa38cf_S.png", "frame_width": 368, "frame_height": 289, "frames": 1, "origin": [132.332857, 88.404969], "footprint": [16, 8], "grid_original": {"origin": [72, 217], "footprint": [8, 1]}, "alignment_transform": [1.1173549540191723, 0.00860806861221286, 0.029547929093539982, 0.9675394276828575], "alignment_base": [[16.0, 155.587142], [241.667143, 285.873762], [358.0, 218.691589]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [241.667143, 285.873762]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-89.5, -230.0)
+hframes = 1

@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Building_Perimeter_Fence.glb" id="1_aatr7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_x4un0"]
+size = Vector3(4.2402, 2.81, 0.7671)
+
+[node name="Building_Perimeter_Fence" type="StaticBody3D" unique_id=1135122302]
+collision_mask = 0
+metadata/authored_footprint = [-2.1201, 0.0, -0.38355, 4.2402, 2.81, 0.7671]
+
+[node name="Model" type="Node3D" parent="." unique_id=977124330]
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1688749807 instance=ExtResource("1_aatr7")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1025986437]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.405, 0)
+shape = SubResource("BoxShape3D_x4un0")

@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Training_Shooting_Range.glb" id="1_1sklj"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bmfle"]
+size = Vector3(16, 5.14, 16)
+
+[node name="Training_Shooting_Range" type="StaticBody3D" unique_id=1742190091]
+collision_mask = 0
+metadata/authored_footprint = [-8.0, 0.0, -8.0, 16.0, 5.14, 16.0]
+
+[node name="Model" type="Node3D" parent="." unique_id=2001494480]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.15, 0)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1930295192 instance=ExtResource("1_1sklj")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1051082364]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.57, 0)
+shape = SubResource("BoxShape3D_bmfle")

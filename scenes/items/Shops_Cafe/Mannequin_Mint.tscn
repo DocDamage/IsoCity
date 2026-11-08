@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Shops_Cafe/Mannequin_Mint_SE.png" id="2_tex"]
+
+[node name="Mannequin_Mint" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Mannequin_Mint"
+category = "Shops & Cafe"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(8, 22)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Shops_Cafe/Mannequin_Mint_SE.png", "frame_width": 16, "frame_height": 33, "origin": [8, 22], "footprint": [1, 1], "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 54, "y": 345, "w": 16, "h": 33}, "grid_method": "authored", "grid_contact": [8, 38]}, "SW": {"file": "Sprites/Shops_Cafe/Mannequin_Mint_SW.png", "frame_width": 16, "frame_height": 33, "origin": [8, 22], "footprint": [1, 1], "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 72, "y": 345, "w": 16, "h": 33}, "grid_method": "authored", "grid_contact": [8, 38]}, "NW": {"file": "Sprites/Shops_Cafe/Mannequin_Mint_NW.png", "frame_width": 16, "frame_height": 33, "origin": [8, 22], "footprint": [1, 1], "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 90, "y": 345, "w": 16, "h": 33}, "grid_method": "authored", "grid_contact": [8, 38]}, "NE": {"file": "Sprites/Shops_Cafe/Mannequin_Mint_NE.png", "frame_width": 16, "frame_height": 33, "origin": [8, 22], "footprint": [1, 1], "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 108, "y": 345, "w": 16, "h": 33}, "grid_method": "authored", "grid_contact": [8, 38]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-8, -22)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, 0, 16, -16, 8)

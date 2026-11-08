@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/isometricvill/Added_isometricvill_isometricvill_Nature_and_Vegetation_Hedge_1_807d66f9_SE.png" id="2"]
+
+[node name="Added_isometricvill_isometricvill_Nature_and_Vegetation_Hedge_1_807d66f9" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_isometricvill_isometricvill_Nature_and_Vegetation_Hedge_1_807d66f9"
+category = "Added isometricvill - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(31.368442, 64.661364)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/isometricvill/Added_isometricvill_isometricvill_Nature_and_Vegetation_Hedge_1_807d66f9_SE.png", "frame_width": 64, "frame_height": 97, "frames": 1, "origin": [31.368442, 64.661364], "footprint": [2, 2], "grid_original": {"origin": [32, 81], "footprint": [1, 1]}, "alignment_transform": [1.0850843668411616, -0.037963566694036555, -0.008746909379796497, 0.9806846664740921], "alignment_base": [[2.0, 79.839606], [31.631558, 97.301814], [61.0, 82.123572]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [31.631558, 97.301814]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-31.368442, -64.661364)
+hframes = 1

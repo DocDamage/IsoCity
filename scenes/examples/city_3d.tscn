@@ -1,0 +1,113 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/builder/play_scene.gd" id="1_38pys"]
+[ext_resource type="PackedScene" path="res://scenes/items_3d/HanX_City/Apartment_4F_A.tscn" id="2_eobok"]
+[ext_resource type="PackedScene" path="res://scenes/items_3d/HanX_City/Cafe_Small.tscn" id="3_mieym"]
+[ext_resource type="PackedScene" path="res://scenes/items_3d/HanX_City/Corner_Shop_Building.tscn" id="4_cos3t"]
+[ext_resource type="PackedScene" path="res://scenes/items_3d/HanX_Traffic/Road_Straight.tscn" id="5_koxdo"]
+[ext_resource type="PackedScene" path="res://scenes/items_3d/HanX_Traffic/Car_Sedan.tscn" id="6_76wnl"]
+[ext_resource type="PackedScene" path="res://scenes/items_3d/HanX_Traffic/Car_Taxi.tscn" id="7_e6wnw"]
+[ext_resource type="PackedScene" path="res://scenes/items_3d/HanX_Park/Tree_Oak.tscn" id="8_4skoi"]
+[ext_resource type="PackedScene" path="res://scenes/items_3d/HanX_Park/Bench_Park.tscn" id="9_dlwqy"]
+[ext_resource type="PackedScene" path="res://scenes/items_3d/HanX_Park/Fountain_Tiered.tscn" id="10_e3s7c"]
+[ext_resource type="PackedScene" path="res://scenes/items_3d/HanX_Park/Tree_Cherry_Blossom.tscn" id="11_2leqj"]
+[ext_resource type="Script" path="res://scripts/builder/player_3d.gd" id="12_cm2a6"]
+
+[sub_resource type="Environment" id="Environment_gtuje"]
+background_mode = 1
+background_color = Color(0.10980392, 0.16862746, 0.23137255, 1)
+ambient_light_source = 2
+ambient_light_color = Color(0.7764706, 0.84313726, 0.92941177, 1)
+ambient_light_energy = 0.35
+tonemap_mode = 3
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t4u6c"]
+albedo_color = Color(0.34509805, 0.4117647, 0.37254903, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_0kwj3"]
+size = Vector3(160, 0.4, 160)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tl6w1"]
+size = Vector3(160, 0.4, 160)
+
+[node name="MyCity3D" type="Node3D" unique_id=1356532757]
+script = ExtResource("1_38pys")
+dimension = "3d"
+
+[node name="_WorldEnvironment_258" type="WorldEnvironment" parent="." unique_id=925553149]
+environment = SubResource("Environment_gtuje")
+
+[node name="_DirectionalLight3D_259" type="DirectionalLight3D" parent="." unique_id=1840814788]
+transform = Transform3D(0.8660254, 0.38302222, -0.32139382, 0, 0.64278764, 0.76604444, 0.5, -0.66341394, 0.5566704, 0, 0, 0)
+light_energy = 0.8
+shadow_enabled = true
+
+[node name="Foundation" type="StaticBody3D" parent="." unique_id=1494457513]
+collision_layer = 2
+
+[node name="_MeshInstance3D_260" type="MeshInstance3D" parent="Foundation" unique_id=2039767243]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2, 0)
+material_override = SubResource("StandardMaterial3D_t4u6c")
+mesh = SubResource("BoxMesh_0kwj3")
+
+[node name="_CollisionShape3D_261" type="CollisionShape3D" parent="Foundation" unique_id=725102844]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2, 0)
+shape = SubResource("BoxShape3D_tl6w1")
+
+[node name="Objects" type="Node3D" parent="." unique_id=1453292446]
+
+[node name="Apartment_4F_A" type="StaticBody3D" parent="Objects" unique_id=1233280897 instance=ExtResource("2_eobok")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13, 0, -9)
+
+[node name="Cafe_Small" type="StaticBody3D" parent="Objects" unique_id=1163502622 instance=ExtResource("3_mieym")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9)
+
+[node name="Corner_Shop_Building" type="StaticBody3D" parent="Objects" unique_id=211703572 instance=ExtResource("4_cos3t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, -9)
+
+[node name="Road_Straight" type="StaticBody3D" parent="Objects" unique_id=1580591755 instance=ExtResource("5_koxdo")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -24, 0.02, 3)
+
+[node name="Road_Straight2" type="StaticBody3D" parent="Objects" unique_id=1835536515 instance=ExtResource("5_koxdo")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -16, 0.02, 3)
+
+[node name="Road_Straight3" type="StaticBody3D" parent="Objects" unique_id=2032288176 instance=ExtResource("5_koxdo")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -8, 0.02, 3)
+
+[node name="Road_Straight4" type="StaticBody3D" parent="Objects" unique_id=1032045425 instance=ExtResource("5_koxdo")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0.02, 3)
+
+[node name="Road_Straight5" type="StaticBody3D" parent="Objects" unique_id=132789527 instance=ExtResource("5_koxdo")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 8, 0.02, 3)
+
+[node name="Road_Straight6" type="StaticBody3D" parent="Objects" unique_id=1026151400 instance=ExtResource("5_koxdo")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 16, 0.02, 3)
+
+[node name="Road_Straight7" type="StaticBody3D" parent="Objects" unique_id=2096720774 instance=ExtResource("5_koxdo")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 24, 0.02, 3)
+
+[node name="Car_Sedan" type="StaticBody3D" parent="Objects" unique_id=413809174 instance=ExtResource("6_76wnl")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -6, 0.02, 4.5)
+
+[node name="Car_Taxi" type="StaticBody3D" parent="Objects" unique_id=827122890 instance=ExtResource("7_e6wnw")]
+transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, 8, 0.02, 1.5)
+
+[node name="Tree_Oak" type="StaticBody3D" parent="Objects" unique_id=1155681160 instance=ExtResource("8_4skoi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13, 0, 15)
+
+[node name="Bench_Park" type="StaticBody3D" parent="Objects" unique_id=824808600 instance=ExtResource("9_dlwqy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 13)
+
+[node name="Fountain_Tiered" type="StaticBody3D" parent="Objects" unique_id=745479339 instance=ExtResource("10_e3s7c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 15)
+
+[node name="Tree_Cherry_Blossom" type="StaticBody3D" parent="Objects" unique_id=1156762420 instance=ExtResource("11_2leqj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 15)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1440723175]
+current = true
+
+[node name="Player" type="CharacterBody3D" parent="." unique_id=255157276]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2, 9)
+collision_mask = 3
+script = ExtResource("12_cm2a6")

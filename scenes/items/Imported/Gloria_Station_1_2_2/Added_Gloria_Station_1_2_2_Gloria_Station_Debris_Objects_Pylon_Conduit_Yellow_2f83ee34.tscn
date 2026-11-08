@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Gloria_Station_1_2_2/Added_Gloria_Station_1_2_2_Gloria_Station_Debris_Objects_Pylon_Conduit_Yellow_2f83ee34_SE.png" id="2"]
+
+[node name="Added_Gloria_Station_1_2_2_Gloria_Station_Debris_Objects_Pylon_Conduit_Yellow_2f83ee34" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Gloria_Station_1_2_2_Gloria_Station_Debris_Objects_Pylon_Conduit_Yellow_2f83ee34"
+category = "Added Gloria Station 1.2.2 - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(73.545308, 317.19633)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Gloria_Station_1_2_2/Added_Gloria_Station_1_2_2_Gloria_Station_Debris_Objects_Pylon_Conduit_Yellow_2f83ee34_SE.png", "frame_width": 150, "frame_height": 391, "frames": 1, "origin": [73.545308, 317.19633], "footprint": [4, 4], "grid_original": {"origin": [75, 311], "footprint": [5, 5]}, "alignment_transform": [0.9411746495695825, 0.0001361682945650866, -0.010779948496965619, 0.8060802672948648], "alignment_base": [[6.0, 356.90602], [74.454692, 396.592736], [142.0, 356.883046]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [74.454692, 396.592736]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-73.545308, -317.19633)
+hframes = 1

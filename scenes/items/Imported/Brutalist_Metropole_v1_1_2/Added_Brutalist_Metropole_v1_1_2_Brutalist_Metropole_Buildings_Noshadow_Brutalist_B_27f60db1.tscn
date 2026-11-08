@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Brutalist_Metropole_v1_1_2/Added_Brutalist_Metropole_v1_1_2_Brutalist_Metropole_Buildings_Noshadow_Brutalist_B_27f60db1_SE.png" id="2"]
+
+[node name="Added_Brutalist_Metropole_v1_1_2_Brutalist_Metropole_Buildings_Noshadow_Brutalist_B_27f60db1" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Brutalist_Metropole_v1_1_2_Brutalist_Metropole_Buildings_Noshadow_Brutalist_B_27f60db1"
+category = "Added Brutalist Metropole - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(185.017179, 319.096176)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Brutalist_Metropole_v1_1_2/Added_Brutalist_Metropole_v1_1_2_Brutalist_Metropole_Buildings_Noshadow_Brutalist_B_27f60db1_SE.png", "frame_width": 370, "frame_height": 512, "frames": 1, "origin": [185.017179, 319.096176], "footprint": [12, 12], "alignment_transform": [1.046333593148278, 0.0021407894645980308, 0.005128482199631912, 0.9098169914405412], "alignment_base": [[1.0, 425.044892], [183.982821, 530.130061], [368.0, 424.181345]], "alignment_version": 2, "grid_original": {"origin": [185.017179, 319.096176], "footprint": [12, 12]}, "grid_method": "measured base", "grid_contact": [183.982821, 530.130061]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-185.017179, -319.096176)
+hframes = 1

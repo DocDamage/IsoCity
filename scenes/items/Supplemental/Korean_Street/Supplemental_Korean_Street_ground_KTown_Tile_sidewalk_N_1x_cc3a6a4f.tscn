@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/supplemental_prepared/Korean_Street/Supplemental_Korean_Street_ground_KTown_Tile_sidewalk_N_1x_cc3a6a4f.png" id="2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_view"]
+atlas = ExtResource("2")
+region = Rect2(0, 0, 128, 64)
+filter_clip = true
+
+[node name="Supplemental_Korean_Street_ground_KTown_Tile_sidewalk_N_1x_cc3a6a4f" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Supplemental_Korean_Street_ground_KTown_Tile_sidewalk_N_1x_cc3a6a4f"
+category = "Supplemental Ground"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(64.0, 0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = false
+directions_data = {"SE": {"file": "../../supplemental_prepared/Korean_Street/Supplemental_Korean_Street_ground_KTown_Tile_sidewalk_N_1x_cc3a6a4f.png", "footprint": [4.0, 4.0], "frame_height": 64.0, "frame_width": 128.0, "frames": 1.0, "grid_contact": [64.0, 64.0], "grid_method": "authored pivot and virtual footprint front", "origin": [64.0, 0.0], "region": [0.0, 0.0, 128.0, 64.0], "render_contact": [64.0, 64.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_view")
+centered = false
+offset = Vector2(-64.0, 0)
+hframes = 1

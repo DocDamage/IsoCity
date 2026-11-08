@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/people/Added_people_phone_woman_phone_woman_ced44da1_SE.png" id="2"]
+
+[node name="Added_people_phone_woman_phone_woman_ced44da1" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_people_phone_woman_phone_woman_ced44da1"
+category = "Added people - People"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(12.5, 48.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/people/Added_people_phone_woman_phone_woman_ced44da1_SE.png", "frame_width": 25, "frame_height": 68, "frames": 1, "origin": [12.5, 48.0], "footprint": [1, 1], "grid_original": {"origin": [12, 52], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [12.5, 64.0]}, "E": {"file": "../../imported_prepared/people/Added_people_phone_woman_phone_woman_ced44da1_E.png", "frame_width": 24, "frame_height": 66, "frames": 1, "origin": [4.0, 46.0], "footprint": [1, 1], "grid_original": {"origin": [12, 50], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [4.0, 62.0]}, "NE": {"file": "../../imported_prepared/people/Added_people_phone_woman_phone_woman_ced44da1_NE.png", "frame_width": 27, "frame_height": 60, "frames": 1, "origin": [10.5, 40.0], "footprint": [1, 1], "grid_original": {"origin": [14, 44], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [10.5, 56.0]}, "N": {"file": "../../imported_prepared/people/Added_people_phone_woman_phone_woman_ced44da1_N.png", "frame_width": 25, "frame_height": 60, "frames": 1, "origin": [14.5, 40.0], "footprint": [1, 1], "grid_original": {"origin": [12, 44], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [14.5, 56.0]}, "NW": {"file": "../../imported_prepared/people/Added_people_phone_woman_phone_woman_ced44da1_NW.png", "frame_width": 25, "frame_height": 61, "frames": 1, "origin": [12.0, 40.0], "footprint": [1, 1], "grid_original": {"origin": [12, 45], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [12.0, 56.0]}, "W": {"file": "../../imported_prepared/people/Added_people_phone_woman_phone_woman_ced44da1_W.png", "frame_width": 24, "frame_height": 60, "frames": 1, "origin": [10.5, 40.0], "footprint": [1, 1], "grid_original": {"origin": [12, 44], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [10.5, 56.0]}, "SW": {"file": "../../imported_prepared/people/Added_people_phone_woman_phone_woman_ced44da1_SW.png", "frame_width": 28, "frame_height": 61, "frames": 1, "origin": [11.0, 40.0], "footprint": [1, 1], "grid_original": {"origin": [14, 45], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [11.0, 56.0]}, "S": {"file": "../../imported_prepared/people/Added_people_phone_woman_phone_woman_ced44da1_S.png", "frame_width": 25, "frame_height": 65, "frames": 1, "origin": [19.5, 45.0], "footprint": [1, 1], "grid_original": {"origin": [12, 49], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [19.5, 61.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-12.5, -48.0)
+hframes = 1

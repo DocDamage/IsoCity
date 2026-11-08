@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/isometric_rpg_world/art_isometric/art-isometric/til-isom/tille3.png" id="2_tex"]
+
+[node name="tille3" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "tille3"
+category = "RPG_Tiles"
+kind = "tile"
+direction = "SE"
+footprint = Vector2i(10, 10)
+origin_offset = Vector2(287.5, -97.0)
+total_frames = 1
+has_collision = false
+directions_data = {"SE": {"file": "../../isometric_rpg_world/art_isometric/art-isometric/til-isom/tille3.png", "origin": [287.5, -97.0], "footprint": [10, 10], "frame_width": 500, "frame_height": 128, "grid_original": {"origin": [200, 56], "footprint": [6, 6]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [287.5, 63.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-287.5, 97.0)

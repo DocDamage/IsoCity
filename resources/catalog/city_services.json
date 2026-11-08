@@ -1,0 +1,48 @@
+{
+	"stations": {
+		"2d:Added_rendered_recycling_center_recycling_center_432bfae3": "sanitation",
+		"2d:Fire_Station1_-_Copie": "fire",
+		"2d:Hopital": "medical",
+		"2d:Police": "police",
+		"3d:Supplemental_SWAT/Building_Police_Station": "police",
+		"3d:Supplemental_SWAT/Building_SWAT_HQ": "police"
+	},
+	"targets": {
+		"2d:Dumpster": [
+			"sanitation"
+		],
+		"3d:HanX_Traffic/Trash_Bin": [
+			"sanitation"
+		]
+	},
+	"units": {
+		"fire": {
+			"activity": "Fire safety visit",
+			"color": "e87830",
+			"vehicle_2d": "2d:Fire_Truck",
+			"vehicle_3d": "3d:HanX_Traffic/Truck_Fire",
+			"worker_2d": "2d:Construction_Worker"
+		},
+		"medical": {
+			"activity": "Medical assistance",
+			"color": "e8f0f5",
+			"vehicle_2d": "2d:Ambulance",
+			"vehicle_3d": "3d:HanX_Traffic/Van_Ambulance",
+			"worker_2d": "2d:Doctor"
+		},
+		"police": {
+			"activity": "Neighborhood patrol",
+			"color": "487dd4",
+			"vehicle_2d": "2d:Police_Car",
+			"vehicle_3d": "3d:HanX_Traffic/Car_Police",
+			"worker_2d": "2d:Police_Officer"
+		},
+		"sanitation": {
+			"activity": "Waste collection",
+			"color": "66b765",
+			"vehicle_2d": "2d:Garbage_Truck",
+			"vehicle_3d": "3d:HanX_Construction/Dump_Truck",
+			"worker_2d": "2d:Janitor"
+		}
+	}
+}

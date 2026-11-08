@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/supplemental_prepared/Characters_Directional_girl/Supplemental_Characters_Directional_moneyHD_001_e40da8e1.png" id="2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_view"]
+atlas = ExtResource("2")
+region = Rect2(0, 198, 7986, 33)
+filter_clip = true
+
+[node name="Supplemental_Characters_Directional_moneyHD_001_e40da8e1" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.9393939393939394, 1.9393939393939394)
+script = ExtResource("1")
+item_id = "Supplemental_Characters_Directional_moneyHD_001_e40da8e1"
+category = "Supplemental Characters"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(16.545833333333334, 17.015625)
+total_frames = 242
+animation_fps = 30.000000000000032
+has_collision = false
+directions_data = {"SW": {"file": "../../supplemental_prepared/Characters_Directional_girl/Supplemental_Characters_Directional_moneyHD_001_e40da8e1.png", "region": [0, 0, 7986, 33], "frame_width": 33, "frame_height": 33, "frames": 242, "origin": [16.51983173076923, 17.7890625], "footprint": [1, 1], "render_contact": [16.51983173076923, 17.7890625], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [16.51983173076923, 33.7890625]}, "W": {"file": "../../supplemental_prepared/Characters_Directional_girl/Supplemental_Characters_Directional_moneyHD_001_e40da8e1.png", "region": [0, 33, 7986, 33], "frame_width": 33, "frame_height": 33, "frames": 242, "origin": [15.145052083333335, 17.53125], "footprint": [1, 1], "render_contact": [15.145052083333335, 17.53125], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [15.145052083333335, 33.53125]}, "NW": {"file": "../../supplemental_prepared/Characters_Directional_girl/Supplemental_Characters_Directional_moneyHD_001_e40da8e1.png", "region": [0, 66, 7986, 33], "frame_width": 33, "frame_height": 33, "frames": 242, "origin": [15.696428571428571, 16.88671875], "footprint": [1, 1], "render_contact": [15.696428571428571, 16.88671875], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [15.696428571428571, 32.88671875]}, "N": {"file": "../../supplemental_prepared/Characters_Directional_girl/Supplemental_Characters_Directional_moneyHD_001_e40da8e1.png", "region": [0, 99, 7986, 33], "frame_width": 33, "frame_height": 33, "frames": 242, "origin": [17.336458333333333, 17.2734375], "footprint": [1, 1], "render_contact": [17.336458333333333, 17.2734375], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [17.336458333333333, 33.2734375]}, "NE": {"file": "../../supplemental_prepared/Characters_Directional_girl/Supplemental_Characters_Directional_moneyHD_001_e40da8e1.png", "region": [0, 132, 7986, 33], "frame_width": 33, "frame_height": 33, "frames": 242, "origin": [16.58875512295082, 17.40234375], "footprint": [1, 1], "render_contact": [16.58875512295082, 17.40234375], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [16.58875512295082, 33.40234375]}, "E": {"file": "../../supplemental_prepared/Characters_Directional_girl/Supplemental_Characters_Directional_moneyHD_001_e40da8e1.png", "region": [0, 165, 7986, 33], "frame_width": 33, "frame_height": 33, "frames": 242, "origin": [15.706208881578947, 17.40234375], "footprint": [1, 1], "render_contact": [15.706208881578947, 17.40234375], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [15.706208881578947, 33.40234375]}, "SE": {"file": "../../supplemental_prepared/Characters_Directional_girl/Supplemental_Characters_Directional_moneyHD_001_e40da8e1.png", "region": [0, 198, 7986, 33], "frame_width": 33, "frame_height": 33, "frames": 242, "origin": [16.545833333333334, 17.015625], "footprint": [1, 1], "render_contact": [16.545833333333334, 17.015625], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [16.545833333333334, 33.015625]}, "S": {"file": "../../supplemental_prepared/Characters_Directional_girl/Supplemental_Characters_Directional_moneyHD_001_e40da8e1.png", "region": [0, 231, 7986, 33], "frame_width": 33, "frame_height": 33, "frames": 242, "origin": [17.9609375, 17.53125], "footprint": [1, 1], "render_contact": [17.9609375, 17.53125], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [17.9609375, 33.53125]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_view")
+centered = false
+offset = Vector2(-16.545833333333334, -17.015625)
+hframes = 242

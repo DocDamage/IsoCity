@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Hercynian_Lowlands_v1_6/Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Backgrounds_Background_Hercynia_dde400ff_SE.png" id="2"]
+
+[node name="Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Backgrounds_Background_Hercynia_dde400ff" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Backgrounds_Background_Hercynia_dde400ff"
+category = "Added Hercynian Lowlands - Backdrops"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(19, 19)
+origin_offset = Vector2(506.0, 284.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = false
+directions_data = {"SE": {"file": "../../imported_prepared/Hercynian_Lowlands_v1_6/Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Backgrounds_Background_Hercynia_dde400ff_SE.png", "frame_width": 1024, "frame_height": 597, "frames": 1, "origin": [506.0, 284.0], "footprint": [19, 19], "grid_original": {"origin": [512, 277], "footprint": [20, 20]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [506.0, 588.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-506.0, -284.0)
+hframes = 1

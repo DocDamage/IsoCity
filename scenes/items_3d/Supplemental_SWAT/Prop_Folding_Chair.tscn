@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Prop_Folding_Chair.glb" id="1_23i58"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qliea"]
+size = Vector3(0.46, 0.88921, 0.515)
+
+[node name="Prop_Folding_Chair" type="StaticBody3D" unique_id=290085528]
+collision_mask = 0
+metadata/authored_footprint = [-0.23, 0.0, -0.2575, 0.46, 0.88921, 0.515]
+
+[node name="Model" type="Node3D" parent="." unique_id=1577122233]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.00744, 0.012500018)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=129327735 instance=ExtResource("1_23i58")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=103105576]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.444605, 0)
+shape = SubResource("BoxShape3D_qliea")

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/loose/Added_loose_roman_domus_part_009_b3ea6c1f_SE.png" id="2"]
+
+[node name="Added_loose_roman_domus_part_009_b3ea6c1f" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_loose_roman_domus_part_009_b3ea6c1f"
+category = "Added loose - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(3, 5)
+origin_offset = Vector2(74.545877, 50.474889)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/loose/Added_loose_roman_domus_part_009_b3ea6c1f_SE.png", "frame_width": 117, "frame_height": 106, "frames": 1, "origin": [74.545877, 50.474889], "footprint": [3, 5], "grid_original": {"origin": [42, 82], "footprint": [2, 1]}, "alignment_transform": [1.2172482865881147, 0.048442562270705695, 0.19830584905904286, 1.2158863628572605], "alignment_base": [[3.0, 86.223185], [39.454123, 104.50949], [111.0, 68.761194]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [39.454123, 104.50949]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-74.545877, -50.474889)
+hframes = 1

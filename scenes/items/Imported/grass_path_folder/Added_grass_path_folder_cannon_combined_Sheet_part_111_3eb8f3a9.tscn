@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/grass_path_folder/Added_grass_path_folder_cannon_combined_Sheet_part_111_3eb8f3a9_SE.png" id="2"]
+
+[node name="Added_grass_path_folder_cannon_combined_Sheet_part_111_3eb8f3a9" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_grass_path_folder_cannon_combined_Sheet_part_111_3eb8f3a9"
+category = "Added grass_path_folder - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(53.5, 27.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/grass_path_folder/Added_grass_path_folder_cannon_combined_Sheet_part_111_3eb8f3a9_SE.png", "frame_width": 74, "frame_height": 60, "frames": 1, "origin": [53.5, 27.0], "footprint": [2, 2], "grid_original": {"origin": [21, 36], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [53.5, 59.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-53.5, -27.0)
+hframes = 1

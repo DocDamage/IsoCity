@@ -1,0 +1,266 @@
+{
+  "document": {
+    "blueprints": [
+      {
+        "connections": [
+          {
+            "from": {
+              "object_uid": "staging_scaffold",
+              "socket": "b"
+            },
+            "kind": "structure",
+            "to": {
+              "object_uid": "staging_ladder",
+              "socket": "a"
+            },
+            "uid": "staging_joint"
+          }
+        ],
+        "external_targets": [],
+        "group_names": {},
+        "kind": "assembly",
+        "name": "Material staging assembly",
+        "objects": [
+          {
+            "asset": "3d:HanX_Construction/Scaffold_Module",
+            "direction": "0",
+            "position": [
+              38,
+              0,
+              -15
+            ],
+            "scale": 1,
+            "uid": "staging_scaffold"
+          },
+          {
+            "asset": "3d:HanX_Construction/Scaffold_Module_Ladder",
+            "direction": "0",
+            "position": [
+              40.14,
+              0,
+              -15
+            ],
+            "scale": 1,
+            "uid": "staging_ladder"
+          }
+        ],
+        "roads": [],
+        "uid": "staging_assembly",
+        "version": 1
+      }
+    ],
+    "economy": {
+      "enabled": true,
+      "starting_cash": 3000
+    },
+    "mode": "3d",
+    "night": false,
+    "objects": [
+      {
+        "asset": "3d:HanX_Construction/Shipping_Container",
+        "delivery_site": {
+          "capacity": 12,
+          "enabled": true,
+          "offset_x": 0.0,
+          "offset_z": -2.20699977874756,
+          "stock": {
+            "masonry": 8,
+            "parcels": 2
+          }
+        },
+        "direction": "180",
+        "position": [
+          -16.0,
+          0.0,
+          17.0
+        ],
+        "scale": 0.65,
+        "uid": "supply"
+      },
+      {
+        "asset": "3d:HanX_Construction/Site_Office",
+        "delivery_site": {
+          "capacity": 12,
+          "enabled": true,
+          "offset_x": 0.0,
+          "offset_z": -1.83650016784668,
+          "stock": {}
+        },
+        "direction": "180",
+        "position": [
+          24.0,
+          0.0,
+          17.0
+        ],
+        "scale": 0.65,
+        "uid": "site"
+      },
+      {
+        "asset": "3d:HanX_Traffic/Van_Delivery",
+        "delivery_vehicle": {
+          "capacity": 8,
+          "enabled": true
+        },
+        "direction": "90.0",
+        "driving": {
+          "braking": 15,
+          "max_speed": 9
+        },
+        "position": [
+          -16.0,
+          0.0,
+          10.0
+        ],
+        "scale": 0.5,
+        "uid": "van"
+      },
+      {
+        "asset": "3d:HanX_Traffic/Van_Delivery",
+        "delivery_vehicle": {
+          "capacity": 2,
+          "enabled": true
+        },
+        "direction": "90.0",
+        "driving": {
+          "braking": 15,
+          "max_speed": 9
+        },
+        "position": [
+          -28.0,
+          0.0,
+          10.0
+        ],
+        "scale": 0.5,
+        "uid": "small_van"
+      },
+      {
+        "asset": "3d:HanX_Construction/Scaffold_Module",
+        "direction": "0",
+        "position": [
+          43,
+          0,
+          20
+        ],
+        "scale": 0.75,
+        "uid": "scaffold"
+      }
+    ],
+    "protected_areas": [
+      {
+        "name": "Protected jobsite",
+        "owner": "foreperson",
+        "rect": [
+          40,
+          17,
+          8,
+          9
+        ],
+        "uid": "site_boundary"
+      }
+    ],
+    "roads": [
+      {
+        "cell": [
+          -6,
+          0
+        ]
+      },
+      {
+        "cell": [
+          -5,
+          0
+        ]
+      },
+      {
+        "cell": [
+          -4,
+          0
+        ]
+      },
+      {
+        "cell": [
+          -3,
+          0
+        ]
+      },
+      {
+        "cell": [
+          -2,
+          0
+        ]
+      },
+      {
+        "cell": [
+          -1,
+          0
+        ]
+      },
+      {
+        "cell": [
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          1,
+          0
+        ]
+      },
+      {
+        "cell": [
+          2,
+          0
+        ]
+      },
+      {
+        "cell": [
+          3,
+          0
+        ]
+      },
+      {
+        "cell": [
+          4,
+          0
+        ]
+      },
+      {
+        "cell": [
+          5,
+          0
+        ]
+      },
+      {
+        "cell": [
+          6,
+          0
+        ]
+      },
+      {
+        "cell": [
+          7,
+          0
+        ]
+      }
+    ],
+    "scenario": {
+      "attempt": "golden_contract_42",
+      "host_uid": "site",
+      "id": "construction",
+      "pickup_uid": "supply"
+    },
+    "spawn": [
+      0,
+      0.2,
+      9
+    ],
+    "template": "blank",
+    "template_revision": 2,
+    "tiles": [],
+    "title": "Golden construction site"
+  },
+  "scenario": "construction_site",
+  "seed": 42,
+  "version": 1
+}

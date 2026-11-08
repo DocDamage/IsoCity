@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Satellites/07_early_sphere_sat.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(3.0, 2.609437763408078, 1.904785827359442)
+
+[node name="07_early_sphere_sat" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-1.5, 0.0, -0.952392913679721, 3.0, 2.609437763408078, 1.904785827359442]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(0.0002327150012195036, 1.3093455624135928, -0.0053364971011011335)
+scale = Vector3(2.9895174899756722, 2.9895174899756722, 2.9895174899756722)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 1.304718881704039, 0)
+shape = SubResource("CollisionShape")
+disabled = true

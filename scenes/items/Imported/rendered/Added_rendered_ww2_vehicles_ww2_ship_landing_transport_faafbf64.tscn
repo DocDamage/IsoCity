@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_landing_transport_faafbf64_SE.png" id="2"]
+
+[node name="Added_rendered_ww2_vehicles_ww2_ship_landing_transport_faafbf64" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_rendered_ww2_vehicles_ww2_ship_landing_transport_faafbf64"
+category = "Added rendered - Vehicles"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(127.5, 56.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_landing_transport_faafbf64_SE.png", "frame_width": 141, "frame_height": 91, "frames": 1, "origin": [127.5, 56.0], "footprint": [2, 2], "grid_original": {"origin": [38, 59], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [127.5, 88.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_landing_transport_faafbf64_E.png", "frame_width": 28, "frame_height": 114, "frames": 1, "origin": [13.0, 79.0], "footprint": [2, 2], "grid_original": {"origin": [14, 98], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [13.0, 111.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_landing_transport_faafbf64_NE.png", "frame_width": 141, "frame_height": 91, "frames": 1, "origin": [12.5, 56.0], "footprint": [2, 2], "grid_original": {"origin": [38, 59], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [12.5, 88.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_landing_transport_faafbf64_N.png", "frame_width": 182, "frame_height": 35, "frames": 1, "origin": [93.0, -32.0], "footprint": [4, 4], "grid_original": {"origin": [43, 0], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [93.0, 32.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_landing_transport_faafbf64_NW.png", "frame_width": 141, "frame_height": 91, "frames": 1, "origin": [127.0, 56.0], "footprint": [2, 2], "grid_original": {"origin": [38, 59], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [127.0, 88.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_landing_transport_faafbf64_W.png", "frame_width": 28, "frame_height": 116, "frames": 1, "origin": [13.5, 106.708334], "footprint": [2, 2], "grid_original": {"origin": [14, 100], "footprint": [1, 1]}, "alignment_transform": [3.3684210526315788, 0.0, 0.0, 4.042105603545739], "alignment_base": [[4.0, 110.666667], [13.5, 114.625], [23.0, 110.666667]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [13.5, 114.625]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_landing_transport_faafbf64_SW.png", "frame_width": 141, "frame_height": 91, "frames": 1, "origin": [13.0, 56.0], "footprint": [2, 2], "grid_original": {"origin": [38, 59], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [13.0, 88.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_landing_transport_faafbf64_S.png", "frame_width": 182, "frame_height": 34, "frames": 1, "origin": [88.0, -33.0], "footprint": [4, 4], "grid_original": {"origin": [43, 0], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [88.0, 31.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-127.5, -56.0)
+hframes = 1

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/loose/Added_loose_isometric_assets_part_014_e8946083_SE.png" id="2"]
+
+[node name="Added_loose_isometric_assets_part_014_e8946083" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_loose_isometric_assets_part_014_e8946083"
+category = "Added loose - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(3, 1)
+origin_offset = Vector2(16.873682, 8.321291)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/loose/Added_loose_isometric_assets_part_014_e8946083_SE.png", "frame_width": 68, "frame_height": 40, "frames": 1, "origin": [16.873682, 8.321291], "footprint": [3, 1], "grid_original": {"origin": [34, 24], "footprint": [1, 1]}, "alignment_transform": [1.1302730768526814, -0.10774073677952309, -0.26617313815705423, 1.2145795566256439], "alignment_base": [[4.0, 13.765957], [52.126318, 37.794984], [65.0, 32.350318]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [52.126318, 37.794984]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-16.873682, -8.321291)
+hframes = 1

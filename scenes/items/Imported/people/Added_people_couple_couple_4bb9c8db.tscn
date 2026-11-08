@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/people/Added_people_couple_couple_4bb9c8db_SE.png" id="2"]
+
+[node name="Added_people_couple_couple_4bb9c8db" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_people_couple_couple_4bb9c8db"
+category = "Added people - People"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(11.0, 56.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/people/Added_people_couple_couple_4bb9c8db_SE.png", "frame_width": 33, "frame_height": 76, "frames": 1, "origin": [11.0, 56.0], "footprint": [1, 1], "grid_original": {"origin": [16, 60], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [11.0, 72.0]}, "E": {"file": "../../imported_prepared/people/Added_people_couple_couple_4bb9c8db_E.png", "frame_width": 38, "frame_height": 72, "frames": 1, "origin": [10.0, 52.0], "footprint": [1, 1], "grid_original": {"origin": [19, 56], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [10.0, 68.0]}, "NE": {"file": "../../imported_prepared/people/Added_people_couple_couple_4bb9c8db_NE.png", "frame_width": 42, "frame_height": 70, "frames": 1, "origin": [29.0, 50.0], "footprint": [1, 1], "grid_original": {"origin": [21, 54], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [29.0, 66.0]}, "N": {"file": "../../imported_prepared/people/Added_people_couple_couple_4bb9c8db_N.png", "frame_width": 38, "frame_height": 75, "frames": 1, "origin": [18.0, 55.0], "footprint": [1, 1], "grid_original": {"origin": [19, 59], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [18.0, 71.0]}, "NW": {"file": "../../imported_prepared/people/Added_people_couple_couple_4bb9c8db_NW.png", "frame_width": 33, "frame_height": 77, "frames": 1, "origin": [18.5, 56.0], "footprint": [1, 1], "grid_original": {"origin": [16, 61], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [18.5, 72.0]}, "W": {"file": "../../imported_prepared/people/Added_people_couple_couple_4bb9c8db_W.png", "frame_width": 38, "frame_height": 73, "frames": 1, "origin": [23.0, 53.0], "footprint": [1, 1], "grid_original": {"origin": [19, 57], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [23.0, 69.0]}, "SW": {"file": "../../imported_prepared/people/Added_people_couple_couple_4bb9c8db_SW.png", "frame_width": 43, "frame_height": 71, "frames": 1, "origin": [20.5, 51.0], "footprint": [1, 1], "grid_original": {"origin": [22, 55], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [20.5, 67.0]}, "S": {"file": "../../imported_prepared/people/Added_people_couple_couple_4bb9c8db_S.png", "frame_width": 38, "frame_height": 73, "frames": 1, "origin": [24.0, 53.0], "footprint": [1, 1], "grid_original": {"origin": [19, 57], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [24.0, 69.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-11.0, -56.0)
+hframes = 1

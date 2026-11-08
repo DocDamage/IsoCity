@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_stylized_kasbah_tier_i_stylized_kasbah_tier_i_a8e5_2bb9fdf1_SE.png" id="2"]
+
+[node name="Added_rendered_stylized_kasbah_tier_i_stylized_kasbah_tier_i_a8e5_2bb9fdf1" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_stylized_kasbah_tier_i_stylized_kasbah_tier_i_a8e5_2bb9fdf1"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 8)
+origin_offset = Vector2(187.0, 315.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_kasbah_tier_i_stylized_kasbah_tier_i_a8e5_2bb9fdf1_SE.png", "frame_width": 332, "frame_height": 446, "frames": 1, "origin": [187.0, 315.0], "footprint": [8, 8], "grid_original": {"origin": [70, 382], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [187.0, 443.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_kasbah_tier_i_stylized_kasbah_tier_i_a8e5_2bb9fdf1_E.png", "frame_width": 465, "frame_height": 435, "frames": 1, "origin": [235.603478, 193.312523], "footprint": [16, 16], "grid_original": {"origin": [120, 363], "footprint": [8, 1]}, "alignment_transform": [1.1879899218525318, 0.0014412358517117418, 0.03835554351622705, 1.007148037317], "alignment_base": [[16.0, 320.718322], [227.396522, 447.507357], [447.0, 320.101558]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [227.396522, 447.507357]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_kasbah_tier_i_stylized_kasbah_tier_i_a8e5_2bb9fdf1_NE.png", "frame_width": 344, "frame_height": 418, "frames": 1, "origin": [174.0, 287.0], "footprint": [8, 8], "grid_original": {"origin": [76, 354], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [174.0, 415.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_kasbah_tier_i_stylized_kasbah_tier_i_a8e5_2bb9fdf1_N.png", "frame_width": 461, "frame_height": 482, "frames": 1, "origin": [231.0, 353.0], "footprint": [8, 8], "grid_original": {"origin": [118, 410], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [231.0, 481.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_kasbah_tier_i_stylized_kasbah_tier_i_a8e5_2bb9fdf1_NW.png", "frame_width": 332, "frame_height": 461, "frames": 1, "origin": [145.0, 330.0], "footprint": [8, 8], "grid_original": {"origin": [70, 397], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [145.0, 458.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_kasbah_tier_i_stylized_kasbah_tier_i_a8e5_2bb9fdf1_W.png", "frame_width": 465, "frame_height": 512, "frames": 1, "origin": [233.0, 383.0], "footprint": [8, 8], "grid_original": {"origin": [120, 440], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [233.0, 511.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_kasbah_tier_i_stylized_kasbah_tier_i_a8e5_2bb9fdf1_SW.png", "frame_width": 344, "frame_height": 456, "frames": 1, "origin": [171.0, 325.0], "footprint": [8, 8], "grid_original": {"origin": [76, 392], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [171.0, 453.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_kasbah_tier_i_stylized_kasbah_tier_i_a8e5_2bb9fdf1_S.png", "frame_width": 461, "frame_height": 510, "frames": 1, "origin": [232.881303, 276.067293], "footprint": [16, 16], "grid_original": {"origin": [118, 438], "footprint": [8, 1]}, "alignment_transform": [1.1961324905267152, -0.004797660517300573, 0.028321416861259774, 1.0517434661175107], "alignment_base": [[16.0, 396.780643], [227.118697, 519.446369], [444.0, 398.733019]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [227.118697, 519.446369]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-187.0, -315.0)
+hframes = 1

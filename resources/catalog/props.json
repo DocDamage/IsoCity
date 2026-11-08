@@ -1,0 +1,1974 @@
+{
+	"assets": {
+		"2d:Arc_Lamp": {
+			"kind": "switch",
+			"label": "Use lamp switch"
+		},
+		"2d:Armchair_Mustard": {
+			"kind": "seat"
+		},
+		"2d:Bistro_Chair": {
+			"kind": "seat"
+		},
+		"2d:Dining_Chair_Black": {
+			"kind": "seat"
+		},
+		"2d:Dining_Chair_Mint": {
+			"kind": "seat"
+		},
+		"2d:Dining_Chair_White": {
+			"kind": "seat"
+		},
+		"2d:Dining_Chair_Wood": {
+			"kind": "seat"
+		},
+		"2d:Drinks_Fridge": {
+			"duration": 2.0,
+			"kind": "appliance",
+			"label": "Get a cold drink",
+			"result": "Cold drink"
+		},
+		"2d:Floor_Lamp": {
+			"kind": "switch",
+			"label": "Use lamp switch"
+		},
+		"2d:Fridge_White": {
+			"duration": 2.0,
+			"kind": "appliance",
+			"label": "Get a cold drink",
+			"result": "Cold drink"
+		},
+		"2d:Metal_Bench": {
+			"kind": "seat"
+		},
+		"2d:Park_Bench": {
+			"kind": "seat"
+		},
+		"2d:Park_Lamp": {
+			"kind": "switch",
+			"label": "Use lamp switch",
+			"point": [
+				0.0,
+				2.2,
+				0.0
+			]
+		},
+		"2d:Playground_Slide": {
+			"approach": [
+				-1.0,
+				0.0,
+				-0.2
+			],
+			"end": [
+				1.0,
+				0.0,
+				0.3
+			],
+			"kind": "slide",
+			"point": [
+				-0.6,
+				1.8,
+				-0.2
+			]
+		},
+		"2d:Side_Table_Lamp": {
+			"kind": "switch",
+			"label": "Use lamp switch"
+		},
+		"2d:Sofa_Three_Seat_Gray": {
+			"kind": "seat"
+		},
+		"2d:Stove_Oven": {
+			"anchor_review": {
+				"note": "Separate standing operator/exit and customer setup points; existing generic appliance cycle only."
+			},
+			"approach": [
+				0,
+				0,
+				1.4
+			],
+			"customer": [
+				0,
+				0,
+				-1.4
+			],
+			"duration": 4.0,
+			"exit": [
+				1.4,
+				0,
+				1.4
+			],
+			"facing": [
+				0,
+				0.8,
+				0
+			],
+			"kind": "appliance",
+			"label": "Cook a meal",
+			"result": "Prepared meal"
+		},
+		"2d:Supplemental_Camping_gear_kit_camp_chair_512edf6a": {
+			"kind": "seat",
+			"views": {
+				"0": {
+					"approach": [
+						0.0,
+						0.0,
+						1.2
+					],
+					"end": [
+						0.0,
+						0.0,
+						1.2
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"135": {
+					"approach": [
+						-0.848528137423857,
+						0.0,
+						-0.848528137423857
+					],
+					"end": [
+						-0.848528137423857,
+						0.0,
+						-0.848528137423857
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"180": {
+					"approach": [
+						-1.4e-16,
+						0.0,
+						-1.2
+					],
+					"end": [
+						-1.4e-16,
+						0.0,
+						-1.2
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"225": {
+					"approach": [
+						0.848528137423857,
+						0.0,
+						-0.848528137423857
+					],
+					"end": [
+						0.848528137423857,
+						0.0,
+						-0.848528137423857
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"270": {
+					"approach": [
+						1.2,
+						0.0,
+						-2.2e-16
+					],
+					"end": [
+						1.2,
+						0.0,
+						-2.2e-16
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"315": {
+					"approach": [
+						0.848528137423857,
+						0.0,
+						0.848528137423857
+					],
+					"end": [
+						0.848528137423857,
+						0.0,
+						0.848528137423857
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"45": {
+					"approach": [
+						-0.848528137423857,
+						0.0,
+						0.848528137423857
+					],
+					"end": [
+						-0.848528137423857,
+						0.0,
+						0.848528137423857
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"90": {
+					"approach": [
+						-1.2,
+						0.0,
+						7e-17
+					],
+					"end": [
+						-1.2,
+						0.0,
+						7e-17
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				}
+			}
+		},
+		"2d:Supplemental_Camping_gear_kit_camp_stove_5cbaa2d4": {
+			"anchor_review": {
+				"note": "At the prepared 0.5966101695 default scale, the generic 0.9 source-unit approach intersects the real 2D player shape. The reviewed 1.5 approach and side exit clear the supplied 1x1 footprint."
+			},
+			"approach": [
+				0,
+				0,
+				1.5
+			],
+			"duration": 5.0,
+			"exit": [
+				0.9,
+				0,
+				1.5
+			],
+			"kind": "appliance",
+			"label": "Use canister stove"
+		},
+		"2d:Supplemental_Camping_gear_kit_campfire_e8155646": {
+			"effect": "lamp",
+			"kind": "switch",
+			"label": "Toggle campfire"
+		},
+		"2d:Supplemental_Camping_gear_kit_flashlight_57be06af": {
+			"effect": "lamp",
+			"kind": "switch",
+			"label": "Toggle flashlight"
+		},
+		"2d:Supplemental_Camping_gear_kit_lantern_8493cf92": {
+			"effect": "lamp",
+			"kind": "switch",
+			"label": "Toggle camping lantern"
+		},
+		"2d:Supplemental_Classroom_school_kit_bean_bag_04c585ab": {
+			"anchor_review": {
+				"note": "Reviewed seat contact in each prepared frame; source-space approach/exit outside the footprint. Upright sitting only, no exercise animation.",
+				"source_pixels": {
+					"0": [
+						32,
+						34
+					],
+					"135": [
+						32,
+						34
+					],
+					"180": [
+						32,
+						34
+					],
+					"225": [
+						32,
+						34
+					],
+					"270": [
+						32,
+						34
+					],
+					"315": [
+						32,
+						34
+					],
+					"45": [
+						32,
+						34
+					],
+					"90": [
+						32,
+						34
+					]
+				}
+			},
+			"kind": "seat",
+			"views": {
+				"0": {
+					"approach": [
+						-0.0,
+						0,
+						1.5
+					],
+					"end": [
+						0.0,
+						0.0,
+						1.2
+					],
+					"exit": [
+						-0.0,
+						0,
+						1.5
+					],
+					"facing": [
+						-0.0,
+						0,
+						2.0
+					],
+					"point": [
+						0.0,
+						2.75,
+						-0.0
+					]
+				},
+				"135": {
+					"approach": [
+						-1.0606601717798214,
+						0,
+						-1.0606601717798212
+					],
+					"end": [
+						-0.848528137423857,
+						0.0,
+						-0.848528137423857
+					],
+					"exit": [
+						-1.0606601717798214,
+						0,
+						-1.0606601717798212
+					],
+					"facing": [
+						-1.4142135623730951,
+						0,
+						-1.414213562373095
+					],
+					"point": [
+						0.0,
+						2.75,
+						-0.0
+					]
+				},
+				"180": {
+					"approach": [
+						-1.8369701987210297e-16,
+						0,
+						-1.5
+					],
+					"end": [
+						-1.4e-16,
+						0.0,
+						-1.2
+					],
+					"exit": [
+						-1.8369701987210297e-16,
+						0,
+						-1.5
+					],
+					"facing": [
+						-2.4492935982947064e-16,
+						0,
+						-2.0
+					],
+					"point": [
+						0.0,
+						2.75,
+						-0.0
+					]
+				},
+				"225": {
+					"approach": [
+						1.0606601717798212,
+						0,
+						-1.0606601717798214
+					],
+					"end": [
+						0.848528137423857,
+						0.0,
+						-0.848528137423857
+					],
+					"exit": [
+						1.0606601717798212,
+						0,
+						-1.0606601717798214
+					],
+					"facing": [
+						1.414213562373095,
+						0,
+						-1.4142135623730954
+					],
+					"point": [
+						0.0,
+						2.75,
+						-0.0
+					]
+				},
+				"270": {
+					"approach": [
+						1.5,
+						0,
+						-2.755455298081545e-16
+					],
+					"end": [
+						1.2,
+						0.0,
+						-2.2e-16
+					],
+					"exit": [
+						1.5,
+						0,
+						-2.755455298081545e-16
+					],
+					"facing": [
+						2.0,
+						0,
+						-3.6739403974420594e-16
+					],
+					"point": [
+						0.0,
+						2.75,
+						-0.0
+					]
+				},
+				"315": {
+					"approach": [
+						1.0606601717798214,
+						0,
+						1.060660171779821
+					],
+					"end": [
+						0.848528137423857,
+						0.0,
+						0.848528137423857
+					],
+					"exit": [
+						1.0606601717798214,
+						0,
+						1.060660171779821
+					],
+					"facing": [
+						1.4142135623730954,
+						0,
+						1.4142135623730947
+					],
+					"point": [
+						0.0,
+						2.75,
+						-0.0
+					]
+				},
+				"45": {
+					"approach": [
+						-1.0606601717798214,
+						0,
+						1.0606601717798214
+					],
+					"end": [
+						-0.848528137423857,
+						0.0,
+						0.848528137423857
+					],
+					"exit": [
+						-1.0606601717798214,
+						0,
+						1.0606601717798214
+					],
+					"facing": [
+						-1.4142135623730951,
+						0,
+						1.4142135623730951
+					],
+					"point": [
+						0.0,
+						2.75,
+						-0.0
+					]
+				},
+				"90": {
+					"approach": [
+						-1.5,
+						0,
+						9.184850993605148e-17
+					],
+					"end": [
+						-1.2,
+						0.0,
+						7e-17
+					],
+					"exit": [
+						-1.5,
+						0,
+						9.184850993605148e-17
+					],
+					"facing": [
+						-2.0,
+						0,
+						1.2246467991473532e-16
+					],
+					"point": [
+						0.0,
+						2.75,
+						-0.0
+					]
+				}
+			}
+		},
+		"2d:Supplemental_Garden_greenhouse_kit_grow_lamp_012b56cc": {
+			"effect": "lamp",
+			"kind": "switch",
+			"label": "Toggle grow lamp rack"
+		},
+		"2d:Supplemental_Garden_greenhouse_kit_potting_bench_63a3cfa1": {
+			"kind": "seat",
+			"views": {
+				"0": {
+					"approach": [
+						0.0,
+						0.0,
+						1.2
+					],
+					"end": [
+						0.0,
+						0.0,
+						1.2
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"135": {
+					"approach": [
+						-0.848528137423857,
+						0.0,
+						-0.848528137423857
+					],
+					"end": [
+						-0.848528137423857,
+						0.0,
+						-0.848528137423857
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"180": {
+					"approach": [
+						-1.4e-16,
+						0.0,
+						-1.2
+					],
+					"end": [
+						-1.4e-16,
+						0.0,
+						-1.2
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"225": {
+					"approach": [
+						0.848528137423857,
+						0.0,
+						-0.848528137423857
+					],
+					"end": [
+						0.848528137423857,
+						0.0,
+						-0.848528137423857
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"270": {
+					"approach": [
+						1.2,
+						0.0,
+						-2.2e-16
+					],
+					"end": [
+						1.2,
+						0.0,
+						-2.2e-16
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"315": {
+					"approach": [
+						0.848528137423857,
+						0.0,
+						0.848528137423857
+					],
+					"end": [
+						0.848528137423857,
+						0.0,
+						0.848528137423857
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"45": {
+					"approach": [
+						-0.848528137423857,
+						0.0,
+						0.848528137423857
+					],
+					"end": [
+						-0.848528137423857,
+						0.0,
+						0.848528137423857
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"90": {
+					"approach": [
+						-1.2,
+						0.0,
+						7e-17
+					],
+					"end": [
+						-1.2,
+						0.0,
+						7e-17
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				}
+			}
+		},
+		"2d:Supplemental_Gym_fitness_kit_exercise_bike_bd2e7760": {
+			"duration": 5.0,
+			"kind": "appliance",
+			"label": "Use exercise bike"
+		},
+		"2d:Supplemental_Gym_fitness_kit_rowing_machine_5c906166": {
+			"duration": 5.0,
+			"kind": "appliance",
+			"label": "Use rowing machine"
+		},
+		"2d:Supplemental_Gym_fitness_kit_treadmill_4ecc12e0": {
+			"duration": 5.0,
+			"kind": "appliance",
+			"label": "Use treadmill"
+		},
+		"2d:Supplemental_Gym_fitness_kit_weight_bench_4a8a0688": {
+			"anchor_review": {
+				"note": "Reviewed seat contact in each prepared frame; source-space approach/exit outside the footprint. Upright sitting only, no exercise animation.",
+				"source_pixels": {
+					"0": [
+						32,
+						26
+					],
+					"135": [
+						32,
+						27
+					],
+					"180": [
+						32,
+						26
+					],
+					"225": [
+						32,
+						27
+					],
+					"270": [
+						32,
+						26
+					],
+					"315": [
+						32,
+						27
+					],
+					"45": [
+						32,
+						27
+					],
+					"90": [
+						32,
+						26
+					]
+				}
+			},
+			"kind": "seat",
+			"views": {
+				"0": {
+					"approach": [
+						-0.0,
+						0,
+						1.5
+					],
+					"end": [
+						0.0,
+						0.0,
+						1.2
+					],
+					"exit": [
+						-0.0,
+						0,
+						1.5
+					],
+					"facing": [
+						-0.0,
+						0,
+						2.0
+					],
+					"point": [
+						0.0,
+						3.75,
+						-0.0
+					]
+				},
+				"135": {
+					"approach": [
+						-1.0606601717798214,
+						0,
+						-1.0606601717798212
+					],
+					"end": [
+						-0.848528137423857,
+						0.0,
+						-0.848528137423857
+					],
+					"exit": [
+						-1.0606601717798214,
+						0,
+						-1.0606601717798212
+					],
+					"facing": [
+						-1.4142135623730951,
+						0,
+						-1.414213562373095
+					],
+					"point": [
+						0.0,
+						3.625,
+						-0.0
+					]
+				},
+				"180": {
+					"approach": [
+						-1.8369701987210297e-16,
+						0,
+						-1.5
+					],
+					"end": [
+						-1.4e-16,
+						0.0,
+						-1.2
+					],
+					"exit": [
+						-1.8369701987210297e-16,
+						0,
+						-1.5
+					],
+					"facing": [
+						-2.4492935982947064e-16,
+						0,
+						-2.0
+					],
+					"point": [
+						0.0,
+						3.75,
+						-0.0
+					]
+				},
+				"225": {
+					"approach": [
+						1.0606601717798212,
+						0,
+						-1.0606601717798214
+					],
+					"end": [
+						0.848528137423857,
+						0.0,
+						-0.848528137423857
+					],
+					"exit": [
+						1.0606601717798212,
+						0,
+						-1.0606601717798214
+					],
+					"facing": [
+						1.414213562373095,
+						0,
+						-1.4142135623730954
+					],
+					"point": [
+						0.0,
+						3.625,
+						-0.0
+					]
+				},
+				"270": {
+					"approach": [
+						1.5,
+						0,
+						-2.755455298081545e-16
+					],
+					"end": [
+						1.2,
+						0.0,
+						-2.2e-16
+					],
+					"exit": [
+						1.5,
+						0,
+						-2.755455298081545e-16
+					],
+					"facing": [
+						2.0,
+						0,
+						-3.6739403974420594e-16
+					],
+					"point": [
+						0.0,
+						3.75,
+						-0.0
+					]
+				},
+				"315": {
+					"approach": [
+						1.0606601717798214,
+						0,
+						1.060660171779821
+					],
+					"end": [
+						0.848528137423857,
+						0.0,
+						0.848528137423857
+					],
+					"exit": [
+						1.0606601717798214,
+						0,
+						1.060660171779821
+					],
+					"facing": [
+						1.4142135623730954,
+						0,
+						1.4142135623730947
+					],
+					"point": [
+						0.0,
+						3.625,
+						-0.0
+					]
+				},
+				"45": {
+					"approach": [
+						-1.0606601717798214,
+						0,
+						1.0606601717798214
+					],
+					"end": [
+						-0.848528137423857,
+						0.0,
+						0.848528137423857
+					],
+					"exit": [
+						-1.0606601717798214,
+						0,
+						1.0606601717798214
+					],
+					"facing": [
+						-1.4142135623730951,
+						0,
+						1.4142135623730951
+					],
+					"point": [
+						0.0,
+						3.625,
+						-0.0
+					]
+				},
+				"90": {
+					"approach": [
+						-1.5,
+						0,
+						9.184850993605148e-17
+					],
+					"end": [
+						-1.2,
+						0.0,
+						7e-17
+					],
+					"exit": [
+						-1.5,
+						0,
+						9.184850993605148e-17
+					],
+					"facing": [
+						-2.0,
+						0,
+						1.2246467991473532e-16
+					],
+					"point": [
+						0.0,
+						3.75,
+						-0.0
+					]
+				}
+			}
+		},
+		"2d:Supplemental_Laundromat_kit_dryer_sheets_76823f19": {
+			"duration": 5.0,
+			"kind": "appliance",
+			"label": "Use dryer sheets"
+		},
+		"2d:Supplemental_Laundromat_kit_dryer_stack_double_609ca3da": {
+			"duration": 5.0,
+			"kind": "appliance",
+			"label": "Use double dryer stack"
+		},
+		"2d:Supplemental_Laundromat_kit_industrial_washer_29a09cf7": {
+			"duration": 5.0,
+			"kind": "appliance",
+			"label": "Use industrial washer"
+		},
+		"2d:Supplemental_Laundromat_kit_washer_dryer_stack_96577eed": {
+			"duration": 5.0,
+			"kind": "appliance",
+			"label": "Use washer + dryer stack"
+		},
+		"2d:Supplemental_Office_desk_kit_coffee_machine_648c01b1": {
+			"duration": 5.0,
+			"kind": "appliance",
+			"label": "Use coffee machine"
+		},
+		"2d:Supplemental_Office_desk_kit_desk_fan_6fc55199": {
+			"effect": "machine",
+			"kind": "switch",
+			"label": "Toggle desk fan"
+		},
+		"2d:Supplemental_Office_desk_kit_desk_lamp_0047df6f": {
+			"effect": "lamp",
+			"kind": "switch",
+			"label": "Toggle desk lamp"
+		},
+		"2d:Supplemental_Office_desk_kit_office_chair_bad6887e": {
+			"anchor_review": {
+				"note": "Reviewed seat contact in each prepared frame; source-space approach/exit outside the footprint. Upright sitting only, no exercise animation.",
+				"source_pixels": {
+					"0": [
+						30,
+						34
+					],
+					"135": [
+						32,
+						37
+					],
+					"180": [
+						32,
+						36
+					],
+					"225": [
+						32,
+						37
+					],
+					"270": [
+						32,
+						34
+					],
+					"315": [
+						33,
+						34
+					],
+					"45": [
+						31,
+						34
+					],
+					"90": [
+						32,
+						34
+					]
+				}
+			},
+			"kind": "seat",
+			"views": {
+				"0": {
+					"approach": [
+						-0.0,
+						0,
+						1.5
+					],
+					"end": [
+						0.0,
+						0.0,
+						1.2
+					],
+					"exit": [
+						-0.0,
+						0,
+						1.5
+					],
+					"facing": [
+						-0.0,
+						0,
+						2.0
+					],
+					"point": [
+						-0.0625,
+						2.75,
+						0.0625
+					]
+				},
+				"135": {
+					"approach": [
+						-1.0606601717798214,
+						0,
+						-1.0606601717798212
+					],
+					"end": [
+						-0.848528137423857,
+						0.0,
+						-0.848528137423857
+					],
+					"exit": [
+						-1.0606601717798214,
+						0,
+						-1.0606601717798212
+					],
+					"facing": [
+						-1.4142135623730951,
+						0,
+						-1.414213562373095
+					],
+					"point": [
+						0.0,
+						2.375,
+						-0.0
+					]
+				},
+				"180": {
+					"approach": [
+						-1.8369701987210297e-16,
+						0,
+						-1.5
+					],
+					"end": [
+						-1.4e-16,
+						0.0,
+						-1.2
+					],
+					"exit": [
+						-1.8369701987210297e-16,
+						0,
+						-1.5
+					],
+					"facing": [
+						-2.4492935982947064e-16,
+						0,
+						-2.0
+					],
+					"point": [
+						0.0,
+						2.5,
+						-0.0
+					]
+				},
+				"225": {
+					"approach": [
+						1.0606601717798212,
+						0,
+						-1.0606601717798214
+					],
+					"end": [
+						0.848528137423857,
+						0.0,
+						-0.848528137423857
+					],
+					"exit": [
+						1.0606601717798212,
+						0,
+						-1.0606601717798214
+					],
+					"facing": [
+						1.414213562373095,
+						0,
+						-1.4142135623730954
+					],
+					"point": [
+						0.0,
+						2.375,
+						-0.0
+					]
+				},
+				"270": {
+					"approach": [
+						1.5,
+						0,
+						-2.755455298081545e-16
+					],
+					"end": [
+						1.2,
+						0.0,
+						-2.2e-16
+					],
+					"exit": [
+						1.5,
+						0,
+						-2.755455298081545e-16
+					],
+					"facing": [
+						2.0,
+						0,
+						-3.6739403974420594e-16
+					],
+					"point": [
+						0.0,
+						2.75,
+						-0.0
+					]
+				},
+				"315": {
+					"approach": [
+						1.0606601717798214,
+						0,
+						1.060660171779821
+					],
+					"end": [
+						0.848528137423857,
+						0.0,
+						0.848528137423857
+					],
+					"exit": [
+						1.0606601717798214,
+						0,
+						1.060660171779821
+					],
+					"facing": [
+						1.4142135623730954,
+						0,
+						1.4142135623730947
+					],
+					"point": [
+						0.03125,
+						2.75,
+						-0.03125
+					]
+				},
+				"45": {
+					"approach": [
+						-1.0606601717798214,
+						0,
+						1.0606601717798214
+					],
+					"end": [
+						-0.848528137423857,
+						0.0,
+						0.848528137423857
+					],
+					"exit": [
+						-1.0606601717798214,
+						0,
+						1.0606601717798214
+					],
+					"facing": [
+						-1.4142135623730951,
+						0,
+						1.4142135623730951
+					],
+					"point": [
+						-0.03125,
+						2.75,
+						0.03125
+					]
+				},
+				"90": {
+					"approach": [
+						-1.5,
+						0,
+						9.184850993605148e-17
+					],
+					"end": [
+						-1.2,
+						0.0,
+						7e-17
+					],
+					"exit": [
+						-1.5,
+						0,
+						9.184850993605148e-17
+					],
+					"facing": [
+						-2.0,
+						0,
+						1.2246467991473532e-16
+					],
+					"point": [
+						0.0,
+						2.75,
+						-0.0
+					]
+				}
+			}
+		},
+		"2d:Supplemental_Supermarket_kit_step_stool_4ac3a8d7": {
+			"kind": "seat",
+			"views": {
+				"0": {
+					"approach": [
+						0.0,
+						0.0,
+						1.2
+					],
+					"end": [
+						0.0,
+						0.0,
+						1.2
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"135": {
+					"approach": [
+						-0.848528137423857,
+						0.0,
+						-0.848528137423857
+					],
+					"end": [
+						-0.848528137423857,
+						0.0,
+						-0.848528137423857
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"180": {
+					"approach": [
+						-1.4e-16,
+						0.0,
+						-1.2
+					],
+					"end": [
+						-1.4e-16,
+						0.0,
+						-1.2
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"225": {
+					"approach": [
+						0.848528137423857,
+						0.0,
+						-0.848528137423857
+					],
+					"end": [
+						0.848528137423857,
+						0.0,
+						-0.848528137423857
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"270": {
+					"approach": [
+						1.2,
+						0.0,
+						-2.2e-16
+					],
+					"end": [
+						1.2,
+						0.0,
+						-2.2e-16
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"315": {
+					"approach": [
+						0.848528137423857,
+						0.0,
+						0.848528137423857
+					],
+					"end": [
+						0.848528137423857,
+						0.0,
+						0.848528137423857
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"45": {
+					"approach": [
+						-0.848528137423857,
+						0.0,
+						0.848528137423857
+					],
+					"end": [
+						-0.848528137423857,
+						0.0,
+						0.848528137423857
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				},
+				"90": {
+					"approach": [
+						-1.2,
+						0.0,
+						7e-17
+					],
+					"end": [
+						-1.2,
+						0.0,
+						7e-17
+					],
+					"point": [
+						0.0,
+						0.5,
+						0.0
+					]
+				}
+			}
+		},
+		"2d:Swing_Set": {
+			"approach": [
+				-0.7,
+				0.0,
+				1.2
+			],
+			"end": [
+				-0.7,
+				0.0,
+				1.2
+			],
+			"kind": "swing",
+			"point": [
+				-0.7,
+				0.8,
+				0.1
+			],
+			"rope_length": 2.7,
+			"seat_masks": {
+				"SE": [
+					16.0,
+					16.0,
+					12.0,
+					32.0
+				],
+				"SW": [
+					18.0,
+					8.0,
+					12.0,
+					31.0
+				]
+			},
+			"views": {
+				"SE": {
+					"point": [
+						0.1,
+						0.8,
+						0.7
+					]
+				},
+				"SW": {
+					"point": [
+						-0.54,
+						0.8,
+						-0.04
+					]
+				}
+			}
+		},
+		"2d:Washing_Machine": {
+			"duration": 5.0,
+			"kind": "appliance",
+			"label": "Wash laundry",
+			"result": "Clean laundry"
+		},
+		"3d:HanX_Construction/Generator": {
+			"duration": 5.0,
+			"kind": "appliance",
+			"label": "Run generator",
+			"result": "Power cycle"
+		},
+		"3d:HanX_Park/Bench_Log": {
+			"kind": "seat",
+			"point": [
+				0.0,
+				0.5,
+				0.0
+			]
+		},
+		"3d:HanX_Park/Bench_Park": {
+			"kind": "seat",
+			"point": [
+				0.0,
+				0.48,
+				0.0
+			]
+		},
+		"3d:HanX_Park/Lamp_Bollard": {
+			"kind": "switch",
+			"label": "Use lamp switch",
+			"point": [
+				0.0,
+				0.8,
+				0.0
+			]
+		},
+		"3d:HanX_Park/Lamp_Park": {
+			"kind": "switch",
+			"label": "Use lamp switch",
+			"point": [
+				0.0,
+				2.4,
+				0.0
+			]
+		},
+		"3d:HanX_School/Bench_School": {
+			"kind": "seat",
+			"point": [
+				0.0,
+				0.5,
+				0.0
+			]
+		},
+		"3d:HanX_School/Computer_Desk": {
+			"anchor_review": {
+				"note": "Separate standing operator/exit and customer setup points; existing generic appliance cycle only."
+			},
+			"approach": [
+				0,
+				0,
+				0.9
+			],
+			"customer": [
+				0,
+				0,
+				-0.95
+			],
+			"duration": 4.0,
+			"exit": [
+				0.95,
+				0,
+				0.9
+			],
+			"facing": [
+				0,
+				0.8,
+				0
+			],
+			"kind": "appliance",
+			"label": "Use computer",
+			"result": "Computer task"
+		},
+		"3d:HanX_School/Slide": {
+			"approach": [
+				0.0,
+				0.0,
+				-1.8
+			],
+			"end": [
+				0.0,
+				0.0,
+				3.6
+			],
+			"kind": "slide",
+			"point": [
+				0.0,
+				1.8,
+				0.8
+			]
+		},
+		"3d:HanX_School/Student_Chair": {
+			"anchor_review": {
+				"note": "Prepared Student_Chair: seat surface at 0.44 m; front is +Z."
+			},
+			"approach": [
+				0,
+				0,
+				0.9
+			],
+			"exit": [
+				0.7,
+				0,
+				0.9
+			],
+			"facing": [
+				0,
+				0.44,
+				1.5
+			],
+			"kind": "seat",
+			"point": [
+				0,
+				0.44,
+				0
+			]
+		},
+		"3d:HanX_School/Swing_Set": {
+			"approach": [
+				-0.8,
+				0.0,
+				1.4
+			],
+			"end": [
+				-0.8,
+				0.0,
+				1.4
+			],
+			"kind": "swing",
+			"point": [
+				-0.8,
+				0.5,
+				0.0
+			],
+			"rope_length": 1.7
+		},
+		"3d:HanX_Shop/Cafe_Table_Set": {
+			"anchor_review": {
+				"note": "Prepared mesh has seat surfaces at Y=0.48, centred at Z=±0.56. Uses the +Z chair facing the table. One supported user per combined prop; the other supplied chair is visual."
+			},
+			"approach": [
+				0.0,
+				0.0,
+				1.3
+			],
+			"exit": [
+				0.8,
+				0.0,
+				1.3
+			],
+			"facing": [
+				0.0,
+				0.48,
+				0.0
+			],
+			"kind": "seat",
+			"label": "Sit at café table",
+			"point": [
+				0.0,
+				0.48,
+				0.56
+			],
+			"use_capacity": 1
+		},
+		"3d:HanX_Shop/Fridge_Drinks": {
+			"duration": 2.0,
+			"kind": "appliance",
+			"label": "Get a cold drink",
+			"result": "Cold drink"
+		},
+		"3d:HanX_Shop/Vending_Machine": {
+			"anchor_review": {
+				"note": "Separate standing operator/exit and customer setup points; existing generic appliance cycle only."
+			},
+			"approach": [
+				0,
+				0,
+				1
+			],
+			"customer": [
+				0,
+				0,
+				1.8
+			],
+			"duration": 2.0,
+			"exit": [
+				0.95,
+				0,
+				1
+			],
+			"facing": [
+				0,
+				0.8,
+				0
+			],
+			"kind": "appliance",
+			"label": "Use vending machine",
+			"result": "Vended drink"
+		},
+		"3d:HanX_Traffic/Bench": {
+			"kind": "seat",
+			"point": [
+				0.0,
+				0.5,
+				0.0
+			]
+		},
+		"3d:HanX_Traffic/Park_Lamp": {
+			"kind": "switch",
+			"label": "Use lamp switch",
+			"point": [
+				0.0,
+				2.4,
+				0.0
+			]
+		},
+		"3d:Supplemental_Arcade/01_arcade_01_upright_woodgrain": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_Arcade/02_arcade_02_upright_neon_magenta": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_Arcade/03_arcade_03_upright_neon_red": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_Arcade/04_arcade_04_upright_neon_green": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_Arcade/05_arcade_05_upright_neon_blue": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_Arcade/06_arcade_06_upright_neon_purple": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_Arcade/07_arcade_07_upright_neon_cream": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_Arcade/08_arcade_08_fighting_cabinet_2p": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_Arcade/09_arcade_09_candy_cab": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_Arcade/10_arcade_10_light_gun_cabinet": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_Arcade/11_arcade_11_cockpit_shooter": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_Arcade/12_arcade_12_motorcycle_rideon": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_Arcade/13_arcade_13_racer_blue": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_Arcade/14_arcade_14_racer_red": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_Arcade/15_arcade_15_racer_yellow": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_Arcade/16_arcade_16_racer_green": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_Arcade/17_arcade_17_racer_black": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_Arcade/18_arcade_18_racer_orange": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_Arcade/19_arcade_19_dance_machine": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_Arcade/20_arcade_20_bartop_mini": {
+			"duration": 6.0,
+			"kind": "appliance",
+			"label": "Run cabinet demo",
+			"result": "Cabinet demo complete"
+		},
+		"3d:Supplemental_SWAT/Prop_Comms_Station": {
+			"anchor_review": {
+				"note": "Separate standing operator/exit and customer setup points; existing generic appliance cycle only."
+			},
+			"approach": [
+				0,
+				0,
+				1.6
+			],
+			"customer": [
+				0,
+				0,
+				-1.6
+			],
+			"duration": 5,
+			"exit": [
+				1.4,
+				0,
+				1.6
+			],
+			"facing": [
+				0,
+				0.8,
+				0
+			],
+			"kind": "appliance",
+			"label": "Operate equipment",
+			"result": "Equipment cycle complete"
+		},
+		"3d:Supplemental_SWAT/Prop_Desk_Computer": {
+			"duration": 5,
+			"kind": "appliance",
+			"label": "Operate equipment",
+			"result": "Equipment cycle complete"
+		},
+		"3d:Supplemental_SWAT/Prop_Floodlight_Tower": {
+			"effect": "lamp",
+			"kind": "switch",
+			"label": "Toggle light"
+		},
+		"3d:Supplemental_SWAT/Prop_Folding_Chair": {
+			"approach": [
+				0,
+				0,
+				1.1
+			],
+			"kind": "seat",
+			"point": [
+				0,
+				0.45,
+				0
+			]
+		},
+		"3d:Supplemental_SWAT/Prop_Generator": {
+			"duration": 5,
+			"kind": "appliance",
+			"label": "Operate equipment",
+			"result": "Equipment cycle complete"
+		},
+		"3d:Supplemental_SWAT/Prop_Searchlight": {
+			"effect": "lamp",
+			"kind": "switch",
+			"label": "Toggle light"
+		}
+	},
+	"kinds": {
+		"appliance": {
+			"approach": [
+				0.0,
+				0.0,
+				1.0
+			],
+			"duration": 5.0,
+			"effect": "machine",
+			"end": [
+				0.0,
+				0.0,
+				1.0
+			],
+			"initial_on": false,
+			"label": "Run appliance",
+			"point": [
+				0.0,
+				0.8,
+				0.0
+			],
+			"reach": 1.8,
+			"result": "Completed cycle",
+			"target": ""
+		},
+		"seat": {
+			"approach": [
+				0.0,
+				0.0,
+				1.1
+			],
+			"duration": 4.0,
+			"effect": "none",
+			"end": [
+				0.0,
+				0.0,
+				1.1
+			],
+			"initial_on": false,
+			"label": "Sit down",
+			"point": [
+				0.0,
+				0.5,
+				0.0
+			],
+			"reach": 1.8,
+			"target": ""
+		},
+		"slide": {
+			"approach": [
+				0.0,
+				0.0,
+				-1.5
+			],
+			"duration": 4.0,
+			"effect": "none",
+			"end": [
+				0.0,
+				0.0,
+				1.5
+			],
+			"initial_on": false,
+			"label": "Use slide",
+			"point": [
+				0.0,
+				1.8,
+				-0.8
+			],
+			"reach": 2.0,
+			"target": ""
+		},
+		"swing": {
+			"approach": [
+				0.0,
+				0.0,
+				1.3
+			],
+			"duration": 6.0,
+			"effect": "none",
+			"end": [
+				0.0,
+				0.0,
+				1.3
+			],
+			"initial_on": false,
+			"label": "Ride swing",
+			"point": [
+				0.0,
+				0.6,
+				0.0
+			],
+			"reach": 2.0,
+			"rope_length": 1.5,
+			"target": ""
+		},
+		"switch": {
+			"approach": [
+				0.0,
+				0.0,
+				0.9
+			],
+			"duration": 1.0,
+			"effect": "light",
+			"end": [
+				0.0,
+				0.0,
+				0.9
+			],
+			"initial_on": false,
+			"label": "Use power switch",
+			"point": [
+				0.0,
+				1.4,
+				0.0
+			],
+			"reach": 1.8,
+			"target": ""
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "games": {
+    "sprint": {
+      "title": "Circuit Sprint",
+      "instruction": "Steer around barriers and collect the round gates. Three crashes end the run."
+    },
+    "signals": {
+      "title": "Signal Sequence",
+      "instruction": "Watch the arrows, then repeat the pattern. Three mistakes end the run."
+    }
+  },
+  "cabinets": {
+    "3d:Supplemental_Arcade/01_arcade_01_upright_woodgrain": "signals",
+    "3d:Supplemental_Arcade/02_arcade_02_upright_neon_magenta": "signals",
+    "3d:Supplemental_Arcade/03_arcade_03_upright_neon_red": "signals",
+    "3d:Supplemental_Arcade/04_arcade_04_upright_neon_green": "signals",
+    "3d:Supplemental_Arcade/05_arcade_05_upright_neon_blue": "signals",
+    "3d:Supplemental_Arcade/06_arcade_06_upright_neon_purple": "signals",
+    "3d:Supplemental_Arcade/07_arcade_07_upright_neon_cream": "signals",
+    "3d:Supplemental_Arcade/08_arcade_08_fighting_cabinet_2p": "demo",
+    "3d:Supplemental_Arcade/09_arcade_09_candy_cab": "signals",
+    "3d:Supplemental_Arcade/10_arcade_10_light_gun_cabinet": "demo",
+    "3d:Supplemental_Arcade/11_arcade_11_cockpit_shooter": "demo",
+    "3d:Supplemental_Arcade/12_arcade_12_motorcycle_rideon": "sprint",
+    "3d:Supplemental_Arcade/13_arcade_13_racer_blue": "sprint",
+    "3d:Supplemental_Arcade/14_arcade_14_racer_red": "sprint",
+    "3d:Supplemental_Arcade/15_arcade_15_racer_yellow": "sprint",
+    "3d:Supplemental_Arcade/16_arcade_16_racer_green": "sprint",
+    "3d:Supplemental_Arcade/17_arcade_17_racer_black": "sprint",
+    "3d:Supplemental_Arcade/18_arcade_18_racer_orange": "sprint",
+    "3d:Supplemental_Arcade/19_arcade_19_dance_machine": "signals",
+    "3d:Supplemental_Arcade/20_arcade_20_bartop_mini": "signals",
+    "2d:Arcade_Machine_Blue": "sprint",
+    "2d:Arcade_Machine_Red": "signals"
+  }
+}

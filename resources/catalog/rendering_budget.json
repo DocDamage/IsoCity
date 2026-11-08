@@ -1,0 +1,1755 @@
+{
+  "version": 1,
+  "assets": {
+    "3d:Supplemental_Arcade/01_arcade_01_upright_woodgrain": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/01_arcade_01_upright_woodgrain.glb",
+        "sha256": "f068877fbcd677732e203316b542b0c672ff175985b7c1ca4e9785e9547f1684",
+        "triangles": 1939,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/01_arcade_01_upright_woodgrain.glb",
+        "sha256": "27488080ef4380b10d0ca9350062f37b80a734e104ffbd48715d77e3bdc6f8fb",
+        "triangles": 53783,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -6.5330556584278025e-06,
+        0.9002177685219477,
+        0.00034495602679060505
+      ],
+      "photo_scale": 1.7931531439094555,
+      "span_difference": 0.000474
+    },
+    "3d:Supplemental_Arcade/02_arcade_02_upright_neon_magenta": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/02_arcade_02_upright_neon_magenta.glb",
+        "sha256": "c2839c90855c11332b84be76a7e3fd7da34731696adba5b3c176dafac03aad9e",
+        "triangles": 1983,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/02_arcade_02_upright_neon_magenta.glb",
+        "sha256": "47910dd0dfe37cdbdd4dc47a33783d8542295715f57a449ae17e3ec5aa186464",
+        "triangles": 52700,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        0.00020669797699359582,
+        0.900094591278981,
+        -0.01144396823538158
+      ],
+      "photo_scale": 1.7931958408814364,
+      "span_difference": 7.1e-05
+    },
+    "3d:Supplemental_Arcade/03_arcade_03_upright_neon_red": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/03_arcade_03_upright_neon_red.glb",
+        "sha256": "35f4ba0beeb317e01d51398350ac24c70d8233a25fcf1cd4ef250b2b43a20161",
+        "triangles": 2428,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/03_arcade_03_upright_neon_red.glb",
+        "sha256": "7d5a86bd0a79f43b4a6c2b363b97619f0b6e4bbb95165f4bc7c12792b70405ed",
+        "triangles": 51721,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        9.309465879152834e-05,
+        0.8998706558571397,
+        0.005090207581648008
+      ],
+      "photo_scale": 1.7926762685701807,
+      "span_difference": 0.002791
+    },
+    "3d:Supplemental_Arcade/04_arcade_04_upright_neon_green": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/04_arcade_04_upright_neon_green.glb",
+        "sha256": "c8dd53c52f5b71100fa68f21c2f20bb3a8937f79cc2b2066bbc810dfff3a11a1",
+        "triangles": 2311,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/04_arcade_04_upright_neon_green.glb",
+        "sha256": "042e54889caaa0ed5beb0f033211531b726d426d3c1a5dc7868c30b2ea8d8450",
+        "triangles": 53926,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        2.076536552473923e-05,
+        0.9002016443854813,
+        -0.004218640915061331
+      ],
+      "photo_scale": 1.792334522070757,
+      "span_difference": 3.2e-05
+    },
+    "3d:Supplemental_Arcade/05_arcade_05_upright_neon_blue": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/05_arcade_05_upright_neon_blue.glb",
+        "sha256": "15b3aee54640ca1635c91d58451e027f042fd947360c970b95076ab8d7b3f9d5",
+        "triangles": 3386,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/05_arcade_05_upright_neon_blue.glb",
+        "sha256": "1161a3c721878a7ff9b901cbf64cb601b993845c61d008e9e0ad7e305d1aa6fb",
+        "triangles": 53311,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        0.0001056236618375712,
+        0.9000323269585996,
+        -0.002734005769694198
+      ],
+      "photo_scale": 1.7929136100770344,
+      "span_difference": 5e-06
+    },
+    "3d:Supplemental_Arcade/06_arcade_06_upright_neon_purple": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/06_arcade_06_upright_neon_purple.glb",
+        "sha256": "a24ed7eb61d08c10b7da92cea33944f953c3b2915ebee95a17ab030316af6b03",
+        "triangles": 2941,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/06_arcade_06_upright_neon_purple.glb",
+        "sha256": "517383982b9ca87fbfe7be766765c6150ad515546820b41a19d94bd3c1cbf824",
+        "triangles": 52502,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        0.000627543534326754,
+        0.9007686465736826,
+        5.0951647051839864e-05
+      ],
+      "photo_scale": 1.7944409092510745,
+      "span_difference": 9.9e-05
+    },
+    "3d:Supplemental_Arcade/07_arcade_07_upright_neon_cream": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/07_arcade_07_upright_neon_cream.glb",
+        "sha256": "53f54a559494c74371b63720419a7143798c522518c516a24dd072a79c27c514",
+        "triangles": 4171,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/07_arcade_07_upright_neon_cream.glb",
+        "sha256": "96de5f1587f2122299452472c4c9c8d59670bdb0d4e89311cda4b48ae985e8a0",
+        "triangles": 53355,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        0.00014094183524171103,
+        0.9000942640369162,
+        0.001917957869034264
+      ],
+      "photo_scale": 1.7930704176580838,
+      "span_difference": 0.002232
+    },
+    "3d:Supplemental_Arcade/08_arcade_08_fighting_cabinet_2p": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/08_arcade_08_fighting_cabinet_2p.glb",
+        "sha256": "7c8e42f92e9314184a02cb3320f9f639377374312d0c9db772c67d9ac62d10b9",
+        "triangles": 4079,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/08_arcade_08_fighting_cabinet_2p.glb",
+        "sha256": "e1fa82401bca8b0b413fffd38ced00a56ce302c95a38341053936fb307dcfc0f",
+        "triangles": 53975,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -3.715104963445565e-05,
+        0.9003175746559401,
+        0.0013204926318272775
+      ],
+      "photo_scale": 1.7936436959539093,
+      "span_difference": 0.003266
+    },
+    "3d:Supplemental_Arcade/09_arcade_09_candy_cab": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/09_arcade_09_candy_cab.glb",
+        "sha256": "912e1a9485d6b888eb4026c6412d894696fc6957296f4ba1ded1d39b470dc86e",
+        "triangles": 2853,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/09_arcade_09_candy_cab.glb",
+        "sha256": "7be21c4dc33273345764bb10b2ed692b7e013da1aaca227f2c21c47bb396c0e8",
+        "triangles": 51331,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        2.0839050219023762e-05,
+        0.8999866416344751,
+        -0.0038749946714964185
+      ],
+      "photo_scale": 1.7929294705610717,
+      "span_difference": 0.003307
+    },
+    "3d:Supplemental_Arcade/10_arcade_10_light_gun_cabinet": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/10_arcade_10_light_gun_cabinet.glb",
+        "sha256": "cefb0a83f12a0aeb1f63743cb0d79c8bc5e52723df0acbc04308375dd205ad7a",
+        "triangles": 6615,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/10_arcade_10_light_gun_cabinet.glb",
+        "sha256": "fe971ab110835b2a598b4d030441387a6e49d9e62c9fc1724a053a9913898513",
+        "triangles": 53794,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        0.00025792562908385954,
+        0.8999042562967751,
+        0.015555092641293794
+      ],
+      "photo_scale": 1.7927598098708624,
+      "span_difference": 0.001017
+    },
+    "3d:Supplemental_Arcade/11_arcade_11_cockpit_shooter": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/11_arcade_11_cockpit_shooter.glb",
+        "sha256": "d84c134f60dbc038fa4e1fdb861448750854aaf15dff08ecbbb1fba17c0caca3",
+        "triangles": 2611,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/11_arcade_11_cockpit_shooter.glb",
+        "sha256": "2506989bd2730418bf77a346378224e6e097e6ccd0a66df451c0d05ca7dfccd2",
+        "triangles": 53139,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.0003235043682233283,
+        0.8999536705835398,
+        -0.009954412162947261
+      ],
+      "photo_scale": 1.7930302816737085,
+      "span_difference": 0.001939
+    },
+    "3d:Supplemental_Arcade/12_arcade_12_motorcycle_rideon": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/12_arcade_12_motorcycle_rideon.glb",
+        "sha256": "103ba2c566de9060af76ae2f7bcaaccd59fb0f3b3d991fc73395754bf9416406",
+        "triangles": 4970,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/12_arcade_12_motorcycle_rideon.glb",
+        "sha256": "87d90f787e9952ec92f10b31fe01aa08924bf82071780c169a5a094580b28a41",
+        "triangles": 54305,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        3.761602166755778e-05,
+        0.702307328708648,
+        -0.00025817285274165076
+      ],
+      "photo_scale": 1.5294568205447976,
+      "span_difference": 0.000602
+    },
+    "3d:Supplemental_Arcade/13_arcade_13_racer_blue": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/13_arcade_13_racer_blue.glb",
+        "sha256": "f9e15948f709b7509f8c87ff319f81c6dc9a5ccd8460853634c416ae916ba412",
+        "triangles": 3389,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/13_arcade_13_racer_blue.glb",
+        "sha256": "3c330fe1c88a6bd20271dbe557953022c0509a2f14198725807df021dd359470",
+        "triangles": 53723,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.001420361765201176,
+        0.749900153602534,
+        0.0009477836890592575
+      ],
+      "photo_scale": 1.494330577260032,
+      "span_difference": 0.001254
+    },
+    "3d:Supplemental_Arcade/14_arcade_14_racer_red": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/14_arcade_14_racer_red.glb",
+        "sha256": "528f3216d9f2dea5db496ad7eec82dbdbafadeb923140632bad93e5c290c22a5",
+        "triangles": 3035,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/14_arcade_14_racer_red.glb",
+        "sha256": "2987e4d3b61a59680848938e3fa0827133d9f8f63fe3f398ece899e150adfc69",
+        "triangles": 54539,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -2.226286663082444e-07,
+        0.7499744422291078,
+        -0.02539758956677768
+      ],
+      "photo_scale": 1.4940356889781357,
+      "span_difference": 0.003557
+    },
+    "3d:Supplemental_Arcade/15_arcade_15_racer_yellow": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/15_arcade_15_racer_yellow.glb",
+        "sha256": "ec8ed4195d8eab008ec753f1eee1f6ce6f3fa39a35357e65b5137ba6c7def18d",
+        "triangles": 4760,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/15_arcade_15_racer_yellow.glb",
+        "sha256": "ecab83afe9aa6953fe8486beb24303e344c9a55df6dcb078d234cd27a79f1b8a",
+        "triangles": 52608,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.002421834239395972,
+        0.7503097713089069,
+        0.0006865936490094892
+      ],
+      "photo_scale": 1.494923100857879,
+      "span_difference": 0.005546
+    },
+    "3d:Supplemental_Arcade/16_arcade_16_racer_green": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/16_arcade_16_racer_green.glb",
+        "sha256": "92b2d1b2315dd38583f59b71afd36a534d3268d5d46426cde097ce608d8337d5",
+        "triangles": 4368,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/16_arcade_16_racer_green.glb",
+        "sha256": "ade6a8aa5d976f203a8aabbe76144436aee24f947b49424689f7a853750d73f3",
+        "triangles": 52180,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.00021999329985318344,
+        0.7498663117639355,
+        -0.0011809275962564208
+      ],
+      "photo_scale": 1.4942814211294035,
+      "span_difference": 4.3e-05
+    },
+    "3d:Supplemental_Arcade/17_arcade_17_racer_black": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/17_arcade_17_racer_black.glb",
+        "sha256": "621b69d36afaf1d93799b995f2029bf49c5d8371fe14c0d54ad2966155a0a9d6",
+        "triangles": 3579,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/17_arcade_17_racer_black.glb",
+        "sha256": "0f012638953db0345ef3d286f085819e6600fc55870f97790a50633f33b51966",
+        "triangles": 52819,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.00013071963142422455,
+        0.7499491460333549,
+        -0.0015832861506688142
+      ],
+      "photo_scale": 1.4941996197203904,
+      "span_difference": 0.006816
+    },
+    "3d:Supplemental_Arcade/18_arcade_18_racer_orange": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/18_arcade_18_racer_orange.glb",
+        "sha256": "3a72a7cc2ec6ccdd27b21142fda15a23bb1cc828e7bd69c12d24fcc57531cea6",
+        "triangles": 4364,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/18_arcade_18_racer_orange.glb",
+        "sha256": "856ff251757ecebed6c3fe869ba9d10e7bc4b9a5564fe632077ad5793f612ea0",
+        "triangles": 52654,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        0.00039440110131914064,
+        0.7499962153879417,
+        -0.001861517096918186
+      ],
+      "photo_scale": 1.4940059759469648,
+      "span_difference": 0.005685
+    },
+    "3d:Supplemental_Arcade/19_arcade_19_dance_machine": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/19_arcade_19_dance_machine.glb",
+        "sha256": "edb93bcdf23c3e375792a03dbf81adfa73f3758330bb7024602b532578eddb65",
+        "triangles": 4626,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/19_arcade_19_dance_machine.glb",
+        "sha256": "f8669846c69bc3502897a4c7e44c398432c6b162ec78ff7e14b90205fd97a446",
+        "triangles": 54081,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.0003035993067695795,
+        1.0973730181182844,
+        -0.004736889032956421
+      ],
+      "photo_scale": 2.196916604323268,
+      "span_difference": 0.000163
+    },
+    "3d:Supplemental_Arcade/20_arcade_20_bartop_mini": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Arcade_machines/20_arcade_20_bartop_mini.glb",
+        "sha256": "7872c0ba22f1aaa2e3f53d5ecdea4e3afdd4c438bd752cb24498efa4ad8668ce",
+        "triangles": 3847,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Arcade_machines/full_detail/20_arcade_20_bartop_mini.glb",
+        "sha256": "3255fbad8c4aa287966ef0a6e3e21c3c7d070f1ed3b70ea1bc9a6fb4bc413a4d",
+        "triangles": 53502,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -6.380926860835736e-05,
+        0.35000126766500084,
+        -0.0005618873162783802
+      ],
+      "photo_scale": 0.6973078536032769,
+      "span_difference": 0.003512
+    },
+    "3d:Supplemental_Satellites/01_comms_sat_big_dish": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/01_comms_sat_big_dish.glb",
+        "sha256": "c71293f61670122b3be7670f594233881f13022147573d04d9dc86c1c9ecf5b3",
+        "triangles": 4337,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/01_comms_sat_big_dish.glb",
+        "sha256": "1c040f518eb417286438c0f13056918ec233233eef239a22aa2b8bd51f9bd7f9",
+        "triangles": 52536,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -5.092884599152587e-05,
+        0.6633812960785858,
+        -0.0005182588816524024
+      ],
+      "photo_scale": 2.987567307099873,
+      "span_difference": 0.000274
+    },
+    "3d:Supplemental_Satellites/02_navigation_sat": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/02_navigation_sat.glb",
+        "sha256": "5b0b48df1d1ccad93e4e47b91346b109f14b9969a3b44f20910f94874efdb1e3",
+        "triangles": 4748,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/02_navigation_sat.glb",
+        "sha256": "9c16cc86f53416eff194d0a8bbdec3dfe29ab6ebc00f0e0b680a244346af55a6",
+        "triangles": 51776,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        0.00029039965974884393,
+        0.6472335625421664,
+        -5.877454015155995e-06
+      ],
+      "photo_scale": 2.988100470979982,
+      "span_difference": 0.000824
+    },
+    "3d:Supplemental_Satellites/03_cubesat_3u": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/03_cubesat_3u.glb",
+        "sha256": "20c59e8e9d9a284ff92369c67c10c256f0c914f600bf2ad2ff9ba5bf4006d3b7",
+        "triangles": 4160,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/03_cubesat_3u.glb",
+        "sha256": "98427913f8ab1fb2ab32e8dcdb67b933601f983d7beacde927519759e4d7d853",
+        "triangles": 54881,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -1.6483967505350278e-05,
+        0.10749356206770946,
+        0.00198864474395438
+      ],
+      "photo_scale": 0.3485256249202807,
+      "span_difference": 0.003462
+    },
+    "3d:Supplemental_Satellites/04_weather_sat_drum": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/04_weather_sat_drum.glb",
+        "sha256": "83cbd01b7cd7e71a028bd88813831e58a1ce0aec0ba0c222feb36fb859724dd3",
+        "triangles": 3678,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/04_weather_sat_drum.glb",
+        "sha256": "275c5898ed57036178cb50fe25e03e1439595f4b5865e4a574442239be265c16",
+        "triangles": 54146,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.00022330774971920532,
+        1.501167474840779,
+        -0.00018774606856256475
+      ],
+      "photo_scale": 2.990606546807461,
+      "span_difference": 0.001408
+    },
+    "3d:Supplemental_Satellites/05_space_telescope_tube": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/05_space_telescope_tube.glb",
+        "sha256": "11fea95f88699061154a7c0f108452d595abafc3600521b20ab3591379197134",
+        "triangles": 6498,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/05_space_telescope_tube.glb",
+        "sha256": "97365d6e177273159fbffcf2d6f801ee31aef76c5fd7d397987e10dac62ea5b9",
+        "triangles": 53110,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        0.0004618055763787828,
+        0.8905395498252145,
+        0.0418571534262708
+      ],
+      "photo_scale": 2.988548468625395,
+      "span_difference": 0.009088
+    },
+    "3d:Supplemental_Satellites/06_infrared_telescope_sunshield": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/06_infrared_telescope_sunshield.glb",
+        "sha256": "3723a3ab40e767a0ae38d30b15a7b0aace613be8588222c81bf634be14a321b3",
+        "triangles": 5144,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/06_infrared_telescope_sunshield.glb",
+        "sha256": "0abab0d5bb4869930ad840efe50bc581464544dd80af753f6d5c3199f0ac2e07",
+        "triangles": 54524,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.002837013271450908,
+        1.3210570418852658,
+        -0.00042090837494580965
+      ],
+      "photo_scale": 2.9878022943409506,
+      "span_difference": 0.006728
+    },
+    "3d:Supplemental_Satellites/07_early_sphere_sat": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/07_early_sphere_sat.glb",
+        "sha256": "4afebb83206595a23c175c475282d6df09f701a9428390158078056665b1793f",
+        "triangles": 3457,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/07_early_sphere_sat.glb",
+        "sha256": "2731bf225a485e6428d08885acda7698826a98728ac71b84f3e8decf09eb0a1c",
+        "triangles": 54819,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.00030165407578462114,
+        1.3116164064202815,
+        -0.008158149005004537
+      ],
+      "photo_scale": 2.9875534750407073,
+      "span_difference": 0.001973
+    },
+    "3d:Supplemental_Satellites/08_deep_space_probe": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/08_deep_space_probe.glb",
+        "sha256": "6677d2d2eaebff1736276a8c1c73038c873e28f56148ec236a2a4b3cdb7bf18c",
+        "triangles": 5718,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/08_deep_space_probe.glb",
+        "sha256": "9ed15f1e9a61e3c5569f905c27418d978088511b09f50db082648a5ef5cbbcd1",
+        "triangles": 54696,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.00041228110993027855,
+        0.9761450138410568,
+        0.0010336890271895158
+      ],
+      "photo_scale": 2.9911045336302826,
+      "span_difference": 0.010133
+    },
+    "3d:Supplemental_Satellites/09_mars_orbiter": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/09_mars_orbiter.glb",
+        "sha256": "6085ac83beda15c764829c94d90cbb1deef16105844b8920cf16d0d3dbb6cf12",
+        "triangles": 4947,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/09_mars_orbiter.glb",
+        "sha256": "d52ab1cd25dfada98a5cc60b7c75c6ff84b03637f8a128080fb4a11cb62327d0",
+        "triangles": 54791,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.00015066598807606148,
+        1.4340672776140873,
+        -0.054150429326364366
+      ],
+      "photo_scale": 3.1043976982566877,
+      "span_difference": 0.003524
+    },
+    "3d:Supplemental_Satellites/10_spy_sat": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/10_spy_sat.glb",
+        "sha256": "5c76465a9737077ed3c1e204810c3273c28e048ff27121465bd89dfa497317a1",
+        "triangles": 4473,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/10_spy_sat.glb",
+        "sha256": "ef39a8c66b642b794639f8ed6d15accaefb8d2fd50e2ec381fdcb0ed1b85c8e9",
+        "triangles": 52850,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -4.577025280258204e-05,
+        0.5579835045433655,
+        -0.007947772876488825
+      ],
+      "photo_scale": 2.987927695110989,
+      "span_difference": 0.000471
+    },
+    "3d:Supplemental_Satellites/11_radar_sat": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/11_radar_sat.glb",
+        "sha256": "8a33c1877ea831420b101c49f1afe80a0e1467edf497a812dbd7f83b9c68f37c",
+        "triangles": 5390,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/11_radar_sat.glb",
+        "sha256": "82fd5ccf958468734a1e601f886c5e4c0ea4b72fc6bbbb34f78ed09dce957be0",
+        "triangles": 54726,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.00016214095429870117,
+        1.0886433209033186,
+        0.0012569042053424315
+      ],
+      "photo_scale": 2.989311882104877,
+      "span_difference": 0.001605
+    },
+    "3d:Supplemental_Satellites/12_geodetic_ball": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/12_geodetic_ball.glb",
+        "sha256": "bf3cced76422e0907838c3004123338cab94dd96df29d9682fdf24c0cccab47e",
+        "triangles": 10620,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/12_geodetic_ball.glb",
+        "sha256": "9f1120bc8708e9fdc3ca020cf126a7244d0a7e7f68a258cc71f1355b698e3f76",
+        "triangles": 54111,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.0007394825291128003,
+        1.251915504136268,
+        -6.859433169700714e-05
+      ],
+      "photo_scale": 2.9891478422242477,
+      "span_difference": 0.007621
+    },
+    "3d:Supplemental_Satellites/13_lunar_orbiter": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/13_lunar_orbiter.glb",
+        "sha256": "3f2063c36d7e5f64d1987fa08011956f0da69e0a2552810b7cb40f05c6f42f8f",
+        "triangles": 3734,
+        "materials": 2,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/13_lunar_orbiter.glb",
+        "sha256": "a34fe99456145e145b1fbefab120d85c6eb90de9c157f9fae34f5de341a79187",
+        "triangles": 53640,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.024725113988529907,
+        1.455000623374773,
+        0.0003455277312720408
+      ],
+      "photo_scale": 2.988140918320094,
+      "span_difference": 0.029484
+    },
+    "3d:Supplemental_Satellites/14_cargo_capsule": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/14_cargo_capsule.glb",
+        "sha256": "219b732a05e7fdc13a7592a2cf95d554cf95d94b6a3516780adc136edbbf3d73",
+        "triangles": 6262,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/14_cargo_capsule.glb",
+        "sha256": "a70fe2c96e69b3da789959062c43eac001e6e902e573e3ca1096200ab76a3aec",
+        "triangles": 53961,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        0.0038848161643326292,
+        1.1256722547189961,
+        -0.010614382944527774
+      ],
+      "photo_scale": 3.0100749285564197,
+      "span_difference": 0.002651
+    },
+    "3d:Supplemental_Satellites/15_crew_capsule": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/15_crew_capsule.glb",
+        "sha256": "79593b0edda469b8ccbea0d1325c589100f9423a41cbdebce2809f2977fe54d6",
+        "triangles": 6163,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/15_crew_capsule.glb",
+        "sha256": "0abb409097f25434dbd4616605319afee7e35b0fb8b305b3d8a43e4b849569af",
+        "triangles": 53828,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.00013950212804317552,
+        0.7601905925332442,
+        0.003356125868423425
+      ],
+      "photo_scale": 2.9938693119795494,
+      "span_difference": 0.000666
+    },
+    "3d:Supplemental_Satellites/16_hexagonal_smallsat": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/16_hexagonal_smallsat.glb",
+        "sha256": "6388664b5b26f677272e49f84b777c9f0700b7df8ca69a020899742f8104f93e",
+        "triangles": 10796,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/16_hexagonal_smallsat.glb",
+        "sha256": "b09ddefff0e0c9b50b60d4e6d3aea78d8401c072d62ef845bdd97b3707311b82",
+        "triangles": 54286,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.0010456469536726369,
+        1.2330194495161098,
+        -0.002331651451373051
+      ],
+      "photo_scale": 2.9998366623645385,
+      "span_difference": 0.002125
+    },
+    "3d:Supplemental_Satellites/17_drum_comms_1960s": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/17_drum_comms_1960s.glb",
+        "sha256": "bc051004923189da27f0c0bb570bcd663e61f612935d4e1ba1c05fc76542685c",
+        "triangles": 4305,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/17_drum_comms_1960s.glb",
+        "sha256": "fe927ba7464b7437a3aa42735d159e9160ab6ccf1d79be1a79a71a0df8992b8f",
+        "triangles": 54315,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        0.00015850699368278015,
+        0.953205341858042,
+        0.0032286216441032426
+      ],
+      "photo_scale": 2.9913454111660718,
+      "span_difference": 0.001854
+    },
+    "3d:Supplemental_Satellites/18_derelict_debris": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/18_derelict_debris.glb",
+        "sha256": "dabcdf59e182ce1965f36c4d83f812f8f8312a3c921a58d5de72b1388d04421c",
+        "triangles": 5303,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/18_derelict_debris.glb",
+        "sha256": "871744451adbd2113b0fa5f97de436da76d3a25af2ecd5b94048dab2cc7eb9b5",
+        "triangles": 54615,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.0008541506197980534,
+        1.0123744959709742,
+        0.0009192139177920554
+      ],
+      "photo_scale": 2.9885859113421938,
+      "span_difference": 0.003841
+    },
+    "3d:Supplemental_Satellites/19_xray_observatory": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/19_xray_observatory.glb",
+        "sha256": "672c209eef9fefefd67cea2a7f983dc651e7d4998f790ba691979793630994fb",
+        "triangles": 5440,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/19_xray_observatory.glb",
+        "sha256": "9d152a0063b48c55fbd8a5831abcf9c0754a60be8668466abdaeb35cbce29328",
+        "triangles": 54886,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        0.0006339769981944824,
+        0.6034402315965394,
+        0.0003289696577676301
+      ],
+      "photo_scale": 2.9890035233217485,
+      "span_difference": 0.002081
+    },
+    "3d:Supplemental_Satellites/20_flat_panel_broadband": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/20_flat_panel_broadband.glb",
+        "sha256": "99a67629289988dc9daa492cd313c8c2c7fccb4a661125a3cef3e6a2b3ed2ce7",
+        "triangles": 11246,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/20_flat_panel_broadband.glb",
+        "sha256": "5a5a3aa203141ae27b3c94d4d4284d10fede0371c45430ade3a21af7e181ec31",
+        "triangles": 53763,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.004845245451281943,
+        1.4372322783571672,
+        -0.0002651866179189665
+      ],
+      "photo_scale": 2.9889776077500647,
+      "span_difference": 0.006088
+    },
+    "3d:Supplemental_Satellites/21_station_module": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/21_station_module.glb",
+        "sha256": "0e559c6c38f762d1b27e4aee96b15a2dba0da83d00f542fba67b7da9c2d93b1e",
+        "triangles": 6156,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/21_station_module.glb",
+        "sha256": "fe3693c88abfb1d63b1e653107e115ee9ba490c87df3aac7a34562924103331a",
+        "triangles": 54339,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.00038712897986733336,
+        1.670012955964034,
+        -0.0011609415542132894
+      ],
+      "photo_scale": 5.977861495714591,
+      "span_difference": 0.001614
+    },
+    "3d:Supplemental_Satellites/22_military_folded": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/22_military_folded.glb",
+        "sha256": "71eed66c02dd2932f3f6f5ddab735af96742c00a87fd770757a0fbdd62e4c263",
+        "triangles": 5672,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/22_military_folded.glb",
+        "sha256": "58754a1b74dcd4d8610d851522ae5ac5f2b1695cf40abcef8c52023e74678635",
+        "triangles": 52002,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.00017899933579871481,
+        1.1281958375689878,
+        -0.0004743616046751407
+      ],
+      "photo_scale": 2.9896570637646303,
+      "span_difference": 0.001576
+    },
+    "3d:Supplemental_Satellites/23_solar_sail": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/23_solar_sail.glb",
+        "sha256": "1c3d40e5a8b281da0ae6beb12d86f4b35d93d76f220b576bc29519b5eb0c4de4",
+        "triangles": 7103,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/23_solar_sail.glb",
+        "sha256": "321f5517f49bb6aa566595ff44e7fd1ef250e4fa6b04689298d162e836d56b79",
+        "triangles": 54517,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.0016115339998527597,
+        0.6520979577253601,
+        0.017105261516052326
+      ],
+      "photo_scale": 6.978204673344616,
+      "span_difference": 0.00096
+    },
+    "3d:Supplemental_Satellites/24_space_tug": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/24_space_tug.glb",
+        "sha256": "5645dc56b2f9ad53c316b4a02f4f917a5b5426b9ddf9142620fbff196b828a84",
+        "triangles": 5860,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/24_space_tug.glb",
+        "sha256": "5592edb7dac1381ffb8ec239fc726fe434f500f565896da2ca7a54ec9fe28cba",
+        "triangles": 53742,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.010459105328179244,
+        0.8780623791620523,
+        -0.00045567948825580364
+      ],
+      "photo_scale": 2.9904295721639276,
+      "span_difference": 0.002992
+    },
+    "3d:Supplemental_Satellites/25_asteroid_sampler": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Satellites/25_asteroid_sampler.glb",
+        "sha256": "bfd1fc10299c1706f1ccb22f0d484c836d8681d5eb693894576755c18d6871fa",
+        "triangles": 6797,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Satellites/full_detail/25_asteroid_sampler.glb",
+        "sha256": "82001233ffbb9962ad2743b09c4bfc25044ec7fc071deda74d5574a083a7e9c5",
+        "triangles": 51945,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        0.00017465710295078767,
+        0.74961973559355,
+        -0.016916132705197158
+      ],
+      "photo_scale": 2.9885364019781764,
+      "span_difference": 0.0477
+    },
+    "3d:Supplemental_Spaceships_II/belly_bay_bomber": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/belly_bay_bomber.glb",
+        "sha256": "062668fdd005572e6c584d56d339611492ce6823eb0296618fbecef4fb2e20ae",
+        "triangles": 15766,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/belly_bay_bomber.glb",
+        "sha256": "2c1305b82e58f66299ccc21f537df82d728e481eff8829f1d10b1aafcfe5c5c3",
+        "triangles": 95742,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.0005258174966350707,
+        0.7142221524614331,
+        -0.006428399344232754
+      ],
+      "photo_scale": 5.9747739367598065,
+      "span_difference": 0.000389
+    },
+    "3d:Supplemental_Spaceships_II/boomerang_skiff": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/boomerang_skiff.glb",
+        "sha256": "a3b9005b233a6f24bff822c2d6f1b5a821014f994c92e48eabc5b6a5ff1cbc3f",
+        "triangles": 5829,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/boomerang_skiff.glb",
+        "sha256": "b1b4368f84f64e60f3df4a9f849ac959e5bff9859eb03a2fe18baba5d2755fd2",
+        "triangles": 100814,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.0006620147725886345,
+        0.6691609522302703,
+        -0.004491085419853378
+      ],
+      "photo_scale": 5.97619845838601,
+      "span_difference": 5.5e-05
+    },
+    "3d:Supplemental_Spaceships_II/bulk_hauler": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/bulk_hauler.glb",
+        "sha256": "7b1bee905e90ced4c9285a28f11aebca1bdc3a652821edae22d2c5735b0a196b",
+        "triangles": 20768,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/bulk_hauler.glb",
+        "sha256": "1f98b48ba0540e5759f0dc86a0efad0c3cb4e3ebc84d25c237836907928d080a",
+        "triangles": 103016,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.0011005761627111536,
+        1.2120347629773012,
+        -0.007335929019894762
+      ],
+      "photo_scale": 5.969804075737526,
+      "span_difference": 0.000613
+    },
+    "3d:Supplemental_Spaceships_II/canard_delta": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/canard_delta.glb",
+        "sha256": "b30f70da8681279b93a213460110dabf4a787d504efda997b4dece10164366a9",
+        "triangles": 17034,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/canard_delta.glb",
+        "sha256": "bad1b13348de3aec880dfba47f138f45d79515210efae65f193d275a8ad19cb4",
+        "triangles": 97258,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.001816497499309358,
+        1.1975621425328304,
+        -0.0686516488697436
+      ],
+      "photo_scale": 5.848353657526952,
+      "span_difference": 0.000134
+    },
+    "3d:Supplemental_Spaceships_II/catamaran_cruiser": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/catamaran_cruiser.glb",
+        "sha256": "88fe1ae474e34d44c2df8658694620a476015fa93fe71b38a29227a5dbb557b3",
+        "triangles": 11792,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/catamaran_cruiser.glb",
+        "sha256": "54bd3e5b49ff318badfd4103013c0592a2cd7ac24e38d855797fdf8e5329171d",
+        "triangles": 99994,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        0.0004946332558722348,
+        0.9787103901818058,
+        0.006892827444011574
+      ],
+      "photo_scale": 5.9723418312715015,
+      "span_difference": 0.000255
+    },
+    "3d:Supplemental_Spaceships_II/chin_turret_gunship": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/chin_turret_gunship.glb",
+        "sha256": "296f36d7f153859084bf420cc4c419ebb45dbf51984d14d220638786664ed540",
+        "triangles": 22294,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/chin_turret_gunship.glb",
+        "sha256": "0549ead0f1c69e60407f11419ef734aaa9c9cde086fd94116af2af4b3c6f3e67",
+        "triangles": 98596,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.0014370434153128783,
+        1.0091976158772191,
+        -0.004489208694343242
+      ],
+      "photo_scale": 5.951515127149313,
+      "span_difference": 0.000711
+    },
+    "3d:Supplemental_Spaceships_II/container_freighter": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/container_freighter.glb",
+        "sha256": "fccca9bb798a2799e8ccb83a9ed77b3f41fbfb03d955f64fca983d8c7175395d",
+        "triangles": 14473,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/container_freighter.glb",
+        "sha256": "6dd1d833bae35e1dfab101f15185cb4eafca48c5964f0145b884548296a0cd2f",
+        "triangles": 102426,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        0.0004670804843678924,
+        0.5461084637974791,
+        -0.0001928142422605022
+      ],
+      "photo_scale": 5.973935716123312,
+      "span_difference": 0.000249
+    },
+    "3d:Supplemental_Spaceships_II/disc_tip_racer": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/disc_tip_racer.glb",
+        "sha256": "cc7b00c8d774876760b2e252e9718315b7cfdf269a7906e58ab68ecb5aa32ba7",
+        "triangles": 16975,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/disc_tip_racer.glb",
+        "sha256": "a49b143cbf8245a37b62374eddcaf63bb2710afb82b676c4f7fbdf6780c076b7",
+        "triangles": 96294,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        1.6207008017126e-05,
+        0.689104527187256,
+        -0.013388769612038068
+      ],
+      "photo_scale": 5.976010422352848,
+      "span_difference": 0.000603
+    },
+    "3d:Supplemental_Spaceships_II/dorsal_engine_courier": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/dorsal_engine_courier.glb",
+        "sha256": "76651f31eb81e99272e1dbb46b1d6f2d417d20aac582fa9d96972f025ce7ce27",
+        "triangles": 16110,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/dorsal_engine_courier.glb",
+        "sha256": "33661cc435f8f1dec3ed920127a7d19a988af8ff695be844fb854d6ec7f5260d",
+        "triangles": 101342,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.00174926450936997,
+        0.9939069860704878,
+        -0.15190185155266894
+      ],
+      "photo_scale": 4.889668196406866,
+      "span_difference": 0.000318
+    },
+    "3d:Supplemental_Spaceships_II/drill_miner": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/drill_miner.glb",
+        "sha256": "946948ee712ae684c5c22d6bea4af84502818b46c444e152fd31de6a78904153",
+        "triangles": 18473,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/drill_miner.glb",
+        "sha256": "0aeee44cefc29298d312cad450c19667684a131142b5e8dfc7def9cc2e9d4e3c",
+        "triangles": 97690,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        0.0003532811076200456,
+        1.3680817612363865,
+        0.02320357124223093
+      ],
+      "photo_scale": 6.012755213046666,
+      "span_difference": 0.000232
+    },
+    "3d:Supplemental_Spaceships_II/forward_swept_skirmisher": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/forward_swept_skirmisher.glb",
+        "sha256": "bcb65d4bb0f70630d58b81ae3d62fa13ca884d7d9db4dadd5676ebaa790017d6",
+        "triangles": 13853,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/forward_swept_skirmisher.glb",
+        "sha256": "41871a295abbad02c0c523fa53e3819136f88718ee49b7a403ed3e8e20b0eeba",
+        "triangles": 96038,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.0001678337044441925,
+        1.0054215399429056,
+        0.007180732048645497
+      ],
+      "photo_scale": 5.9846595356862435,
+      "span_difference": 0.0
+    },
+    "3d:Supplemental_Spaceships_II/four_engine_heavy_bomber": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/four_engine_heavy_bomber.glb",
+        "sha256": "e361108f5e17b611293bd3f6b636076e88db9a291d51194ad3fc9f14f238b0b1",
+        "triangles": 10436,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/four_engine_heavy_bomber.glb",
+        "sha256": "53d7eeb8987a27cec977c7bfbc5bb1685f58ad91e73d99850f2dfc5b9e8c760d",
+        "triangles": 101486,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -9.20775819227782e-05,
+        0.6907723866515172,
+        -0.01233625878039295
+      ],
+      "photo_scale": 5.976036675729769,
+      "span_difference": 8.9e-05
+    },
+    "3d:Supplemental_Spaceships_II/grapple_tug": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/grapple_tug.glb",
+        "sha256": "e87c4ff62cd68e084ada86fd77d46aebf2d737cda24c4c4468681860b0800ec2",
+        "triangles": 18059,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/grapple_tug.glb",
+        "sha256": "6095a9c17b855972411bfe52415cf614fdecda341ba023b15bcb38f24d5fb6eb",
+        "triangles": 94962,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.0005265796815384337,
+        1.1967630920489947,
+        -0.012024100221419441
+      ],
+      "photo_scale": 5.937191571492953,
+      "span_difference": 2.8e-05
+    },
+    "3d:Supplemental_Spaceships_II/hammerhead_cruiser": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/hammerhead_cruiser.glb",
+        "sha256": "ddcfc98f7073f3cb7c877d3cb07dbf57b769bd9ea21e2478882f700c453be896",
+        "triangles": 14468,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/hammerhead_cruiser.glb",
+        "sha256": "f4b9e00468046a27f9cd7c2b1c9258c39b2ea045833aac07a41a36ce16b1c1f3",
+        "triangles": 98720,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.002700945668069792,
+        0.47714004201037363,
+        -0.004984791804765958
+      ],
+      "photo_scale": 5.953014828884814,
+      "span_difference": 0.000106
+    },
+    "3d:Supplemental_Spaceships_II/manta_flying_wing": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/manta_flying_wing.glb",
+        "sha256": "4a15c2738f4f8aeea1d4202770c41bdb92539c8f587fcc14171012bd13fc7ca1",
+        "triangles": 7912,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/manta_flying_wing.glb",
+        "sha256": "8cfe388a443dd55dd0974d943c120ae7d0c7d83c7f1c012ec4b8eb75c7537a17",
+        "triangles": 97788,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.00020989165702954267,
+        0.7780984208193978,
+        0.0010647053001655773
+      ],
+      "photo_scale": 5.983683375671292,
+      "span_difference": 0.000214
+    },
+    "3d:Supplemental_Spaceships_II/nacelle_escort": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/nacelle_escort.glb",
+        "sha256": "8a80ea5508044962c87ed12beaff5d2e1c18bd6effcf5d1283b8e7457016ae6a",
+        "triangles": 11663,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/nacelle_escort.glb",
+        "sha256": "dea241b16a70a973d14cbac3646c56b920e59fe754832e2bcf9941351c5793ad",
+        "triangles": 98256,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.0016608453162330302,
+        0.8013228403280821,
+        0.001293384555694192
+      ],
+      "photo_scale": 6.177323197479322,
+      "span_difference": 0.00043
+    },
+    "3d:Supplemental_Spaceships_II/outrigger_pod_courier": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/outrigger_pod_courier.glb",
+        "sha256": "83b2e31d1e5768a425442ba2bb1d2f10dee6917a561b3fbb2c47e19fbe2430f1",
+        "triangles": 12835,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/outrigger_pod_courier.glb",
+        "sha256": "2a3f4ddcf390003bfc457ef79ce23748ebd6b8681c38796b95a4e4ea9fcfba00",
+        "triangles": 97224,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.00018434528007510128,
+        0.6046454832467544,
+        -0.016363181693854676
+      ],
+      "photo_scale": 5.9764262461844835,
+      "span_difference": 1.6e-05
+    },
+    "3d:Supplemental_Spaceships_II/quad_wing_gunship": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/quad_wing_gunship.glb",
+        "sha256": "820bfaadc763996721e54407329766b6e7ac3d8067a374683e3019cc14d506c7",
+        "triangles": 17025,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/quad_wing_gunship.glb",
+        "sha256": "cb29dfcabd99d1d7a65845731e2d867468624a6bc5091a4d90ec67d4a48b9aa7",
+        "triangles": 96580,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -1.3326059476513294e-05,
+        0.8412050169237995,
+        -0.01200855639626868
+      ],
+      "photo_scale": 5.961978087101612,
+      "span_difference": 0.000131
+    },
+    "3d:Supplemental_Spaceships_II/ramp_dropship": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/ramp_dropship.glb",
+        "sha256": "d27bbb95ff692ac792de410284513ceecd2ff2f7304890b42c2011bb72675312",
+        "triangles": 15387,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/ramp_dropship.glb",
+        "sha256": "bd285479c075e5a80c0e39fdae2073a68659e2cd30c74ec3f007471b268d9553",
+        "triangles": 100820,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        0.00041589157867483173,
+        1.0294920687743432,
+        0.012091724452349326
+      ],
+      "photo_scale": 5.901884413625414,
+      "span_difference": 0.000726
+    },
+    "3d:Supplemental_Spaceships_II/split_nose_raider": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/split_nose_raider.glb",
+        "sha256": "43c3e44e784298b29d787387b1d4a86b1c424a59780790bce6393a2266899f1b",
+        "triangles": 18169,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/split_nose_raider.glb",
+        "sha256": "1c01d593e0b459a704570de798a1b1031dcb2c3cc76ebd1a7dcc7c004c9cf231",
+        "triangles": 100010,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        0.0002570554546569059,
+        1.668394915343547,
+        -0.07140247475452237
+      ],
+      "photo_scale": 5.330871306251071,
+      "span_difference": 0.000462
+    },
+    "3d:Supplemental_Spaceships_II/sponson_patrol": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/sponson_patrol.glb",
+        "sha256": "870b9b9ee673028f8519e6e840e107376672953ccf0b62ecb4f6f9dd9d9ce14c",
+        "triangles": 20511,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/sponson_patrol.glb",
+        "sha256": "85577f72276546ec7a0e035344e98a219fccbdc0a18974bb005230c5e10e6a30",
+        "triangles": 101376,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.00016179083814535123,
+        1.0952292286823222,
+        0.0005047803576159758
+      ],
+      "photo_scale": 5.9201741295214765,
+      "span_difference": 0.000605
+    },
+    "3d:Supplemental_Spaceships_II/t_tail_shuttle": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/t_tail_shuttle.glb",
+        "sha256": "35affa45bae92d1570c4ec9ca80be9d33c0d6e8cc5d6b4a5e2232bb7e02b7ba3",
+        "triangles": 13161,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/t_tail_shuttle.glb",
+        "sha256": "54589fb33b82465cb4e1ca7f3dbcc6f3d22f3e7ae83349452606a97bb906325d",
+        "triangles": 99076,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        0.021927893785842638,
+        1.562030910751714,
+        0.05347097238546732
+      ],
+      "photo_scale": 5.699508276387771,
+      "span_difference": 0.000359
+    },
+    "3d:Supplemental_Spaceships_II/trimaran_escort": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/trimaran_escort.glb",
+        "sha256": "124e5123abd6b0a7f81f5b8128f1f8d48b42a5a9a9e10e305aa89ab125038e95",
+        "triangles": 17249,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/trimaran_escort.glb",
+        "sha256": "7f4b82155af7aeccb2aea2d1726bd333c8430694a05378df7af83098b8abc75f",
+        "triangles": 102764,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        8.430282549315123e-05,
+        1.2094297364804456,
+        -0.032547850625949205
+      ],
+      "photo_scale": 5.8384590823897,
+      "span_difference": 0.000813
+    },
+    "3d:Supplemental_Spaceships_II/twin_boom_interceptor": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/twin_boom_interceptor.glb",
+        "sha256": "ef3def5710a5856d2da537e032d7c5991e8dd40b43c837a37527c2eab6dd76b3",
+        "triangles": 9686,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/twin_boom_interceptor.glb",
+        "sha256": "36fb31a0d77acd68abd315274a19cdca2046f99ba60d65734d92f2fab8b5dbed",
+        "triangles": 95746,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        0.0010931884207441053,
+        0.9310812836714969,
+        -0.001707564211750721
+      ],
+      "photo_scale": 5.946071733999914,
+      "span_difference": 5.2e-05
+    },
+    "3d:Supplemental_Spaceships_II/v_tail_fighter": {
+      "regular": "low",
+      "photo": "full",
+      "low": {
+        "path": "res://assets/supplemental_models/Spaceships_II/v_tail_fighter.glb",
+        "sha256": "55d02137d43999eeef5dd311b2aac1f642d1703864f2ae9788d3d8bc69ef7d46",
+        "triangles": 9388,
+        "materials": 1,
+        "images": 2
+      },
+      "full": {
+        "path": "res://assets/supplemental_models/Spaceships_II/full_detail/v_tail_fighter.glb",
+        "sha256": "083f30493267dc4fbbe9b61dfec2974a4f6b1d7978404d8f82e12760c88abfd4",
+        "triangles": 101688,
+        "materials": 1,
+        "images": 2
+      },
+      "photo_offset": [
+        -0.00021143108922872894,
+        1.6309730099100679,
+        -0.03143260683014448
+      ],
+      "photo_scale": 5.976790316942981,
+      "span_difference": 0.000204
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "ball": "2d:Reviewed_village_football_0",
+  "activities": {
+    "cycle": {"name": "Exercise bike", "seconds": 12, "rate": 1.4, "action": "sit", "participants": 1},
+    "treadmill": {"name": "Treadmill", "seconds": 12, "rate": 2.2, "action": "run", "participants": 1},
+    "row": {"name": "Rowing machine", "seconds": 12, "rate": 0.8, "action": "sit", "participants": 1},
+    "penalty": {"name": "Penalty practice", "seconds": 45, "shots": 5, "target": 3, "participants": 1}
+  },
+  "stations": {
+    "2d:Supplemental_Gym_fitness_kit_exercise_bike_bd2e7760": {
+      "activity": "cycle",
+      "views": {
+        "0": [[25,15],[36,9],[36,42],"NE"],
+        "45": [[32,23],[32,10],[32,38],"NE"],
+        "90": [[39,15],[27,9],[28,42],"NW"],
+        "135": [[39,18],[26,9],[29,37],"NW"],
+        "180": [[38,22],[27,7],[28,42],"SW"],
+        "225": [[32,22],[32,10],[32,39],"SE"],
+        "270": [[25,22],[36,8],[36,42],"SE"],
+        "315": [[24,18],[38,9],[35,37],"SE"]
+      }
+    },
+    "2d:Supplemental_Gym_fitness_kit_treadmill_4ecc12e0": {
+      "activity": "treadmill",
+      "views": {
+        "0": [[35,44],[16,19],[35,44],"NW"],
+        "45": [[32,47],[32,8],[32,47],"NE"],
+        "90": [[29,44],[48,19],[29,44],"NE"],
+        "135": [[30,43],[49,19],[30,43],"SE"],
+        "180": [[30,42],[47,23],[30,42],"SE"],
+        "225": [[32,42],[32,25],[32,42],"SE"],
+        "270": [[35,42],[17,23],[35,42],"SW"],
+        "315": [[34,43],[15,19],[34,43],"SW"]
+      }
+    },
+    "2d:Supplemental_Gym_fitness_kit_rowing_machine_5c906166": {
+      "activity": "row",
+      "views": {
+        "0": [[27,32],[44,32],[39,39],"SE"],
+        "45": [[32,39],[32,26],[32,44],"SE"],
+        "90": [[37,32],[20,32],[25,39],"SW"],
+        "135": [[38,34],[15,32],[20,37],"SW"],
+        "180": [[37,35],[17,19],[27,28],"NW"],
+        "225": [[32,31],[32,15],[32,26],"NE"],
+        "270": [[27,35],[48,19],[37,28],"NE"],
+        "315": [[26,34],[49,32],[44,37],"SE"]
+      }
+    },
+    "3d:HanX_School/Soccer_Goal": {
+      "activity": "penalty", "mouth": [2.38, 1.91], "front": 0.12
+    },
+    "2d:Reviewed_village_soccer_goal_0": {
+      "activity": "penalty", "modes": ["2d"],
+      "posts": {"SE": [[24,62],[68,84]], "SW": [[31,85],[75,63]]}
+    }
+  }
+}

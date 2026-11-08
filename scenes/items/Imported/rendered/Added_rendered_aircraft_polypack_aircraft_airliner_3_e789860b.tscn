@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_aircraft_polypack_aircraft_airliner_3_e789860b_SE.png" id="2"]
+
+[node name="Added_rendered_aircraft_polypack_aircraft_airliner_3_e789860b" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_rendered_aircraft_polypack_aircraft_airliner_3_e789860b"
+category = "Added rendered - Vehicles"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(6, 6)
+origin_offset = Vector2(219.0, 77.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_polypack_aircraft_airliner_3_e789860b_SE.png", "frame_width": 242, "frame_height": 176, "frames": 1, "origin": [219.0, 77.0], "footprint": [6, 6], "grid_original": {"origin": [57, 128], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [219.0, 173.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_polypack_aircraft_airliner_3_e789860b_E.png", "frame_width": 204, "frame_height": 204, "frames": 1, "origin": [101.506906, 68.168966], "footprint": [6, 6], "grid_original": {"origin": [54, 164], "footprint": [4, 1]}, "alignment_transform": [1.026737984234806, 0.00011048033193676587, 0.0001790605896163644, 1.2121463313881042], "alignment_base": [[8.0, 107.776668], [101.493094, 147.367326], [195.0, 107.759624]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [101.493094, 147.367326]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_polypack_aircraft_airliner_3_e789860b_NE.png", "frame_width": 242, "frame_height": 176, "frames": 1, "origin": [22.0, 77.0], "footprint": [6, 6], "grid_original": {"origin": [57, 128], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [22.0, 173.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_polypack_aircraft_airliner_3_e789860b_N.png", "frame_width": 290, "frame_height": 125, "frames": 1, "origin": [178.0, 26.0], "footprint": [6, 6], "grid_original": {"origin": [65, 69], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [178.0, 122.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_polypack_aircraft_airliner_3_e789860b_NW.png", "frame_width": 242, "frame_height": 127, "frames": 1, "origin": [63.0, 60.0], "footprint": [4, 4], "grid_original": {"origin": [57, 79], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [63.0, 124.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_polypack_aircraft_airliner_3_e789860b_W.png", "frame_width": 204, "frame_height": 151, "frames": 1, "origin": [101.5, 52.0], "footprint": [6, 6], "grid_original": {"origin": [54, 111], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [101.5, 148.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_polypack_aircraft_airliner_3_e789860b_SW.png", "frame_width": 242, "frame_height": 127, "frames": 1, "origin": [178.0, 60.0], "footprint": [4, 4], "grid_original": {"origin": [57, 79], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [178.0, 124.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_aircraft_polypack_aircraft_airliner_3_e789860b_S.png", "frame_width": 290, "frame_height": 125, "frames": 1, "origin": [110.5, 26.0], "footprint": [6, 6], "grid_original": {"origin": [65, 69], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [110.5, 122.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-219.0, -77.0)
+hframes = 1

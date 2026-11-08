@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/isometric_rpg_world/isometricvill/isometricvill/Nature_and_Vegetation/Hedge -1.png" id="2_tex"]
+
+[node name="Hedge_-1" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Hedge_-1"
+category = "RPG_Nature"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(31.368442, 95.661364)
+total_frames = 1
+has_collision = true
+directions_data = {"SE": {"file": "../../isometric_rpg_world/isometricvill/isometricvill/Nature_and_Vegetation/Hedge -1.png", "origin": [31.368442, 95.661364], "footprint": [2, 2], "frame_width": 64, "frame_height": 128, "grid_original": {"origin": [32, 120], "footprint": [1, 1]}, "alignment_transform": [1.0850843668411616, -0.037963566694036555, -0.008746909379796497, 0.9806846664740912], "alignment_base": [[2.0, 110.839606], [31.631558, 128.301814], [61.0, 113.123572]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [31.631558, 128.301814]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-31.368442, -95.661364)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, 0, 16, -16, 8)

@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Bathroom_Laundry/Ironing_Board_SE.png" id="2_tex"]
+
+[node name="Ironing_Board" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Ironing_Board"
+category = "Bathroom & Laundry"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 2)
+origin_offset = Vector2(26, 13)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Bathroom_Laundry/Ironing_Board_SE.png", "frame_width": 36, "frame_height": 30, "origin": [26, 13], "footprint": [1, 2], "sheet": {"file": "Sheets/Bathroom_Laundry_Sheet.png", "x": 60, "y": 97, "w": 36, "h": 30}, "grid_method": "authored", "grid_contact": [10, 37]}, "SW": {"file": "Sprites/Bathroom_Laundry/Ironing_Board_SW.png", "frame_width": 36, "frame_height": 30, "origin": [10, 12], "footprint": [2, 1], "sheet": {"file": "Sheets/Bathroom_Laundry_Sheet.png", "x": 98, "y": 97, "w": 36, "h": 30}, "grid_method": "authored", "grid_contact": [26, 36]}, "NW": {"file": "Sprites/Bathroom_Laundry/Ironing_Board_NW.png", "frame_width": 36, "frame_height": 30, "origin": [26, 12], "footprint": [1, 2], "sheet": {"file": "Sheets/Bathroom_Laundry_Sheet.png", "x": 136, "y": 97, "w": 36, "h": 30}, "grid_method": "authored", "grid_contact": [10, 36]}, "NE": {"file": "Sprites/Bathroom_Laundry/Ironing_Board_NE.png", "frame_width": 36, "frame_height": 30, "origin": [10, 13], "footprint": [2, 1], "sheet": {"file": "Sheets/Bathroom_Laundry_Sheet.png", "x": 174, "y": 97, "w": 36, "h": 30}, "grid_method": "authored", "grid_contact": [26, 37]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-26, -13)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, -16, 24, -32, 16)

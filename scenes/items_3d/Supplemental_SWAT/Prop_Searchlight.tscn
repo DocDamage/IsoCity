@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Prop_Searchlight.glb" id="1_ehul5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7fuxb"]
+size = Vector3(1.03572, 1.86505, 0.89384)
+
+[node name="Prop_Searchlight" type="StaticBody3D" unique_id=444971587]
+collision_mask = 0
+metadata/authored_footprint = [-0.51786, 0.0, -0.44692, 1.03572, 1.86505, 0.89384]
+
+[node name="Model" type="Node3D" parent="." unique_id=1459665607]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.037530005, 0, 0.16094002)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=249779340 instance=ExtResource("1_ehul5")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1212466652]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.932525, 0)
+shape = SubResource("BoxShape3D_7fuxb")

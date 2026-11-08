@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Shops_Cafe/Grocery_Shelf_Cereal_SE.png" id="2_tex"]
+
+[node name="Grocery_Shelf_Cereal" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Grocery_Shelf_Cereal"
+category = "Shops & Cafe"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 2)
+origin_offset = Vector2(33, 35)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Shops_Cafe/Grocery_Shelf_Cereal_SE.png", "frame_width": 47, "frame_height": 58, "origin": [33, 35], "footprint": [1, 2], "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 192, "y": 0, "w": 47, "h": 58}, "grid_method": "authored", "grid_contact": [17, 59]}, "SW": {"file": "Sprites/Shops_Cafe/Grocery_Shelf_Cereal_SW.png", "frame_width": 47, "frame_height": 58, "origin": [14, 35], "footprint": [2, 1], "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 241, "y": 0, "w": 47, "h": 58}, "grid_method": "authored", "grid_contact": [30, 59]}, "NW": {"file": "Sprites/Shops_Cafe/Grocery_Shelf_Cereal_NW.png", "frame_width": 47, "frame_height": 58, "origin": [30, 33], "footprint": [1, 2], "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 290, "y": 0, "w": 47, "h": 58}, "grid_method": "authored", "grid_contact": [14, 57]}, "NE": {"file": "Sprites/Shops_Cafe/Grocery_Shelf_Cereal_NE.png", "frame_width": 47, "frame_height": 58, "origin": [17, 33], "footprint": [2, 1], "sheet": {"file": "Sheets/Shops_Cafe_Sheet.png", "x": 339, "y": 0, "w": 47, "h": 58}, "grid_method": "authored", "grid_contact": [33, 57]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-33, -35)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, -16, 24, -32, 16)

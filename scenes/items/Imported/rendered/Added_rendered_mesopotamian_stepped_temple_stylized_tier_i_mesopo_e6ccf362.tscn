@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_mesopotamian_stepped_temple_stylized_tier_i_mesopo_e6ccf362_SE.png" id="2"]
+
+[node name="Added_rendered_mesopotamian_stepped_temple_stylized_tier_i_mesopo_e6ccf362" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_mesopotamian_stepped_temple_stylized_tier_i_mesopo_e6ccf362"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(171.0, 177.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_mesopotamian_stepped_temple_stylized_tier_i_mesopo_e6ccf362_SE.png", "frame_width": 344, "frame_height": 371, "frames": 1, "origin": [171.0, 177.0], "footprint": [12, 12], "grid_original": {"origin": [172, 195], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [171.0, 369.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_mesopotamian_stepped_temple_stylized_tier_i_mesopo_e6ccf362_E.png", "frame_width": 330, "frame_height": 378, "frames": 1, "origin": [169.0, 183.0], "footprint": [12, 12], "grid_original": {"origin": [165, 218], "footprint": [10, 10]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [169.0, 375.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_mesopotamian_stepped_temple_stylized_tier_i_mesopo_e6ccf362_NE.png", "frame_width": 344, "frame_height": 372, "frames": 1, "origin": [171.5, 178.0], "footprint": [12, 12], "grid_original": {"origin": [172, 196], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [171.5, 370.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_mesopotamian_stepped_temple_stylized_tier_i_mesopo_e6ccf362_N.png", "frame_width": 330, "frame_height": 378, "frames": 1, "origin": [161.0, 183.0], "footprint": [12, 12], "grid_original": {"origin": [165, 218], "footprint": [10, 10]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [161.0, 375.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_mesopotamian_stepped_temple_stylized_tier_i_mesopo_e6ccf362_NW.png", "frame_width": 344, "frame_height": 371, "frames": 1, "origin": [172.0, 177.0], "footprint": [12, 12], "grid_original": {"origin": [172, 195], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [172.0, 369.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_mesopotamian_stepped_temple_stylized_tier_i_mesopo_e6ccf362_W.png", "frame_width": 330, "frame_height": 378, "frames": 1, "origin": [168.0, 183.0], "footprint": [12, 12], "grid_original": {"origin": [165, 218], "footprint": [10, 10]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [168.0, 375.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_mesopotamian_stepped_temple_stylized_tier_i_mesopo_e6ccf362_SW.png", "frame_width": 344, "frame_height": 373, "frames": 1, "origin": [171.5, 178.0], "footprint": [12, 12], "grid_original": {"origin": [172, 197], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [171.5, 370.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_mesopotamian_stepped_temple_stylized_tier_i_mesopo_e6ccf362_S.png", "frame_width": 330, "frame_height": 378, "frames": 1, "origin": [160.0, 183.0], "footprint": [12, 12], "grid_original": {"origin": [165, 218], "footprint": [10, 10]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [160.0, 375.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-171.0, -177.0)
+hframes = 1

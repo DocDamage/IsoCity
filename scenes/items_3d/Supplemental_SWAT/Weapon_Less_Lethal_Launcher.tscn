@@ -1,0 +1,20 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Weapon_Less_Lethal_Launcher.glb" id="1_sleie"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lb2tr"]
+size = Vector3(0.06, 0.25922, 0.62399995)
+
+[node name="Weapon_Less_Lethal_Launcher" type="StaticBody3D" unique_id=1261456738]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.03, -0.05822, -0.278, 0.06, 0.25922, 0.62399995]
+
+[node name="Model" type="Node3D" parent="." unique_id=440769558]
+
+[node name="Source" type="Node3D" parent="Model" unique_id=2112836866 instance=ExtResource("1_sleie")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2126159871]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07139, 0.03399998)
+shape = SubResource("BoxShape3D_lb2tr")
+disabled = true

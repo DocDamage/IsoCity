@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/hanx_lowpoly/low-poly-gas-station-pack-hanx-gasstation-pack/HanX_GasStation_Pack/GLB/Tool_Chest.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1"]
+size = Vector3(0.949999988, 1.049999952, 0.580000043)
+
+[node name="Tool_Chest" type="StaticBody3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.025000006, 0.524999976, 0.010000020)
+shape = SubResource("BoxShape3D_1")

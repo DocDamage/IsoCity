@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Arcade_machines/12_arcade_12_motorcycle_rideon.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(0.7213745044136459, 1.4, 1.5349456531096393)
+
+[node name="12_arcade_12_motorcycle_rideon" type="StaticBody3D"]
+collision_layer = 1
+collision_mask = 0
+metadata/authored_footprint = [-0.36068725220682296, 0.0, -0.7674728265548196, 0.7213745044136459, 1.4, 1.5349456531096393]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(8.742380661460252e-05, 0.7027695314110053, 3.926082176348198e-06)
+scale = Vector3(1.5318309003797723, 1.5318309003797723, 1.5318309003797723)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.7, 0)
+shape = SubResource("CollisionShape")
+disabled = false

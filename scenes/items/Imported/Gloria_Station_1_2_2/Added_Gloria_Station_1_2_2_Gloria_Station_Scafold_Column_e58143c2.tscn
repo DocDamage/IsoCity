@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Gloria_Station_1_2_2/Added_Gloria_Station_1_2_2_Gloria_Station_Scafold_Column_e58143c2_SE.png" id="2"]
+
+[node name="Added_Gloria_Station_1_2_2_Gloria_Station_Scafold_Column_e58143c2" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Gloria_Station_1_2_2_Gloria_Station_Scafold_Column_e58143c2"
+category = "Added Gloria Station 1.2.2 - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 8)
+origin_offset = Vector2(80.083581, 211.663486)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Gloria_Station_1_2_2/Added_Gloria_Station_1_2_2_Gloria_Station_Scafold_Column_e58143c2_SE.png", "frame_width": 164, "frame_height": 299, "frames": 1, "origin": [80.083581, 211.663486], "footprint": [8, 8], "grid_original": {"origin": [82, 219], "footprint": [5, 5]}, "alignment_transform": [1.6845002127926805, -0.012012066665858967, -0.03502516737084993, 1.4523447899839352], "alignment_base": [[5.0, 255.109155], [81.916419, 299.811987], [157.0, 256.366318]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [81.916419, 299.811987]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-80.083581, -211.663486)
+hframes = 1

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_mobile_optimize_free_low_poly_cars_mobile_optimize_9635bede_SE.png" id="2"]
+
+[node name="Added_rendered_mobile_optimize_free_low_poly_cars_mobile_optimize_9635bede" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_mobile_optimize_free_low_poly_cars_mobile_optimize_9635bede"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(122.0, 208.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_mobile_optimize_free_low_poly_cars_mobile_optimize_9635bede_SE.png", "frame_width": 322, "frame_height": 275, "frames": 1, "origin": [122.0, 208.0], "footprint": [4, 4], "grid_original": {"origin": [65, 211], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [122.0, 272.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_mobile_optimize_free_low_poly_cars_mobile_optimize_9635bede_E.png", "frame_width": 305, "frame_height": 236, "frames": 1, "origin": [44.0, 105.0], "footprint": [8, 8], "grid_original": {"origin": [72, 180], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [44.0, 233.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_mobile_optimize_free_low_poly_cars_mobile_optimize_9635bede_NE.png", "frame_width": 344, "frame_height": 228, "frames": 1, "origin": [171.5, 97.0], "footprint": [8, 8], "grid_original": {"origin": [76, 164], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [171.5, 225.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_mobile_optimize_free_low_poly_cars_mobile_optimize_9635bede_N.png", "frame_width": 306, "frame_height": 235, "frames": 1, "origin": [260.0, 105.0], "footprint": [8, 8], "grid_original": {"origin": [73, 179], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [260.0, 233.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_mobile_optimize_free_low_poly_cars_mobile_optimize_9635bede_NW.png", "frame_width": 322, "frame_height": 275, "frames": 1, "origin": [199.0, 208.0], "footprint": [4, 4], "grid_original": {"origin": [65, 211], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [199.0, 272.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_mobile_optimize_free_low_poly_cars_mobile_optimize_9635bede_W.png", "frame_width": 305, "frame_height": 239, "frames": 1, "origin": [201.0, 108.0], "footprint": [8, 8], "grid_original": {"origin": [72, 183], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [201.0, 236.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_mobile_optimize_free_low_poly_cars_mobile_optimize_9635bede_SW.png", "frame_width": 344, "frame_height": 262, "frames": 1, "origin": [172.0, 131.0], "footprint": [8, 8], "grid_original": {"origin": [76, 198], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [172.0, 259.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_mobile_optimize_free_low_poly_cars_mobile_optimize_9635bede_S.png", "frame_width": 306, "frame_height": 239, "frames": 1, "origin": [104.0, 108.0], "footprint": [8, 8], "grid_original": {"origin": [73, 183], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [104.0, 236.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-122.0, -208.0)
+hframes = 1

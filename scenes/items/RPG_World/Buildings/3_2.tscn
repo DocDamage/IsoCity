@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/isometric_rpg_world/isometricvill/isometricvill/Building_Assets/Gas Staton/3.png" id="2_tex"]
+
+[node name="3_2" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "3_2"
+category = "RPG_Buildings"
+kind = "build"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(63.5, 71.15487)
+total_frames = 1
+has_collision = true
+directions_data = {"SE": {"file": "../../isometric_rpg_world/isometricvill/isometricvill/Building_Assets/Gas Staton/3.png", "origin": [63.5, 71.15487], "footprint": [4, 4], "frame_width": 128, "frame_height": 128, "grid_original": {"origin": [64, 120], "footprint": [3, 3]}, "alignment_transform": [1.0756302521008403, 0.0, -2.220446049250313e-16, 1.0798374075317505], "alignment_base": [[4.0, 100.788961], [63.5, 130.423052], [123.0, 100.788961]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [63.5, 130.423052]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-63.5, -71.15487)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 48, 24, 0, 48, -48, 24)

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Rodwan_Cliffs/Added_Rodwan_Cliffs_Tileset_Cliffs2_r02_c07_36963570_SE.png" id="2"]
+
+[node name="Added_Rodwan_Cliffs_Tileset_Cliffs2_r02_c07_36963570" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_Rodwan_Cliffs_Tileset_Cliffs2_r02_c07_36963570"
+category = "Added Rodwan_Cliffs - Ground"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(16.0, 16.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = false
+directions_data = {"SE": {"file": "../../imported_prepared/Rodwan_Cliffs/Added_Rodwan_Cliffs_Tileset_Cliffs2_r02_c07_36963570_SE.png", "frame_width": 32, "frame_height": 15, "frames": 1, "origin": [16.0, 16.0], "footprint": [1, 1], "grid_original": {"origin": [16, 0], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_base": [[0.0, 24.0], [16.0, 32.0], [32.0, 24.0]], "alignment_version": 2, "grid_method": "source tile cell", "grid_contact": [16.0, 32.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-16.0, -16.0)
+hframes = 1

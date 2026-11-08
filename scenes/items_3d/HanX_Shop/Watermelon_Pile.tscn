@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/hanx_lowpoly/low-poly-shop-market-pack-hanx-shop-pack/HanX_Shop_Pack/GLB/Watermelon_Pile.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1"]
+size = Vector3(1.098079920, 0.469999999, 1.017050028)
+
+[node name="Watermelon_Pile" type="StaticBody3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.057769954, 0.230000004, 0.041715026)
+shape = SubResource("BoxShape3D_1")

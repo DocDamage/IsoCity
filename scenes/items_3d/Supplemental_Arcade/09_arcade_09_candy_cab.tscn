@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Arcade_machines/09_arcade_09_candy_cab.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(1.0689682971124208, 1.8, 1.185931197958339)
+
+[node name="09_arcade_09_candy_cab" type="StaticBody3D"]
+collision_layer = 1
+collision_mask = 0
+metadata/authored_footprint = [-0.5344841485562104, 0.0, -0.5929655989791695, 1.0689682971124208, 1.8, 1.185931197958339]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(-0.0007790352125265778, 0.9000023511591578, -0.001961027043317564)
+scale = Vector3(1.792995683129293, 1.792995683129293, 1.792995683129293)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.9, 0)
+shape = SubResource("CollisionShape")
+disabled = false

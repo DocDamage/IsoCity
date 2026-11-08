@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Satellites/18_derelict_debris.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(3.0, 1.93908756110545, 2.667465783809778)
+
+[node name="18_derelict_debris" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-1.5, 0.0, -1.333732891904889, 3.0, 1.93908756110545, 2.667465783809778]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(0.003148111312092537, 1.0113477973416978, 0.006720973479948673)
+scale = Vector3(3.001110487813256, 3.001110487813256, 3.001110487813256)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.969543780552725, 0)
+shape = SubResource("CollisionShape")
+disabled = true

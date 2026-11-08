@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/hanx_lowpoly/low-poly-construction-pack-hanx-construction-pack/HanX_Construction_Pack/GLB/Cable_Reel.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1"]
+size = Vector3(1.385309935, 1.213870049, 1.816679955)
+
+[node name="Cable_Reel" type="StaticBody3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.219654977, 0.611935019, 0.309469998)
+shape = SubResource("BoxShape3D_1")

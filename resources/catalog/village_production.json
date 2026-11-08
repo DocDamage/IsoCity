@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "families": {
+    "supplemental/village/farmhouse_barn": "farm",
+    "supplemental/village/granary_staddle": "granary",
+    "supplemental/village/windmill": "mill",
+    "supplemental/village/watermill": "mill",
+    "supplemental/village/bakery": "bakery",
+    "supplemental/village/blacksmith_forge": "smith",
+    "supplemental/village/market_stall": "market"
+  },
+  "assets": {
+    "3d:HanX_City/Ground_Garden": "farm",
+    "3d:HanX_Construction/Shipping_Container": "granary",
+    "3d:HanX_Construction/Site_Office": "mill",
+    "2d:Bakery": "bakery",
+    "3d:HanX_Shop/Shop_Bakery": "bakery",
+    "3d:HanX_Construction/Tool_Box": "smith",
+    "2d:Produce_Stand": "market",
+    "3d:HanX_Shop/Stall_Vegetable": "market",
+    "3d:HanX_Shop/Shop_Grocery": "market"
+  },
+  "roles": {
+    "farm": {"name":"Farm","capacity":12,"recipes":["harvest"],"accepts":[],"ships":"grain"},
+    "granary": {"name":"Granary","capacity":16,"recipes":[],"accepts":["grain"],"ships":"grain"},
+    "mill": {"name":"Mill","capacity":12,"recipes":["mill"],"accepts":["grain"],"ships":"flour"},
+    "bakery": {"name":"Bakery","capacity":12,"recipes":["bread","tomato_loaf"],"accepts":["flour","tomato"],"ships":"bread"},
+    "smith": {"name":"Smithy","capacity":12,"recipes":["tools"],"accepts":["iron","fuel"],"ships":"tools"},
+    "market": {"name":"Market","capacity":10,"recipes":[],"accepts":["bread","tools"],"ships":""}
+  },
+  "recipes": {
+    "harvest": {"name":"Grain harvest","seconds":8,"inputs":{},"output":"grain","yield":4,"seasons":["spring","summer","autumn"]},
+    "mill": {"name":"Mill grain","seconds":4,"inputs":{"grain":2},"output":"flour","yield":1},
+    "bread": {"name":"Bake bread","seconds":5,"inputs":{"flour":1},"output":"bread","yield":1},
+    "tomato_loaf": {"name":"Tomato loaf","seconds":6,"inputs":{"flour":1,"tomato":1},"output":"bread","yield":1},
+    "tools": {"name":"Forge tools","seconds":6,"inputs":{"iron":1,"fuel":1},"output":"tools","yield":1}
+  },
+  "goods": {
+    "grain":{"name":"Grain","color":"d9b96d"},
+    "flour":{"name":"Flour","color":"ede1c5"},
+    "bread":{"name":"Bread","color":"c9814b","price":7},
+    "tomato":{"name":"Tomatoes","color":"dc7366"},
+    "iron":{"name":"Bar iron","color":"aaaebc"},
+    "fuel":{"name":"Charcoal","color":"767282"},
+    "tools":{"name":"Tools","color":"80b8c3","price":11}
+  }
+}

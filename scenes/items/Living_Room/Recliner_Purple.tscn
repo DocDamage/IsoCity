@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Living_Room/Recliner_Purple_SE.png" id="2_tex"]
+
+[node name="Recliner_Purple" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Recliner_Purple"
+category = "Living Room"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(15, 20)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Living_Room/Recliner_Purple_SE.png", "frame_width": 29, "frame_height": 34, "origin": [15, 20], "footprint": [1, 1], "sheet": {"file": "Sheets/Living_Room_Sheet.png", "x": 320, "y": 282, "w": 29, "h": 34}, "grid_method": "authored", "grid_contact": [15, 36]}, "SW": {"file": "Sprites/Living_Room/Recliner_Purple_SW.png", "frame_width": 29, "frame_height": 34, "origin": [14, 20], "footprint": [1, 1], "sheet": {"file": "Sheets/Living_Room_Sheet.png", "x": 351, "y": 282, "w": 29, "h": 34}, "grid_method": "authored", "grid_contact": [14, 36]}, "NW": {"file": "Sprites/Living_Room/Recliner_Purple_NW.png", "frame_width": 29, "frame_height": 29, "origin": [14, 14], "footprint": [1, 1], "sheet": {"file": "Sheets/Living_Room_Sheet.png", "x": 382, "y": 282, "w": 29, "h": 29}, "grid_method": "authored", "grid_contact": [14, 30]}, "NE": {"file": "Sprites/Living_Room/Recliner_Purple_NE.png", "frame_width": 29, "frame_height": 29, "origin": [15, 14], "footprint": [1, 1], "sheet": {"file": "Sheets/Living_Room_Sheet.png", "x": 413, "y": 282, "w": 29, "h": 29}, "grid_method": "authored", "grid_contact": [15, 30]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-15, -20)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, 0, 16, -16, 8)

@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/supplemental_prepared/Characters_Businessman/Supplemental_Characters_Businessman_PickUpLow_1bc8811e.png" id="2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_view"]
+atlas = ExtResource("2")
+region = Rect2(6912, 0, 1152, 64)
+filter_clip = true
+
+[node name="Supplemental_Characters_Businessman_PickUpLow_1bc8811e" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Supplemental_Characters_Businessman_PickUpLow_1bc8811e"
+category = "Supplemental Characters"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(31.155172413793103, 33.25)
+total_frames = 18
+animation_fps = 12.048192771084336
+has_collision = false
+directions_data = {"SW": {"file": "../../supplemental_prepared/Characters_Businessman/Supplemental_Characters_Businessman_PickUpLow_1bc8811e.png", "region": [0, 0, 1152, 64], "frame_width": 64, "frame_height": 64, "frames": 18, "origin": [32.45192307692308, 33.75], "footprint": [1, 1], "render_contact": [32.45192307692308, 33.75], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [32.45192307692308, 49.75]}, "W": {"file": "../../supplemental_prepared/Characters_Businessman/Supplemental_Characters_Businessman_PickUpLow_1bc8811e.png", "region": [1152, 0, 1152, 64], "frame_width": 64, "frame_height": 64, "frames": 18, "origin": [30.878048780487806, 33.5], "footprint": [1, 1], "render_contact": [30.878048780487806, 33.5], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [30.878048780487806, 49.5]}, "NW": {"file": "../../supplemental_prepared/Characters_Businessman/Supplemental_Characters_Businessman_PickUpLow_1bc8811e.png", "region": [2304, 0, 1152, 64], "frame_width": 64, "frame_height": 64, "frames": 18, "origin": [30.420454545454547, 33.0], "footprint": [1, 1], "render_contact": [30.420454545454547, 33.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [30.420454545454547, 49.0]}, "N": {"file": "../../supplemental_prepared/Characters_Businessman/Supplemental_Characters_Businessman_PickUpLow_1bc8811e.png", "region": [3456, 0, 1152, 64], "frame_width": 64, "frame_height": 64, "frames": 18, "origin": [32.46153846153846, 32.75], "footprint": [1, 1], "render_contact": [32.46153846153846, 32.75], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [32.46153846153846, 48.75]}, "NE": {"file": "../../supplemental_prepared/Characters_Businessman/Supplemental_Characters_Businessman_PickUpLow_1bc8811e.png", "region": [4608, 0, 1152, 64], "frame_width": 64, "frame_height": 64, "frames": 18, "origin": [32.773809523809526, 33.25], "footprint": [1, 1], "render_contact": [32.773809523809526, 33.25], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [32.773809523809526, 49.25]}, "E": {"file": "../../supplemental_prepared/Characters_Businessman/Supplemental_Characters_Businessman_PickUpLow_1bc8811e.png", "region": [5760, 0, 1152, 64], "frame_width": 64, "frame_height": 64, "frames": 18, "origin": [31.694444444444443, 33.5], "footprint": [1, 1], "render_contact": [31.694444444444443, 33.5], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [31.694444444444443, 49.5]}, "SE": {"file": "../../supplemental_prepared/Characters_Businessman/Supplemental_Characters_Businessman_PickUpLow_1bc8811e.png", "region": [6912, 0, 1152, 64], "frame_width": 64, "frame_height": 64, "frames": 18, "origin": [31.155172413793103, 33.25], "footprint": [1, 1], "render_contact": [31.155172413793103, 33.25], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [31.155172413793103, 49.25]}, "S": {"file": "../../supplemental_prepared/Characters_Businessman/Supplemental_Characters_Businessman_PickUpLow_1bc8811e.png", "region": [0, 64, 1152, 64], "frame_width": 64, "frame_height": 64, "frames": 18, "origin": [32.946969696969695, 33.25], "footprint": [1, 1], "render_contact": [32.946969696969695, 33.25], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [32.946969696969695, 49.25]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_view")
+centered = false
+offset = Vector2(-31.155172413793103, -33.25)
+hframes = 18

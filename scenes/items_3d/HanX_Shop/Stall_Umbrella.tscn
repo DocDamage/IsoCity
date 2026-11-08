@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/hanx_lowpoly/low-poly-shop-market-pack-hanx-shop-pack/HanX_Shop_Pack/GLB/Stall_Umbrella.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1"]
+size = Vector3(2.964630127, 2.670000076, 2.679259777)
+
+[node name="Stall_Umbrella" type="StaticBody3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.142685056, 1.335000038, -0.320000052)
+shape = SubResource("BoxShape3D_1")

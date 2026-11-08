@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_overlay_dirtoverlay1_64534668_SE.png" id="2"]
+
+[node name="Added_Isometric_tileset_Isometric_tileset_tile_images_overlay_dirtoverlay1_64534668" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_Isometric_tileset_Isometric_tileset_tile_images_overlay_dirtoverlay1_64534668"
+category = "Added Isometric tileset - Ground"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(130.0, 36.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = false
+directions_data = {"SE": {"file": "../../imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_overlay_dirtoverlay1_64534668_SE.png", "frame_width": 247, "frame_height": 129, "frames": 1, "origin": [130.0, 36.0], "footprint": [2, 2], "grid_original": {"origin": [124, 1], "footprint": [8, 8]}, "alignment_transform": [0.6956521739130435, -5.551115123125783e-17, 0.0, 0.43243243243243246], "alignment_base": [[84.0, 73.0], [130.0, 110.0], [176.0, 73.0]], "alignment_version": 2, "grid_method": "floor bounds", "grid_contact": [130.0, 110.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-130.0, -36.0)
+hframes = 1

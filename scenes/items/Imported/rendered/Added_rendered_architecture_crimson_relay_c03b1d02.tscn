@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_architecture_crimson_relay_c03b1d02_SE.png" id="2"]
+
+[node name="Added_rendered_architecture_crimson_relay_c03b1d02" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_architecture_crimson_relay_c03b1d02"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 8)
+origin_offset = Vector2(111.5, 226.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_architecture_crimson_relay_c03b1d02_SE.png", "frame_width": 224, "frame_height": 356, "frames": 1, "origin": [111.5, 226.0], "footprint": [8, 8], "grid_original": {"origin": [112, 244], "footprint": [7, 7]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [111.5, 354.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_architecture_crimson_relay_c03b1d02_E.png", "frame_width": 364, "frame_height": 377, "frames": 1, "origin": [202.865013, 179.074088], "footprint": [12, 12], "grid_original": {"origin": [182, 201], "footprint": [11, 11]}, "alignment_transform": [1.1572890591135185, 0.07832602129254547, 0.2712091205610022, 1.0022811133938423], "alignment_base": [[11.0, 289.84942], [157.134987, 374.21081], [349.0, 263.435478]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [157.134987, 374.21081]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_architecture_crimson_relay_c03b1d02_NE.png", "frame_width": 294, "frame_height": 351, "frames": 1, "origin": [146.5, 220.0], "footprint": [8, 8], "grid_original": {"origin": [147, 207], "footprint": [9, 9]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [146.5, 348.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_architecture_crimson_relay_c03b1d02_N.png", "frame_width": 364, "frame_height": 397, "frames": 1, "origin": [160.180093, 199.059152], "footprint": [12, 12], "grid_original": {"origin": [182, 221], "footprint": [11, 11]}, "alignment_transform": [1.1571836638382094, -0.07809057216266013, -0.2706169412738374, 1.002069444789555], "alignment_base": [[14.0, 283.469183], [205.819907, 394.219318], [352.0, 309.809287]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [205.819907, 394.219318]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_architecture_crimson_relay_c03b1d02_NW.png", "frame_width": 224, "frame_height": 387, "frames": 1, "origin": [111.5, 257.0], "footprint": [8, 8], "grid_original": {"origin": [112, 275], "footprint": [7, 7]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [111.5, 385.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_architecture_crimson_relay_c03b1d02_W.png", "frame_width": 364, "frame_height": 408, "frames": 1, "origin": [202.865013, 210.074088], "footprint": [12, 12], "grid_original": {"origin": [182, 232], "footprint": [11, 11]}, "alignment_transform": [1.1572890591135185, 0.07832602129254547, 0.2712091205610022, 1.0022811133938423], "alignment_base": [[11.0, 320.84942], [157.134987, 405.21081], [349.0, 294.435478]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [157.134987, 405.21081]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_architecture_crimson_relay_c03b1d02_SW.png", "frame_width": 294, "frame_height": 355, "frames": 1, "origin": [146.5, 224.0], "footprint": [8, 8], "grid_original": {"origin": [147, 211], "footprint": [9, 9]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [146.5, 352.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_architecture_crimson_relay_c03b1d02_S.png", "frame_width": 364, "frame_height": 386, "frames": 1, "origin": [160.180093, 188.059152], "footprint": [12, 12], "grid_original": {"origin": [182, 210], "footprint": [11, 11]}, "alignment_transform": [1.1571836638382094, -0.07809057216266013, -0.2706169412738374, 1.002069444789555], "alignment_base": [[14.0, 272.469183], [205.819907, 383.219318], [352.0, 298.809287]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [205.819907, 383.219318]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-111.5, -226.0)
+hframes = 1

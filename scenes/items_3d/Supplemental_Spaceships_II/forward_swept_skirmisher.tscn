@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Spaceships_II/forward_swept_skirmisher.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(6.0, 2.044188244862434, 5.9831552738311355)
+
+[node name="forward_swept_skirmisher" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-3.0, 0.0, -2.9915776369155678, 6.0, 2.044188244862434, 5.9831552738311355]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(-0.00016765535765914997, 1.0054215997174842, 0.007180643297173807)
+scale = Vector3(5.984659891487745, 5.984659891487745, 5.984659891487745)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 1.022094122431217, 0)
+shape = SubResource("CollisionShape")
+disabled = true

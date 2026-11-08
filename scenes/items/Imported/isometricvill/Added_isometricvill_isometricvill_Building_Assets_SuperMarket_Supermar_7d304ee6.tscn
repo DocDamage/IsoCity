@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/isometricvill/Added_isometricvill_isometricvill_Building_Assets_SuperMarket_Supermar_7d304ee6_SE.png" id="2"]
+
+[node name="Added_isometricvill_isometricvill_Building_Assets_SuperMarket_Supermar_7d304ee6" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_isometricvill_isometricvill_Building_Assets_SuperMarket_Supermar_7d304ee6"
+category = "Added isometricvill - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(20, 12)
+origin_offset = Vector2(205.025988, 140.771744)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/isometricvill/Added_isometricvill_isometricvill_Building_Assets_SuperMarket_Supermar_7d304ee6_SE.png", "frame_width": 512, "frame_height": 381, "frames": 1, "origin": [205.025988, 140.771744], "footprint": [20, 12], "grid_original": {"origin": [256, 125], "footprint": [16, 16]}, "alignment_transform": [1.0603089299171065, 0.013845153138563243, 0.056517104765744286, 1.062190251712315], "alignment_base": [[19.0, 233.575795], [312.974012, 380.37613], [499.0, 287.572079]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [312.974012, 380.37613]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-205.025988, -140.771744)
+hframes = 1

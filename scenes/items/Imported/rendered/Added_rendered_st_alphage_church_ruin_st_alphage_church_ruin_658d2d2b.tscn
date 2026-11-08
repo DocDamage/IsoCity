@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_st_alphage_church_ruin_st_alphage_church_ruin_658d2d2b_SE.png" id="2"]
+
+[node name="Added_rendered_st_alphage_church_ruin_st_alphage_church_ruin_658d2d2b" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_rendered_st_alphage_church_ruin_st_alphage_church_ruin_658d2d2b"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(6, 6)
+origin_offset = Vector2(102.5, 90.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_st_alphage_church_ruin_st_alphage_church_ruin_658d2d2b_SE.png", "frame_width": 206, "frame_height": 189, "frames": 1, "origin": [102.5, 90.0], "footprint": [6, 6], "grid_original": {"origin": [55, 149], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [102.5, 186.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_st_alphage_church_ruin_st_alphage_church_ruin_658d2d2b_E.png", "frame_width": 242, "frame_height": 237, "frames": 1, "origin": [99.136942, 105.960196], "footprint": [10, 6], "grid_original": {"origin": [57, 189], "footprint": [5, 1]}, "alignment_transform": [1.1421979771879232, 0.026135036785471563, 0.09191483129947747, 0.9901061588695889], "alignment_base": [[11.0, 156.766326], [144.863058, 234.032267], [233.0, 183.226137]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [144.863058, 234.032267]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_st_alphage_church_ruin_st_alphage_church_ruin_658d2d2b_NE.png", "frame_width": 136, "frame_height": 232, "frames": 1, "origin": [67.5, 165.0], "footprint": [4, 4], "grid_original": {"origin": [36, 200], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [67.5, 229.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_st_alphage_church_ruin_st_alphage_church_ruin_658d2d2b_N.png", "frame_width": 242, "frame_height": 249, "frames": 1, "origin": [141.939659, 117.885377], "footprint": [6, 10], "grid_original": {"origin": [57, 201], "footprint": [5, 1]}, "alignment_transform": [1.1423701684171055, -0.026161676010438492, -0.09041403865447284, 0.9892688986872127], "alignment_base": [[8.0, 195.211081], [96.060341, 246.060558], [230.0, 168.734854]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [96.060341, 246.060558]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_st_alphage_church_ruin_st_alphage_church_ruin_658d2d2b_NW.png", "frame_width": 206, "frame_height": 199, "frames": 1, "origin": [102.5, 100.0], "footprint": [6, 6], "grid_original": {"origin": [55, 159], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [102.5, 196.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_st_alphage_church_ruin_st_alphage_church_ruin_658d2d2b_W.png", "frame_width": 242, "frame_height": 218, "frames": 1, "origin": [99.136942, 86.960196], "footprint": [10, 6], "grid_original": {"origin": [57, 170], "footprint": [5, 1]}, "alignment_transform": [1.1421979771879232, 0.026135036785471563, 0.09191483129947747, 0.9901061588695889], "alignment_base": [[11.0, 137.766326], [144.863058, 215.032267], [233.0, 164.226137]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [144.863058, 215.032267]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_st_alphage_church_ruin_st_alphage_church_ruin_658d2d2b_SW.png", "frame_width": 136, "frame_height": 190, "frames": 1, "origin": [67.5, 123.0], "footprint": [4, 4], "grid_original": {"origin": [36, 158], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [67.5, 187.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_st_alphage_church_ruin_st_alphage_church_ruin_658d2d2b_S.png", "frame_width": 242, "frame_height": 216, "frames": 1, "origin": [141.939659, 84.885377], "footprint": [6, 10], "grid_original": {"origin": [57, 168], "footprint": [5, 1]}, "alignment_transform": [1.1423701684171055, -0.026161676010438492, -0.09041403865447284, 0.9892688986872127], "alignment_base": [[8.0, 162.211081], [96.060341, 213.060558], [230.0, 135.734854]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [96.060341, 213.060558]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-102.5, -90.0)
+hframes = 1

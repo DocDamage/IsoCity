@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_mediterranean_facade_stylized_tier_i_mediterranean_da11deb8_SE.png" id="2"]
+
+[node name="Added_rendered_mediterranean_facade_stylized_tier_i_mediterranean_da11deb8" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_mediterranean_facade_stylized_tier_i_mediterranean_da11deb8"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(72.0, 237.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_mediterranean_facade_stylized_tier_i_mediterranean_da11deb8_SE.png", "frame_width": 144, "frame_height": 303, "frames": 1, "origin": [72.0, 237.0], "footprint": [4, 4], "grid_original": {"origin": [40, 271], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [72.0, 301.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_mediterranean_facade_stylized_tier_i_mediterranean_da11deb8_E.png", "frame_width": 342, "frame_height": 270, "frames": 1, "origin": [232.319157, 84.954916], "footprint": [8, 16], "grid_original": {"origin": [75, 206], "footprint": [7, 1]}, "alignment_transform": [1.2687775778228012, 0.06416793295535422, 0.22088225559052865, 1.0993044976200814], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [99.680843, 267.353084], "alignment_base": [[8.0, 214.485994], [99.680843, 267.353084], [324.0, 137.822006]]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_mediterranean_facade_stylized_tier_i_mediterranean_da11deb8_NE.png", "frame_width": 344, "frame_height": 185, "frames": 1, "origin": [171.0, 54.0], "footprint": [8, 8], "grid_original": {"origin": [76, 121], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [171.0, 182.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_mediterranean_facade_stylized_tier_i_mediterranean_da11deb8_N.png", "frame_width": 341, "frame_height": 269, "frames": 1, "origin": [107.487727, 84.506251], "footprint": [16, 8], "grid_original": {"origin": [74, 205], "footprint": [7, 1]}, "alignment_transform": [1.2798147702847842, -0.0666407073542511, -0.23288943215588698, 1.1072868078717346], "alignment_base": [[17.0, 136.859294], [240.512273, 265.908981], [331.0, 213.555938]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [240.512273, 265.908981]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_mediterranean_facade_stylized_tier_i_mediterranean_da11deb8_NW.png", "frame_width": 144, "frame_height": 314, "frames": 1, "origin": [71.0, 247.0], "footprint": [4, 4], "grid_original": {"origin": [40, 282], "footprint": [3, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [71.0, 311.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_mediterranean_facade_stylized_tier_i_mediterranean_da11deb8_W.png", "frame_width": 342, "frame_height": 313, "frames": 1, "origin": [231.717177, 128.372064], "footprint": [8, 16], "grid_original": {"origin": [75, 249], "footprint": [7, 1]}, "alignment_transform": [1.2659363804680397, 0.0620675492344504, 0.21060667062334404, 1.0981318460410918], "alignment_base": [[8.0, 257.578386], [100.282823, 310.643263], [324.0, 181.436941]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [100.282823, 310.643263]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_mediterranean_facade_stylized_tier_i_mediterranean_da11deb8_SW.png", "frame_width": 344, "frame_height": 219, "frames": 1, "origin": [172.0, 88.0], "footprint": [8, 8], "grid_original": {"origin": [76, 155], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [172.0, 216.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_mediterranean_facade_stylized_tier_i_mediterranean_da11deb8_S.png", "frame_width": 342, "frame_height": 305, "frames": 1, "origin": [109.357986, 120.931691], "footprint": [16, 8], "grid_original": {"origin": [75, 241], "footprint": [7, 1]}, "alignment_transform": [1.2754534717900028, -0.06280675857506018, -0.21766651889389543, 1.1049537757644556], "alignment_base": [[18.0, 173.65978], [240.642014, 302.156941], [332.0, 249.428852]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [240.642014, 302.156941]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-72.0, -237.0)
+hframes = 1

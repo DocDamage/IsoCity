@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Street_Props/Billboard_SE.png" id="2_tex"]
+
+[node name="Billboard" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Billboard"
+category = "Street Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 2)
+origin_offset = Vector2(27, 56)
+total_frames = 3
+animation_fps = 1
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Street_Props/Billboard_SE.png", "frame_width": 36, "frame_height": 69, "origin": [27, 56], "footprint": [1, 2], "layout": "horizontal strip of 3 frames", "sheet": {"file": "Sheets/Street_Props_Sheet.png", "x": 160, "y": 207, "w": 36, "h": 69}, "grid_method": "authored", "grid_contact": [11, 80]}, "SW": {"file": "Sprites/Street_Props/Billboard_SW.png", "frame_width": 36, "frame_height": 69, "origin": [9, 56], "footprint": [2, 1], "layout": "horizontal strip of 3 frames", "sheet": {"file": "Sheets/Street_Props_Sheet.png", "x": 198, "y": 207, "w": 36, "h": 69}, "grid_method": "authored", "grid_contact": [25, 80]}, "NW": {"file": "Sprites/Street_Props/Billboard_NW.png", "frame_width": 36, "frame_height": 68, "origin": [25, 54], "footprint": [1, 2], "layout": "horizontal strip of 3 frames", "sheet": {"file": "Sheets/Street_Props_Sheet.png", "x": 236, "y": 207, "w": 36, "h": 68}, "grid_method": "authored", "grid_contact": [9, 78]}, "NE": {"file": "Sprites/Street_Props/Billboard_NE.png", "frame_width": 36, "frame_height": 68, "origin": [11, 54], "footprint": [2, 1], "layout": "horizontal strip of 3 frames", "sheet": {"file": "Sheets/Street_Props_Sheet.png", "x": 274, "y": 207, "w": 36, "h": 68}, "grid_method": "authored", "grid_contact": [27, 78]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-27, -56)
+hframes = 3
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, -16, 24, -32, 16)

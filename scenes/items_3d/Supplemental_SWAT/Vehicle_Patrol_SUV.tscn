@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Vehicle_Patrol_SUV.glb" id="1_usilb"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dw3dh"]
+size = Vector3(2.2, 2.3770502, 5.41)
+
+[node name="Vehicle_Patrol_SUV" type="StaticBody3D" unique_id=76598282]
+collision_mask = 0
+metadata/authored_footprint = [-1.1, 0.0, -2.705, 2.2, 2.3770502, 5.41]
+
+[node name="Model" type="Node3D" parent="." unique_id=1715226655]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.01295, -0.08699989)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1160622189 instance=ExtResource("1_usilb")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=653092660]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1885251, 0)
+shape = SubResource("BoxShape3D_dw3dh")

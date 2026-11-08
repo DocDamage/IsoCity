@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_fish_market_stall_fish_market_stall_a376af_463bab04_SE.png" id="2"]
+
+[node name="Added_rendered_fish_market_stall_fish_market_stall_a376af_463bab04" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_fish_market_stall_fish_market_stall_a376af_463bab04"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 8)
+origin_offset = Vector2(159.0, 235.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_fish_market_stall_fish_market_stall_a376af_463bab04_SE.png", "frame_width": 322, "frame_height": 366, "frames": 1, "origin": [159.0, 235.0], "footprint": [8, 8], "grid_original": {"origin": [161, 206], "footprint": [10, 10]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [159.0, 363.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_fish_market_stall_fish_market_stall_a376af_463bab04_E.png", "frame_width": 466, "frame_height": 435, "frames": 1, "origin": [239.948969, 183.431498], "footprint": [16, 16], "grid_original": {"origin": [233, 195], "footprint": [15, 15]}, "alignment_transform": [1.1868022668921827, 0.02197075172336488, 0.0756435984488919, 1.02774443232579], "alignment_base": [[16.0, 312.76358], [224.051031, 432.860521], [448.0, 303.528439]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [224.051031, 432.860521]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_fish_market_stall_fish_market_stall_a376af_463bab04_NE.png", "frame_width": 344, "frame_height": 398, "frames": 1, "origin": [171.5, 203.0], "footprint": [12, 12], "grid_original": {"origin": [172, 222], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [171.5, 395.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_fish_market_stall_fish_market_stall_a376af_463bab04_N.png", "frame_width": 466, "frame_height": 424, "frames": 1, "origin": [225.06878, 172.433581], "footprint": [16, 16], "grid_original": {"origin": [233, 184], "footprint": [15, 15]}, "alignment_transform": [1.186787081009752, -0.021813132034318783, -0.07547388513985254, 1.0277333871843264], "alignment_base": [[17.0, 292.563344], [240.93122, 421.862093], [449.0, 301.73233]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [240.93122, 421.862093]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_fish_market_stall_fish_market_stall_a376af_463bab04_NW.png", "frame_width": 322, "frame_height": 358, "frames": 1, "origin": [161.5, 227.0], "footprint": [8, 8], "grid_original": {"origin": [161, 198], "footprint": [10, 10]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [161.5, 355.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_fish_market_stall_fish_market_stall_a376af_463bab04_W.png", "frame_width": 466, "frame_height": 425, "frames": 1, "origin": [240.411907, 173.307335], "footprint": [16, 16], "grid_original": {"origin": [233, 185], "footprint": [15, 15]}, "alignment_transform": [1.186988664911749, 0.023154774591409133, 0.08004728244928117, 1.0277225490631763], "alignment_base": [[16.0, 302.910609], [223.588093, 422.780845], [448.0, 293.177571]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [223.588093, 422.780845]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_fish_market_stall_fish_market_stall_a376af_463bab04_SW.png", "frame_width": 344, "frame_height": 399, "frames": 1, "origin": [171.5, 204.0], "footprint": [12, 12], "grid_original": {"origin": [172, 223], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [171.5, 396.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_fish_market_stall_fish_market_stall_a376af_463bab04_S.png", "frame_width": 466, "frame_height": 437, "frames": 1, "origin": [224.617015, 185.304574], "footprint": [16, 16], "grid_original": {"origin": [233, 197], "footprint": [15, 15]}, "alignment_transform": [1.1869668905282071, -0.022954135912966744, -0.07977213781490666, 1.027723523781794], "alignment_base": [[17.0, 305.214577], [241.382985, 434.773271], [449.0, 314.863268]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [241.382985, 434.773271]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-159.0, -235.0)
+hframes = 1

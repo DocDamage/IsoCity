@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/isometricvill_v2/Added_isometricvill_v2_isometricvill_v2_Building_Assets_Skyscrapers_Skysc_f575bfa2_SE.png" id="2"]
+
+[node name="Added_isometricvill_v2_isometricvill_v2_Building_Assets_Skyscrapers_Skysc_f575bfa2" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_isometricvill_v2_isometricvill_v2_Building_Assets_Skyscrapers_Skysc_f575bfa2"
+category = "Added isometricvill - - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(191.462679, 331.578669)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/isometricvill_v2/Added_isometricvill_v2_isometricvill_v2_Building_Assets_Skyscrapers_Skysc_f575bfa2_SE.png", "frame_width": 385, "frame_height": 512, "frames": 1, "origin": [191.462679, 331.578669], "footprint": [12, 12], "grid_original": {"origin": [192, 320], "footprint": [12, 12]}, "alignment_transform": [1.0666766042401832, -0.0016645201220130829, -0.006364754139809858, 1.0660813044397837], "alignment_base": [[12.0, 421.347883], [192.537321, 511.679181], [372.0, 421.909967]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [192.537321, 511.679181]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-191.462679, -331.578669)
+hframes = 1

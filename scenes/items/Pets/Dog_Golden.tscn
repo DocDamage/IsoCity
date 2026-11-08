@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_character.gd" id="1_char_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Pets/Dog_Golden_SE.png" id="2_tex"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_char"]
+radius = 5.0
+
+[node name="Dog_Golden" type="CharacterBody2D"]
+y_sort_enabled = true
+script = ExtResource("1_char_script")
+item_id = "Dog_Golden"
+direction = "SE"
+origin_offset = Vector2(9, 6)
+is_pet = true
+directions_data = {"SE": {"file": "Sprites/Pets/Dog_Golden_SE.png", "frame_width": 18, "frame_height": 17, "origin": [9, 6], "footprint": [1, 1], "layout": "horizontal strip of 6 frames", "sheet": {"file": "Sheets/Pets_Sheet.png", "x": 0, "y": 0, "w": 18, "h": 17}, "grid_method": "authored", "grid_contact": [9, 22]}, "SW": {"file": "Sprites/Pets/Dog_Golden_SW.png", "frame_width": 18, "frame_height": 17, "origin": [9, 6], "footprint": [1, 1], "layout": "horizontal strip of 6 frames", "sheet": {"file": "Sheets/Pets_Sheet.png", "x": 20, "y": 0, "w": 18, "h": 17}, "grid_method": "authored", "grid_contact": [9, 22]}, "NW": {"file": "Sprites/Pets/Dog_Golden_NW.png", "frame_width": 18, "frame_height": 20, "origin": [9, 7], "footprint": [1, 1], "layout": "horizontal strip of 6 frames", "sheet": {"file": "Sheets/Pets_Sheet.png", "x": 40, "y": 0, "w": 18, "h": 20}, "grid_method": "authored", "grid_contact": [9, 23]}, "NE": {"file": "Sprites/Pets/Dog_Golden_NE.png", "frame_width": 18, "frame_height": 20, "origin": [9, 7], "footprint": [1, 1], "layout": "horizontal strip of 6 frames", "sheet": {"file": "Sheets/Pets_Sheet.png", "x": 60, "y": 0, "w": 18, "h": 20}, "grid_method": "authored", "grid_contact": [9, 23]}}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."] 
+shape = SubResource("CircleShape2D_char")
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-9, -6)
+hframes = 6

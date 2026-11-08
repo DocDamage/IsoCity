@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_moroccan_depot_stylized_tier_i_moroccan_depot_styl_2bc50eb3_SE.png" id="2"]
+
+[node name="Added_rendered_moroccan_depot_stylized_tier_i_moroccan_depot_styl_2bc50eb3" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_moroccan_depot_stylized_tier_i_moroccan_depot_styl_2bc50eb3"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 8)
+origin_offset = Vector2(150.0, 147.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_depot_stylized_tier_i_moroccan_depot_styl_2bc50eb3_SE.png", "frame_width": 304, "frame_height": 277, "frames": 1, "origin": [150.0, 147.0], "footprint": [8, 8], "grid_original": {"origin": [72, 221], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [150.0, 275.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_depot_stylized_tier_i_moroccan_depot_styl_2bc50eb3_E.png", "frame_width": 454, "frame_height": 275, "frames": 1, "origin": [239.33611, 28.89414], "footprint": [12, 16], "grid_original": {"origin": [115, 203], "footprint": [8, 1]}, "alignment_transform": [1.056161936309886, -0.039810875667424195, -0.13837574312518952, 0.914605827552711], "alignment_base": [[14.0, 159.036731], [210.66389, 272.560348], [436.0, 142.417757]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [210.66389, 272.560348]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_depot_stylized_tier_i_moroccan_depot_styl_2bc50eb3_NE.png", "frame_width": 344, "frame_height": 184, "frames": 1, "origin": [171.5, 53.0], "footprint": [8, 8], "grid_original": {"origin": [76, 120], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [171.5, 181.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_depot_stylized_tier_i_moroccan_depot_styl_2bc50eb3_N.png", "frame_width": 455, "frame_height": 274, "frames": 1, "origin": [213.700914, 27.896096], "footprint": [16, 12], "grid_original": {"origin": [116, 202], "footprint": [8, 1]}, "alignment_transform": [1.0561811305199476, 0.04002070719617419, 0.1386937843699269, 0.9145889183237688], "alignment_base": [[17.0, 141.468552], [242.299086, 271.563471], [439.0, 157.991015]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [242.299086, 271.563471]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_depot_stylized_tier_i_moroccan_depot_styl_2bc50eb3_NW.png", "frame_width": 304, "frame_height": 271, "frames": 1, "origin": [148.0, 141.0], "footprint": [8, 8], "grid_original": {"origin": [72, 215], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [148.0, 269.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_depot_stylized_tier_i_moroccan_depot_styl_2bc50eb3_W.png", "frame_width": 454, "frame_height": 336, "frames": 1, "origin": [238.434391, 90.427964], "footprint": [16, 16], "grid_original": {"origin": [115, 264], "footprint": [8, 1]}, "alignment_transform": [1.2174988988521414, 0.03587902526958564, 0.12425650823517387, 1.0542584368475156], "alignment_base": [[15.0, 219.444345], [213.565609, 334.099021], [437.0, 205.08264]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [213.565609, 334.099021]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_depot_stylized_tier_i_moroccan_depot_styl_2bc50eb3_SW.png", "frame_width": 344, "frame_height": 273, "frames": 1, "origin": [171.5, 142.0], "footprint": [8, 8], "grid_original": {"origin": [76, 209], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [171.5, 270.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_depot_stylized_tier_i_moroccan_depot_styl_2bc50eb3_S.png", "frame_width": 455, "frame_height": 342, "frames": 1, "origin": [215.584003, 96.431775], "footprint": [16, 16], "grid_original": {"origin": [116, 270], "footprint": [8, 1]}, "alignment_transform": [1.2174698889503408, -0.03568567906878184, -0.12407342819253697, 1.0542646453855171], "alignment_base": [[17.0, 211.121569], [240.415997, 340.095591], [439.0, 225.405797]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [240.415997, 340.095591]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-150.0, -147.0)
+hframes = 1

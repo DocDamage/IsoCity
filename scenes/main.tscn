@@ -1,0 +1,166 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://scripts/city_editor.gd" id="1_editor"]
+[ext_resource type="TileSet" path="res://resources/tilesets/city_ground_tileset.tres" id="2_tileset"]
+[ext_resource type="Script" path="res://scripts/ghost_preview.gd" id="3_ghost"]
+[ext_resource type="Script" path="res://scripts/drop_zone.gd" id="4_dropzone"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_panel"]
+content_margin_left = 10.0
+content_margin_top = 10.0
+content_margin_right = 10.0
+content_margin_bottom = 10.0
+bg_color = Color(0.12, 0.14, 0.18, 0.94)
+border_width_right = 2
+border_color = Color(0.25, 0.3, 0.4, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bar"]
+content_margin_left = 8.0
+content_margin_top = 6.0
+content_margin_right = 8.0
+content_margin_bottom = 6.0
+bg_color = Color(0.1, 0.12, 0.16, 0.9)
+border_width_bottom = 1
+border_color = Color(0.2, 0.25, 0.35, 1)
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_editor")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(1.5, 1.5)
+
+[node name="World" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="CanvasModulate" type="CanvasModulate" parent="World"]
+color = Color(1, 1, 1, 1)
+
+[node name="TileMapLayer" type="TileMapLayer" parent="World"]
+position = Vector2(-16, 0)
+z_index = -1
+tile_set = ExtResource("2_tileset")
+
+[node name="Objects" type="Node2D" parent="World"]
+y_sort_enabled = true
+
+[node name="Ghost" type="Node2D" parent="."]
+script = ExtResource("3_ghost")
+
+[node name="Sprite2D" type="Sprite2D" parent="Ghost"]
+centered = false
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="DropZone" type="Control" parent="UI"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+script = ExtResource("4_dropzone")
+editor_path = NodePath("../..")
+
+[node name="Panel" type="PanelContainer" parent="UI"]
+custom_minimum_size = Vector2(280, 0)
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_right = 280.0
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
+
+[node name="VBox" type="VBoxContainer" parent="UI/Panel"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Header" type="Label" parent="UI/Panel/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 15
+text = "📦 ASSET PALETTE"
+
+[node name="CategoryOption" type="OptionButton" parent="UI/Panel/VBox"]
+layout_mode = 2
+
+[node name="SearchInput" type="LineEdit" parent="UI/Panel/VBox"]
+layout_mode = 2
+placeholder_text = "Search assets..."
+clear_button_enabled = true
+
+[node name="Scroll" type="ScrollContainer" parent="UI/Panel/VBox"]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="ItemGrid" type="GridContainer" parent="UI/Panel/VBox/Scroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+columns = 1
+
+[node name="TopBar" type="PanelContainer" parent="UI"]
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 290.0
+offset_bottom = 44.0
+grow_horizontal = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_bar")
+
+[node name="HBox" type="HBoxContainer" parent="UI/TopBar"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Title" type="Label" parent="UI/TopBar/HBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 15
+text = "IsoCity"
+
+[node name="VSeparator" type="VSeparator" parent="UI/TopBar/HBox"]
+layout_mode = 2
+
+[node name="ModeBtn" type="Button" parent="UI/TopBar/HBox"]
+layout_mode = 2
+text = "Build Mode [Space]"
+
+[node name="RotateBtn" type="Button" parent="UI/TopBar/HBox"]
+layout_mode = 2
+text = "Rot: SE [R]"
+
+[node name="DayNightBtn" type="Button" parent="UI/TopBar/HBox"]
+layout_mode = 2
+text = "Day [N]"
+
+[node name="ElevUpBtn" type="Button" parent="UI/TopBar/HBox"]
+layout_mode = 2
+text = "Elev: + [+]"
+
+[node name="ElevDownBtn" type="Button" parent="UI/TopBar/HBox"]
+layout_mode = 2
+text = "Elev: - [-]"
+
+[node name="SaveBtn" type="Button" parent="UI/TopBar/HBox"]
+layout_mode = 2
+text = "Save"
+
+[node name="LoadBtn" type="Button" parent="UI/TopBar/HBox"]
+layout_mode = 2
+text = "Load"
+
+[node name="ClearBtn" type="Button" parent="UI/TopBar/HBox"]
+layout_mode = 2
+text = "Clear"
+
+[node name="BottomBar" type="PanelContainer" parent="UI"]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 290.0
+offset_top = -32.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_bar")
+
+[node name="StatusLabel" type="Label" parent="UI/BottomBar"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Tile: (0, 0)"

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/grass_path_folder/Added_grass_path_folder_grass_path_folder_grass_path_14_6b13ebdf_SE.png" id="2"]
+
+[node name="Added_grass_path_folder_grass_path_folder_grass_path_14_6b13ebdf" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_grass_path_folder_grass_path_folder_grass_path_14_6b13ebdf"
+category = "Added grass_path_folder - Ground"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(64.0, 0.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = false
+directions_data = {"SE": {"file": "../../imported_prepared/grass_path_folder/Added_grass_path_folder_grass_path_folder_grass_path_14_6b13ebdf_SE.png", "frame_width": 128, "frame_height": 63, "frames": 1, "origin": [64.0, 0.0], "footprint": [4, 4], "grid_original": {"origin": [64, 0], "footprint": [4, 4]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0158730158730158], "alignment_base": [[0.0, 31.5], [64.0, 63.0], [128.0, 31.5]], "alignment_version": 2, "grid_method": "floor bounds", "grid_contact": [64.0, 63.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-64.0, -0.0)
+hframes = 1

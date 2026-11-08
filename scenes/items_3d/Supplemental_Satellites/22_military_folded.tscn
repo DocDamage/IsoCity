@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Satellites/22_military_folded.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(2.4484391547642916, 2.254208289206284, 3.0)
+
+[node name="22_military_folded" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-1.2242195773821458, 0.0, -1.5, 2.4484391547642916, 2.254208289206284, 3.0]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(6.967899361699885e-05, 1.1269032472736624, -0.005276998597475621)
+scale = Vector3(3.0013338294644636, 3.0013338294644636, 3.0013338294644636)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 1.127104144603142, 0)
+shape = SubResource("CollisionShape")
+disabled = true

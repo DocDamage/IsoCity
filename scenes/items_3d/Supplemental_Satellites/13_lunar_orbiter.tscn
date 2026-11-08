@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Satellites/13_lunar_orbiter.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(1.561187552310447, 2.9288004537339525, 3.0)
+
+[node name="13_lunar_orbiter" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.7805937761552235, 0.0, -1.5, 1.561187552310447, 2.9288004537339525, 3.0]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(-0.026495963848314204, 1.4992722944036434, 0.04711551432676754)
+scale = Vector3(3.083438306481405, 3.083438306481405, 3.083438306481405)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 1.4644002268669762, 0)
+shape = SubResource("CollisionShape")
+disabled = true

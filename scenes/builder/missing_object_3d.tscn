@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3]
+
+[sub_resource type="StandardMaterial3D" id="Material"]
+albedo_color = Color(0.9, 0.08, 0.65, 1)
+roughness = 0.8
+
+[sub_resource type="BoxMesh" id="Box"]
+material = SubResource("Material")
+size = Vector3(1, 1, 1)
+
+[sub_resource type="BoxShape3D" id="Shape"]
+size = Vector3(1, 1, 1)
+
+[node name="MissingAsset3D" type="StaticBody3D"]
+collision_layer = 1
+collision_mask = 0
+
+[node name="Model" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.5, 0)
+mesh = SubResource("Box")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.5, 0)
+shape = SubResource("Shape")
+
+[node name="Warning" type="Label3D" parent="."]
+position = Vector3(0, 1.25, 0)
+billboard = 1
+text = "! MISSING"
+font_size = 48
+pixel_size = 0.01
+modulate = Color(1, 0.85, 0.15, 1)

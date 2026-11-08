@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/hanx_lowpoly/low-poly-construction-pack-hanx-construction-pack/HanX_Construction_Pack/GLB/Lumber_Stack.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1"]
+size = Vector3(3.993070126, 0.405000001, 1.100000024)
+
+[node name="Lumber_Stack" type="StaticBody3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000654936, 0.202500001, 0.000000000)
+shape = SubResource("BoxShape3D_1")

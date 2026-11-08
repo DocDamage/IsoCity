@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_auto_repair_facade_stylized_tier_i_auto_repair_fac_fc011102_SE.png" id="2"]
+
+[node name="Added_rendered_auto_repair_facade_stylized_tier_i_auto_repair_fac_fc011102" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_auto_repair_facade_stylized_tier_i_auto_repair_fac_fc011102"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 8)
+origin_offset = Vector2(209.0, 329.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_auto_repair_facade_stylized_tier_i_auto_repair_fac_fc011102_SE.png", "frame_width": 314, "frame_height": 460, "frames": 1, "origin": [209.0, 329.0], "footprint": [8, 8], "grid_original": {"origin": [61, 396], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [209.0, 457.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_auto_repair_facade_stylized_tier_i_auto_repair_fac_fc011102_E.png", "frame_width": 392, "frame_height": 488, "frames": 1, "origin": [231.795144, 294.685078], "footprint": [12, 16], "grid_original": {"origin": [84, 416], "footprint": [8, 1]}, "alignment_transform": [1.2907770903736921, 0.021028825669912043, 0.07048623025145151, 1.1175467427449732], "alignment_base": [[27.0, 413.075295], [171.204856, 496.264246], [376.0, 377.874029]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [171.204856, 496.264246]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_auto_repair_facade_stylized_tier_i_auto_repair_fac_fc011102_NE.png", "frame_width": 314, "frame_height": 410, "frames": 1, "origin": [156.0, 279.0], "footprint": [8, 8], "grid_original": {"origin": [61, 346], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [156.0, 407.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_auto_repair_facade_stylized_tier_i_auto_repair_fac_fc011102_N.png", "frame_width": 441, "frame_height": 488, "frames": 1, "origin": [219.93258, 259.86653], "footprint": [16, 16], "grid_original": {"origin": [108, 416], "footprint": [8, 1]}, "alignment_transform": [1.254901206532574, 0.0011411106116896996, -0.0007174206304767505, 1.085388672628743], "alignment_base": [[16.0, 378.011037], [220.06742, 495.726598], [424.0, 377.582091]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [220.06742, 495.726598]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_auto_repair_facade_stylized_tier_i_auto_repair_fac_fc011102_NW.png", "frame_width": 314, "frame_height": 459, "frames": 1, "origin": [156.0, 329.0], "footprint": [8, 8], "grid_original": {"origin": [61, 395], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [156.0, 457.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_auto_repair_facade_stylized_tier_i_auto_repair_fac_fc011102_W.png", "frame_width": 392, "frame_height": 512, "frames": 1, "origin": [172.775269, 310.277208], "footprint": [16, 12], "grid_original": {"origin": [84, 440], "footprint": [8, 1]}, "alignment_transform": [1.232195126744425, 0.00876426583612272, 0.026447698672916187, 1.0687297177062862], "alignment_base": [[15.0, 401.397332], [220.224731, 519.482713], [378.0, 428.362589]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [220.224731, 519.482713]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_auto_repair_facade_stylized_tier_i_auto_repair_fac_fc011102_SW.png", "frame_width": 314, "frame_height": 460, "frames": 1, "origin": [122.5, 329.0], "footprint": [8, 8], "grid_original": {"origin": [61, 396], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [122.5, 457.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_auto_repair_facade_stylized_tier_i_auto_repair_fac_fc011102_S.png", "frame_width": 441, "frame_height": 495, "frames": 1, "origin": [171.0, 300.0], "footprint": [12, 12], "grid_original": {"origin": [108, 423], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [171.0, 492.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-209.0, -329.0)
+hframes = 1

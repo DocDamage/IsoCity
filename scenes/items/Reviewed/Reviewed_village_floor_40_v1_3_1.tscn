@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/reviewed_prepared/Reviewed_village_floor_40_v1_3_1_SE.png" id="2"]
+[node name="Reviewed_village_floor_40_v1_3_1" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1")
+item_id = "Reviewed_village_floor_40_v1_3_1"
+category = "Reviewed isometricvill - Ground"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(32.0, 0)
+scale = Vector2(1, 1)
+total_frames = 1
+animation_fps = 8
+has_collision = false
+directions_data = {"SE": {"file": "../../reviewed_prepared/Reviewed_village_floor_40_v1_3_1_SE.png", "frame_width": 64, "frame_height": 32, "frames": 1, "origin": [32.0, 0], "footprint": [2, 2], "source_contact": [32.0, 32], "grid_contact": [32.0, 32], "render_contact": [32.0, 32], "grid_method": "reviewed source contact and virtual footprint"}}
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-32.0, 0)
+hframes = 1

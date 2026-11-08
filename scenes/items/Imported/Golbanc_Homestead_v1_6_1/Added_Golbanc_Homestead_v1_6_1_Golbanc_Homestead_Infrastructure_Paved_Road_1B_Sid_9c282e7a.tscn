@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Golbanc_Homestead_v1_6_1/Added_Golbanc_Homestead_v1_6_1_Golbanc_Homestead_Infrastructure_Paved_Road_1B_Sid_9c282e7a_SE.png" id="2"]
+
+[node name="Added_Golbanc_Homestead_v1_6_1_Golbanc_Homestead_Infrastructure_Paved_Road_1B_Sid_9c282e7a" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Golbanc_Homestead_v1_6_1_Golbanc_Homestead_Infrastructure_Paved_Road_1B_Sid_9c282e7a"
+category = "Added Golbanc Homestead - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(16, 16)
+origin_offset = Vector2(255.976025, 20.938393)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Golbanc_Homestead_v1_6_1/Added_Golbanc_Homestead_v1_6_1_Golbanc_Homestead_Infrastructure_Paved_Road_1B_Sid_9c282e7a_SE.png", "frame_width": 512, "frame_height": 296, "frames": 1, "origin": [255.976025, 20.938393], "footprint": [16, 16], "grid_original": {"origin": [256, 40], "footprint": [16, 16]}, "alignment_transform": [1.077892167966358, 0.0005821918889402089, -0.004128739671619641, 0.9357084517482874], "alignment_base": [[19.0, 157.880584], [257.023975, 294.527233], [494.0, 157.585042]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [257.023975, 294.527233]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-255.976025, -20.938393)
+hframes = 1

@@ -1,0 +1,55 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/builder/play_scene.gd" id="1_hird3"]
+[ext_resource type="Script" path="res://scripts/builder/player_3d.gd" id="2_bpr1s"]
+
+[sub_resource type="Environment" id="Environment_gtuje"]
+background_mode = 1
+background_color = Color(0.10980392, 0.16862746, 0.23137255, 1)
+ambient_light_source = 2
+ambient_light_color = Color(0.7764706, 0.84313726, 0.92941177, 1)
+ambient_light_energy = 0.35
+tonemap_mode = 3
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t4u6c"]
+albedo_color = Color(0.34509805, 0.4117647, 0.37254903, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_0kwj3"]
+size = Vector3(160, 0.4, 160)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tl6w1"]
+size = Vector3(160, 0.4, 160)
+
+[node name="MyCity3D" type="Node3D" unique_id=328525297]
+script = ExtResource("1_hird3")
+dimension = "3d"
+
+[node name="_WorldEnvironment_258" type="WorldEnvironment" parent="." unique_id=470554550]
+environment = SubResource("Environment_gtuje")
+
+[node name="_DirectionalLight3D_259" type="DirectionalLight3D" parent="." unique_id=1508318382]
+transform = Transform3D(0.8660254, 0.38302222, -0.32139382, 0, 0.64278764, 0.76604444, 0.5, -0.66341394, 0.5566704, 0, 0, 0)
+light_energy = 0.8
+shadow_enabled = true
+
+[node name="Foundation" type="StaticBody3D" parent="." unique_id=1700192730]
+collision_layer = 2
+
+[node name="_MeshInstance3D_260" type="MeshInstance3D" parent="Foundation" unique_id=2066680474]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2, 0)
+material_override = SubResource("StandardMaterial3D_t4u6c")
+mesh = SubResource("BoxMesh_0kwj3")
+
+[node name="_CollisionShape3D_261" type="CollisionShape3D" parent="Foundation" unique_id=2090771002]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2, 0)
+shape = SubResource("BoxShape3D_tl6w1")
+
+[node name="Objects" type="Node3D" parent="." unique_id=704160152]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=787274730]
+current = true
+
+[node name="Player" type="CharacterBody3D" parent="." unique_id=911833265]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2, 9)
+collision_mask = 3
+script = ExtResource("2_bpr1s")

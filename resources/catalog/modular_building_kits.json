@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "kits": {
+    "hanx_training": {
+      "name": "HanX training walls",
+      "mode": "3d",
+      "wall_span": 4,
+      "corner_reach": 2,
+      "floor_span": 2,
+      "floor_lift": 0.01,
+      "wall_height": 2.65,
+      "doorway_width": 1,
+      "doorway_height": 2.1,
+      "parts": {
+        "wall": "3d:Supplemental_SWAT/Training_Wall_Straight",
+        "corner": "3d:Supplemental_SWAT/Training_Wall_Corner",
+        "door": "3d:Supplemental_SWAT/Training_Wall_Door",
+        "window": "3d:Supplemental_SWAT/Training_Wall_Window",
+        "floor": "3d:HanX_Shop/Floor_Tile_Store"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Weapon_Assault_Rifle.glb" id="1_xhskc"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_k4fe5"]
+size = Vector3(0.069350004, 0.3025, 0.883)
+
+[node name="Weapon_Assault_Rifle" type="StaticBody3D" unique_id=290002690]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.04715, -0.111, -0.308, 0.069350004, 0.3025, 0.883]
+
+[node name="Model" type="Node3D" parent="." unique_id=1126900287]
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1607724555 instance=ExtResource("1_xhskc")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1301008972]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.012474999, 0.040250003, 0.13350001)
+shape = SubResource("BoxShape3D_k4fe5")
+disabled = true

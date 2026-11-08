@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Gear_Rifle_Magazine.glb" id="1_mdfxn"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7ya0e"]
+size = Vector3(0.027, 0.16852999, 0.085669994)
+
+[node name="Gear_Rifle_Magazine" type="StaticBody3D" unique_id=473560287]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.0135, 0.0, -0.042834997, 0.027, 0.16852999, 0.085669994]
+
+[node name="Model" type="Node3D" parent="." unique_id=1824351312]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.00187, -0.00018499792)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=399228315 instance=ExtResource("1_mdfxn")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=663042372]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.08426499, 0)
+shape = SubResource("BoxShape3D_7ya0e")
+disabled = true

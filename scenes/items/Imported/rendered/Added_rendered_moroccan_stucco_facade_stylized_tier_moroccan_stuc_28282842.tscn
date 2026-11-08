@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_moroccan_stucco_facade_stylized_tier_moroccan_stuc_28282842_SE.png" id="2"]
+
+[node name="Added_rendered_moroccan_stucco_facade_stylized_tier_moroccan_stuc_28282842" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_moroccan_stucco_facade_stylized_tier_moroccan_stuc_28282842"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(137.0, 357.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_stucco_facade_stylized_tier_moroccan_stuc_28282842_SE.png", "frame_width": 262, "frame_height": 424, "frames": 1, "origin": [137.0, 357.0], "footprint": [4, 4], "grid_original": {"origin": [67, 376], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [137.0, 421.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_stucco_facade_stylized_tier_moroccan_stuc_28282842_E.png", "frame_width": 343, "frame_height": 451, "frames": 1, "origin": [185.567263, 280.733268], "footprint": [8, 12], "grid_original": {"origin": [76, 387], "footprint": [7, 1]}, "alignment_transform": [1.0964749251849324, 0.0018877205578457512, 0.004979586595904639, 0.9496914931528609], "alignment_base": [[10.0, 382.167705], [126.432737, 449.326575], [302.0, 347.892138]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [126.432737, 449.326575]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_stucco_facade_stylized_tier_moroccan_stuc_28282842_NE.png", "frame_width": 282, "frame_height": 382, "frames": 1, "origin": [128.0, 251.0], "footprint": [8, 8], "grid_original": {"origin": [61, 326], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [128.0, 379.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_stucco_facade_stylized_tier_moroccan_stuc_28282842_N.png", "frame_width": 323, "frame_height": 451, "frames": 1, "origin": [135.772944, 283.127179], "footprint": [12, 8], "grid_original": {"origin": [66, 387], "footprint": [7, 1]}, "alignment_transform": [1.1012559880069641, 0.030667934203955194, 0.11753533902794422, 0.9593909655262254], "alignment_base": [[12.0, 353.792698], [176.227056, 448.60649], [300.0, 377.940971]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [176.227056, 448.60649]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_stucco_facade_stylized_tier_moroccan_stuc_28282842_NW.png", "frame_width": 262, "frame_height": 425, "frames": 1, "origin": [131.0, 358.0], "footprint": [4, 4], "grid_original": {"origin": [67, 377], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [131.0, 422.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_stucco_facade_stylized_tier_moroccan_stuc_28282842_W.png", "frame_width": 343, "frame_height": 451, "frames": 1, "origin": [163.0, 320.0], "footprint": [8, 8], "grid_original": {"origin": [76, 387], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [163.0, 448.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_stucco_facade_stylized_tier_moroccan_stuc_28282842_SW.png", "frame_width": 282, "frame_height": 381, "frames": 1, "origin": [154.0, 250.0], "footprint": [8, 8], "grid_original": {"origin": [61, 325], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [154.0, 378.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_stucco_facade_stylized_tier_moroccan_stuc_28282842_S.png", "frame_width": 323, "frame_height": 451, "frames": 1, "origin": [138.90056, 279.400302], "footprint": [12, 8], "grid_original": {"origin": [66, 387], "footprint": [7, 1]}, "alignment_transform": [1.09886784011493, -0.00013008983635887095, 0.00677914638208954, 0.9465297272583062], "alignment_base": [[22.0, 346.99965], [196.09944, 448.4467], [313.0, 380.847352]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [196.09944, 448.4467]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-137.0, -357.0)
+hframes = 1

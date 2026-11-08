@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_moroccan_tiered_dwelling_stylized_tier_i_moroccan__8db22efa_SE.png" id="2"]
+
+[node name="Added_rendered_moroccan_tiered_dwelling_stylized_tier_i_moroccan__8db22efa" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_moroccan_tiered_dwelling_stylized_tier_i_moroccan__8db22efa"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 8)
+origin_offset = Vector2(128.0, 283.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_tiered_dwelling_stylized_tier_i_moroccan__8db22efa_SE.png", "frame_width": 240, "frame_height": 414, "frames": 1, "origin": [128.0, 283.0], "footprint": [8, 8], "grid_original": {"origin": [120, 286], "footprint": [8, 8]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [128.0, 411.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_tiered_dwelling_stylized_tier_i_moroccan__8db22efa_E.png", "frame_width": 317, "frame_height": 431, "frames": 1, "origin": [180.49823, 269.981623], "footprint": [8, 12], "grid_original": {"origin": [158, 271], "footprint": [10, 10]}, "alignment_transform": [1.1262383547218, -0.0532338321605602, -0.13993105566075797, 0.9901586760877541], "alignment_base": [[21.0, 358.360688], [143.50177, 429.582847], [303.0, 341.203782]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [143.50177, 429.582847]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_tiered_dwelling_stylized_tier_i_moroccan__8db22efa_NE.png", "frame_width": 260, "frame_height": 410, "frames": 1, "origin": [189.0, 279.0], "footprint": [8, 8], "grid_original": {"origin": [130, 282], "footprint": [8, 8]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [189.0, 407.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_tiered_dwelling_stylized_tier_i_moroccan__8db22efa_N.png", "frame_width": 314, "frame_height": 450, "frames": 1, "origin": [152.87311, 282.153043], "footprint": [12, 12], "grid_original": {"origin": [157, 290], "footprint": [10, 10]}, "alignment_transform": [1.3272239612842376, -0.05421447945237652, -0.06594382976741303, 1.1584819702336258], "alignment_base": [[12.0, 358.427547], [161.12689, 448.273431], [302.0, 371.998927]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [161.12689, 448.273431]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_tiered_dwelling_stylized_tier_i_moroccan__8db22efa_NW.png", "frame_width": 240, "frame_height": 416, "frames": 1, "origin": [140.5, 285.0], "footprint": [8, 8], "grid_original": {"origin": [120, 288], "footprint": [8, 8]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [140.5, 413.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_tiered_dwelling_stylized_tier_i_moroccan__8db22efa_W.png", "frame_width": 317, "frame_height": 452, "frames": 1, "origin": [175.378258, 269.217618], "footprint": [8, 12], "grid_original": {"origin": [158, 292], "footprint": [10, 10]}, "alignment_transform": [1.1205724991412838, -0.04201465118935756, -0.08207109376983057, 0.9371684882191261], "alignment_base": [[11.0, 364.28452], [130.621742, 437.938155], [295.0, 342.871253]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [130.621742, 437.938155]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_tiered_dwelling_stylized_tier_i_moroccan__8db22efa_SW.png", "frame_width": 260, "frame_height": 402, "frames": 1, "origin": [37.0, 271.0], "footprint": [8, 8], "grid_original": {"origin": [130, 274], "footprint": [8, 8]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [37.0, 399.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_tiered_dwelling_stylized_tier_i_moroccan__8db22efa_S.png", "frame_width": 314, "frame_height": 443, "frames": 1, "origin": [186.0, 313.0], "footprint": [8, 8], "grid_original": {"origin": [157, 283], "footprint": [10, 10]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [186.0, 441.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-128.0, -283.0)
+hframes = 1

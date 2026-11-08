@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Rifle_Aim.glb" id="1_deb7h"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jhf0f"]
+size = Vector3(0.66729164, 1.7898493, 1.2802958)
+
+[node name="SWAT_Pose_Rifle_Aim" type="StaticBody3D" unique_id=1818988835]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.33364582, 0.0, -0.6401479, 0.66729164, 1.7898493, 1.2802958]
+
+[node name="Model" type="Node3D" parent="." unique_id=540194661]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.05363089, 0, -0.40248603)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1668644982 instance=ExtResource("1_deb7h")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=277072371]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.89492464, 0)
+shape = SubResource("BoxShape3D_jhf0f")
+disabled = true

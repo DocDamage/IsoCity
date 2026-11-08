@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_nuclear_power_plant_nuclear_power_plant_82298b92_View_01.png" id="2"]
+
+[node name="Added_rendered_nuclear_power_plant_nuclear_power_plant_82298b92" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_nuclear_power_plant_nuclear_power_plant_82298b92"
+category = "Added rendered - Nature"
+kind = "obj"
+direction = "View_01"
+footprint = Vector2i(16, 16)
+origin_offset = Vector2(244.623338, 95.062588)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"View_01": {"file": "../../imported_prepared/rendered/Added_rendered_nuclear_power_plant_nuclear_power_plant_82298b92_View_01.png", "frame_width": 512, "frame_height": 378, "frames": 1, "origin": [244.623338, 95.062588], "footprint": [16, 16], "grid_original": {"origin": [256, 122], "footprint": [16, 16]}, "alignment_transform": [1.0724605040469342, -0.035965101947025846, -0.09010531237294872, 0.9085137858314565], "alignment_base": [[17.0, 226.941163], [268.376662, 377.781788], [496.0, 245.903213]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [268.376662, 377.781788]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-244.623338, -95.062588)
+hframes = 1

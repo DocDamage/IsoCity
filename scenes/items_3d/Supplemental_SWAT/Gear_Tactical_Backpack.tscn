@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Gear_Tactical_Backpack.glb" id="1_43ia4"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_76kc5"]
+size = Vector3(0.384, 0.474, 0.30800003)
+
+[node name="Gear_Tactical_Backpack" type="StaticBody3D" unique_id=377811149]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.192, 0.0, -0.15400001, 0.384, 0.474, 0.30800003]
+
+[node name="Model" type="Node3D" parent="." unique_id=449645550]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.003999993)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1257402581 instance=ExtResource("1_43ia4")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2091895484]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.237, 0)
+shape = SubResource("BoxShape3D_76kc5")
+disabled = true

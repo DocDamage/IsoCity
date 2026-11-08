@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="TileSet" path="res://resources/tilesets/city_ground_tileset.tres" id="1_ground"]
+
+[node name="City2D" type="Node2D"]
+y_sort_enabled = true
+
+[node name="Ground" type="TileMapLayer" parent="."]
+position = Vector2(-16, 0)
+z_index = -1
+tile_set = ExtResource("1_ground")
+
+[node name="Objects" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2, 2)

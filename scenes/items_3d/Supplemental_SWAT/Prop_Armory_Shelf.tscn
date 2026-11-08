@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Prop_Armory_Shelf.glb" id="1_rg7lf"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_78fj1"]
+size = Vector3(1.2, 1.92, 0.508)
+
+[node name="Prop_Armory_Shelf" type="StaticBody3D" unique_id=20203670]
+collision_mask = 0
+metadata/authored_footprint = [-0.6, 0.0, -0.254, 1.2, 1.92, 0.508]
+
+[node name="Model" type="Node3D" parent="." unique_id=610924786]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.004000008)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=135906337 instance=ExtResource("1_rg7lf")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2057454873]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.96, 0)
+shape = SubResource("BoxShape3D_78fj1")

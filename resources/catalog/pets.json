@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "species": {
+    "cat": ["2d:Cat_Black", "2d:Cat_Gray", "2d:Cat_Orange", "2d:Cat_White"],
+    "dog": ["2d:Dog_Black", "2d:Dog_Corgi", "2d:Dog_Dalmatian", "2d:Dog_Golden"]
+  },
+  "views": ["SE", "SW", "NW", "NE"],
+  "actions": {
+    "idle": {"frames": [0, 1], "interval": 0.8},
+    "walk": {"frames": [2, 3, 4], "interval": 0.16},
+    "sit": {"frames": [5], "interval": 0.8}
+  },
+  "rest": ["2d:Rug_Striped", "2d:Rug_Round_Pink"],
+  "park": ["3d:HanX_Park/Dog_Station"]
+}

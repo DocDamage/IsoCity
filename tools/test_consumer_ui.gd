@@ -1,0 +1,145 @@
+extends SceneTree
+var checks: int=0
+var failures: int=0
+var studio: Control
+func check(value: bool,message: String) -> void:
+	checks+=1
+	if not value: failures+=1; print("FAIL: "+message)
+func _initialize() -> void: call_deferred("run")
+func settle(frames: int=8) -> void:
+	for frame in frames: await process_frame
+func capture(name: String) -> void:
+	if not "--capture" in OS.get_cmdline_user_args(): return
+	await settle(12); RenderingServer.force_draw(false); RenderingServer.force_draw(false)
+	root.get_texture().get_image().save_png("res://output/consumer_"+name+".png")
+func run() -> void:
+	studio=load("res://scenes/builder.tscn").instantiate(); studio.storage_enabled=false; root.add_child(studio)
+	await settle(16)
+	check(studio.consumer_shell!=null,"Consumer interface is initialized explicitly in test mode")
+	if studio.consumer_shell==null: studio.free(); quit(1); return
+	var ui: RefCounted=studio.consumer_shell
+	studio.switch_mode("3d"); await settle(); ui.dismiss_welcome(); ui.tick(.1)
+	check(ui.active and not ui.legacy_root.visible and ui.root.visible,"Simple interface is the front door; precision interface is tucked away")
+	check(studio.canvas.get_parent()==studio and studio.canvas.size.distance_to(studio.size)<2,"City canvas fills the window behind the HUD")
+	check(ui.dock_buttons.size()==6,"Six primary city-building activities")
+	for item in ui.dock_buttons.values(): check(item.is_visible_in_tree() and item.size.y>=44,"Every primary activity has a visible comfortable target")
+	check(not ui.drawer.visible and not ui.details.visible and not ui.context.visible,"No empty inspectors or filter panels at rest")
+	var click:=InputEventMouseButton.new(); click.button_index=MOUSE_BUTTON_LEFT; click.pressed=true
+	ui.dock_buttons["build"].grab_focus(); ui.dock_buttons["build"].gui_input.emit(click); ui.dock_buttons["build"].pressed.emit()
+	check(ui.drawer_kind=="build" and not ui.dock_buttons["build"].has_focus(),"Mouse activation returns keyboard control to the city instead of trapping focus on the toolbar")
+	ui.close_drawer()
+	await capture("overview")
+	var before: Dictionary=studio.current().data.duplicate(true)
+	ui.open_sheet("menu"); ui.tick(.1)
+	check(ui.sheet.visible and studio.modal_visible(),"Menu blocks world editing without changing city data")
+	await capture("menu")
+	var escape:=InputEventKey.new(); escape.pressed=true; escape.keycode=KEY_ESCAPE
+	check(ui.input(escape) and ui.sheet_kind.is_empty() and studio.current().data==before,"Back closes menu and preserves edits")
+	ui.open_drawer("build"); await settle(); ui.style_choice.select(2); ui.group="Buildings"; ui.refresh_catalog()
+	var compact: Array[Dictionary]=ui.matches(); var village: int=0
+	for item in compact:
+		if item["data"].get("source_pack")=="Village buildings": village+=1
+	check(village==25,"Lighting and palette variations collapse into 25 village building choices")
+	ui.variants.button_pressed=true
+	var expanded: Array[Dictionary]=ui.matches(); village=0
+	for item in expanded:
+		if item["data"].get("source_pack")=="Village buildings": village+=1
+	check(village==450,"All 450 village variations remain reachable behind Refine")
+	ui.variants.button_pressed=false; ui.style_choice.select(0); ui.refresh_catalog(); await settle()
+	check(studio.cards.get_child_count()>0 and studio.cards.is_visible_in_tree(),"Existing asset cards work inside the visual building drawer")
+	check(not ui.over_canvas(ui.drawer.get_global_rect().get_center()) and not ui.over_canvas(ui.header.get_global_rect().get_center()),"HUD panels exclude world previews and continuous painting underneath them")
+	var open_point:=Vector2((ui.header.get_global_rect().end.x+ui.header_actions.global_position.x)*.5,ui.header.get_global_rect().get_center().y)
+	check(ui.over_canvas(open_point),"Uncovered city space remains available for placement")
+	await capture("build_drawer")
+	ui.categories["People"].pressed.emit(); ui.style_choice.select(2); ui.refresh_catalog()
+	var people: Array[Dictionary]=ui.matches(); var families: int=0
+	for item in people:
+		if item["data"].get("source_pack","").begins_with("Characters"): families+=1
+	check(ui.group=="People" and families==9,"People front page offers reusable characters, while source action clips stay behind variations")
+	ui.open_sheet("menu"); ui.sheet_contents.get_child(6).pressed.emit()
+	check(ui.sheet_kind=="settings","Menu tiles navigate to focused settings instead of dumping all commands")
+	ui.close_sheet()
+	for action in ["citizens","traffic","businesses","services","economy","challenges","zoning","transit","terrain","ambience","weather","props","driving","import_asset","blueprints","cooperative","creation_sharing"]:
+		ui.run(action); await settle(2); ui.tick(.1)
+		check(ui.details.visible and studio.workspace_layout.tabs.get_current_tab_control().is_visible_in_tree(),"City-system command reveals its actual focused page: "+action)
+		check(not studio.workspace_layout.tabs.tabs_visible,"Focused city systems avoid a technical tab strip: "+action)
+	ui.details_open=false; ui.enforce_layout()
+	ui.close_drawer(); studio.current().data=preload("res://scripts/builder/templates.gd").make("3d","blank"); studio.changed(); studio.worlds["3d"].reset_camera(); await settle()
+	studio.drop_asset("3d:HanX_Park/Bench_Park",studio.canvas.size*.5); await settle(); ui.tick(.1)
+	check(studio.current().data["objects"].size()==1,"Drag placement uses the full-window viewport coordinates")
+	ui.undo.pressed.emit(); check(studio.current().data["objects"].is_empty(),"Front-door Undo restores placement")
+	ui.redo.pressed.emit(); check(studio.current().data["objects"].size()==1,"Front-door Redo restores placement")
+	var placed: Dictionary=studio.current().data["objects"][0]; studio.selected_uid=placed["uid"]; studio.selected_uids.clear(); studio.selected_uids.append(placed["uid"]); studio.refresh_controls(); ui.tick(.1)
+	check(ui.context.visible and ui.context_actions.visible and not ui.details.visible,"Selection reveals simple contextual actions")
+	await capture("selection")
+	ui.context_actions.get_child(1).pressed.emit(); check(studio.current().data["objects"].size()==2,"Contextual Copy reuses normal editing history")
+	studio._command("undo",null)
+	var budget_before: Dictionary=studio.current().data.duplicate(true)
+	studio.current().data["economy"]={"enabled":true,"starting_cash":50000}; studio.changed(); studio.economy_tools.tick(.3); ui.tick(.1)
+	check(ui.status_panel.visible and ui.status_sources[0]["caption"].text.contains("credits"),"Enabled economy retains live, visible budget feedback")
+	studio.select_asset("3d:HanX_Park/Bench_Park"); ui.tick(.1)
+	check(ui.context_note.text.contains("credits"),"Budget mode exposes construction cost before placement")
+	studio.clear_placement(); studio.current().data=budget_before; studio.changed()
+	ui.open_details("Selection"); await settle()
+	check(ui.details.visible and studio.height_input.is_visible_in_tree(),"Detailed numeric transforms are available on demand")
+	await capture("details")
+	ui.details_open=false; ui.enforce_layout()
+	var keys: Dictionary=studio.control_settings.bindings.duplicate(true)
+	studio.control_settings.bindings["rotate"]=[KEY_F9]; studio.select_asset("3d:HanX_Park/Bench_Park"); ui.tick(.1)
+	check(ui.hint.text.contains("F9"),"Placement hints reflect remapped controls")
+	studio.control_settings.bindings=keys; studio.clear_placement()
+	ui.run("first_build"); await settle()
+	check(ui.details.visible and studio.first_build.page.is_visible_in_tree(),"Guided help opens inside the consumer details drawer")
+	studio.first_build.close(); ui.details_open=false; ui.enforce_layout()
+	studio.workspace_presets.set_focus(true); ui.tick(.1)
+	check(not ui.root.visible and ui.focus_return.visible and studio.canvas.visible,"Focus hides HUD but preserves the city and a visible return action")
+	ui.focus_return.pressed.emit(); ui.tick(.1); check(ui.root.visible and not studio.workspace_presets.focused,"Focus return restores the simple interface")
+	ui.open_details("Selection"); studio.photo_tools.start(); await settle(); ui.tick(.1)
+	check(studio.worlds[studio.mode].exploration.photo.active and not ui.root.visible,"Photo mode keeps the consumer HUD out of the shot")
+	check(not ui.details_open and not ui.input(escape),"Photo mode closes hidden drawers and keeps Back available to the camera")
+	studio.photo_tools.stop(); await settle(); ui.tick(.1)
+	check(ui.root.visible,"Leaving photo mode restores city tools")
+	before=studio.current().data.duplicate(true); ui.set_active(false); await settle()
+	check(ui.legacy_root.visible and ui.expert_return.visible and studio.canvas.get_parent()==ui.canvas_parent,"Precision workspace restores its actual control hierarchy")
+	check(studio.current().data==before,"Switching interfaces does not alter document content")
+	ui.set_active(true); await settle()
+	check(ui.active and studio.cards.get_parent()==ui.card_scroll and studio.canvas.get_parent()==studio,"Returning to simple view restores the consumer canvas and asset drawer")
+	studio._command("save_as",null); check(studio.file_dialog.visible,"Project saving remains accessible"); studio.file_dialog.hide()
+	ui.dock_buttons["explore"].pressed.emit(); await settle(); ui.tick(.1)
+	check(studio.walking and not ui.details.visible and not ui.drawer.visible,"Explore hides construction panels")
+	ui.dock_buttons["explore"].pressed.emit(); check(not studio.walking,"Return brings the player back to building")
+	for mode in ["2d","3d"]:
+		studio.switch_mode(mode); await settle(); ui.tick(.1)
+		check(ui.world_choice.selected==(0 if mode=="2d" else 1) and studio.canvas.get_parent()==studio,"World switching retains the same simple shell: "+mode)
+		if mode=="2d": await capture("pixel_overview")
+		studio.current().data=preload("res://scripts/builder/templates.gd").make(mode,"blank")
+		var house: Dictionary=studio.current().add("2d:Apartment_Building" if mode=="2d" else "3d:HanX_City/Apartment_4F_A",[0,0,0],"SE" if mode=="2d" else "0",1)
+		studio.selected_uid=house["uid"]; studio.selected_uids.clear(); studio.selected_uids.append(house["uid"]); studio.changed(); await settle(); ui.tick(.1)
+		check(ui.edit_inside.visible and not ui.edit_inside.disabled,"Selected building exposes interior editing: "+mode)
+		ui.edit_inside.pressed.emit(); await settle(); ui.tick(.1)
+		check(studio.interior_tools.editing() and ui.room_navigation.visible and ui.floor_choice.visible,"Room editing preserves visible return and floor navigation: "+mode)
+		ui.open_drawer("build"); check(ui.group=="Interiors","Room building starts with furniture rather than exterior buildings: "+mode); ui.close_drawer()
+		ui.outside_button.pressed.emit(); await settle(); ui.tick(.1)
+		check(not studio.interior_tools.editing() and studio.current().object(house["uid"]).has("interior"),"Back to city retains the building's owned room: "+mode)
+		if mode=="2d":
+			var count: int=studio.current().data["objects"].size(); studio.drop_asset("2d:Park_Bench",studio.canvas.size*.5)
+			check(studio.current().data["objects"].size()==count+1,"Native pixel placement uses the full-window canvas too")
+	root.size=Vector2i(960,640); await settle(12); ui.layout(); ui.tick(.1)
+	check(ui.header.get_global_rect().end.x<=ui.header_actions.global_position.x,"Header remains separated at the minimum window size")
+	check(ui.dock.get_global_rect().position.x>=0 and ui.dock.get_global_rect().end.x<=960,"Primary dock fits the minimum window")
+	ui.open_drawer("build"); await settle()
+	check(ui.drawer.get_global_rect().position.y>=100 and ui.drawer.get_global_rect().end.y<=ui.dock.global_position.y,"Build drawer leaves room for header and tool dock at 960×640")
+	await capture("compact")
+	check(ui.drawer.global_position.x>=0 and ui.drawer.get_global_rect().end.x<=960,"Build drawer and cards stay inside the compact window")
+	ui.close_drawer(); studio.accessibility_settings.restore({"text_scale":1.5,"high_contrast":true,"large_targets":true,"shape_markers":true}); await settle(12); ui.layout(); ui.tick(.1)
+	check(ui.dock.get_global_rect().position.x>=0 and ui.dock.get_global_rect().end.x<=960,"Large text and targets retain an accessible primary dock")
+	check(ui.dock_buttons["build"].get_meta("caption").get_theme_color("font_color")==Color.WHITE,"High-contrast dock text and icons remain readable")
+	await capture("accessible")
+	var owner: Dictionary=studio.current().data["objects"][0]; studio.selected_uid=owner["uid"]; studio.selected_uids.clear(); studio.selected_uids.append(owner["uid"]); studio.refresh_controls(); ui.tick(.1)
+	ui.edit_inside.pressed.emit(); await settle()
+	var furnishing: Dictionary=studio.current().data["objects"][0]; studio.selected_uid=furnishing["uid"]; studio.selected_uids.clear(); studio.selected_uids.append(furnishing["uid"]); studio.refresh_controls(); await settle(12); ui.tick(.1)
+	check(ui.room_navigation.get_global_rect().end.x<=ui.context.global_position.x,"Accessible room navigation wraps before the contextual card at 960×640")
+	await capture("accessible_room")
+	ui.outside_button.pressed.emit(); await settle()
+	studio.free(); await settle(3)
+	print("CONSUMER UI: %d checks, %d failures"%[checks,failures]); quit(1 if failures else 0)

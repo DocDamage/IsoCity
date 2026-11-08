@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Prop_Sandbag_Stack.glb" id="1_fqexk"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jkwp6"]
+size = Vector3(1.6640999, 0.3588, 0.71351004)
+
+[node name="Prop_Sandbag_Stack" type="StaticBody3D" unique_id=251045540]
+collision_mask = 0
+metadata/authored_footprint = [-0.83204997, 0.0, -0.35675502, 1.6640999, 0.3588, 0.71351004]
+
+[node name="Model" type="Node3D" parent="." unique_id=307686117]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.31179994, 0, -0.00396502)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=370203757 instance=ExtResource("1_fqexk")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=440403328]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1794, 0)
+shape = SubResource("BoxShape3D_jkwp6")

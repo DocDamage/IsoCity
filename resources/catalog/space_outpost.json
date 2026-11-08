@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "habitat": "2d:Added_Exo_Lunar_Desolation_v1_3_6_Exo_Lunar_Desolation_Structures_Moonbase1_building_c0355c58",
+  "dock": "2d:Added_Gloria_Station_1_2_2_Gloria_Station_Debris_Objects_Heavy_Container_blue_1d4d4188",
+  "cargo": "2d:Added_Gloria_Station_1_2_2_Gloria_Station_Debris_Objects_Floating_Crate_1A_5b3cadda",
+  "satellite": "3d:Supplemental_Satellites/03_cubesat_3u",
+  "ships": [
+    {"asset": "3d:Supplemental_Spaceships_II/container_freighter", "scale": 0.58, "arrival_seconds": 5.0, "unload_seconds": 4.0},
+    {"asset": "3d:Supplemental_Spaceships_II/bulk_hauler", "scale": 0.50, "arrival_seconds": 6.0, "unload_seconds": 5.0}
+  ]
+}

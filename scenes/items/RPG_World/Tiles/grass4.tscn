@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/isometric_rpg_world/mypilesetproject/MyPilesetProoject/tiles_16x16/grass4.png" id="2_tex"]
+
+[node name="grass4" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "grass4"
+category = "RPG_Tiles"
+kind = "tile"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(0.0, 0.0)
+total_frames = 1
+has_collision = false
+directions_data = {"SE": {"file": "../../isometric_rpg_world/mypilesetproject/MyPilesetProoject/tiles_16x16/grass4.png", "origin": [0.0, 0.0], "footprint": [1, 1], "frame_width": 16, "frame_height": 16, "grid_original": {"origin": [8, 8], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.5, -1.0, 0.5], "alignment_base": [[0, 16], [16, 16], [16, 0]], "alignment_version": 2, "grid_method": "square floor", "grid_contact": [16.0, 16.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-0.0, -0.0)

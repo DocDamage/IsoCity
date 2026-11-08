@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_character.gd" id="1_char_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Characters/Police_Officer_SE.png" id="2_tex"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_char"]
+radius = 5.0
+
+[node name="Police_Officer" type="CharacterBody2D"]
+y_sort_enabled = true
+script = ExtResource("1_char_script")
+item_id = "Police_Officer"
+direction = "SE"
+origin_offset = Vector2(10, 29)
+is_pet = false
+directions_data = {"SE": {"file": "Sprites/Characters/Police_Officer_SE.png", "frame_width": 23, "frame_height": 42, "origin": [10, 29], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 161, "y": 45, "w": 23, "h": 42}, "grid_method": "authored", "grid_contact": [10, 45]}, "SW": {"file": "Sprites/Characters/Police_Officer_SW.png", "frame_width": 23, "frame_height": 42, "origin": [13, 29], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 186, "y": 45, "w": 23, "h": 42}, "grid_method": "authored", "grid_contact": [13, 45]}, "NW": {"file": "Sprites/Characters/Police_Officer_NW.png", "frame_width": 23, "frame_height": 42, "origin": [13, 30], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 211, "y": 45, "w": 23, "h": 42}, "grid_method": "authored", "grid_contact": [13, 46]}, "NE": {"file": "Sprites/Characters/Police_Officer_NE.png", "frame_width": 23, "frame_height": 42, "origin": [10, 30], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 236, "y": 45, "w": 23, "h": 42}, "grid_method": "authored", "grid_contact": [10, 46]}}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."] 
+shape = SubResource("CircleShape2D_char")
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-10, -29)
+hframes = 9

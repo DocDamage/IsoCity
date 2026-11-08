@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/isometricvill_v2/Added_isometricvill_v2_isometricvill_v2_Building_Assets_building_shop4_5559b34e_SE.png" id="2"]
+
+[node name="Added_isometricvill_v2_isometricvill_v2_Building_Assets_building_shop4_5559b34e" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_isometricvill_v2_isometricvill_v2_Building_Assets_building_shop4_5559b34e"
+category = "Added isometricvill - - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(6, 8)
+origin_offset = Vector2(127.992858, 135.734712)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/isometricvill_v2/Added_isometricvill_v2_isometricvill_v2_Building_Assets_building_shop4_5559b34e_SE.png", "frame_width": 235, "frame_height": 246, "frames": 1, "origin": [127.992858, 135.734712], "footprint": [6, 8], "grid_original": {"origin": [118, 134], "footprint": [7, 7]}, "alignment_transform": [1.0187208863829935, -0.019647937340893845, -0.07837183874797526, 1.018439074142214], "alignment_base": [[7.0, 196.241758], [105.007142, 245.263481], [226.0, 184.756435]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [105.007142, 245.263481]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-127.992858, -135.734712)
+hframes = 1

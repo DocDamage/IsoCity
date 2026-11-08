@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/hanx_lowpoly/low-poly-traffic-pack-hanx-traffic-pack/HanX_Traffic_Pack/GLB/Road_T_Junction.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1"]
+size = Vector3(8.000000000, 0.300000012, 8.000000000)
+
+[node name="Road_T_Junction" type="StaticBody3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000000000, 0.000000000, 0.000000000)
+shape = SubResource("BoxShape3D_1")

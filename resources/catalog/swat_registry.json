@@ -1,0 +1,5428 @@
+{
+	"archive_sha256": "2069340c6cb2be4a23cb44d38afa7d4049099a473f6f241fca254dfadc5719d9",
+	"items": {},
+	"models": {
+		"3d:Supplemental_SWAT/Building_Barrier_Gate": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Building_Barrier_Gate.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Building_Barrier_Gate.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-3.70000004768372,
+						0.0,
+						-0.449999988079071
+					],
+					[
+						3.54999995231628,
+						1.48000001907349,
+						1.2739999294281
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Building_Barrier_Gate.glb"
+				],
+				"source_hash": "ec8ab62d29baf6bea35faaf36846bf9a9563d9920621eb9af04cf6f80e1e83f0",
+				"source_name": "Building_Barrier_Gate",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Building_Barrier_Gate",
+			"mode": "3d",
+			"name": "Building Barrier Gate",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Building_Barrier_Gate.tscn"
+		},
+		"3d:Supplemental_SWAT/Building_Guard_Booth": {
+			"behavior": {
+				"building": true,
+				"collision": "box",
+				"door": false,
+				"entrance_anchor": {
+					"arrival": [
+						0,
+						0,
+						3.22399997711182
+					],
+					"point": [
+						0,
+						0,
+						1.76399997711182
+					]
+				},
+				"ground": false,
+				"layer": "Buildings",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Building_Guard_Booth.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Building_Guard_Booth.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-1.54999995231628,
+						0.0,
+						-1.42400002479553
+					],
+					[
+						1.79999995231628,
+						4.55000019073486,
+						2.0239999294281
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Building_Guard_Booth.glb"
+				],
+				"source_hash": "7e58a1e26c06dbfa3c6e9a33136c57d17b5b9a64bcb93d76c84758e5277196d5",
+				"source_name": "Building_Guard_Booth",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Building_Guard_Booth",
+			"mode": "3d",
+			"name": "Building Guard Booth",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Building_Guard_Booth.tscn"
+		},
+		"3d:Supplemental_SWAT/Building_Perimeter_Fence": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Building_Perimeter_Fence.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Building_Perimeter_Fence.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-2.1201000213623,
+						0.0,
+						-0.383549988269806
+					],
+					[
+						2.1201000213623,
+						2.80999994277954,
+						0.383549988269806
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Building_Perimeter_Fence.glb"
+				],
+				"source_hash": "1dccce2ff5a42c1a32f034ca9671ee38880cdd099676941be3933a76c7577abb",
+				"source_name": "Building_Perimeter_Fence",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Building_Perimeter_Fence",
+			"mode": "3d",
+			"name": "Building Perimeter Fence",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Building_Perimeter_Fence.tscn"
+		},
+		"3d:Supplemental_SWAT/Building_Perimeter_Gate": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Building_Perimeter_Gate.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Building_Perimeter_Gate.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-2.16000008583069,
+						0.0,
+						-0.383549988269806
+					],
+					[
+						2.16000008583069,
+						2.76834988594055,
+						0.383549988269806
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Building_Perimeter_Gate.glb"
+				],
+				"source_hash": "cd6e9daeb9844dbb9d7009409c2d779bb7a01163e967c645ee90d15697664898",
+				"source_name": "Building_Perimeter_Gate",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Building_Perimeter_Gate",
+			"mode": "3d",
+			"name": "Building Perimeter Gate",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Building_Perimeter_Gate.tscn"
+		},
+		"3d:Supplemental_SWAT/Building_Police_Station": {
+			"behavior": {
+				"building": true,
+				"collision": "box",
+				"door": false,
+				"entrance_anchor": {
+					"arrival": [
+						0,
+						0,
+						8.375
+					],
+					"point": [
+						0,
+						0,
+						6.915
+					]
+				},
+				"ground": false,
+				"layer": "Buildings",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Building_Police_Station.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Building_Police_Station.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-7.84999990463257,
+						0.0,
+						-6.69999980926514
+					],
+					[
+						7.84999990463257,
+						11.6800003051758,
+						7.05000019073486
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Building_Police_Station.glb"
+				],
+				"source_hash": "093274670ae22a8f8e3264f2caf2ba69eface31313aced015a243bf94987b198",
+				"source_name": "Building_Police_Station",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Building_Police_Station",
+			"mode": "3d",
+			"name": "Building Police Station",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Building_Police_Station.tscn"
+		},
+		"3d:Supplemental_SWAT/Building_SWAT_HQ": {
+			"behavior": {
+				"building": true,
+				"collision": "box",
+				"door": false,
+				"entrance_anchor": {
+					"arrival": [
+						0,
+						0,
+						9.25
+					],
+					"point": [
+						0,
+						0,
+						7.79
+					]
+				},
+				"ground": false,
+				"layer": "Buildings",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Building_SWAT_HQ.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Building_SWAT_HQ.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-11.9799995422363,
+						0.0,
+						-7.94999980926514
+					],
+					[
+						11.9200000762939,
+						15.3000001907349,
+						7.55000019073486
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Building_SWAT_HQ.glb"
+				],
+				"source_hash": "2979ac7f7fcb388dd573bf47715378fa369dfbd9e89fbbd3097921ea6570055b",
+				"source_name": "Building_SWAT_HQ",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Building_SWAT_HQ",
+			"mode": "3d",
+			"name": "Building SWAT HQ",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Building_SWAT_HQ.tscn"
+		},
+		"3d:Supplemental_SWAT/Building_Vehicle_Garage": {
+			"behavior": {
+				"building": true,
+				"collision": "box",
+				"door": false,
+				"entrance_anchor": {
+					"arrival": [
+						0,
+						0,
+						5.45000004768372
+					],
+					"point": [
+						0,
+						0,
+						3.99000004768372
+					]
+				},
+				"ground": false,
+				"layer": "Buildings",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Building_Vehicle_Garage.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Building_Vehicle_Garage.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-7.98000001907349,
+						0.0,
+						-4.0
+					],
+					[
+						7.90000009536743,
+						6.61999988555908,
+						3.90000009536743
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Building_Vehicle_Garage.glb"
+				],
+				"source_hash": "b9c38d4ab1e489b3c1cd0716933cd1ae673bc21253a47c71ac54d3249034f4ba",
+				"source_name": "Building_Vehicle_Garage",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Building_Vehicle_Garage",
+			"mode": "3d",
+			"name": "Building Vehicle Garage",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Building_Vehicle_Garage.tscn"
+		},
+		"3d:Supplemental_SWAT/Building_Watchtower": {
+			"behavior": {
+				"building": true,
+				"collision": "box",
+				"door": false,
+				"entrance_anchor": {
+					"arrival": [
+						0,
+						0,
+						3.10000002384186
+					],
+					"point": [
+						0,
+						0,
+						1.64000002384186
+					]
+				},
+				"ground": false,
+				"layer": "Buildings",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Building_Watchtower.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Building_Watchtower.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-2.13098001480103,
+						0.0,
+						-1.60000002384186
+					],
+					[
+						1.59999990463257,
+						9.92000007629395,
+						1.60000002384186
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Building_Watchtower.glb"
+				],
+				"source_hash": "2053610dc6d0353da0d4b657c6186c30036d39398431bf4cb97943b3abd689e9",
+				"source_name": "Building_Watchtower",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Building_Watchtower",
+			"mode": "3d",
+			"name": "Building Watchtower",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Building_Watchtower.tscn"
+		},
+		"3d:Supplemental_SWAT/Gear_Ammo_Box": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Gear_Ammo_Box.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Gear_Ammo_Box.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.150999993085861,
+						0.0,
+						-0.0710000023245811
+					],
+					[
+						0.150999993085861,
+						0.194000005722046,
+						0.0710000023245811
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Gear_Ammo_Box.glb"
+				],
+				"source_hash": "4d150fe463537eaa5501b4933c0b6bbfecd0936037385f5f53b1eb2ab5a6958f",
+				"source_name": "Gear_Ammo_Box",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Gear_Ammo_Box",
+			"mode": "3d",
+			"name": "Gear Ammo Box",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Gear_Ammo_Box.tscn"
+		},
+		"3d:Supplemental_SWAT/Gear_Armory_Table": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Gear_Armory_Table.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Gear_Armory_Table.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-1.0,
+						0.0,
+						-0.400000005960464
+					],
+					[
+						1.0,
+						0.925999999046326,
+						0.400000005960464
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Gear_Armory_Table.glb"
+				],
+				"source_hash": "5173ef96e9fba2decc2768098d1e8e32c138ff56c4aab2a0ba7bf45cd5a69ec7",
+				"source_name": "Gear_Armory_Table",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Gear_Armory_Table",
+			"mode": "3d",
+			"name": "Gear Armory Table",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Gear_Armory_Table.tscn"
+		},
+		"3d:Supplemental_SWAT/Gear_Armory_Wall": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Gear_Armory_Wall.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Gear_Armory_Wall.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-2.125,
+						0.0,
+						-0.0500000007450581
+					],
+					[
+						2.125,
+						2.52999997138977,
+						0.0949999988079071
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Gear_Armory_Wall.glb"
+				],
+				"source_hash": "02342fc1b54b070e3886e1d697dbad6f3fff1d358c00b8de5bfb713edf3598a2",
+				"source_name": "Gear_Armory_Wall",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Gear_Armory_Wall",
+			"mode": "3d",
+			"name": "Gear Armory Wall",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Gear_Armory_Wall.tscn"
+		},
+		"3d:Supplemental_SWAT/Gear_Ballistic_Helmet": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Gear_Ballistic_Helmet.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Gear_Ballistic_Helmet.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.110500000417233,
+						-0.000709999992977828,
+						-0.149890005588531
+					],
+					[
+						0.124820001423359,
+						0.170000001788139,
+						0.139290004968643
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Gear_Ballistic_Helmet.glb"
+				],
+				"source_hash": "88d418e40c435811622b0d6a6f5fcc9540c286e548324a0419a09128034a88d5",
+				"source_name": "Gear_Ballistic_Helmet",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Gear_Ballistic_Helmet",
+			"mode": "3d",
+			"name": "Gear Ballistic Helmet",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Gear_Ballistic_Helmet.tscn"
+		},
+		"3d:Supplemental_SWAT/Gear_Flashbang": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Gear_Flashbang.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Gear_Flashbang.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.0234999991953373,
+						0.0,
+						-0.0240000002086163
+					],
+					[
+						0.0333499982953072,
+						0.128000006079674,
+						0.0240000002086163
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Gear_Flashbang.glb"
+				],
+				"source_hash": "c2c4d25975695baaf0b1afca5ce18d1d179450011321b120e6c0ed6b18a9c481",
+				"source_name": "Gear_Flashbang",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Gear_Flashbang",
+			"mode": "3d",
+			"name": "Gear Flashbang",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Gear_Flashbang.tscn"
+		},
+		"3d:Supplemental_SWAT/Gear_Gas_Mask": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Gear_Gas_Mask.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Gear_Gas_Mask.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.0839999988675117,
+						-0.00726999994367361,
+						-0.0659999996423721
+					],
+					[
+						0.110079996287823,
+						0.19200000166893,
+						0.0687199980020523
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Gear_Gas_Mask.glb"
+				],
+				"source_hash": "7cdb75a503318cdf44324f522a5233895920b27cd4ea98c210fd1c974c25e614",
+				"source_name": "Gear_Gas_Mask",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Gear_Gas_Mask",
+			"mode": "3d",
+			"name": "Gear Gas Mask",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Gear_Gas_Mask.tscn"
+		},
+		"3d:Supplemental_SWAT/Gear_Handcuffs": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Gear_Handcuffs.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Gear_Handcuffs.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.095890000462532,
+						0.0,
+						-0.0360299982130528
+					],
+					[
+						0.095890000462532,
+						0.0133199999108911,
+						0.0360299982130528
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Gear_Handcuffs.glb"
+				],
+				"source_hash": "5769a2cd2aca8f8f53efa72a94520f03f4ac176fd0a30697238b8d426885863f",
+				"source_name": "Gear_Handcuffs",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Gear_Handcuffs",
+			"mode": "3d",
+			"name": "Gear Handcuffs",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Gear_Handcuffs.tscn"
+		},
+		"3d:Supplemental_SWAT/Gear_Medkit_Pouch": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Gear_Medkit_Pouch.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Gear_Medkit_Pouch.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.0900000035762787,
+						0.0,
+						-0.0439999997615814
+					],
+					[
+						0.0900000035762787,
+						0.175999999046326,
+						0.0600000023841858
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Gear_Medkit_Pouch.glb"
+				],
+				"source_hash": "6fb240a15416a622d7849df7a11906005f6b18e2f0a83df66b8a6428b20c8dda",
+				"source_name": "Gear_Medkit_Pouch",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Gear_Medkit_Pouch",
+			"mode": "3d",
+			"name": "Gear Medkit Pouch",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Gear_Medkit_Pouch.tscn"
+		},
+		"3d:Supplemental_SWAT/Gear_Night_Vision_Goggles": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Gear_Night_Vision_Goggles.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Gear_Night_Vision_Goggles.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.0561700016260147,
+						0.00182999996468425,
+						-0.0500000007450581
+					],
+					[
+						0.0561700016260147,
+						0.0790000036358833,
+						0.0480000041425228
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Gear_Night_Vision_Goggles.glb"
+				],
+				"source_hash": "fdc93a90c40db2bbfc950dd5f04db29cfccd92dc11d41635c128ec2931c02637",
+				"source_name": "Gear_Night_Vision_Goggles",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Gear_Night_Vision_Goggles",
+			"mode": "3d",
+			"name": "Gear Night Vision Goggles",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Gear_Night_Vision_Goggles.tscn"
+		},
+		"3d:Supplemental_SWAT/Gear_Plate_Carrier": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Gear_Plate_Carrier.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Gear_Plate_Carrier.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.225999996066093,
+						0.0,
+						-0.178000003099442
+					],
+					[
+						0.228000000119209,
+						0.472000002861023,
+						0.192499995231628
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Gear_Plate_Carrier.glb"
+				],
+				"source_hash": "8f6f6ceaa2491d361441e2b87b654397535ec2da78d97ab5b11f8f22628dc121",
+				"source_name": "Gear_Plate_Carrier",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Gear_Plate_Carrier",
+			"mode": "3d",
+			"name": "Gear Plate Carrier",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Gear_Plate_Carrier.tscn"
+		},
+		"3d:Supplemental_SWAT/Gear_Radio": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Gear_Radio.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Gear_Radio.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.0299999993294477,
+						0.0,
+						-0.025000000372529
+					],
+					[
+						0.0349999964237213,
+						0.226999998092651,
+						0.0200000014156103
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Gear_Radio.glb"
+				],
+				"source_hash": "ee3d4d6e9283240bcd44abab7ff164c9afb1d40d22105ef6ec26119d56fc47ae",
+				"source_name": "Gear_Radio",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Gear_Radio",
+			"mode": "3d",
+			"name": "Gear Radio",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Gear_Radio.tscn"
+		},
+		"3d:Supplemental_SWAT/Gear_Rifle_Magazine": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Gear_Rifle_Magazine.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Gear_Rifle_Magazine.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.0135000003501773,
+						0.00187000003643334,
+						-0.0426499992609024
+					],
+					[
+						0.0135000003501773,
+						0.170399993658066,
+						0.0430199950933456
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Gear_Rifle_Magazine.glb"
+				],
+				"source_hash": "3a667f9f0ce58303c259907efb6010294f7a0334b941ec688f595bcf2b8a5c47",
+				"source_name": "Gear_Rifle_Magazine",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Gear_Rifle_Magazine",
+			"mode": "3d",
+			"name": "Gear Rifle Magazine",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Gear_Rifle_Magazine.tscn"
+		},
+		"3d:Supplemental_SWAT/Gear_Smoke_Grenade": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Gear_Smoke_Grenade.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Gear_Smoke_Grenade.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.0305000003427267,
+						0.0,
+						-0.0309999994933605
+					],
+					[
+						0.0333499982953072,
+						0.136000007390976,
+						0.0309999994933605
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Gear_Smoke_Grenade.glb"
+				],
+				"source_hash": "0ae93af055cfff6ad52f3dec0b793ae41322b63e2a949fb37b676d0f891fc7e2",
+				"source_name": "Gear_Smoke_Grenade",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Gear_Smoke_Grenade",
+			"mode": "3d",
+			"name": "Gear Smoke Grenade",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Gear_Smoke_Grenade.tscn"
+		},
+		"3d:Supplemental_SWAT/Gear_Tactical_Backpack": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Gear_Tactical_Backpack.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Gear_Tactical_Backpack.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.19200000166893,
+						0.0,
+						-0.158000007271767
+					],
+					[
+						0.19200000166893,
+						0.474000006914139,
+						0.150000020861626
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Gear_Tactical_Backpack.glb"
+				],
+				"source_hash": "b747bccbc9ea1b861d574849fb0dc000e42df5357397eb78b90a31acaeff6df9",
+				"source_name": "Gear_Tactical_Backpack",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Gear_Tactical_Backpack",
+			"mode": "3d",
+			"name": "Gear Tactical Backpack",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Gear_Tactical_Backpack.tscn"
+		},
+		"3d:Supplemental_SWAT/Gear_Wall_Peg": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Gear_Wall_Peg.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Gear_Wall_Peg.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.0160000007599592,
+						-0.034000001847744,
+						0.0
+					],
+					[
+						0.0160000007599592,
+						0.030850000679493,
+						0.106250002980232
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Gear_Wall_Peg.glb"
+				],
+				"source_hash": "fa447f52fe5073bd20dc7a390d07054663410c6f2d4d98f3def69290e570931f",
+				"source_name": "Gear_Wall_Peg",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Gear_Wall_Peg",
+			"mode": "3d",
+			"name": "Gear Wall Peg",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Gear_Wall_Peg.tscn"
+		},
+		"3d:Supplemental_SWAT/Gear_Weapon_Case": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Gear_Weapon_Case.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Gear_Weapon_Case.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.509999990463257,
+						0.0,
+						-0.344799995422363
+					],
+					[
+						0.509999990463257,
+						0.490119993686676,
+						0.242160022258759
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Gear_Weapon_Case.glb"
+				],
+				"source_hash": "8be1c1107266ff0639994bb6f48bbcc2e71f94129cd17351af8d469d16ab22aa",
+				"source_name": "Gear_Weapon_Case",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Gear_Weapon_Case",
+			"mode": "3d",
+			"name": "Gear Weapon Case",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Gear_Weapon_Case.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Armory_Shelf": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Armory_Shelf.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Armory_Shelf.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.600000023841858,
+						0.0,
+						-0.25
+					],
+					[
+						0.600000023841858,
+						1.91999995708466,
+						0.258000016212463
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Armory_Shelf.glb"
+				],
+				"source_hash": "36bc97dd017666bfd74fcad45f15efcb58a28b55b25daa3c887ba95c23f247ad",
+				"source_name": "Prop_Armory_Shelf",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Armory_Shelf",
+			"mode": "3d",
+			"name": "Prop Armory Shelf",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Armory_Shelf.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Breach_Door_Frame": {
+			"behavior": {
+				"building": false,
+				"collision": "mesh",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Breach_Door_Frame.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Breach_Door_Frame.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.800000011920929,
+						0.0,
+						-0.600000023841858
+					],
+					[
+						0.800000011920929,
+						2.44000005722046,
+						0.5
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Breach_Door_Frame.glb"
+				],
+				"source_hash": "0d4560586045cf0f3d6cc433872ea7a026f12e4f0b2675b9dd6f1e8751b152d6",
+				"source_name": "Prop_Breach_Door_Frame",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Breach_Door_Frame",
+			"mode": "3d",
+			"name": "Prop Breach Door Frame",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Breach_Door_Frame.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Briefing_Board": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Briefing_Board.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Briefing_Board.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.882499992847443,
+						0.00273999990895391,
+						-0.319999992847443
+					],
+					[
+						0.882499992847443,
+						1.97500002384186,
+						0.319999992847443
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Briefing_Board.glb"
+				],
+				"source_hash": "ff43666c424dd066682c9d1a0785fdee795eaf61afdecfc5e44d518176500e1b",
+				"source_name": "Prop_Briefing_Board",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Briefing_Board",
+			"mode": "3d",
+			"name": "Prop Briefing Board",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Briefing_Board.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Command_Tent": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Command_Tent.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Command_Tent.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-2.090980052948,
+						-0.00743999984115362,
+						-1.57500004768372
+					],
+					[
+						2.07500028610229,
+						2.95000004768372,
+						1.590980052948
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Command_Tent.glb"
+				],
+				"source_hash": "325ce8bca954370f2a99b2cbfc8c592bfb89e257cb0f66c723143edb5e49f5d7",
+				"source_name": "Prop_Command_Tent",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Command_Tent",
+			"mode": "3d",
+			"name": "Prop Command Tent",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Command_Tent.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Comms_Station": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Comms_Station.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Comms_Station.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.800000011920929,
+						-0.00626999977976084,
+						-0.579999983310699
+					],
+					[
+						1.41872000694275,
+						2.95000004768372,
+						0.360000014305115
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Comms_Station.glb"
+				],
+				"source_hash": "f05bca4b6ce6cac73ec4e26e8d83a4dc467699b97e09a89ef39268cb7bd9f62f",
+				"source_name": "Prop_Comms_Station",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Comms_Station",
+			"mode": "3d",
+			"name": "Prop Comms Station",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Comms_Station.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Concrete_Barrier_Police": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Concrete_Barrier_Police.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Concrete_Barrier_Police.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-1.55999994277954,
+						0.0,
+						-0.303000003099442
+					],
+					[
+						1.55999994277954,
+						0.892000019550323,
+						0.303000003099442
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Concrete_Barrier_Police.glb"
+				],
+				"source_hash": "3ba9dd96b16826ded2dc8664bd82fb227001f607a1d40cc3822631b4155c3253",
+				"source_name": "Prop_Concrete_Barrier_Police",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Concrete_Barrier_Police",
+			"mode": "3d",
+			"name": "Prop Concrete Barrier Police",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Concrete_Barrier_Police.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Crowd_Barrier": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Crowd_Barrier.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Crowd_Barrier.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-1.17799997329712,
+						0.0,
+						-0.419999986886978
+					],
+					[
+						1.15999984741211,
+						1.10099995136261,
+						0.419999986886978
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Crowd_Barrier.glb"
+				],
+				"source_hash": "7063b9c7a999df9cd07584b96b2562e9941fb0ca2f7845356b14d7191d2ef420",
+				"source_name": "Prop_Crowd_Barrier",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Crowd_Barrier",
+			"mode": "3d",
+			"name": "Prop Crowd Barrier",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Crowd_Barrier.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Desk_Computer": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Desk_Computer.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Desk_Computer.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.699999988079071,
+						0.0,
+						-0.349999994039536
+					],
+					[
+						0.699999988079071,
+						1.2206699848175,
+						1.04673004150391
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Desk_Computer.glb"
+				],
+				"source_hash": "b40be58a2659cbd1fdb39471609340a7c46a3f2565c0d24f28ea418032efa49c",
+				"source_name": "Prop_Desk_Computer",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Desk_Computer",
+			"mode": "3d",
+			"name": "Prop Desk Computer",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Desk_Computer.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Equipment_Locker": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Equipment_Locker.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Equipment_Locker.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.300000011920929,
+						0.0,
+						-0.25
+					],
+					[
+						0.538519978523254,
+						1.89999997615814,
+						0.813820004463196
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Equipment_Locker.glb"
+				],
+				"source_hash": "515505cbe367c986eb78a6ce8f27e99e609ad0d303746558472eac081e431e5e",
+				"source_name": "Prop_Equipment_Locker",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Equipment_Locker",
+			"mode": "3d",
+			"name": "Prop Equipment Locker",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Equipment_Locker.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Evidence_Markers": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Evidence_Markers.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Evidence_Markers.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.696049988269806,
+						0.0,
+						-0.20184999704361
+					],
+					[
+						0.858309924602509,
+						0.140000000596046,
+						0.286469995975494
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Evidence_Markers.glb"
+				],
+				"source_hash": "f4ef2b9f2d28ce4d92820902e3123c334d30cd1701f40709cc52649d84ded3a2",
+				"source_name": "Prop_Evidence_Markers",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Evidence_Markers",
+			"mode": "3d",
+			"name": "Prop Evidence Markers",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Evidence_Markers.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_First_Aid_Kit": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_First_Aid_Kit.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_First_Aid_Kit.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.224999994039536,
+						0.0,
+						-0.155000001192093
+					],
+					[
+						0.5,
+						0.18299999833107,
+						0.189999997615814
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_First_Aid_Kit.glb"
+				],
+				"source_hash": "f2cc2121bc85f10150da4d32c73525e3efb8d42979fc96835367ac7692d181b0",
+				"source_name": "Prop_First_Aid_Kit",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_First_Aid_Kit",
+			"mode": "3d",
+			"name": "Prop First Aid Kit",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_First_Aid_Kit.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Floodlight_Tower": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Floodlight_Tower.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Floodlight_Tower.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-1.19000005722046,
+						0.0,
+						-1.3400000333786
+					],
+					[
+						1.19000005722046,
+						7.62459993362427,
+						2.04999971389771
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Floodlight_Tower.glb"
+				],
+				"source_hash": "7daa96ad6557288f09bd6e3c56291c97a8a8fd025084e0bfe57681b67b6213fc",
+				"source_name": "Prop_Floodlight_Tower",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Floodlight_Tower",
+			"mode": "3d",
+			"name": "Prop Floodlight Tower",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Floodlight_Tower.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Folding_Chair": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Folding_Chair.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Folding_Chair.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.230000004172325,
+						-0.00743999984115362,
+						-0.270000010728836
+					],
+					[
+						0.230000004172325,
+						0.881770014762878,
+						0.244999974966049
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Folding_Chair.glb"
+				],
+				"source_hash": "f40ab3be7ee29dd30c22ccb3299321d2a27bf13211b4e2d67abb794926f55744",
+				"source_name": "Prop_Folding_Chair",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Folding_Chair",
+			"mode": "3d",
+			"name": "Prop Folding Chair",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Folding_Chair.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Folding_Table": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Folding_Table.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Folding_Table.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.899999976158142,
+						0.0,
+						-0.379999995231628
+					],
+					[
+						0.899999976158142,
+						0.740000009536743,
+						0.379999995231628
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Folding_Table.glb"
+				],
+				"source_hash": "94b34de92970573bc251a0503ba7f81080f07472fdf2209a3abe768e33a7e09a",
+				"source_name": "Prop_Folding_Table",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Folding_Table",
+			"mode": "3d",
+			"name": "Prop Folding Table",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Folding_Table.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Gear_Crate": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Gear_Crate.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Gear_Crate.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.540000021457672,
+						0.0,
+						-0.54773998260498
+					],
+					[
+						0.540000021457672,
+						0.943419992923737,
+						0.319999992847443
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Gear_Crate.glb"
+				],
+				"source_hash": "52c462174b162ff47810a03dd9cda12c357df6d4f2cddb4f307658e4753cf090",
+				"source_name": "Prop_Gear_Crate",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Gear_Crate",
+			"mode": "3d",
+			"name": "Prop Gear Crate",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Gear_Crate.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Gear_Crate_Closed": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Gear_Crate_Closed.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Gear_Crate_Closed.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.540000021457672,
+						0.0,
+						-0.30799999833107
+					],
+					[
+						0.540000021457672,
+						0.462999999523163,
+						0.320000022649765
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Gear_Crate_Closed.glb"
+				],
+				"source_hash": "b5322710a8c023aa7c4be83029dc235ae92f8eff70cc89e8b5199b4daf297eb3",
+				"source_name": "Prop_Gear_Crate_Closed",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Gear_Crate_Closed",
+			"mode": "3d",
+			"name": "Prop Gear Crate Closed",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Gear_Crate_Closed.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Generator": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Generator.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Generator.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.360000014305115,
+						0.0,
+						-0.27386000752449
+					],
+					[
+						0.360000014305115,
+						0.584999978542328,
+						0.27386000752449
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Generator.glb"
+				],
+				"source_hash": "dc7d5ca390ed19f09274c344622fbbb9515050bc684492700578144115c69957",
+				"source_name": "Prop_Generator",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Generator",
+			"mode": "3d",
+			"name": "Prop Generator",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Generator.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Gun_Rack": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Gun_Rack.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Gun_Rack.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.810000002384186,
+						0.0,
+						-0.150000005960464
+					],
+					[
+						0.810000002384186,
+						1.3400000333786,
+						0.18299999833107
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Gun_Rack.glb"
+				],
+				"source_hash": "0042d997d5149a630e43c4118a920a7655dadb68c86efdd4d729a89ad45a3b22",
+				"source_name": "Prop_Gun_Rack",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Gun_Rack",
+			"mode": "3d",
+			"name": "Prop Gun Rack",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Gun_Rack.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Holding_Cell_Bars": {
+			"behavior": {
+				"building": false,
+				"collision": "mesh",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Holding_Cell_Bars.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Holding_Cell_Bars.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-1.03999996185303,
+						0.0,
+						-0.0500000007450581
+					],
+					[
+						1.03999996185303,
+						2.59999990463257,
+						0.100000008940697
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Holding_Cell_Bars.glb"
+				],
+				"source_hash": "6f3195043d449356d7f79a28aaf6445837e350c35fe4c308ecde09552742b713",
+				"source_name": "Prop_Holding_Cell_Bars",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Holding_Cell_Bars",
+			"mode": "3d",
+			"name": "Prop Holding Cell Bars",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Holding_Cell_Bars.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Interrogation_Table": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Interrogation_Table.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Interrogation_Table.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.610000014305115,
+						0.0,
+						-1.03865003585815
+					],
+					[
+						0.610000014305115,
+						1.17628002166748,
+						0.994999885559082
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Interrogation_Table.glb"
+				],
+				"source_hash": "64ec65d5e87287c8a7603a5eff50715df67dd39cc31efc1600f558de53855d49",
+				"source_name": "Prop_Interrogation_Table",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Interrogation_Table",
+			"mode": "3d",
+			"name": "Prop Interrogation Table",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Interrogation_Table.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Locker_Row": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Locker_Row.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Locker_Row.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.899999976158142,
+						0.0,
+						-0.25
+					],
+					[
+						0.899999976158142,
+						1.89999997615814,
+						0.289999961853027
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Locker_Row.glb"
+				],
+				"source_hash": "23e570bfe4a0a691ae05fd514cdad60db072882dc58df6970d7f33310d31ddf2",
+				"source_name": "Prop_Locker_Row",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Locker_Row",
+			"mode": "3d",
+			"name": "Prop Locker Row",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Locker_Row.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Megaphone": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Megaphone.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Megaphone.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.106250002980232,
+						0.0000199999994947575,
+						-0.109999999403954
+					],
+					[
+						0.106250002980232,
+						0.221249997615814,
+						0.329999983310699
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Megaphone.glb"
+				],
+				"source_hash": "f8a463c6f546e816f37fb4ab84de47b3bc07edb4e40e98c1622c4a2bd4276c25",
+				"source_name": "Prop_Megaphone",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Megaphone",
+			"mode": "3d",
+			"name": "Prop Megaphone",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Megaphone.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Police_Barricade": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Police_Barricade.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Police_Barricade.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-1.0,
+						0.0,
+						-0.41499999165535
+					],
+					[
+						1.0,
+						1.35000002384186,
+						0.41499999165535
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Police_Barricade.glb"
+				],
+				"source_hash": "77275de8bb0c228861267f06ffbda8c700ea0690c86e29ee2f8c28c2b84de89f",
+				"source_name": "Prop_Police_Barricade",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Police_Barricade",
+			"mode": "3d",
+			"name": "Prop Police Barricade",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Police_Barricade.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Police_Tape_Line": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Police_Tape_Line.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Police_Tape_Line.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-1.55999994277954,
+						0.0,
+						-0.15217000246048
+					],
+					[
+						1.64374995231628,
+						1.0349999666214,
+						0.15217000246048
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Police_Tape_Line.glb"
+				],
+				"source_hash": "546075b35214fc7e63cae0fcd8acea2b209dc66901a430e4da99064cc501e75e",
+				"source_name": "Prop_Police_Tape_Line",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Police_Tape_Line",
+			"mode": "3d",
+			"name": "Prop Police Tape Line",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Police_Tape_Line.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Rope_Coil": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Rope_Coil.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Rope_Coil.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.486000001430511,
+						0.000690000015310943,
+						-0.465920001268387
+					],
+					[
+						0.313279986381531,
+						0.113289996981621,
+						0.323579996824265
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Rope_Coil.glb"
+				],
+				"source_hash": "71fc0b4982dc8eaa9fe613cbc5f6d72d4739fb3cc32cc0ec054bee386e7dc171",
+				"source_name": "Prop_Rope_Coil",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Rope_Coil",
+			"mode": "3d",
+			"name": "Prop Rope Coil",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Rope_Coil.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Sandbag_Stack": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Sandbag_Stack.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Sandbag_Stack.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.520250022411346,
+						0.0,
+						-0.352789998054504
+					],
+					[
+						1.14384984970093,
+						0.358799993991852,
+						0.360720038414001
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Sandbag_Stack.glb"
+				],
+				"source_hash": "4dffdc9efb8343e0cb68cf1555288c0b5d29d63786a3d2078a91e3aba1015934",
+				"source_name": "Prop_Sandbag_Stack",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Sandbag_Stack",
+			"mode": "3d",
+			"name": "Prop Sandbag Stack",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Sandbag_Stack.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Sandbag_Wall": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Sandbag_Wall.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Sandbag_Wall.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-1.19463002681732,
+						0.0,
+						-0.192479997873306
+					],
+					[
+						1.19641983509064,
+						0.481000006198883,
+						0.18902000784874
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Sandbag_Wall.glb"
+				],
+				"source_hash": "a5cff01c336831f8444ddce6e60efbee3a9437316b7f715bf5db672c07a0ea01",
+				"source_name": "Prop_Sandbag_Wall",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Sandbag_Wall",
+			"mode": "3d",
+			"name": "Prop Sandbag Wall",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Sandbag_Wall.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Searchlight": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Searchlight.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Searchlight.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.480329990386963,
+						0.0,
+						-0.607860028743744
+					],
+					[
+						0.555390000343323,
+						1.86504995822906,
+						0.285979986190796
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Searchlight.glb"
+				],
+				"source_hash": "50aeb69d5e4eaeeaba2579bf68326665bab66cca57388a753640fdacb697b21f",
+				"source_name": "Prop_Searchlight",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Searchlight",
+			"mode": "3d",
+			"name": "Prop Searchlight",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Searchlight.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Spike_Strip": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Spike_Strip.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Spike_Strip.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-1.68299996852875,
+						0.0,
+						-0.129999995231628
+					],
+					[
+						1.68299996852875,
+						0.109999999403954,
+						0.129999995231628
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Spike_Strip.glb"
+				],
+				"source_hash": "d9d3c53c50f24836a026424f9390b551905f0218e817cf3437d64dc267324282",
+				"source_name": "Prop_Spike_Strip",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Spike_Strip",
+			"mode": "3d",
+			"name": "Prop Spike Strip",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Spike_Strip.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Stretcher": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Stretcher.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Stretcher.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.310389995574951,
+						0.0041899997740984,
+						-1.10250997543335
+					],
+					[
+						0.310389995574951,
+						1.13240003585815,
+						1.10250997543335
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Stretcher.glb"
+				],
+				"source_hash": "c8d3506c6c0384a44302c9bcb482d6b2c99cb05251477396efae04d03c78980f",
+				"source_name": "Prop_Stretcher",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Stretcher",
+			"mode": "3d",
+			"name": "Prop Stretcher",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Stretcher.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Tactical_Ladder": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Tactical_Ladder.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Tactical_Ladder.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.264999985694885,
+						0.0,
+						-0.529999971389771
+					],
+					[
+						0.264999985694885,
+						1.86000001430511,
+						0.529999971389771
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Tactical_Ladder.glb"
+				],
+				"source_hash": "9ae83a26903b54ed7d894475dea9e58143af9a68c10340ed61813e98c7a03660",
+				"source_name": "Prop_Tactical_Ladder",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Tactical_Ladder",
+			"mode": "3d",
+			"name": "Prop Tactical Ladder",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Tactical_Ladder.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Target_Paper": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Target_Paper.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Target_Paper.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.349999994039536,
+						0.0,
+						-0.300000011920929
+					],
+					[
+						0.349999994039536,
+						1.95000004768372,
+						0.300000011920929
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Target_Paper.glb"
+				],
+				"source_hash": "243f5b8d93379abb6d41f6c6dfaaab6d963017ca984469f60cb4bea535a58eee",
+				"source_name": "Prop_Target_Paper",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Target_Paper",
+			"mode": "3d",
+			"name": "Prop Target Paper",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Target_Paper.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Target_Steel": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Target_Steel.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Target_Steel.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.819999992847443,
+						0.0,
+						-0.400000005960464
+					],
+					[
+						0.819999992847443,
+						1.72000002861023,
+						0.400000005960464
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Target_Steel.glb"
+				],
+				"source_hash": "7f7428e98c71f28f2b3962c4b57854b769f7509a6f76da2a7642c3b2e326fc90",
+				"source_name": "Prop_Target_Steel",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Target_Steel",
+			"mode": "3d",
+			"name": "Prop Target Steel",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Target_Steel.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Traffic_Cone_Police": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Traffic_Cone_Police.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Traffic_Cone_Police.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.189999997615814,
+						0.0,
+						-0.189999997615814
+					],
+					[
+						0.189999997615814,
+						0.839999973773956,
+						0.189999997615814
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Traffic_Cone_Police.glb"
+				],
+				"source_hash": "f53769073f491721e4cbdd30cae2105aea470b96669e3a3ba94a539cd04db9ab",
+				"source_name": "Prop_Traffic_Cone_Police",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Traffic_Cone_Police",
+			"mode": "3d",
+			"name": "Prop Traffic Cone Police",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Traffic_Cone_Police.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Training_Dummy": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Training_Dummy.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Training_Dummy.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.321740001440048,
+						0.0,
+						-0.289779990911484
+					],
+					[
+						0.321740001440048,
+						1.77999997138977,
+						0.289779990911484
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Training_Dummy.glb"
+				],
+				"source_hash": "61d8253c7fc729683ffa52de51956fc75b8efad3606853a85420f1fc82bd4d33",
+				"source_name": "Prop_Training_Dummy",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Training_Dummy",
+			"mode": "3d",
+			"name": "Prop Training Dummy",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Training_Dummy.tscn"
+		},
+		"3d:Supplemental_SWAT/Prop_Water_Barrel": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Prop_Water_Barrel.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Prop_Water_Barrel.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.303000003099442,
+						0.0,
+						-0.288170009851456
+					],
+					[
+						0.303000003099442,
+						0.935000002384186,
+						0.344199985265732
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Prop_Water_Barrel.glb"
+				],
+				"source_hash": "0dd32ffaf3c6ca9c7d9841307746ad26623794f2ed823791b8d6c59084810136",
+				"source_name": "Prop_Water_Barrel",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Prop_Water_Barrel",
+			"mode": "3d",
+			"name": "Prop Water Barrel",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Prop_Water_Barrel.tscn"
+		},
+		"3d:Supplemental_SWAT/SWAT_Commander": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Source provides a rig without animation clips",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/SWAT_Commander.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/SWAT_Commander.png",
+				"rigged": true,
+				"source_bounds": [
+					[
+						-0.893999993801117,
+						0.0,
+						-0.150000005960464
+					],
+					[
+						0.893999993801117,
+						1.83399999141693,
+						0.23199999332428
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/SWAT_Commander.glb"
+				],
+				"source_hash": "a6f7116a0ac699e3eec9436429669c52c142a8f08acf03d9f2476d357e31411f",
+				"source_name": "SWAT_Commander",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/SWAT_Commander",
+			"mode": "3d",
+			"name": "SWAT Commander",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/SWAT_Commander.tscn"
+		},
+		"3d:Supplemental_SWAT/SWAT_Display_Base": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/SWAT_Display_Base.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/SWAT_Display_Base.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-3.29999995231628,
+						-0.140000000596046,
+						-2.40000009536743
+					],
+					[
+						3.29999995231628,
+						0.0039999932050705,
+						2.40000009536743
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/SWAT_Display_Base.glb"
+				],
+				"source_hash": "c14c704a20851a24e8ccc8bf62dbb93103d7a333110345d45c44023bfa7a3069",
+				"source_name": "SWAT_Display_Base",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/SWAT_Display_Base",
+			"mode": "3d",
+			"name": "SWAT Display Base",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/SWAT_Display_Base.tscn"
+		},
+		"3d:Supplemental_SWAT/SWAT_K9_Dog_Sit": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/SWAT_K9_Dog_Sit.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/SWAT_K9_Dog_Sit.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.165319994091988,
+						-0.000130000000353903,
+						-0.492570012807846
+					],
+					[
+						0.213529989123344,
+						0.905189990997314,
+						0.441970020532608
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/SWAT_K9_Dog_Sit.glb"
+				],
+				"source_hash": "c8def39a5c8ddc6cf802c822f97823dff1867152686d0af61eccffbbfb79410e",
+				"source_name": "SWAT_K9_Dog_Sit",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/SWAT_K9_Dog_Sit",
+			"mode": "3d",
+			"name": "SWAT K9 Dog Sit",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/SWAT_K9_Dog_Sit.tscn"
+		},
+		"3d:Supplemental_SWAT/SWAT_K9_Dog_Stand": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/SWAT_K9_Dog_Stand.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/SWAT_K9_Dog_Stand.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.144999995827675,
+						0.0,
+						-0.492190003395081
+					],
+					[
+						0.144999995827675,
+						0.941910028457642,
+						0.603540062904358
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/SWAT_K9_Dog_Stand.glb"
+				],
+				"source_hash": "bf0c5e7c0d883983e371b113b7af615aa0e6f83a9da36208329746d404bc96b5",
+				"source_name": "SWAT_K9_Dog_Stand",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/SWAT_K9_Dog_Stand",
+			"mode": "3d",
+			"name": "SWAT K9 Dog Stand",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/SWAT_K9_Dog_Stand.tscn"
+		},
+		"3d:Supplemental_SWAT/SWAT_Operator": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Source provides a rig without animation clips",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/SWAT_Operator.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/SWAT_Operator.png",
+				"rigged": true,
+				"source_bounds": [
+					[
+						-0.893999993801117,
+						0.0,
+						-0.209999993443489
+					],
+					[
+						0.893999993801117,
+						1.86699998378754,
+						0.231999978423119
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/SWAT_Operator.glb"
+				],
+				"source_hash": "1a4144e6297ba762da3d4172ac77b870c7b9dd59c92e7f5877e0110d5f34500d",
+				"source_name": "SWAT_Operator",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/SWAT_Operator",
+			"mode": "3d",
+			"name": "SWAT Operator",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/SWAT_Operator.tscn"
+		},
+		"3d:Supplemental_SWAT/SWAT_Operator_Urban": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Source provides a rig without animation clips",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/SWAT_Operator_Urban.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/SWAT_Operator_Urban.png",
+				"rigged": true,
+				"source_bounds": [
+					[
+						-0.893999993801117,
+						0.0,
+						-0.165000006556511
+					],
+					[
+						0.893999993801117,
+						1.84500002861023,
+						0.232000008225441
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/SWAT_Operator_Urban.glb"
+				],
+				"source_hash": "0a117943deba95bd93e2e863ef6c0efc3acb5085d782e07bc504caa7253dc665",
+				"source_name": "SWAT_Operator_Urban",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/SWAT_Operator_Urban",
+			"mode": "3d",
+			"name": "SWAT Operator Urban",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/SWAT_Operator_Urban.tscn"
+		},
+		"3d:Supplemental_SWAT/SWAT_Pose_Breacher_Ram": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Breacher_Ram.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Breacher_Ram.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.454735815525055,
+						0.0,
+						-0.336653709411621
+					],
+					[
+						0.316423654556274,
+						1.76432943344116,
+						0.744884252548218
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/SWAT_Pose_Breacher_Ram.glb"
+				],
+				"source_hash": "e7abd879ed7ca9ebf8ab4729ed8a31ec7e73cae03cb31769ee38cc4947b83ccb",
+				"source_name": "SWAT_Pose_Breacher_Ram",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/SWAT_Pose_Breacher_Ram",
+			"mode": "3d",
+			"name": "SWAT Pose Breacher Ram",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/SWAT_Pose_Breacher_Ram.tscn"
+		},
+		"3d:Supplemental_SWAT/SWAT_Pose_Hand_Signal": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Hand_Signal.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Hand_Signal.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.412962436676025,
+						0.0,
+						-0.227461829781532
+					],
+					[
+						0.526867806911469,
+						1.82745790481567,
+						0.729815125465393
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/SWAT_Pose_Hand_Signal.glb"
+				],
+				"source_hash": "c03ae67e8bd0a4b316645c9bfd53aca368e24c3aeeb91914be43e7a98340558d",
+				"source_name": "SWAT_Pose_Hand_Signal",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/SWAT_Pose_Hand_Signal",
+			"mode": "3d",
+			"name": "SWAT Pose Hand Signal",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/SWAT_Pose_Hand_Signal.tscn"
+		},
+		"3d:Supplemental_SWAT/SWAT_Pose_Kneel_Aim": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Kneel_Aim.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Kneel_Aim.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.386835813522339,
+						0.0,
+						-0.596152544021606
+					],
+					[
+						0.283128023147583,
+						1.4244544506073,
+						1.08496916294098
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/SWAT_Pose_Kneel_Aim.glb"
+				],
+				"source_hash": "0cfc4729ea1ed6d5ac70dcc2d024aef87be1c7a040e14fbcbf79567a20eb31bc",
+				"source_name": "SWAT_Pose_Kneel_Aim",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/SWAT_Pose_Kneel_Aim",
+			"mode": "3d",
+			"name": "SWAT Pose Kneel Aim",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/SWAT_Pose_Kneel_Aim.tscn"
+		},
+		"3d:Supplemental_SWAT/SWAT_Pose_Pistol_Aim": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Pistol_Aim.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Pistol_Aim.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.308514475822449,
+						0.0,
+						-0.184088289737701
+					],
+					[
+						0.291726350784302,
+						1.80140805244446,
+						0.682492077350616
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/SWAT_Pose_Pistol_Aim.glb"
+				],
+				"source_hash": "495b413afe1f4f8a857a5b8149330b6e57c39ae8921e2912d80ed574c328f0de",
+				"source_name": "SWAT_Pose_Pistol_Aim",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/SWAT_Pose_Pistol_Aim",
+			"mode": "3d",
+			"name": "SWAT Pose Pistol Aim",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/SWAT_Pose_Pistol_Aim.tscn"
+		},
+		"3d:Supplemental_SWAT/SWAT_Pose_Radio": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Radio.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Radio.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.389597356319427,
+						0.0,
+						-0.178404405713081
+					],
+					[
+						0.522106885910034,
+						1.81904065608978,
+						0.613348126411438
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/SWAT_Pose_Radio.glb"
+				],
+				"source_hash": "2ae8fa4e831c3204329510333d71493ae3b92dfc9bfc93ce099b1abe6e17dd59",
+				"source_name": "SWAT_Pose_Radio",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/SWAT_Pose_Radio",
+			"mode": "3d",
+			"name": "SWAT Pose Radio",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/SWAT_Pose_Radio.tscn"
+		},
+		"3d:Supplemental_SWAT/SWAT_Pose_Rifle_Aim": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Rifle_Aim.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Rifle_Aim.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.387276709079742,
+						0.0,
+						-0.237661898136139
+					],
+					[
+						0.280014932155609,
+						1.78984928131104,
+						1.04263401031494
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/SWAT_Pose_Rifle_Aim.glb"
+				],
+				"source_hash": "fe7e921d291a61aeeffeaa55298cbabb9ca156e630f83909b89a7ca0eb2d75b9",
+				"source_name": "SWAT_Pose_Rifle_Aim",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/SWAT_Pose_Rifle_Aim",
+			"mode": "3d",
+			"name": "SWAT Pose Rifle Aim",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/SWAT_Pose_Rifle_Aim.tscn"
+		},
+		"3d:Supplemental_SWAT/SWAT_Pose_Rifle_Ready": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Rifle_Ready.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Rifle_Ready.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.371045917272568,
+						0.0,
+						-0.206719011068344
+					],
+					[
+						0.278304249048233,
+						1.82481575012207,
+						0.902583003044128
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/SWAT_Pose_Rifle_Ready.glb"
+				],
+				"source_hash": "f29f04ea473450ce861f6f9ddd7bf71e2e7e1a8e0686a49bf12eddccc3a9531c",
+				"source_name": "SWAT_Pose_Rifle_Ready",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/SWAT_Pose_Rifle_Ready",
+			"mode": "3d",
+			"name": "SWAT Pose Rifle Ready",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/SWAT_Pose_Rifle_Ready.tscn"
+		},
+		"3d:Supplemental_SWAT/SWAT_Pose_Shield_Pistol": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Shield_Pistol.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Shield_Pistol.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.442513525485992,
+						0.0,
+						-0.245612218976021
+					],
+					[
+						0.371361017227173,
+						1.78844094276428,
+						0.70256781578064
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/SWAT_Pose_Shield_Pistol.glb"
+				],
+				"source_hash": "913822b8d8c9633409548b0b978e0c2108d916ca13fafca55dae90096d447572",
+				"source_name": "SWAT_Pose_Shield_Pistol",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/SWAT_Pose_Shield_Pistol",
+			"mode": "3d",
+			"name": "SWAT Pose Shield Pistol",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/SWAT_Pose_Shield_Pistol.tscn"
+		},
+		"3d:Supplemental_SWAT/SWAT_Pose_Sniper_Prone": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Sniper_Prone.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/SWAT_Pose_Sniper_Prone.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.400913327932358,
+						0.0,
+						-1.11743772029877
+					],
+					[
+						0.400913268327713,
+						0.69096428155899,
+						1.71190226078033
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/SWAT_Pose_Sniper_Prone.glb"
+				],
+				"source_hash": "e2676a9e56b06a579a6bf0b22e727fb6b5820b92d06e00d7e1200d90a72b6b6f",
+				"source_name": "SWAT_Pose_Sniper_Prone",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/SWAT_Pose_Sniper_Prone",
+			"mode": "3d",
+			"name": "SWAT Pose Sniper Prone",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/SWAT_Pose_Sniper_Prone.tscn"
+		},
+		"3d:Supplemental_SWAT/Tile_Concrete_Yard": {
+			"behavior": {
+				"building": false,
+				"collision": "mesh",
+				"door": false,
+				"ground": true,
+				"layer": "Ground",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Tile_Concrete_Yard.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Tile_Concrete_Yard.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-4.0,
+						-0.150000005960464,
+						-4.0
+					],
+					[
+						4.0,
+						0.0,
+						4.0
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Tile_Concrete_Yard.glb"
+				],
+				"source_hash": "f0ed0e11baf4baa2085ce8a2d8037cc920a73eb34ff5d7183bdca8f9b60c4da2",
+				"source_name": "Tile_Concrete_Yard",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Tile_Concrete_Yard",
+			"mode": "3d",
+			"name": "Tile Concrete Yard",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Tile_Concrete_Yard.tscn"
+		},
+		"3d:Supplemental_SWAT/Tile_Helipad": {
+			"behavior": {
+				"building": false,
+				"collision": "mesh",
+				"door": false,
+				"ground": true,
+				"layer": "Ground",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Tile_Helipad.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Tile_Helipad.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-4.0,
+						-0.150000005960464,
+						-4.0
+					],
+					[
+						4.0,
+						0.0999999940395355,
+						4.0
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Tile_Helipad.glb"
+				],
+				"source_hash": "26591c5e41077ae8d8db49e862f07d9172b3f9cc05dc89a60a2bcb76ef9fb6fe",
+				"source_name": "Tile_Helipad",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Tile_Helipad",
+			"mode": "3d",
+			"name": "Tile Helipad",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Tile_Helipad.tscn"
+		},
+		"3d:Supplemental_SWAT/Tile_Parking_Lot": {
+			"behavior": {
+				"building": false,
+				"collision": "mesh",
+				"door": false,
+				"ground": true,
+				"layer": "Ground",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Tile_Parking_Lot.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Tile_Parking_Lot.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-4.0,
+						-0.150000005960464,
+						-4.0
+					],
+					[
+						4.0,
+						0.120000004768372,
+						4.0
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Tile_Parking_Lot.glb"
+				],
+				"source_hash": "18b7d3d1f9d08d498cc6258a16dfaf378a6bb2c0be1c3c93ff83f4254fd62a8d",
+				"source_name": "Tile_Parking_Lot",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Tile_Parking_Lot",
+			"mode": "3d",
+			"name": "Tile Parking Lot",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Tile_Parking_Lot.tscn"
+		},
+		"3d:Supplemental_SWAT/Tile_Training_Ground": {
+			"behavior": {
+				"building": false,
+				"collision": "mesh",
+				"door": false,
+				"ground": true,
+				"layer": "Ground",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Tile_Training_Ground.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Tile_Training_Ground.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-4.0,
+						-0.150000005960464,
+						-4.0
+					],
+					[
+						4.0,
+						0.0999999940395355,
+						4.0
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Tile_Training_Ground.glb"
+				],
+				"source_hash": "d6a9b67c8ea9daa28541f884da584292eaaa20d0697a6c681517f0c77abacd70",
+				"source_name": "Tile_Training_Ground",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Tile_Training_Ground",
+			"mode": "3d",
+			"name": "Tile Training Ground",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Tile_Training_Ground.tscn"
+		},
+		"3d:Supplemental_SWAT/Training_Door": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": true,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Training_Door.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Training_Door.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.0219999998807907,
+						0.0299999993294477,
+						-0.0734999999403954
+					],
+					[
+						0.920000016689301,
+						2.0699999332428,
+						0.0734999999403954
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Training_Door.glb"
+				],
+				"source_hash": "aeb9150332be2fcf9468585d3ae86d470b8ef3e976ae535ad269fa581c73cd4c",
+				"source_name": "Training_Door",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Training_Door",
+			"mode": "3d",
+			"name": "Training Door",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Training_Door.tscn"
+		},
+		"3d:Supplemental_SWAT/Training_Obstacle_Wall": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Training_Obstacle_Wall.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Training_Obstacle_Wall.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-1.6599999666214,
+						0.0,
+						-1.29999995231628
+					],
+					[
+						1.6599999666214,
+						2.24000000953674,
+						0.220000028610229
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Training_Obstacle_Wall.glb"
+				],
+				"source_hash": "20b2f8cffa5177e44e63a28626159278f1f866ca9e964d4d446c3a29f582dfdf",
+				"source_name": "Training_Obstacle_Wall",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Training_Obstacle_Wall",
+			"mode": "3d",
+			"name": "Training Obstacle Wall",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Training_Obstacle_Wall.tscn"
+		},
+		"3d:Supplemental_SWAT/Training_Rappel_Ladder": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Training_Rappel_Ladder.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Training_Rappel_Ladder.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-1.22000002861023,
+						0.0,
+						-0.971650004386902
+					],
+					[
+						1.22000002861023,
+						5.15000009536743,
+						1.29726994037628
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Training_Rappel_Ladder.glb"
+				],
+				"source_hash": "21f3c9053395c726dde747cb3a237c690e6034dbf06d4cf729eea9d9b929ed5b",
+				"source_name": "Training_Rappel_Ladder",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Training_Rappel_Ladder",
+			"mode": "3d",
+			"name": "Training Rappel Ladder",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Training_Rappel_Ladder.tscn"
+		},
+		"3d:Supplemental_SWAT/Training_Shooting_Range": {
+			"behavior": {
+				"building": false,
+				"collision": "mesh",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Training_Shooting_Range.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Training_Shooting_Range.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-8.0,
+						-0.150000005960464,
+						-8.0
+					],
+					[
+						8.0,
+						4.98999977111816,
+						8.0
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Training_Shooting_Range.glb"
+				],
+				"source_hash": "b6207a575c0b497357e8a169872d1bc387e8e4768bff7ab73748efe0e307af75",
+				"source_name": "Training_Shooting_Range",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Training_Shooting_Range",
+			"mode": "3d",
+			"name": "Training Shooting Range",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Training_Shooting_Range.tscn"
+		},
+		"3d:Supplemental_SWAT/Training_Tower": {
+			"behavior": {
+				"building": false,
+				"collision": "mesh",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Training_Tower.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Training_Tower.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-3.40400004386902,
+						0.0,
+						-2.29999995231628
+					],
+					[
+						3.66000008583069,
+						11.1499996185303,
+						3.31629967689514
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Training_Tower.glb"
+				],
+				"source_hash": "64d6e676160b90a8143b50625f14d81fdd3bc9e6ae8f9dcbea2831b3fbb53433",
+				"source_name": "Training_Tower",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Training_Tower",
+			"mode": "3d",
+			"name": "Training Tower",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Training_Tower.tscn"
+		},
+		"3d:Supplemental_SWAT/Training_Wall_Corner": {
+			"behavior": {
+				"building": false,
+				"collision": "mesh",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Training_Wall_Corner.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Training_Wall_Corner.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.129999995231628,
+						0.0,
+						-2.0
+					],
+					[
+						2.0,
+						2.65000009536743,
+						0.130000114440918
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Training_Wall_Corner.glb"
+				],
+				"source_hash": "42ade674c09ecdc290a8e46585d59c56c051a305fd25030c37bc7808fcabb8b1",
+				"source_name": "Training_Wall_Corner",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Training_Wall_Corner",
+			"mode": "3d",
+			"name": "Training Wall Corner",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Training_Wall_Corner.tscn"
+		},
+		"3d:Supplemental_SWAT/Training_Wall_Cross": {
+			"behavior": {
+				"building": false,
+				"collision": "mesh",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Training_Wall_Cross.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Training_Wall_Cross.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-2.0,
+						0.0,
+						-2.0
+					],
+					[
+						2.0,
+						2.65000009536743,
+						2.0
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Training_Wall_Cross.glb"
+				],
+				"source_hash": "f9dbf09e208197f93e7209035d99c041a5aa303349ce9799bd14be9d90612019",
+				"source_name": "Training_Wall_Cross",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Training_Wall_Cross",
+			"mode": "3d",
+			"name": "Training Wall Cross",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Training_Wall_Cross.tscn"
+		},
+		"3d:Supplemental_SWAT/Training_Wall_Door": {
+			"behavior": {
+				"building": false,
+				"collision": "mesh",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Training_Wall_Door.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Training_Wall_Door.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-2.0,
+						0.0,
+						-0.129999995231628
+					],
+					[
+						2.0,
+						2.65000009536743,
+						0.129999995231628
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Training_Wall_Door.glb"
+				],
+				"source_hash": "d70838fcc0545894f29102b5240147f9351fdadfac0a92ea5257b7f1c1b843a0",
+				"source_name": "Training_Wall_Door",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Training_Wall_Door",
+			"mode": "3d",
+			"name": "Training Wall Door",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Training_Wall_Door.tscn"
+		},
+		"3d:Supplemental_SWAT/Training_Wall_End": {
+			"behavior": {
+				"building": false,
+				"collision": "mesh",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Training_Wall_End.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Training_Wall_End.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.100000001490116,
+						0.0,
+						-0.129999995231628
+					],
+					[
+						1.99999988079071,
+						2.65000009536743,
+						0.129999995231628
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Training_Wall_End.glb"
+				],
+				"source_hash": "568e7b847fc0a8f541b14cb922cc8b78aec2c7c18c50aebc3016f077892ab0f1",
+				"source_name": "Training_Wall_End",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Training_Wall_End",
+			"mode": "3d",
+			"name": "Training Wall End",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Training_Wall_End.tscn"
+		},
+		"3d:Supplemental_SWAT/Training_Wall_Low": {
+			"behavior": {
+				"building": false,
+				"collision": "mesh",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Training_Wall_Low.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Training_Wall_Low.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-2.0,
+						0.0,
+						-0.129999995231628
+					],
+					[
+						2.0,
+						1.25,
+						0.129999995231628
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Training_Wall_Low.glb"
+				],
+				"source_hash": "90e24073c81a5937faf9abe14c04380f035b7d3d360a28618c1fdc4418bf293c",
+				"source_name": "Training_Wall_Low",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Training_Wall_Low",
+			"mode": "3d",
+			"name": "Training Wall Low",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Training_Wall_Low.tscn"
+		},
+		"3d:Supplemental_SWAT/Training_Wall_Straight": {
+			"behavior": {
+				"building": false,
+				"collision": "mesh",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Training_Wall_Straight.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Training_Wall_Straight.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-2.0,
+						0.0,
+						-0.129999995231628
+					],
+					[
+						2.0,
+						2.65000009536743,
+						0.129999995231628
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Training_Wall_Straight.glb"
+				],
+				"source_hash": "a017edc7cf6e323632a6ffa150d6ba75eb0031f30fdfe537da94892550d6a575",
+				"source_name": "Training_Wall_Straight",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Training_Wall_Straight",
+			"mode": "3d",
+			"name": "Training Wall Straight",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Training_Wall_Straight.tscn"
+		},
+		"3d:Supplemental_SWAT/Training_Wall_T": {
+			"behavior": {
+				"building": false,
+				"collision": "mesh",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Training_Wall_T.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Training_Wall_T.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-2.0,
+						0.0,
+						-2.0
+					],
+					[
+						2.0,
+						2.65000009536743,
+						0.130000114440918
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Training_Wall_T.glb"
+				],
+				"source_hash": "6a819287c3b33f24393f8b5478c3c74e18cb5327bebc32aedaeabc1d602d69f5",
+				"source_name": "Training_Wall_T",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Training_Wall_T",
+			"mode": "3d",
+			"name": "Training Wall T",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Training_Wall_T.tscn"
+		},
+		"3d:Supplemental_SWAT/Training_Wall_Window": {
+			"behavior": {
+				"building": false,
+				"collision": "mesh",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Training_Wall_Window.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Training_Wall_Window.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-2.0,
+						0.0,
+						-0.129999995231628
+					],
+					[
+						2.0,
+						2.65000009536743,
+						0.129999995231628
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Training_Wall_Window.glb"
+				],
+				"source_hash": "5fefcc67eb21a58b3e1695c76ffeb5ee77722092255db0b32a9cf8c0f2ced2f8",
+				"source_name": "Training_Wall_Window",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Training_Wall_Window",
+			"mode": "3d",
+			"name": "Training Wall Window",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Training_Wall_Window.tscn"
+		},
+		"3d:Supplemental_SWAT/Vehicle_Armored_SUV": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Vehicles",
+				"vehicle": true
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Armored_SUV.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Armored_SUV.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-1.33000004291534,
+						0.0143100004643202,
+						-2.92000007629395
+					],
+					[
+						1.33000004291534,
+						2.79999995231628,
+						3.15199995040894
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Vehicle_Armored_SUV.glb"
+				],
+				"source_hash": "728c55d674d236c35919ca5d4a2b599f7e35e92b517a39b2fea21ad1bc4809f7",
+				"source_name": "Vehicle_Armored_SUV",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Vehicle_Armored_SUV",
+			"mode": "3d",
+			"name": "Vehicle Armored SUV",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Vehicle_Armored_SUV.tscn"
+		},
+		"3d:Supplemental_SWAT/Vehicle_Armored_Truck": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Vehicles",
+				"vehicle": true
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Armored_Truck.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Armored_Truck.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-1.48000001907349,
+						0.0170399993658066,
+						-3.32399988174438
+					],
+					[
+						1.48000001907349,
+						3.77999997138977,
+						3.71999979019165
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Vehicle_Armored_Truck.glb"
+				],
+				"source_hash": "5ec752778344b487cffbba07cf111f8843ea116e7da54b23762404d52f17dade",
+				"source_name": "Vehicle_Armored_Truck",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Vehicle_Armored_Truck",
+			"mode": "3d",
+			"name": "Vehicle Armored Truck",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Vehicle_Armored_Truck.tscn"
+		},
+		"3d:Supplemental_SWAT/Vehicle_Bomb_Robot": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Bomb_Robot.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Bomb_Robot.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.382099986076355,
+						0.0,
+						-0.515230000019073
+					],
+					[
+						0.382099986076355,
+						1.11000001430511,
+						0.953139960765839
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Vehicle_Bomb_Robot.glb"
+				],
+				"source_hash": "f220773cc2ca8b22871b0240cbe16989f3d4b925d65c37842f7a65c6055ef969",
+				"source_name": "Vehicle_Bomb_Robot",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Vehicle_Bomb_Robot",
+			"mode": "3d",
+			"name": "Vehicle Bomb Robot",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Vehicle_Bomb_Robot.tscn"
+		},
+		"3d:Supplemental_SWAT/Vehicle_Command_Truck": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Vehicles",
+				"vehicle": true
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Command_Truck.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Command_Truck.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-1.53999996185303,
+						0.0,
+						-4.78399991989136
+					],
+					[
+						3.57999992370605,
+						8.05000019073486,
+						4.81799936294556
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Vehicle_Command_Truck.glb"
+				],
+				"source_hash": "78626d63a66bbfd5b2a629375e39c5778f5ce7a854a8ff6e66fcc78a1b2a9dc5",
+				"source_name": "Vehicle_Command_Truck",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Vehicle_Command_Truck",
+			"mode": "3d",
+			"name": "Vehicle Command Truck",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Vehicle_Command_Truck.tscn"
+		},
+		"3d:Supplemental_SWAT/Vehicle_Drone": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Drone.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Drone.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.552429974079132,
+						0.0,
+						-0.552429974079132
+					],
+					[
+						0.552429974079132,
+						0.310000002384186,
+						0.552429974079132
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Vehicle_Drone.glb"
+				],
+				"source_hash": "ad846e92a5c302845ba7d7720000ba77ee324a8765317b310e415ec328b9b0d2",
+				"source_name": "Vehicle_Drone",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Vehicle_Drone",
+			"mode": "3d",
+			"name": "Vehicle Drone",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Vehicle_Drone.tscn"
+		},
+		"3d:Supplemental_SWAT/Vehicle_Patrol_SUV": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Vehicles",
+				"vehicle": true
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Patrol_SUV.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Patrol_SUV.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-1.10000002384186,
+						0.0129500003531575,
+						-2.61800003051758
+					],
+					[
+						1.10000002384186,
+						2.39000010490417,
+						2.79199981689453
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Vehicle_Patrol_SUV.glb"
+				],
+				"source_hash": "b5989638a3e0f95eee0d539618f6ad3013d9dfe33d1ce25280b0e9ec4a6e03b3",
+				"source_name": "Vehicle_Patrol_SUV",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Vehicle_Patrol_SUV",
+			"mode": "3d",
+			"name": "Vehicle Patrol SUV",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Vehicle_Patrol_SUV.tscn"
+		},
+		"3d:Supplemental_SWAT/Vehicle_Police_Helicopter": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Police_Helicopter.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Police_Helicopter.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-4.66493988037109,
+						0.00999999977648258,
+						-6.97696018218994
+					],
+					[
+						4.66493034362793,
+						3.35999989509583,
+						3.80000019073486
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Vehicle_Police_Helicopter.glb"
+				],
+				"source_hash": "642156c4883c8b6da8351c49e4251eda098231451515e940bf425703e67ff6d3",
+				"source_name": "Vehicle_Police_Helicopter",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Vehicle_Police_Helicopter",
+			"mode": "3d",
+			"name": "Vehicle Police Helicopter",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Vehicle_Police_Helicopter.tscn"
+		},
+		"3d:Supplemental_SWAT/Vehicle_Police_Motorcycle": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Vehicles",
+				"vehicle": true
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Police_Motorcycle.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Police_Motorcycle.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.532549977302551,
+						0.0112399999052286,
+						-1.1425199508667
+					],
+					[
+						0.531839966773987,
+						1.39999997615814,
+						1.17671012878418
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Vehicle_Police_Motorcycle.glb"
+				],
+				"source_hash": "409640df0e5a0763ff48aca57768f8973c6ef05fbebc4812a38319cf1188f48d",
+				"source_name": "Vehicle_Police_Motorcycle",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Vehicle_Police_Motorcycle",
+			"mode": "3d",
+			"name": "Vehicle Police Motorcycle",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Vehicle_Police_Motorcycle.tscn"
+		},
+		"3d:Supplemental_SWAT/Vehicle_Prisoner_Transport_Van": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Vehicles",
+				"vehicle": true
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Prisoner_Transport_Van.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Prisoner_Transport_Van.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-1.19000005722046,
+						0.0136299999430776,
+						-3.19799995422363
+					],
+					[
+						1.19000005722046,
+						3.40000009536743,
+						3.13800001144409
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Vehicle_Prisoner_Transport_Van.glb"
+				],
+				"source_hash": "663aaad1c6a9d54927092d5cf0f18793b1b93fd8cbc1bc18d6717d0b0e900592",
+				"source_name": "Vehicle_Prisoner_Transport_Van",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Vehicle_Prisoner_Transport_Van",
+			"mode": "3d",
+			"name": "Vehicle Prisoner Transport Van",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Vehicle_Prisoner_Transport_Van.tscn"
+		},
+		"3d:Supplemental_SWAT/Vehicle_SWAT_Van": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Vehicles",
+				"vehicle": true
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Vehicle_SWAT_Van.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Vehicle_SWAT_Van.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-1.37999999523163,
+						0.0143100004643202,
+						-3.30399990081787
+					],
+					[
+						1.37999999523163,
+						3.67000007629395,
+						3.43200016021729
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Vehicle_SWAT_Van.glb"
+				],
+				"source_hash": "8041d9de59c123a24c8628a793cbe0b122f38cba77481a1e174fc370b71d0106",
+				"source_name": "Vehicle_SWAT_Van",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Vehicle_SWAT_Van",
+			"mode": "3d",
+			"name": "Vehicle SWAT Van",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Vehicle_SWAT_Van.tscn"
+		},
+		"3d:Supplemental_SWAT/Vehicle_Unmarked_Sedan": {
+			"behavior": {
+				"building": false,
+				"collision": "box",
+				"door": false,
+				"ground": false,
+				"layer": "Vehicles",
+				"vehicle": true
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": false,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Unmarked_Sedan.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Vehicle_Unmarked_Sedan.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-1.01999998092651,
+						0.0115900002419949,
+						-2.57800006866455
+					],
+					[
+						1.01999998092651,
+						1.77999997138977,
+						2.57800006866455
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Vehicle_Unmarked_Sedan.glb"
+				],
+				"source_hash": "1c478a0bdd7b7ce83e0b35f4a14c9eb62e2757b425f3e650dc19b7d0b811177b",
+				"source_name": "Vehicle_Unmarked_Sedan",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Vehicle_Unmarked_Sedan",
+			"mode": "3d",
+			"name": "Vehicle Unmarked Sedan",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Vehicle_Unmarked_Sedan.tscn"
+		},
+		"3d:Supplemental_SWAT/Weapon_Assault_Rifle": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Weapon_Assault_Rifle.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Weapon_Assault_Rifle.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.0471500009298325,
+						-0.111000001430511,
+						-0.30799999833107
+					],
+					[
+						0.0222000032663345,
+						0.191500008106232,
+						0.575000047683716
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Weapon_Assault_Rifle.glb"
+				],
+				"source_hash": "1c584fab028901728f999c28f6647b70863b1b299cb40facd6ff9259a5c8969f",
+				"source_name": "Weapon_Assault_Rifle",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Weapon_Assault_Rifle",
+			"mode": "3d",
+			"name": "Weapon Assault Rifle",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Weapon_Assault_Rifle.tscn"
+		},
+		"3d:Supplemental_SWAT/Weapon_Assault_Rifle_Suppressed": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Weapon_Assault_Rifle_Suppressed.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Weapon_Assault_Rifle_Suppressed.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.0471500009298325,
+						-0.111000001430511,
+						-0.30799999833107
+					],
+					[
+						0.0222000032663345,
+						0.191500008106232,
+						0.700000047683716
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Weapon_Assault_Rifle_Suppressed.glb"
+				],
+				"source_hash": "95f93f6724b1b222ee2efea371f3c61b71f6cafefe7d83ea9cbebe785c3d3379",
+				"source_name": "Weapon_Assault_Rifle_Suppressed",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Weapon_Assault_Rifle_Suppressed",
+			"mode": "3d",
+			"name": "Weapon Assault Rifle Suppressed",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Weapon_Assault_Rifle_Suppressed.tscn"
+		},
+		"3d:Supplemental_SWAT/Weapon_Ballistic_Shield": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Weapon_Ballistic_Shield.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Weapon_Ballistic_Shield.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.280000001192093,
+						-0.5,
+						-0.0280000008642673
+					],
+					[
+						0.280000001192093,
+						0.480000019073486,
+						0.165999993681908
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Weapon_Ballistic_Shield.glb"
+				],
+				"source_hash": "e4dfa14dd239a15434cd28b029a7b6aa1001840f2dcf8490d8e03b6c28a6d462",
+				"source_name": "Weapon_Ballistic_Shield",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Weapon_Ballistic_Shield",
+			"mode": "3d",
+			"name": "Weapon Ballistic Shield",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Weapon_Ballistic_Shield.tscn"
+		},
+		"3d:Supplemental_SWAT/Weapon_Battering_Ram": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Weapon_Battering_Ram.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Weapon_Battering_Ram.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.060869999229908,
+						-0.168999999761581,
+						-0.159999996423721
+					],
+					[
+						0.060869999229908,
+						0.0138600021600723,
+						0.540000081062317
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Weapon_Battering_Ram.glb"
+				],
+				"source_hash": "eb4888b3795e2a9b8d0b502a2accdeb1fb9b921f65f75cfffd79250680b271c2",
+				"source_name": "Weapon_Battering_Ram",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Weapon_Battering_Ram",
+			"mode": "3d",
+			"name": "Weapon Battering Ram",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Weapon_Battering_Ram.tscn"
+		},
+		"3d:Supplemental_SWAT/Weapon_Halligan_Bar": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Weapon_Halligan_Bar.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Weapon_Halligan_Bar.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.0270000007003546,
+						-0.126000002026558,
+						-0.501550018787384
+					],
+					[
+						0.0270000007003546,
+						0.114999994635582,
+						0.413999974727631
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Weapon_Halligan_Bar.glb"
+				],
+				"source_hash": "8b40d91d0d75a05724f077bb5150ea70cd4b2f4c2da96ac72a7083aa767b1119",
+				"source_name": "Weapon_Halligan_Bar",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Weapon_Halligan_Bar",
+			"mode": "3d",
+			"name": "Weapon Halligan Bar",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Weapon_Halligan_Bar.tscn"
+		},
+		"3d:Supplemental_SWAT/Weapon_Less_Lethal_Launcher": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Weapon_Less_Lethal_Launcher.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Weapon_Less_Lethal_Launcher.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.0299999993294477,
+						-0.0582199990749359,
+						-0.277999997138977
+					],
+					[
+						0.0299999993294477,
+						0.20100000500679,
+						0.345999956130981
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Weapon_Less_Lethal_Launcher.glb"
+				],
+				"source_hash": "402e48fb5f00aaa74dcffa851cb3341dc740ad73e802ef0ae2afac8c38c8bcda",
+				"source_name": "Weapon_Less_Lethal_Launcher",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Weapon_Less_Lethal_Launcher",
+			"mode": "3d",
+			"name": "Weapon Less Lethal Launcher",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Weapon_Less_Lethal_Launcher.tscn"
+		},
+		"3d:Supplemental_SWAT/Weapon_Pistol": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Weapon_Pistol.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Weapon_Pistol.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.0149999996647239,
+						-0.0621899999678135,
+						-0.0399999991059303
+					],
+					[
+						0.0161999985575676,
+						0.0965000092983246,
+						0.152200013399124
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Weapon_Pistol.glb"
+				],
+				"source_hash": "909eb11a7df73e9a7c7d2a79497575bf0e55a7d8bb13525c1c15e001fb923e9b",
+				"source_name": "Weapon_Pistol",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Weapon_Pistol",
+			"mode": "3d",
+			"name": "Weapon Pistol",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Weapon_Pistol.tscn"
+		},
+		"3d:Supplemental_SWAT/Weapon_SMG": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Weapon_SMG.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Weapon_SMG.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.0211999993771315,
+						-0.129999995231628,
+						-0.25
+					],
+					[
+						0.034000001847744,
+						0.157000005245209,
+						0.360000014305115
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Weapon_SMG.glb"
+				],
+				"source_hash": "656bf005fd0bf670657cb6e2a7e2665986de0e04c554754a67a5f4735d6e4bbf",
+				"source_name": "Weapon_SMG",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Weapon_SMG",
+			"mode": "3d",
+			"name": "Weapon SMG",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Weapon_SMG.tscn"
+		},
+		"3d:Supplemental_SWAT/Weapon_Shotgun_Pump": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Weapon_Shotgun_Pump.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Weapon_Shotgun_Pump.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.0445000007748604,
+						-0.0601500011980534,
+						-0.372000008821487
+					],
+					[
+						0.0221699997782707,
+						0.136000007390976,
+						0.639999985694885
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Weapon_Shotgun_Pump.glb"
+				],
+				"source_hash": "2dd7f59bfc405ebc2f33829cb74b04458d3a36af85b663cef6d3efe9c3f6d18d",
+				"source_name": "Weapon_Shotgun_Pump",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Weapon_Shotgun_Pump",
+			"mode": "3d",
+			"name": "Weapon Shotgun Pump",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Weapon_Shotgun_Pump.tscn"
+		},
+		"3d:Supplemental_SWAT/Weapon_Sniper_Rifle": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Weapon_Sniper_Rifle.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Weapon_Sniper_Rifle.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.0740099996328354,
+						-0.135000005364418,
+						-0.416000008583069
+					],
+					[
+						0.0740099996328354,
+						0.207499995827675,
+						0.78600001335144
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Weapon_Sniper_Rifle.glb"
+				],
+				"source_hash": "9e42f4863e73b23522d178ea1c0b0ba604588a15cf5b1a85e78387de4d519b1c",
+				"source_name": "Weapon_Sniper_Rifle",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Weapon_Sniper_Rifle",
+			"mode": "3d",
+			"name": "Weapon Sniper Rifle",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Weapon_Sniper_Rifle.tscn"
+		},
+		"3d:Supplemental_SWAT/Weapon_Taser": {
+			"behavior": {
+				"building": false,
+				"collision": "none",
+				"door": false,
+				"ground": false,
+				"layer": "Decorations",
+				"vehicle": false
+			},
+			"category": "Supplemental SWAT",
+			"data": {
+				"animation_note": "Static model",
+				"author": "HanX Assets",
+				"authored_origin_preserved": true,
+				"default_scale": 1.0,
+				"engine_calibrated": true,
+				"license": "HanX Assets Standard License",
+				"model_file": "res://assets/supplemental_models/HanX_SWAT/Weapon_Taser.glb",
+				"prepared_scale": 1.0,
+				"preview_path": "res://assets/supplemental_models/HanX_SWAT/Weapon_Taser.png",
+				"rigged": false,
+				"source_bounds": [
+					[
+						-0.0195000004023314,
+						-0.0506899990141392,
+						-0.033500000834465
+					],
+					[
+						0.0195000004023314,
+						0.096000000834465,
+						0.151500001549721
+					]
+				],
+				"source_export_allowed": false,
+				"source_files": [
+					"res://assets/supplemental_source/HanX_SWAT/HanX_SWAT_Pack/GLB/Weapon_Taser.glb"
+				],
+				"source_hash": "2ce15b3b1c991b25298be120802bac0acd91778854f5477c6dfe66b38f18442f",
+				"source_name": "Weapon_Taser",
+				"source_pack": "HanX SWAT",
+				"source_url": "https://hanx-games.itch.io/"
+			},
+			"id": "3d:Supplemental_SWAT/Weapon_Taser",
+			"mode": "3d",
+			"name": "Weapon Taser",
+			"path": "res://scenes/items_3d/Supplemental_SWAT/Weapon_Taser.tscn"
+		}
+	},
+	"notes": [
+		"Combined GLB and alternate FBX/OBJ/Blender editions retained in ignored source intake."
+	],
+	"version": 1.0
+}

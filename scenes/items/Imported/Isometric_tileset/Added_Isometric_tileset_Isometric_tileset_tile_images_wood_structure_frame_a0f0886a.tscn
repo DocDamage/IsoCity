@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_wood_structure_frame_a0f0886a_SE.png" id="2"]
+
+[node name="Added_Isometric_tileset_Isometric_tileset_tile_images_wood_structure_frame_a0f0886a" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Isometric_tileset_Isometric_tileset_tile_images_wood_structure_frame_a0f0886a"
+category = "Added Isometric tileset - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 12)
+origin_offset = Vector2(200.955731, 21.23892)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_wood_structure_frame_a0f0886a_SE.png", "frame_width": 328, "frame_height": 295, "frames": 1, "origin": [200.955731, 21.23892], "footprint": [8, 12], "grid_original": {"origin": [68, 231], "footprint": [7, 1]}, "alignment_transform": [1.0954106476351653, 0.028850674684562025, 0.11459862506585927, 1.0953079522325129], "alignment_base": [[16.0, 113.757282], [127.044269, 169.263405], [312.0, 76.745043]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [127.044269, 169.263405]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-200.955731, -21.23892)
+hframes = 1

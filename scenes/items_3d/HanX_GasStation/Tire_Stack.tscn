@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/hanx_lowpoly/low-poly-gas-station-pack-hanx-gasstation-pack/HanX_GasStation_Pack/GLB/Tire_Stack.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1"]
+size = Vector3(0.660000026, 0.879999995, 0.643459976)
+
+[node name="Tire_Stack" type="StaticBody3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000000000, 0.439999998, 0.000000000)
+shape = SubResource("BoxShape3D_1")

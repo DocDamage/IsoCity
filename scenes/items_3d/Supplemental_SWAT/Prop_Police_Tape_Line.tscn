@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Prop_Police_Tape_Line.glb" id="1_0mso1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xq06t"]
+size = Vector3(3.20375, 1.035, 0.30434)
+
+[node name="Prop_Police_Tape_Line" type="StaticBody3D" unique_id=315469576]
+collision_mask = 0
+metadata/authored_footprint = [-1.601875, 0.0, -0.15217, 3.20375, 1.035, 0.30434]
+
+[node name="Model" type="Node3D" parent="." unique_id=1017172647]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.041875005, 0, 0)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=431096279 instance=ExtResource("1_0mso1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=28405627]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5175, 0)
+shape = SubResource("BoxShape3D_xq06t")

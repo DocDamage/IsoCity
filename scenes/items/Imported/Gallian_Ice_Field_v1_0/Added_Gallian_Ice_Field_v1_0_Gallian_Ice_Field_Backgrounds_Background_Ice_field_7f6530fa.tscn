@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Gallian_Ice_Field_v1_0/Added_Gallian_Ice_Field_v1_0_Gallian_Ice_Field_Backgrounds_Background_Ice_field_7f6530fa_SE.png" id="2"]
+
+[node name="Added_Gallian_Ice_Field_v1_0_Gallian_Ice_Field_Backgrounds_Background_Ice_field_7f6530fa" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_Gallian_Ice_Field_v1_0_Gallian_Ice_Field_Backgrounds_Background_Ice_field_7f6530fa"
+category = "Added Gallian Ice Field - Backdrops"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(30, 30)
+origin_offset = Vector2(510.848771, 36.17651)
+total_frames = 1
+animation_fps = 8.0
+has_collision = false
+directions_data = {"SE": {"file": "../../imported_prepared/Gallian_Ice_Field_v1_0/Added_Gallian_Ice_Field_v1_0_Gallian_Ice_Field_Backgrounds_Background_Ice_field_7f6530fa_SE.png", "frame_width": 1024, "frame_height": 591, "frames": 1, "origin": [510.848771, 36.17651], "footprint": [30, 30], "grid_original": {"origin": [512, 271], "footprint": [20, 20]}, "alignment_transform": [1.0000005345852594, -0.000848385311245984, -0.0005460535208595893, 0.8665854102475506], "alignment_base": [[31.0, 312.655782], [511.151229, 590.074892], [991.0, 313.59562]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [511.151229, 590.074892]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-510.848771, -36.17651)
+hframes = 1

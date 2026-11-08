@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_ground_cobble_path_c_5ecd7c0e_SE.png" id="2"]
+
+[node name="Added_Isometric_tileset_Isometric_tileset_tile_images_ground_cobble_path_c_5ecd7c0e" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_Isometric_tileset_Isometric_tileset_tile_images_ground_cobble_path_c_5ecd7c0e"
+category = "Added Isometric tileset - Ground"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 8)
+origin_offset = Vector2(128.0, 20.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = false
+directions_data = {"SE": {"file": "../../imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_ground_cobble_path_c_5ecd7c0e_SE.png", "frame_width": 256, "frame_height": 128, "frames": 1, "origin": [128.0, 20.0], "footprint": [8, 8], "grid_original": {"origin": [128, 0], "footprint": [8, 8]}, "alignment_transform": [1.0491803278688525, 0.0, 0.0, 1.1851851851851851], "alignment_base": [[6.0, 74.0], [128.0, 128.0], [250.0, 74.0]], "alignment_version": 2, "grid_method": "floor bounds", "grid_contact": [128.0, 128.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-128.0, -20.0)
+hframes = 1

@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Building_Police_Station.glb" id="1_i47qy"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2a0ev"]
+size = Vector3(15.7, 11.68, 13.75)
+
+[node name="Building_Police_Station" type="StaticBody3D" unique_id=1502151936]
+collision_mask = 0
+metadata/authored_footprint = [-7.85, 0.0, -6.875, 15.7, 11.68, 13.75]
+
+[node name="Model" type="Node3D" parent="." unique_id=143001723]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.17500019)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=2075016563 instance=ExtResource("1_i47qy")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1121075605]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.84, 0)
+shape = SubResource("BoxShape3D_2a0ev")

@@ -1,0 +1,21 @@
+.godot/
+__pycache__/
+*.pyc
+output/
+/.playwright-cli/
+/creations/
+
+# Local source packs, prepared artwork, and asset archives
+/assets/
+/HanX Assets/
+/Isometric RPG World Pack/
+/more assets to ingest after its complete/
+/resources/previews_3d/
+/resources/previews_imported/
+/resources/previews_reviewed/
+*.zip
+*.7z
+*.rar
+
+# Local design document with embedded images
+/Isometric_City_Editor_Design.docx

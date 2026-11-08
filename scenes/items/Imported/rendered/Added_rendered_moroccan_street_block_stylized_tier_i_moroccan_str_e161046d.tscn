@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_moroccan_street_block_stylized_tier_i_moroccan_str_e161046d_SE.png" id="2"]
+
+[node name="Added_rendered_moroccan_street_block_stylized_tier_i_moroccan_str_e161046d" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_moroccan_street_block_stylized_tier_i_moroccan_str_e161046d"
+category = "Added rendered - Nature"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 8)
+origin_offset = Vector2(176.0, 56.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_street_block_stylized_tier_i_moroccan_str_e161046d_SE.png", "frame_width": 344, "frame_height": 186, "frames": 1, "origin": [176.0, 56.0], "footprint": [8, 8], "grid_original": {"origin": [172, 10], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [176.0, 184.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_street_block_stylized_tier_i_moroccan_str_e161046d_E.png", "frame_width": 301, "frame_height": 282, "frames": 1, "origin": [75.315271, 117.840199], "footprint": [16, 4], "grid_original": {"origin": [150, 138], "footprint": [9, 9]}, "alignment_transform": [1.1157776669862915, 0.02651593158535065, 0.09481114044190486, 0.9657889210195616], "alignment_base": [[15.0, 152.629701], [233.684729, 279.159803], [294.0, 244.370301]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [233.684729, 279.159803]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_street_block_stylized_tier_i_moroccan_str_e161046d_NE.png", "frame_width": 94, "frame_height": 310, "frames": 1, "origin": [46.5, 243.0], "footprint": [4, 4], "grid_original": {"origin": [47, 262], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [46.5, 307.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_street_block_stylized_tier_i_moroccan_str_e161046d_N.png", "frame_width": 302, "frame_height": 290, "frames": 1, "origin": [224.839895, 126.0959], "footprint": [4, 16], "grid_original": {"origin": [151, 146], "footprint": [9, 9]}, "alignment_transform": [1.1167557954029603, -0.02585498858004104, -0.09188128704896548, 0.9682712392445632], "alignment_base": [[6.0, 252.446753], [66.160105, 287.101752], [285.0, 160.750899]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [66.160105, 287.101752]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_street_block_stylized_tier_i_moroccan_str_e161046d_NW.png", "frame_width": 344, "frame_height": 202, "frames": 1, "origin": [171.5, 71.0], "footprint": [8, 8], "grid_original": {"origin": [172, 26], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [171.5, 199.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_street_block_stylized_tier_i_moroccan_str_e161046d_W.png", "frame_width": 301, "frame_height": 306, "frames": 1, "origin": [76.145133, 141.995015], "footprint": [16, 4], "grid_original": {"origin": [150, 162], "footprint": [9, 9]}, "alignment_transform": [1.116959072969936, 0.02693904551627374, 0.09139668468327433, 0.9663886535748732], "alignment_base": [[16.0, 176.784592], [234.854867, 303.135681], [295.0, 268.346104]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [234.854867, 303.135681]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_street_block_stylized_tier_i_moroccan_str_e161046d_SW.png", "frame_width": 94, "frame_height": 329, "frames": 1, "origin": [46.0, 262.0], "footprint": [4, 4], "grid_original": {"origin": [47, 281], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [46.0, 326.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_street_block_stylized_tier_i_moroccan_str_e161046d_S.png", "frame_width": 302, "frame_height": 295, "frames": 1, "origin": [224.005327, 131.724918], "footprint": [4, 16], "grid_original": {"origin": [151, 151], "footprint": [9, 9]}, "alignment_transform": [1.120598092546805, -0.02767027508803871, -0.0931440353255566, 0.9706860930102502], "alignment_base": [[6.0, 257.375974], [65.994673, 292.052549], [284.0, 166.401493]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [65.994673, 292.052549]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-176.0, -56.0)
+hframes = 1

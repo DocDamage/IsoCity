@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Gear_Wall_Peg.glb" id="1_3auqa"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qnq5t"]
+size = Vector3(0.032, 0.06485, 0.10625)
+
+[node name="Gear_Wall_Peg" type="StaticBody3D" unique_id=1004596900]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.016, 0.0, -0.053125, 0.032, 0.06485, 0.10625]
+
+[node name="Model" type="Node3D" parent="." unique_id=2011728716]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.034, -0.053125)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1945813123 instance=ExtResource("1_3auqa")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1989163779]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.032425, 0)
+shape = SubResource("BoxShape3D_qnq5t")
+disabled = true

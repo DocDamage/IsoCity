@@ -1,0 +1,389 @@
+{
+  "document": {
+    "citizens": {
+      "day_length": 2000,
+      "enabled": true,
+      "population": 2,
+      "seed": 42,
+      "start_hour": 8.15
+    },
+    "mode": "3d",
+    "night": false,
+    "objects": [
+      {
+        "asset": "2d:House_Blue",
+        "citizen_role": "home",
+        "direction": "SE",
+        "position": [
+          -6,
+          0,
+          14
+        ],
+        "scale": 0.45,
+        "uid": "home"
+      },
+      {
+        "asset": "3d:HanX_City/Row_Houses_A",
+        "citizen_role": "home",
+        "direction": "0",
+        "position": [
+          -20,
+          0,
+          -12
+        ],
+        "scale": 0.55,
+        "uid": "row_homes"
+      },
+      {
+        "asset": "3d:HanX_Shop/Shop_Cafe",
+        "business": {
+          "close_hour": 21,
+          "kind": "cafe",
+          "open_hour": 7
+        },
+        "citizen_role": "work",
+        "direction": "0",
+        "position": [
+          -6,
+          0,
+          -13
+        ],
+        "scale": 0.65,
+        "uid": "cafe"
+      },
+      {
+        "asset": "3d:HanX_Shop/Shop_Grocery",
+        "business": {
+          "close_hour": 21,
+          "kind": "shop",
+          "open_hour": 7
+        },
+        "citizen_role": "shop",
+        "direction": "0",
+        "position": [
+          22,
+          0,
+          15
+        ],
+        "scale": 0.6,
+        "uid": "grocery"
+      },
+      {
+        "asset": "3d:HanX_School/School_Building",
+        "direction": "0",
+        "entrance_anchor": {
+          "arrival": [
+            0,
+            0,
+            12
+          ],
+          "point": [
+            0,
+            0,
+            8
+          ]
+        },
+        "position": [
+          59,
+          0,
+          18
+        ],
+        "scale": 0.2,
+        "school": {
+          "bus_line": "school_line",
+          "capacity": 2,
+          "enabled": true,
+          "home_stop": "neighborhood_stop",
+          "school_stop": "school_stop"
+        },
+        "uid": "school"
+      },
+      {
+        "asset": "3d:HanX_GasStation/Fuel_Canopy",
+        "direction": "0",
+        "position": [
+          24,
+          0,
+          -17
+        ],
+        "scale": 0.7,
+        "uid": "gas_canopy"
+      },
+      {
+        "asset": "3d:HanX_GasStation/Pump_Island",
+        "direction": "0",
+        "position": [
+          24,
+          0,
+          -17
+        ],
+        "scale": 0.7,
+        "uid": "gas_pump"
+      },
+      {
+        "asset": "2d:Fire_Station1_-_Copie",
+        "direction": "SE",
+        "position": [
+          44,
+          0,
+          -14
+        ],
+        "scale": 0.65,
+        "uid": "fire_station"
+      },
+      {
+        "asset": "3d:HanX_Traffic/Bus_Stop",
+        "direction": "0",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "scale": 1,
+        "uid": "neighborhood_stop"
+      },
+      {
+        "asset": "3d:HanX_Traffic/Bus_Stop",
+        "direction": "0",
+        "position": [
+          64,
+          0,
+          8
+        ],
+        "scale": 1,
+        "uid": "school_stop"
+      },
+      {
+        "asset": "3d:HanX_Traffic/Traffic_Light_Red",
+        "direction": "90",
+        "position": [
+          4.19999980926514,
+          0.0,
+          -4.59999990463257
+        ],
+        "scale": 1,
+        "traffic_control": {
+          "cell": [
+            0,
+            0
+          ],
+          "kind": "signal",
+          "side": 0,
+          "timing": {
+            "clear": 2.0,
+            "green": 4.0,
+            "walk": 3.0
+          }
+        },
+        "uid": "east"
+      },
+      {
+        "asset": "3d:HanX_Traffic/Traffic_Light_Red",
+        "direction": "0",
+        "position": [
+          -4.59999990463257,
+          0.0,
+          4.19999980926514
+        ],
+        "scale": 1,
+        "traffic_control": {
+          "cell": [
+            0,
+            0
+          ],
+          "kind": "signal",
+          "side": 1,
+          "timing": {
+            "clear": 2.0,
+            "green": 4.0,
+            "walk": 3.0
+          }
+        },
+        "uid": "south"
+      }
+    ],
+    "roads": [
+      {
+        "cell": [
+          -4,
+          0
+        ],
+        "crossing": false
+      },
+      {
+        "cell": [
+          -3,
+          0
+        ],
+        "crossing": false
+      },
+      {
+        "cell": [
+          -2,
+          0
+        ],
+        "crossing": false
+      },
+      {
+        "cell": [
+          -1,
+          0
+        ],
+        "crossing": false
+      },
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "crossing": true
+      },
+      {
+        "cell": [
+          1,
+          0
+        ],
+        "crossing": false
+      },
+      {
+        "cell": [
+          2,
+          0
+        ],
+        "crossing": false
+      },
+      {
+        "cell": [
+          3,
+          0
+        ],
+        "crossing": false
+      },
+      {
+        "cell": [
+          4,
+          0
+        ],
+        "crossing": false
+      },
+      {
+        "cell": [
+          5,
+          0
+        ],
+        "crossing": false
+      },
+      {
+        "cell": [
+          6,
+          0
+        ],
+        "crossing": false
+      },
+      {
+        "cell": [
+          7,
+          0
+        ],
+        "crossing": false
+      },
+      {
+        "cell": [
+          8,
+          0
+        ],
+        "crossing": false
+      },
+      {
+        "cell": [
+          9,
+          0
+        ],
+        "crossing": false
+      },
+      {
+        "cell": [
+          10,
+          0
+        ],
+        "crossing": false
+      },
+      {
+        "cell": [
+          11,
+          0
+        ],
+        "crossing": false
+      },
+      {
+        "cell": [
+          12,
+          0
+        ],
+        "crossing": false
+      },
+      {
+        "cell": [
+          0,
+          -2
+        ]
+      },
+      {
+        "cell": [
+          0,
+          -1
+        ]
+      },
+      {
+        "cell": [
+          0,
+          1
+        ]
+      },
+      {
+        "cell": [
+          0,
+          2
+        ]
+      }
+    ],
+    "services": {
+      "automatic": false,
+      "enabled": true,
+      "seed": 42
+    },
+    "spawn": [
+      0,
+      0.2,
+      9
+    ],
+    "template": "blank",
+    "template_revision": 2,
+    "tiles": [],
+    "title": "Golden modern block",
+    "transit": {
+      "automatic": false,
+      "enabled": true,
+      "population": 4,
+      "speed": 4
+    },
+    "transit_lines": [
+      {
+        "capacity": 1,
+        "dwell": 5,
+        "headway": 160,
+        "name": "School bus",
+        "offset": 25,
+        "school_bus": true,
+        "stops": [
+          "neighborhood_stop",
+          "school_stop"
+        ],
+        "uid": "school_line"
+      }
+    ]
+  },
+  "scenario": "modern_block",
+  "seed": 42,
+  "version": 1
+}

@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "vehicles": {
+    "2d:Delivery_Van": 8,
+    "3d:HanX_Traffic/Van_Delivery": 8,
+    "2d:Box_Truck": 16,
+    "3d:HanX_Traffic/Truck_Box": 16
+  },
+  "sites": [
+    "2d:Coffee_Shop", "2d:Supermarket",
+    "3d:HanX_Shop/Shop_Bakery", "3d:HanX_Shop/Shop_Cafe", "3d:HanX_Shop/Shop_Grocery",
+    "3d:HanX_Construction/Shipping_Container", "3d:HanX_Construction/Site_Office"
+  ],
+  "goods": {
+    "parcels": {"name": "Parcels", "2d": "2d:crate", "3d": "3d:HanX_Shop/Cardboard_Boxes"},
+    "produce": {"name": "Produce", "2d": "2d:crate", "3d": "3d:HanX_Shop/Crate_Apples"},
+    "bakery": {"name": "Bakery goods", "2d": "2d:crate", "3d": "3d:HanX_Shop/Bread_Basket"},
+    "masonry": {"name": "Masonry materials", "2d": "3d:HanX_Construction/Pallet_Bricks", "3d": "3d:HanX_Construction/Pallet_Bricks"},
+    "village_grain": {"name": "Village grain", "2d": "2d:crate", "3d": "3d:HanX_Shop/Cardboard_Boxes"},
+    "village_flour": {"name": "Village flour", "2d": "2d:crate", "3d": "3d:HanX_Shop/Cardboard_Boxes"},
+    "village_bread": {"name": "Village bread", "2d": "2d:crate", "3d": "3d:HanX_Shop/Cardboard_Boxes"},
+    "village_tools": {"name": "Village tools", "2d": "2d:crate", "3d": "3d:HanX_Shop/Cardboard_Boxes"}
+  }
+}

@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Arcade_machines/07_arcade_07_upright_neon_cream.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(0.6628038053593088, 1.8, 0.9496632317116901)
+
+[node name="07_arcade_07_upright_neon_cream" type="StaticBody3D"]
+collision_layer = 1
+collision_mask = 0
+metadata/authored_footprint = [-0.3314019026796544, 0.0, -0.47483161585584505, 0.6628038053593088, 1.8, 0.9496632317116901]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(-0.0003925884843800909, 0.9003062879727003, 0.0024364058980239694)
+scale = Vector3(1.793598421010368, 1.793598421010368, 1.793598421010368)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.9, 0)
+shape = SubResource("CollisionShape")
+disabled = false

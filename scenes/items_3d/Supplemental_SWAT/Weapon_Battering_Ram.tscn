@@ -1,0 +1,20 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Weapon_Battering_Ram.glb" id="1_w3due"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_byurw"]
+size = Vector3(0.12174, 0.18286, 0.70000005)
+
+[node name="Weapon_Battering_Ram" type="StaticBody3D" unique_id=2123098664]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.06087, -0.169, -0.16, 0.12174, 0.18286, 0.70000005]
+
+[node name="Model" type="Node3D" parent="." unique_id=322049130]
+
+[node name="Source" type="Node3D" parent="Model" unique_id=516023055 instance=ExtResource("1_w3due")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1637154287]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.07757, 0.19000003)
+shape = SubResource("BoxShape3D_byurw")
+disabled = true

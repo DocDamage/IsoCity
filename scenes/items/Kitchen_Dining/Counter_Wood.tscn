@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Kitchen_Dining/Counter_Wood_SE.png" id="2_tex"]
+
+[node name="Counter_Wood" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Counter_Wood"
+category = "Kitchen & Dining"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(17, 17)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Kitchen_Dining/Counter_Wood_SE.png", "frame_width": 31, "frame_height": 31, "origin": [17, 17], "footprint": [1, 1], "sheet": {"file": "Sheets/Kitchen_Dining_Sheet.png", "x": 396, "y": 0, "w": 31, "h": 31}, "grid_method": "authored", "grid_contact": [17, 33]}, "SW": {"file": "Sprites/Kitchen_Dining/Counter_Wood_SW.png", "frame_width": 31, "frame_height": 31, "origin": [14, 17], "footprint": [1, 1], "sheet": {"file": "Sheets/Kitchen_Dining_Sheet.png", "x": 429, "y": 0, "w": 31, "h": 31}, "grid_method": "authored", "grid_contact": [14, 33]}, "NW": {"file": "Sprites/Kitchen_Dining/Counter_Wood_NW.png", "frame_width": 31, "frame_height": 32, "origin": [14, 15], "footprint": [1, 1], "sheet": {"file": "Sheets/Kitchen_Dining_Sheet.png", "x": 462, "y": 0, "w": 31, "h": 32}, "grid_method": "authored", "grid_contact": [14, 31]}, "NE": {"file": "Sprites/Kitchen_Dining/Counter_Wood_NE.png", "frame_width": 31, "frame_height": 32, "origin": [17, 15], "footprint": [1, 1], "sheet": {"file": "Sheets/Kitchen_Dining_Sheet.png", "x": 0, "y": 34, "w": 31, "h": 32}, "grid_method": "authored", "grid_contact": [17, 31]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-17, -17)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, 0, 16, -16, 8)

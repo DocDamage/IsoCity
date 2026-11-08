@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Spaceships_II/catamaran_cruiser.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(4.604648214963926, 1.9921923067793403, 6.0)
+
+[node name="catamaran_cruiser" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-2.302324107481963, 0.0, -3.0, 4.604648214963926, 1.9921923067793403, 6.0]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(0.0004947422142048273, 0.9787030893942281, 0.007555188947968101)
+scale = Vector3(5.973657424990508, 5.973657424990508, 5.973657424990508)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.9960961533896702, 0)
+shape = SubResource("CollisionShape")
+disabled = true

@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_character.gd" id="1_char_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Pets/Cat_Orange_SE.png" id="2_tex"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_char"]
+radius = 5.0
+
+[node name="Cat_Orange" type="CharacterBody2D"]
+y_sort_enabled = true
+script = ExtResource("1_char_script")
+item_id = "Cat_Orange"
+direction = "SE"
+origin_offset = Vector2(11, 11)
+is_pet = true
+directions_data = {"SE": {"file": "Sprites/Pets/Cat_Orange_SE.png", "frame_width": 18, "frame_height": 22, "origin": [11, 11], "footprint": [1, 1], "layout": "horizontal strip of 6 frames", "sheet": {"file": "Sheets/Pets_Sheet.png", "x": 316, "y": 0, "w": 18, "h": 22}, "grid_method": "authored", "grid_contact": [11, 27]}, "SW": {"file": "Sprites/Pets/Cat_Orange_SW.png", "frame_width": 18, "frame_height": 22, "origin": [7, 11], "footprint": [1, 1], "layout": "horizontal strip of 6 frames", "sheet": {"file": "Sheets/Pets_Sheet.png", "x": 336, "y": 0, "w": 18, "h": 22}, "grid_method": "authored", "grid_contact": [7, 27]}, "NW": {"file": "Sprites/Pets/Cat_Orange_NW.png", "frame_width": 18, "frame_height": 21, "origin": [7, 8], "footprint": [1, 1], "layout": "horizontal strip of 6 frames", "sheet": {"file": "Sheets/Pets_Sheet.png", "x": 356, "y": 0, "w": 18, "h": 21}, "grid_method": "authored", "grid_contact": [7, 24]}, "NE": {"file": "Sprites/Pets/Cat_Orange_NE.png", "frame_width": 18, "frame_height": 21, "origin": [11, 8], "footprint": [1, 1], "layout": "horizontal strip of 6 frames", "sheet": {"file": "Sheets/Pets_Sheet.png", "x": 376, "y": 0, "w": 18, "h": 21}, "grid_method": "authored", "grid_contact": [11, 24]}}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."] 
+shape = SubResource("CircleShape2D_char")
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-11, -11)
+hframes = 6

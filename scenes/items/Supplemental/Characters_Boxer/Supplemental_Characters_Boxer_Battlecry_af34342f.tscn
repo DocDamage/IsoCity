@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/supplemental_prepared/Characters_Boxer/Supplemental_Characters_Boxer_Battlecry_af34342f.png" id="2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_view"]
+atlas = ExtResource("2")
+region = Rect2(0, 198, 3213, 66)
+filter_clip = true
+
+[node name="Supplemental_Characters_Boxer_Battlecry_af34342f" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Supplemental_Characters_Boxer_Battlecry_af34342f"
+category = "Supplemental Characters"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(25.544117647058822, 55.5)
+total_frames = 51
+animation_fps = 20.0
+has_collision = false
+directions_data = {"SW": {"file": "../../supplemental_prepared/Characters_Boxer/Supplemental_Characters_Boxer_Battlecry_af34342f.png", "region": [0, 0, 3213, 66], "frame_width": 63, "frame_height": 66, "frames": 51, "origin": [34.292682926829265, 57.0], "footprint": [1, 1], "render_contact": [34.292682926829265, 57.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [34.292682926829265, 73.0]}, "W": {"file": "../../supplemental_prepared/Characters_Boxer/Supplemental_Characters_Boxer_Battlecry_af34342f.png", "region": [3213, 0, 3213, 66], "frame_width": 63, "frame_height": 66, "frames": 51, "origin": [28.72, 56.5], "footprint": [1, 1], "render_contact": [28.72, 56.5], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [28.72, 72.5]}, "NW": {"file": "../../supplemental_prepared/Characters_Boxer/Supplemental_Characters_Boxer_Battlecry_af34342f.png", "region": [0, 66, 3213, 66], "frame_width": 63, "frame_height": 66, "frames": 51, "origin": [25.017857142857142, 55.0], "footprint": [1, 1], "render_contact": [25.017857142857142, 55.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [25.017857142857142, 71.0]}, "N": {"file": "../../supplemental_prepared/Characters_Boxer/Supplemental_Characters_Boxer_Battlecry_af34342f.png", "region": [3213, 66, 3213, 66], "frame_width": 63, "frame_height": 66, "frames": 51, "origin": [35.62, 54.5], "footprint": [1, 1], "render_contact": [35.62, 54.5], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [35.62, 70.5]}, "NE": {"file": "../../supplemental_prepared/Characters_Boxer/Supplemental_Characters_Boxer_Battlecry_af34342f.png", "region": [0, 132, 3213, 66], "frame_width": 63, "frame_height": 66, "frames": 51, "origin": [34.33582089552239, 56.0], "footprint": [1, 1], "render_contact": [34.33582089552239, 56.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [34.33582089552239, 72.0]}, "E": {"file": "../../supplemental_prepared/Characters_Boxer/Supplemental_Characters_Boxer_Battlecry_af34342f.png", "region": [3213, 132, 3213, 66], "frame_width": 63, "frame_height": 66, "frames": 51, "origin": [29.61904761904762, 56.5], "footprint": [1, 1], "render_contact": [29.61904761904762, 56.5], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [29.61904761904762, 72.5]}, "SE": {"file": "../../supplemental_prepared/Characters_Boxer/Supplemental_Characters_Boxer_Battlecry_af34342f.png", "region": [0, 198, 3213, 66], "frame_width": 63, "frame_height": 66, "frames": 51, "origin": [25.544117647058822, 55.5], "footprint": [1, 1], "render_contact": [25.544117647058822, 55.5], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [25.544117647058822, 71.5]}, "S": {"file": "../../supplemental_prepared/Characters_Boxer/Supplemental_Characters_Boxer_Battlecry_af34342f.png", "region": [3213, 198, 3213, 66], "frame_width": 63, "frame_height": 66, "frames": 51, "origin": [38.515151515151516, 55.0], "footprint": [1, 1], "render_contact": [38.515151515151516, 55.0], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [38.515151515151516, 71.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_view")
+centered = false
+offset = Vector2(-25.544117647058822, -55.5)
+hframes = 51

@@ -1,0 +1,552 @@
+{
+	"version": 1,
+	"notes": "Exact reviewed building defaults retain prepared native HanX furnishings. The explicit apartment choice uses permitted Pixel City sprites in either document mode. Room-local layouts are independent of exterior scale; existing owned rooms are never regenerated.",
+	"buildings": {
+		"3d:HanX_School/School_Building": "classroom",
+		"3d:HanX_Shop/Shop_Cafe": "cafe",
+		"3d:HanX_Shop/Shop_Bakery": "cafe",
+		"3d:HanX_Shop/Shop_Ice_Cream": "cafe",
+		"3d:HanX_City/Cafe_Small": "cafe",
+		"2d:Coffee_Shop": "cafe",
+		"2d:Bakery": "cafe",
+		"3d:HanX_GasStation/Repair_Garage": "garage",
+		"2d:Police": "station",
+		"2d:Fire_Station1_-_Copie": "station",
+		"3d:Supplemental_SWAT/Building_Police_Station": "station",
+		"3d:Supplemental_SWAT/Building_SWAT_HQ": "station",
+		"3d:HanX_Shop/Shop_Boutique": "shop",
+		"3d:HanX_Shop/Shop_Butcher": "shop",
+		"3d:HanX_Shop/Shop_Florist": "shop",
+		"3d:HanX_Shop/Shop_Grocery": "shop",
+		"3d:HanX_Shop/Shop_Pharmacy": "shop",
+		"2d:Supermarket": "shop",
+		"2d:Bookstore": "shop"
+	},
+	"kits": {
+		"classroom": {
+			"name": "Classroom",
+			"revision": 1,
+			"dimensions": {
+				"2d": [
+					12,
+					12
+				],
+				"3d": [
+					8,
+					8
+				]
+			},
+			"description": "Four study stations and teaching/storage zones. Pupil schedules are separate.",
+			"objects": [
+				{
+					"asset": "3d:HanX_School/Student_Desk",
+					"position": [
+						-1.65,
+						0,
+						-1.1
+					],
+					"direction": "180",
+					"zone": "Learning"
+				},
+				{
+					"asset": "3d:HanX_School/Student_Chair",
+					"position": [
+						-1.65,
+						0,
+						-0.10000000000000009
+					],
+					"direction": "180",
+					"zone": "Learning",
+					"prop": {
+						"approach": [
+							0.75,
+							0,
+							0
+						],
+						"exit": [
+							0.8,
+							0,
+							-0.3
+						],
+						"facing": [
+							0,
+							0.44,
+							2
+						]
+					}
+				},
+				{
+					"asset": "3d:HanX_School/Student_Desk",
+					"position": [
+						1.65,
+						0,
+						-1.1
+					],
+					"direction": "180",
+					"zone": "Learning"
+				},
+				{
+					"asset": "3d:HanX_School/Student_Chair",
+					"position": [
+						1.65,
+						0,
+						-0.10000000000000009
+					],
+					"direction": "180",
+					"zone": "Learning",
+					"prop": {
+						"approach": [
+							0.75,
+							0,
+							0
+						],
+						"exit": [
+							0.8,
+							0,
+							-0.3
+						],
+						"facing": [
+							0,
+							0.44,
+							2
+						]
+					}
+				},
+				{
+					"asset": "3d:HanX_School/Student_Desk",
+					"position": [
+						-1.65,
+						0,
+						1.3
+					],
+					"direction": "180",
+					"zone": "Learning"
+				},
+				{
+					"asset": "3d:HanX_School/Student_Chair",
+					"position": [
+						-1.65,
+						0,
+						2.3
+					],
+					"direction": "180",
+					"zone": "Learning",
+					"prop": {
+						"approach": [
+							0.75,
+							0,
+							0
+						],
+						"exit": [
+							0.8,
+							0,
+							-0.3
+						],
+						"facing": [
+							0,
+							0.44,
+							2
+						]
+					}
+				},
+				{
+					"asset": "3d:HanX_School/Student_Desk",
+					"position": [
+						1.65,
+						0,
+						1.3
+					],
+					"direction": "180",
+					"zone": "Learning"
+				},
+				{
+					"asset": "3d:HanX_School/Student_Chair",
+					"position": [
+						1.65,
+						0,
+						2.3
+					],
+					"direction": "180",
+					"zone": "Learning",
+					"prop": {
+						"approach": [
+							0.75,
+							0,
+							0
+						],
+						"exit": [
+							0.8,
+							0,
+							-0.3
+						],
+						"facing": [
+							0,
+							0.44,
+							2
+						]
+					}
+				},
+				{
+					"asset": "3d:HanX_School/Chalkboard",
+					"position": [
+						0,
+						0,
+						-3.25
+					],
+					"direction": "0",
+					"zone": "Teaching"
+				},
+				{
+					"asset": "3d:HanX_School/Bookshelf",
+					"position": [
+						-3.1,
+						0,
+						-1.7
+					],
+					"direction": "90",
+					"zone": "Storage"
+				}
+			]
+		},
+		"cafe": {
+			"name": "Café",
+			"revision": 1,
+			"dimensions": {
+				"2d": [
+					12,
+					12
+				],
+				"3d": [
+					8,
+					8
+				]
+			},
+			"description": "Service counter and dining zones.",
+			"objects": [
+				{
+					"asset": "3d:HanX_Shop/Cafe_Counter",
+					"position": [
+						1,
+						0,
+						-2.6
+					],
+					"direction": "0",
+					"zone": "Service"
+				},
+				{
+					"asset": "3d:HanX_Shop/Pastry_Display",
+					"position": [
+						2.7,
+						0,
+						-2.6
+					],
+					"direction": "0",
+					"zone": "Service"
+				},
+				{
+					"asset": "3d:HanX_Shop/Cafe_Table_Set",
+					"position": [
+						-1.8,
+						0,
+						-0.7
+					],
+					"direction": "0",
+					"zone": "Dining"
+				},
+				{
+					"asset": "3d:HanX_Shop/Cafe_Table_Set",
+					"position": [
+						1.8,
+						0,
+						0.6
+					],
+					"direction": "0",
+					"zone": "Dining"
+				},
+				{
+					"asset": "3d:HanX_Shop/Fridge_Drinks",
+					"position": [
+						-3,
+						0,
+						-2.8
+					],
+					"direction": "0",
+					"zone": "Service"
+				}
+			]
+		},
+		"shop": {
+			"name": "Shop",
+			"revision": 1,
+			"dimensions": {
+				"2d": [
+					12,
+					12
+				],
+				"3d": [
+					8,
+					8
+				]
+			},
+			"description": "Checkout, display and storage zones.",
+			"objects": [
+				{
+					"asset": "3d:HanX_Shop/Checkout_Counter",
+					"position": [
+						2,
+						0,
+						-2.6
+					],
+					"direction": "0",
+					"zone": "Checkout"
+				},
+				{
+					"asset": "3d:HanX_Shop/Shelf_Wall",
+					"position": [
+						-3,
+						0,
+						-2
+					],
+					"direction": "90",
+					"zone": "Display"
+				},
+				{
+					"asset": "3d:HanX_Shop/Shelf_Gondola",
+					"position": [
+						-1.7,
+						0,
+						0
+					],
+					"direction": "0",
+					"zone": "Display"
+				},
+				{
+					"asset": "3d:HanX_Shop/Display_Table",
+					"position": [
+						1.6,
+						0,
+						0
+					],
+					"direction": "0",
+					"zone": "Display"
+				},
+				{
+					"asset": "3d:HanX_Shop/Fridge_Drinks",
+					"position": [
+						3,
+						0,
+						0
+					],
+					"direction": "0",
+					"zone": "Chilled display"
+				}
+			]
+		},
+		"garage": {
+			"name": "Workshop and garage",
+			"revision": 1,
+			"dimensions": {
+				"2d": [
+					12,
+					12
+				],
+				"3d": [
+					8,
+					8
+				]
+			},
+			"description": "Workbench, tools and a clear service bay. Vehicle care jobs are separate.",
+			"objects": [
+				{
+					"asset": "3d:HanX_GasStation/Workbench",
+					"position": [
+						-2.5,
+						0,
+						-2.2
+					],
+					"direction": "0",
+					"zone": "Workshop"
+				},
+				{
+					"asset": "3d:HanX_GasStation/Tool_Chest",
+					"position": [
+						-3,
+						0,
+						0.2
+					],
+					"direction": "0",
+					"zone": "Storage"
+				},
+				{
+					"asset": "3d:HanX_GasStation/Tire_Rack",
+					"position": [
+						2.7,
+						0,
+						-2.6
+					],
+					"direction": "0",
+					"zone": "Storage"
+				},
+				{
+					"asset": "3d:HanX_GasStation/Floor_Jack",
+					"position": [
+						2.3,
+						0,
+						-0.2
+					],
+					"direction": "0",
+					"zone": "Service bay"
+				},
+				{
+					"asset": "3d:HanX_School/Computer_Desk",
+					"position": [
+						2.6,
+						0,
+						1.0
+					],
+					"direction": "0",
+					"zone": "Service desk"
+				}
+			]
+		},
+		"station": {
+			"name": "Station office",
+			"revision": 1,
+			"dimensions": {
+				"2d": [
+					12,
+					12
+				],
+				"3d": [
+					8,
+					8
+				]
+			},
+			"description": "Dispatch, waiting and storage zones. Emergency jobs are separate.",
+			"objects": [
+				{
+					"asset": "3d:HanX_School/Computer_Desk",
+					"position": [
+						2,
+						0,
+						-2.4
+					],
+					"direction": "0",
+					"zone": "Dispatch"
+				},
+				{
+					"asset": "3d:HanX_School/Bench_School",
+					"position": [
+						-2,
+						0,
+						0
+					],
+					"direction": "0",
+					"zone": "Waiting"
+				},
+				{
+					"asset": "3d:HanX_School/Lockers",
+					"position": [
+						-3,
+						0,
+						-2.7
+					],
+					"direction": "0",
+					"zone": "Storage"
+				},
+				{
+					"asset": "3d:HanX_School/Cork_Board",
+					"position": [
+						0,
+						0,
+						-3.25
+					],
+					"direction": "0",
+					"zone": "Information"
+				}
+			]
+		},
+		"empty": {
+			"name": "Empty room",
+			"revision": 1,
+			"dimensions": {
+				"2d": [
+					12,
+					12
+				],
+				"3d": [
+					8,
+					8
+				]
+			},
+			"description": "Shell and exit only.",
+			"objects": []
+		},
+		"apartment": {
+			"name": "Apartment",
+			"revision": 1,
+			"dimensions": {
+				"2d": [
+					12,
+					12
+				],
+				"3d": [
+					8,
+					8
+				]
+			},
+			"objects": [
+				{
+					"asset": "2d:Sofa_Teal",
+					"direction": "SE",
+					"position": [
+						-3,
+						0,
+						-3
+					],
+					"zone": "Living"
+				},
+				{
+					"asset": "2d:Coffee_Table_Wood",
+					"direction": "SE",
+					"position": [
+						-2,
+						0,
+						-0.5
+					],
+					"zone": "Living"
+				},
+				{
+					"asset": "2d:Bed_Double_Sage",
+					"direction": "SE",
+					"position": [
+						1,
+						0,
+						-3
+					],
+					"zone": "Sleeping"
+				},
+				{
+					"asset": "2d:Bookshelf_Tall",
+					"direction": "SE",
+					"position": [
+						2.5,
+						0,
+						0
+					],
+					"zone": "Storage"
+				},
+				{
+					"asset": "2d:Floor_Lamp",
+					"direction": "SE",
+					"position": [
+						-3,
+						0,
+						2
+					],
+					"zone": "Living"
+				}
+			]
+		}
+	}
+}

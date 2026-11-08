@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Satellites/25_asteroid_sampler.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(3.0, 1.3590372078898056, 2.9183316326197066)
+
+[node name="25_asteroid_sampler" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-1.5, 0.0, -1.4591658163098533, 3.0, 1.3590372078898056, 2.9183316326197066]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(-0.0011892118692975679, 0.7392694578180425, -0.017378807067757657)
+scale = Vector3(2.99125403312796, 2.99125403312796, 2.99125403312796)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.6795186039449028, 0)
+shape = SubResource("CollisionShape")
+disabled = true

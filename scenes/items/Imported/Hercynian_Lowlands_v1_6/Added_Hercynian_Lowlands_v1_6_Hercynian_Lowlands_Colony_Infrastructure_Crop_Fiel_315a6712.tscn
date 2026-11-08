@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Hercynian_Lowlands_v1_6/Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Colony_Infrastructure_Crop_Fiel_315a6712_SE.png" id="2"]
+
+[node name="Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Colony_Infrastructure_Crop_Fiel_315a6712" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Colony_Infrastructure_Crop_Fiel_315a6712"
+category = "Added Hercynian Lowlands - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(16, 20)
+origin_offset = Vector2(284.456112, 53.729335)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Hercynian_Lowlands_v1_6/Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Colony_Infrastructure_Crop_Fiel_315a6712_SE.png", "frame_width": 512, "frame_height": 329, "frames": 1, "origin": [284.456112, 53.729335], "footprint": [16, 20], "grid_original": {"origin": [144, 257], "footprint": [8, 1]}, "alignment_transform": [1.217367070568905, 0.016939578269353585, 0.05911847146548993, 1.0525116398816798], "alignment_base": [[14.0, 210.099494], [218.543888, 328.421333], [489.0, 172.051174]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [218.543888, 328.421333]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-284.456112, -53.729335)
+hframes = 1

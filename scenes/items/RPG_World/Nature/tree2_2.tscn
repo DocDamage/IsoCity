@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/isometric_rpg_world/isometricvill_v2/isometricvill - v2/File components duplicated from vol1/Nature_and_Vegetation/tree2.png" id="2_tex"]
+
+[node name="tree2_2" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "tree2_2"
+category = "RPG_Nature"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(10, 10)
+origin_offset = Vector2(195.0, -65.0)
+total_frames = 1
+has_collision = true
+directions_data = {"SE": {"file": "../../isometric_rpg_world/isometricvill_v2/isometricvill - v2/File components duplicated from vol1/Nature_and_Vegetation/tree2.png", "origin": [195.0, -65.0], "footprint": [10, 10], "frame_width": 384, "frame_height": 96, "grid_original": {"origin": [194, 88], "footprint": [6, 6]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [195.0, 95.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-195.0, 65.0)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 96, 48, 0, 96, -96, 48)

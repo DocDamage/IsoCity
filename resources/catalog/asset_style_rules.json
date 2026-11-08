@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "notes": "Reviewed source projection conventions, not guarantees of visual fit. Unknown and mixed source groups retain partial metadata. Themes and palette families come from their existing reviewed overlays; material facts come from prepared scenes.",
+  "packs": {
+    "Pixel Isometric": {"projection": "isometric", "note": "Reviewed native 32x16 ground calibration and directional isometric artwork."},
+    "RPG World": {"projection": "isometric", "note": "Reviewed native isometric RPG ground and object artwork."},
+    "Isometric RPG Tileset 64x32 Pixel Art V1.1": {"projection": "isometric", "note": "Reviewed 64x32 isometric terrain and object artwork; pixel resolution does not determine physical size."},
+    "Isometric tileset": {"projection": "isometric", "note": "Reviewed isometric source tiles; individual source angles can differ."},
+    "Village buildings": {"projection": "isometric", "note": "Reviewed rendered isometric building turntables; supplied source angles remain distinct from world rotation."},
+    "Water towers": {"projection": "isometric", "note": "Reviewed rendered isometric tower turntables."},
+    "Bonsai trees": {"projection": "isometric", "note": "Reviewed rendered isometric tree turntables; canopy height does not define the ground footprint."},
+    "Korean Street": {"projection": "isometric", "note": "Reviewed isometric street buildings and props."},
+    "Korean Street Rodeo": {"projection": "isometric", "note": "Reviewed isometric street buildings and props."},
+    "isometricStrategy": {"projection": "isometric", "note": "Reviewed isometric strategy artwork; scene fragments remain explicitly classified by content metadata."},
+    "isometricvill": {"projection": "isometric", "note": "Reviewed isometric village artwork."},
+    "isometricvill - v2": {"projection": "isometric", "note": "Reviewed isometric village artwork."}
+  }
+}

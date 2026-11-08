@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/isometricvill/Added_isometricvill_isometricvill_Building_Assets_fast_food_Fast_Food_a7fd76eb_SE.png" id="2"]
+
+[node name="Added_isometricvill_isometricvill_Building_Assets_fast_food_Fast_Food_a7fd76eb" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_isometricvill_isometricvill_Building_Assets_fast_food_Fast_Food_a7fd76eb"
+category = "Added isometricvill - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(16, 12)
+origin_offset = Vector2(183.998032, 208.249787)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/isometricvill/Added_isometricvill_isometricvill_Building_Assets_fast_food_Fast_Food_a7fd76eb_SE.png", "frame_width": 434, "frame_height": 402, "frames": 1, "origin": [183.998032, 208.249787], "footprint": [16, 12], "grid_original": {"origin": [217, 178], "footprint": [14, 14]}, "alignment_transform": [1.178590141796755, -0.042285113026148735, -0.16916821321902453, 1.1786040079587854], "alignment_base": [[32.0, 284.248804], [266.001968, 401.247218], [418.0, 325.248201]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [266.001968, 401.247218]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-183.998032, -208.249787)
+hframes = 1

@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Bedroom/Clothes_Rack_SE.png" id="2_tex"]
+
+[node name="Clothes_Rack" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Clothes_Rack"
+category = "Bedroom"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 2)
+origin_offset = Vector2(25, 26)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Bedroom/Clothes_Rack_SE.png", "frame_width": 34, "frame_height": 47, "origin": [25, 26], "footprint": [1, 2], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 0, "y": 665, "w": 34, "h": 47}, "grid_method": "authored", "grid_contact": [9, 50]}, "SW": {"file": "Sprites/Bedroom/Clothes_Rack_SW.png", "frame_width": 34, "frame_height": 47, "origin": [9, 26], "footprint": [2, 1], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 36, "y": 665, "w": 34, "h": 47}, "grid_method": "authored", "grid_contact": [25, 50]}, "NW": {"file": "Sprites/Bedroom/Clothes_Rack_NW.png", "frame_width": 34, "frame_height": 47, "origin": [25, 26], "footprint": [1, 2], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 72, "y": 665, "w": 34, "h": 47}, "grid_method": "authored", "grid_contact": [9, 50]}, "NE": {"file": "Sprites/Bedroom/Clothes_Rack_NE.png", "frame_width": 34, "frame_height": 47, "origin": [9, 26], "footprint": [2, 1], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 108, "y": 665, "w": 34, "h": 47}, "grid_method": "authored", "grid_contact": [25, 50]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-25, -26)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, -16, 24, -32, 16)

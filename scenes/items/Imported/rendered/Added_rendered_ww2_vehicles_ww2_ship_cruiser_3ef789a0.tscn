@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_cruiser_3ef789a0_SE.png" id="2"]
+
+[node name="Added_rendered_ww2_vehicles_ww2_ship_cruiser_3ef789a0" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_rendered_ww2_vehicles_ww2_ship_cruiser_3ef789a0"
+category = "Added rendered - Vehicles"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(220.5, 77.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_cruiser_3ef789a0_SE.png", "frame_width": 232, "frame_height": 143, "frames": 1, "origin": [220.5, 77.0], "footprint": [4, 4], "grid_original": {"origin": [52, 95], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [220.5, 141.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_cruiser_3ef789a0_E.png", "frame_width": 36, "frame_height": 197, "frames": 1, "origin": [17.5, 161.0], "footprint": [2, 2], "grid_original": {"origin": [18, 181], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [17.5, 193.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_cruiser_3ef789a0_NE.png", "frame_width": 232, "frame_height": 143, "frames": 1, "origin": [11.0, 109.0], "footprint": [2, 2], "grid_original": {"origin": [52, 95], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [11.0, 141.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_cruiser_3ef789a0_N.png", "frame_width": 326, "frame_height": 62, "frames": 1, "origin": [172.0, -69.0], "footprint": [8, 8], "grid_original": {"origin": [67, 0], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [172.0, 59.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_cruiser_3ef789a0_NW.png", "frame_width": 232, "frame_height": 147, "frames": 1, "origin": [219.0, 113.0], "footprint": [2, 2], "grid_original": {"origin": [52, 99], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [219.0, 145.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_cruiser_3ef789a0_W.png", "frame_width": 36, "frame_height": 200, "frames": 1, "origin": [17.5, 165.0], "footprint": [2, 2], "grid_original": {"origin": [18, 184], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [17.5, 197.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_cruiser_3ef789a0_SW.png", "frame_width": 232, "frame_height": 147, "frames": 1, "origin": [12.0, 113.0], "footprint": [2, 2], "grid_original": {"origin": [52, 99], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [12.0, 145.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_ww2_vehicles_ww2_ship_cruiser_3ef789a0_S.png", "frame_width": 326, "frame_height": 62, "frames": 1, "origin": [152.5, -69.0], "footprint": [8, 8], "grid_original": {"origin": [67, 0], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [152.5, 59.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-220.5, -77.0)
+hframes = 1

@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "atlas": "res://assets/pixel_isometric/Tilesets/City_Ground_Iso_Tileset_32x16.png",
+  "animated_atlas": "res://assets/pixel_isometric/Tilesets/Animated_Tiles_32x16.png",
+  "samples": {
+    "grass": [
+      32,
+      64
+    ],
+    "stone": [
+      192,
+      64
+    ],
+    "sand": [
+      224,
+      64
+    ],
+    "gravel": [
+      0,
+      80
+    ],
+    "water": [
+      0,
+      0,
+      4
+    ]
+  },
+  "families": {
+    "shore": {
+      "label": "Connected shoreline",
+      "asset": "2d:Water",
+      "bank_width": 0.18,
+      "grass_width": 0.055,
+      "inlet_radius": 0.23
+    },
+    "path": {
+      "label": "Connected stone path",
+      "asset": "2d:Stone_Path",
+      "half_width": 0.24,
+      "pieces": [
+        "island",
+        "end",
+        "end",
+        "corner",
+        "end",
+        "straight",
+        "corner",
+        "tee",
+        "end",
+        "corner",
+        "straight",
+        "tee",
+        "corner",
+        "tee",
+        "tee",
+        "cross"
+      ]
+    },
+    "cliff": {
+      "label": "Connected rock faces",
+      "minimum_drop": 1.2,
+      "pieces": [
+        "level",
+        "north",
+        "east",
+        "north_east",
+        "south",
+        "opposed",
+        "south_east",
+        "three",
+        "west",
+        "north_west",
+        "opposed",
+        "three",
+        "south_west",
+        "three",
+        "three",
+        "all"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_blocks_stoneblock_6385f2d3_SE.png" id="2"]
+
+[node name="Added_Isometric_tileset_Isometric_tileset_tile_images_blocks_stoneblock_6385f2d3" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_Isometric_tileset_Isometric_tileset_tile_images_blocks_stoneblock_6385f2d3"
+category = "Added Isometric tileset - Ground"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 4)
+origin_offset = Vector2(60.17082, 31.454042)
+total_frames = 1
+animation_fps = 8.0
+has_collision = false
+directions_data = {"SE": {"file": "../../imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_blocks_stoneblock_6385f2d3_SE.png", "frame_width": 95, "frame_height": 77, "frames": 1, "origin": [60.17082, 31.454042], "footprint": [2, 4], "grid_original": {"origin": [48, 29], "footprint": [3, 3]}, "alignment_transform": [1.2614827508975708, -0.04235122370310501, 0.20373338017584974, 1.0797559023511902], "alignment_base": [[5.0, 58.926407], [27.82918, 74.639999], [83.0, 47.167634]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [27.82918, 74.639999]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-60.17082, -31.454042)
+hframes = 1

@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Spaceships/35.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(6.0, 1.912336112347792, 5.5010410316619005)
+
+[node name="35" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-3.0, 0.0, -2.7505205158309503, 6.0, 1.912336112347792, 5.5010410316619005]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(-0.0, -0.001408047588118268, 0.0019533597859571227)
+scale = Vector3(5.9786443591620975, 5.9786443591620975, 5.9786443591620975)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.956168056173896, 0)
+shape = SubResource("CollisionShape")
+disabled = true

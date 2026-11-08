@@ -1,0 +1,20 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Weapon_Ballistic_Shield.glb" id="1_imv36"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_t54cb"]
+size = Vector3(0.56, 0.98, 0.19399999)
+
+[node name="Weapon_Ballistic_Shield" type="StaticBody3D" unique_id=315426899]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.28, -0.5, -0.028, 0.56, 0.98, 0.19399999]
+
+[node name="Model" type="Node3D" parent="." unique_id=2025063752]
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1191497232 instance=ExtResource("1_imv36")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=848105313]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.00999999, 0.06899999)
+shape = SubResource("BoxShape3D_t54cb")
+disabled = true

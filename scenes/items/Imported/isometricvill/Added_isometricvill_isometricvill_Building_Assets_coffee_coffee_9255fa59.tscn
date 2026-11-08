@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/isometricvill/Added_isometricvill_isometricvill_Building_Assets_coffee_coffee_9255fa59_SE.png" id="2"]
+
+[node name="Added_isometricvill_isometricvill_Building_Assets_coffee_coffee_9255fa59" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_isometricvill_isometricvill_Building_Assets_coffee_coffee_9255fa59"
+category = "Added isometricvill - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 16)
+origin_offset = Vector2(239.505919, 97.506515)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/isometricvill/Added_isometricvill_isometricvill_Building_Assets_coffee_coffee_9255fa59_SE.png", "frame_width": 416, "frame_height": 293, "frames": 1, "origin": [239.505919, 97.506515], "footprint": [12, 16], "grid_original": {"origin": [208, 85], "footprint": [13, 13]}, "alignment_transform": [1.158312152188333, 0.018976476731750902, 0.07598729652086078, 1.1583528539659502], "alignment_base": [[11.0, 211.751701], [171.494081, 291.998741], [400.0, 177.753555]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [171.494081, 291.998741]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-239.505919, -97.506515)
+hframes = 1

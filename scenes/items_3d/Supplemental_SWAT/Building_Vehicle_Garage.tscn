@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Building_Vehicle_Garage.glb" id="1_wsa6d"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rasfu"]
+size = Vector3(15.88, 6.62, 7.9)
+
+[node name="Building_Vehicle_Garage" type="StaticBody3D" unique_id=2021321238]
+collision_mask = 0
+metadata/authored_footprint = [-7.94, 0.0, -3.95, 15.88, 6.62, 7.9]
+
+[node name="Model" type="Node3D" parent="." unique_id=1642414491]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.03999996, 0, 0.049999952)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1458612913 instance=ExtResource("1_wsa6d")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1619097582]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.31, 0)
+shape = SubResource("BoxShape3D_rasfu")

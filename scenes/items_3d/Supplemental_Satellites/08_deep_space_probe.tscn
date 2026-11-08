@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Satellites/08_deep_space_probe.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(3.0, 1.9298990681899928, 2.9837864630616115)
+
+[node name="08_deep_space_probe" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-1.5, 0.0, -1.4918932315308058, 3.0, 1.9298990681899928, 2.9837864630616115]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(5.281398628549243e-05, 0.960242309141672, -0.0029330497079535947)
+scale = Vector3(2.993485323421433, 2.993485323421433, 2.993485323421433)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.9649495340949964, 0)
+shape = SubResource("CollisionShape")
+disabled = true

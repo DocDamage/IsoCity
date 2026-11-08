@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/isometricvill/Added_isometricvill_isometricvill_Building_Assets_Hopital_Hopital_312f503f_SE.png" id="2"]
+
+[node name="Added_isometricvill_isometricvill_Building_Assets_Hopital_Hopital_312f503f" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_isometricvill_isometricvill_Building_Assets_Hopital_Hopital_312f503f"
+category = "Added isometricvill - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(20, 12)
+origin_offset = Vector2(205.545573, 139.07254)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/isometricvill/Added_isometricvill_isometricvill_Building_Assets_Hopital_Hopital_312f503f_SE.png", "frame_width": 512, "frame_height": 380, "frames": 1, "origin": [205.545573, 139.07254], "footprint": [20, 12], "grid_original": {"origin": [256, 124], "footprint": [16, 16]}, "alignment_transform": [1.0598140199866344, 0.014699019135086436, 0.06125507468706748, 1.0604594277182686], "alignment_base": [[19.0, 232.185048], [312.454427, 378.995481], [499.0, 285.882973]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [312.454427, 378.995481]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-205.545573, -139.07254)
+hframes = 1

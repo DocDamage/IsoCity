@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_medieval_market_shop_medieval_market_shop_43b1474d_SE.png" id="2"]
+
+[node name="Added_rendered_medieval_market_shop_medieval_market_shop_43b1474d" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_rendered_medieval_market_shop_medieval_market_shop_43b1474d"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(36.0, 59.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_medieval_market_shop_medieval_market_shop_43b1474d_SE.png", "frame_width": 82, "frame_height": 94, "frames": 1, "origin": [36.0, 59.0], "footprint": [2, 2], "grid_original": {"origin": [41, 46], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [36.0, 91.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_medieval_market_shop_medieval_market_shop_43b1474d_E.png", "frame_width": 103, "frame_height": 94, "frames": 1, "origin": [44.0, 43.0], "footprint": [3, 3], "grid_original": {"origin": [52, 46], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [44.0, 91.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_medieval_market_shop_medieval_market_shop_43b1474d_NE.png", "frame_width": 88, "frame_height": 100, "frames": 1, "origin": [55.0, 50.0], "footprint": [3, 3], "grid_original": {"origin": [44, 52], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [55.0, 98.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_medieval_market_shop_medieval_market_shop_43b1474d_N.png", "frame_width": 105, "frame_height": 111, "frames": 1, "origin": [55.0, 60.0], "footprint": [3, 3], "grid_original": {"origin": [52, 63], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [55.0, 108.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_medieval_market_shop_medieval_market_shop_43b1474d_NW.png", "frame_width": 82, "frame_height": 108, "frames": 1, "origin": [47.0, 73.0], "footprint": [2, 2], "grid_original": {"origin": [41, 60], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [47.0, 105.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_medieval_market_shop_medieval_market_shop_43b1474d_W.png", "frame_width": 103, "frame_height": 112, "frames": 1, "origin": [54.389248, 52.907502], "footprint": [3, 3], "grid_original": {"origin": [52, 64], "footprint": [3, 3]}, "alignment_transform": [1.0896945840104744, 0.08504098444753011, 0.11092822550616627, 0.8542544695063204], "alignment_base": [[7.0, 85.719772], [48.610752, 109.672097], [96.0, 76.859827]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [48.610752, 109.672097]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_medieval_market_shop_medieval_market_shop_43b1474d_SW.png", "frame_width": 88, "frame_height": 93, "frames": 1, "origin": [31.0, 42.0], "footprint": [3, 3], "grid_original": {"origin": [44, 45], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [31.0, 90.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_medieval_market_shop_medieval_market_shop_43b1474d_S.png", "frame_width": 105, "frame_height": 92, "frames": 1, "origin": [40.677464, 41.357959], "footprint": [4, 3], "grid_original": {"origin": [52, 44], "footprint": [3, 3]}, "alignment_transform": [1.2397496119863387, -0.01747360204772215, -0.24945724253439205, 1.165153066975451], "alignment_base": [[6.0, 61.436059], [63.322536, 89.759918], [98.0, 69.681818]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [63.322536, 89.759918]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-36.0, -59.0)
+hframes = 1

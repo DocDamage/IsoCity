@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "sites": {
+    "3d:HanX_GasStation/Fuel_Pump": {
+      "kind": "fuel", "offset_x": 3.0, "offset_z": 0.0, "yaw": 0.0, "width": 3.8, "length": 5.8,
+      "classes": ["car", "van"], "price": 18, "seconds": 3.0
+    },
+    "3d:HanX_GasStation/Pump_Island": {
+      "kind": "fuel", "offset_x": 0.0, "offset_z": 4.1, "yaw": 90.0, "width": 4.6, "length": 10.0,
+      "classes": ["car", "van", "heavy"], "price": 24, "seconds": 4.0
+    },
+    "3d:HanX_GasStation/EV_Charger": {
+      "kind": "charge", "offset_x": 2.7, "offset_z": 0.0, "yaw": 0.0, "width": 3.6, "length": 5.8,
+      "classes": ["car", "van"], "price": 12, "seconds": 5.0
+    },
+    "2d:EV_Charger": {
+      "kind": "charge", "offset_x": 2.8, "offset_z": 0.0, "yaw": 0.0, "width": 3.6, "length": 5.8,
+      "classes": ["car", "van"], "price": 12, "seconds": 5.0
+    },
+    "3d:HanX_GasStation/Car_Wash": {
+      "kind": "wash", "offset_x": 0.0, "offset_z": 8.8, "yaw": 180.0, "width": 3.8, "length": 6.4,
+      "classes": ["car", "van"], "price": 10, "seconds": 4.0
+    },
+    "3d:HanX_GasStation/Repair_Garage": {
+      "kind": "repair", "offset_x": 2.6, "offset_z": 8.8, "yaw": 180.0, "width": 4.0, "length": 7.4,
+      "classes": ["car", "van", "heavy"], "price": 35, "seconds": 5.0
+    }
+  },
+  "vehicle_classes": {
+    "2d:Box_Truck": "heavy",
+    "2d:City_Bus": "heavy",
+    "2d:School_Bus": "heavy",
+    "2d:Fire_Truck": "heavy",
+    "2d:Garbage_Truck": "heavy",
+    "2d:Delivery_Van": "van",
+    "3d:HanX_Traffic/Truck_Box": "heavy",
+    "3d:HanX_Traffic/Van_Delivery": "van",
+    "3d:HanX_School/School_Bus": "heavy"
+  }
+}

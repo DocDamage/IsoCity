@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_desert_bazaar_complex_desert_bazaar_complex_e46c5f_6c6e2e8e_SE.png" id="2"]
+
+[node name="Added_rendered_desert_bazaar_complex_desert_bazaar_complex_e46c5f_6c6e2e8e" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_desert_bazaar_complex_desert_bazaar_complex_e46c5f_6c6e2e8e"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 8)
+origin_offset = Vector2(197.5, 149.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_desert_bazaar_complex_desert_bazaar_complex_e46c5f_6c6e2e8e_SE.png", "frame_width": 344, "frame_height": 279, "frames": 1, "origin": [197.5, 149.0], "footprint": [8, 8], "grid_original": {"origin": [76, 215], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [197.5, 277.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_desert_bazaar_complex_desert_bazaar_complex_e46c5f_6c6e2e8e_E.png", "frame_width": 422, "frame_height": 304, "frames": 1, "origin": [184.6854, 73.404066], "footprint": [16, 12], "grid_original": {"origin": [99, 232], "footprint": [8, 1]}, "alignment_transform": [1.1456779207140844, -0.003972547173253141, 0.0011716004500464394, 0.9844244284349091], "alignment_base": [[17.0, 170.246301], [240.3146, 301.172682], [408.0, 204.330447]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [240.3146, 301.172682]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_desert_bazaar_complex_desert_bazaar_complex_e46c5f_6c6e2e8e_NE.png", "frame_width": 258, "frame_height": 286, "frames": 1, "origin": [129.0, 155.0], "footprint": [8, 8], "grid_original": {"origin": [65, 238], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [129.0, 283.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_desert_bazaar_complex_desert_bazaar_complex_e46c5f_6c6e2e8e_N.png", "frame_width": 423, "frame_height": 336, "frames": 1, "origin": [238.010047, 107.056706], "footprint": [12, 16], "grid_original": {"origin": [100, 264], "footprint": [8, 1]}, "alignment_transform": [1.1437457916865421, 0.0027655729356629855, 0.010427262651655611, 0.9903152299182942], "alignment_base": [[13.0, 236.936847], [179.989953, 333.409338], [405.0, 203.529197]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [179.989953, 333.409338]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_desert_bazaar_complex_desert_bazaar_complex_e46c5f_6c6e2e8e_NW.png", "frame_width": 344, "frame_height": 310, "frames": 1, "origin": [174.0, 180.0], "footprint": [8, 8], "grid_original": {"origin": [76, 246], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [174.0, 308.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_desert_bazaar_complex_desert_bazaar_complex_e46c5f_6c6e2e8e_W.png", "frame_width": 422, "frame_height": 390, "frames": 1, "origin": [183.085844, 161.599779], "footprint": [16, 12], "grid_original": {"origin": [99, 318], "footprint": [8, 1]}, "alignment_transform": [1.147121314684505, -0.0045154829234091975, -0.015423284525848457, 0.9930242936858303], "alignment_base": [[17.0, 257.518925], [241.914156, 387.440818], [408.0, 291.521672]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [241.914156, 387.440818]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_desert_bazaar_complex_desert_bazaar_complex_e46c5f_6c6e2e8e_SW.png", "frame_width": 258, "frame_height": 363, "frames": 1, "origin": [127.0, 232.0], "footprint": [8, 8], "grid_original": {"origin": [65, 315], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [127.0, 360.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_desert_bazaar_complex_desert_bazaar_complex_e46c5f_6c6e2e8e_S.png", "frame_width": 423, "frame_height": 375, "frames": 1, "origin": [239.276312, 147.865243], "footprint": [12, 16], "grid_original": {"origin": [100, 303], "footprint": [8, 1]}, "alignment_transform": [1.1448452030675607, 0.002068761378570594, 0.023739753368772876, 0.9994923317742698], "alignment_base": [[13.0, 276.398607], [178.723688, 372.104351], [405.0, 243.570987]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [178.723688, 372.104351]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-197.5, -149.0)
+hframes = 1

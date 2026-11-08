@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/reviewed_prepared/Reviewed_myart_water_bank_5_SE.png" id="2"]
+[node name="Reviewed_myart_water_bank_5" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1")
+item_id = "Reviewed_myart_water_bank_5"
+category = "Reviewed MyArt - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 1)
+origin_offset = Vector2(63.5, 23)
+scale = Vector2(1, 1)
+total_frames = 3
+animation_fps = 4
+has_collision = false
+directions_data = {"SE": {"file": "../../reviewed_prepared/Reviewed_myart_water_bank_5_SE.png", "frame_width": 128, "frame_height": 64, "frames": 3, "origin": [63.5, 23], "footprint": [4, 1], "source_contact": [63.5, 63], "grid_contact": [63.5, 63], "render_contact": [63.5, 63], "grid_method": "reviewed source contact and virtual footprint"}}
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-63.5, -23)
+hframes = 3

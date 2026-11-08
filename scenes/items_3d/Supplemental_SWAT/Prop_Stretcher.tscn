@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Prop_Stretcher.glb" id="1_01rx1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0yay5"]
+size = Vector3(0.62078, 1.1282101, 2.20502)
+
+[node name="Prop_Stretcher" type="StaticBody3D" unique_id=1981711116]
+collision_mask = 0
+metadata/authored_footprint = [-0.31039, 0.0, -1.10251, 0.62078, 1.1282101, 2.20502]
+
+[node name="Model" type="Node3D" parent="." unique_id=284769435]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.00419, 0)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1772508431 instance=ExtResource("1_01rx1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1504809474]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.56410503, 0)
+shape = SubResource("BoxShape3D_0yay5")

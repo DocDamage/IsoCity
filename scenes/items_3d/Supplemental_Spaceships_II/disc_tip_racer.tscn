@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Spaceships_II/disc_tip_racer.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(6.0, 1.3089515236749707, 4.651155981028961)
+
+[node name="disc_tip_racer" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-3.0, 0.0, -2.3255779905144807, 6.0, 1.3089515236749707, 4.651155981028961]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(8.193141557820417e-06, 0.6881785167991441, -0.012914706546602766)
+scale = Vector3(5.976439374670941, 5.976439374670941, 5.976439374670941)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.6544757618374853, 0)
+shape = SubResource("CollisionShape")
+disabled = true

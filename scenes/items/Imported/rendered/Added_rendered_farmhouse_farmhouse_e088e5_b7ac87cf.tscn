@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_farmhouse_farmhouse_e088e5_b7ac87cf_SE.png" id="2"]
+
+[node name="Added_rendered_farmhouse_farmhouse_e088e5_b7ac87cf" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_farmhouse_farmhouse_e088e5_b7ac87cf"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(157.0, 134.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_farmhouse_farmhouse_e088e5_b7ac87cf_SE.png", "frame_width": 344, "frame_height": 329, "frames": 1, "origin": [157.0, 134.0], "footprint": [12, 12], "grid_original": {"origin": [172, 153], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [157.0, 326.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_farmhouse_farmhouse_e088e5_b7ac87cf_E.png", "frame_width": 439, "frame_height": 332, "frames": 1, "origin": [221.0, 138.0], "footprint": [12, 12], "grid_original": {"origin": [220, 108], "footprint": [14, 14]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [221.0, 330.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_farmhouse_farmhouse_e088e5_b7ac87cf_NE.png", "frame_width": 306, "frame_height": 276, "frames": 1, "origin": [171.0, 146.0], "footprint": [8, 8], "grid_original": {"origin": [153, 116], "footprint": [10, 10]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [171.0, 274.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_farmhouse_farmhouse_e088e5_b7ac87cf_N.png", "frame_width": 436, "frame_height": 301, "frames": 1, "origin": [251.074829, 82.421559], "footprint": [12, 16], "grid_original": {"origin": [218, 77], "footprint": [14, 14]}, "alignment_transform": [1.1480720171286491, -0.0031454161677311743, -0.008130796975980958, 0.9932438455424187], "alignment_base": [[29.0, 210.58896], [196.925171, 307.77375], [419.0, 179.606349]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [196.925171, 307.77375]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_farmhouse_farmhouse_e088e5_b7ac87cf_NW.png", "frame_width": 344, "frame_height": 324, "frames": 1, "origin": [186.0, 129.0], "footprint": [12, 12], "grid_original": {"origin": [172, 148], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [186.0, 321.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_farmhouse_farmhouse_e088e5_b7ac87cf_W.png", "frame_width": 439, "frame_height": 402, "frames": 1, "origin": [215.009536, 164.387333], "footprint": [16, 16], "grid_original": {"origin": [220, 178], "footprint": [14, 14]}, "alignment_transform": [1.2585905021893606, -0.01371430608673263, -0.0480642623067844, 1.0890942872975509], "alignment_base": [[16.0, 279.410177], [223.990464, 399.558126], [423.0, 284.535282]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [223.990464, 399.558126]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_farmhouse_farmhouse_e088e5_b7ac87cf_SW.png", "frame_width": 306, "frame_height": 381, "frames": 1, "origin": [153.0, 250.0], "footprint": [8, 8], "grid_original": {"origin": [153, 221], "footprint": [10, 10]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [153.0, 378.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_farmhouse_farmhouse_e088e5_b7ac87cf_S.png", "frame_width": 436, "frame_height": 416, "frames": 1, "origin": [220.025028, 180.239469], "footprint": [16, 16], "grid_original": {"origin": [218, 192], "footprint": [14, 14]}, "alignment_transform": [1.2676113768762332, 0.009503735006600733, 0.03287694587769452, 1.0976994373761673], "alignment_base": [[15.0, 298.62206], [213.974972, 413.506873], [419.0, 295.124282]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [213.974972, 413.506873]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-157.0, -134.0)
+hframes = 1

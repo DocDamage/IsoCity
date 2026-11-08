@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Training_Rappel_Ladder.glb" id="1_85tfe"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_la3o1"]
+size = Vector3(2.44, 5.15, 2.26892)
+
+[node name="Training_Rappel_Ladder" type="StaticBody3D" unique_id=1160979978]
+collision_mask = 0
+metadata/authored_footprint = [-1.22, 0.0, -1.13446, 2.44, 5.15, 2.26892]
+
+[node name="Model" type="Node3D" parent="." unique_id=1946333898]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.16280997)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1681455319 instance=ExtResource("1_85tfe")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1035050204]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.575, 0)
+shape = SubResource("BoxShape3D_la3o1")

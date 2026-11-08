@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "revision": 1,
+  "notes": {
+    "3d:HanX_School/School_Building": "General administration counter only; pupil schedules and classes belong to N01.",
+    "3d:HanX_GasStation/Repair_Garage": "General service counter only; no vehicle repair workflow is introduced.",
+    "2d:city_Hall": "General civic service counter at the authored front entrance.",
+    "2d:Public_Library": "General library service counter; no borrowing inventory or study schedule."
+  },
+  "assets": {
+    "2d:Public_Library": {"business": "service", "citizen_role": "shop"},
+    "2d:city_Hall": {"business": "service", "citizen_role": "shop"},
+    "3d:HanX_GasStation/Repair_Garage": {"business": "service", "citizen_role": "shop"},
+    "3d:HanX_School/School_Building": {"business": "service", "citizen_role": "shop"},
+    "3d:HanX_Shop/Shop_Bakery": {"business": "cafe", "citizen_role": "shop"},
+    "3d:HanX_Shop/Shop_Boutique": {"business": "shop", "citizen_role": "shop"},
+    "3d:HanX_Shop/Shop_Butcher": {"business": "shop", "citizen_role": "shop"},
+    "3d:HanX_Shop/Shop_Cafe": {"business": "cafe", "citizen_role": "shop"},
+    "3d:HanX_Shop/Shop_Florist": {"business": "shop", "citizen_role": "shop"},
+    "3d:HanX_Shop/Shop_Grocery": {"business": "shop", "citizen_role": "shop"},
+    "3d:HanX_Shop/Shop_Ice_Cream": {"business": "cafe", "citizen_role": "shop"},
+    "3d:HanX_Shop/Shop_Pharmacy": {"business": "shop", "citizen_role": "shop"}
+  }
+}

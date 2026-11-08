@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Golbanc_Homestead_v1_6_1/Added_Golbanc_Homestead_v1_6_1_Golbanc_Homestead_Structures_Homestead_Building_Si_5ef1b721_SE.png" id="2"]
+
+[node name="Added_Golbanc_Homestead_v1_6_1_Golbanc_Homestead_Structures_Homestead_Building_Si_5ef1b721" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Golbanc_Homestead_v1_6_1_Golbanc_Homestead_Structures_Homestead_Building_Si_5ef1b721"
+category = "Added Golbanc Homestead - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(185.257861, 146.636829)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Golbanc_Homestead_v1_6_1/Added_Golbanc_Homestead_v1_6_1_Golbanc_Homestead_Structures_Homestead_Building_Si_5ef1b721_SE.png", "frame_width": 419, "frame_height": 334, "frames": 1, "origin": [185.257861, 146.636829], "footprint": [12, 12], "grid_original": {"origin": [210, 126], "footprint": [13, 13]}, "alignment_transform": [1.2164531694376826, 0.046120128868947605, 0.11867462297478759, 1.0738882326120405], "alignment_base": [[18.0, 243.214807], [167.742139, 326.17863], [335.0, 229.600652]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [167.742139, 326.17863]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-185.257861, -146.636829)
+hframes = 1

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/loose/Added_loose_isometric_assets_part_011_202a680a_SE.png" id="2"]
+
+[node name="Added_loose_isometric_assets_part_011_202a680a" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_loose_isometric_assets_part_011_202a680a"
+category = "Added loose - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(17.5, 11.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/loose/Added_loose_isometric_assets_part_011_202a680a_SE.png", "frame_width": 26, "frame_height": 28, "frames": 1, "origin": [17.5, 11.0], "footprint": [1, 1], "grid_original": {"origin": [13, 12], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [17.5, 27.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-17.5, -11.0)
+hframes = 1

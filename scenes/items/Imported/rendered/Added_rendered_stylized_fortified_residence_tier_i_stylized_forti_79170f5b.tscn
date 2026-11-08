@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_stylized_fortified_residence_tier_i_stylized_forti_79170f5b_SE.png" id="2"]
+
+[node name="Added_rendered_stylized_fortified_residence_tier_i_stylized_forti_79170f5b" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_rendered_stylized_fortified_residence_tier_i_stylized_forti_79170f5b"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(112.0, 181.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_fortified_residence_tier_i_stylized_forti_79170f5b_SE.png", "frame_width": 192, "frame_height": 248, "frames": 1, "origin": [112.0, 181.0], "footprint": [4, 4], "grid_original": {"origin": [48, 208], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [112.0, 245.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_fortified_residence_tier_i_stylized_forti_79170f5b_E.png", "frame_width": 338, "frame_height": 208, "frames": 1, "origin": [259.588778, 59.855074], "footprint": [4, 16], "grid_original": {"origin": [73, 144], "footprint": [7, 1]}, "alignment_transform": [1.037362249887499, -0.1318958838930655, 0.07875850342346935, 0.917989753935732], "alignment_base": [[5.0, 162.711111], [63.411222, 205.962356], [318.0, 103.106319]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [63.411222, 205.962356]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_fortified_residence_tier_i_stylized_forti_79170f5b_NE.png", "frame_width": 344, "frame_height": 135, "frames": 1, "origin": [322.0, -28.0], "footprint": [10, 10], "grid_original": {"origin": [76, 71], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [322.0, 132.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_fortified_residence_tier_i_stylized_forti_79170f5b_N.png", "frame_width": 305, "frame_height": 240, "frames": 1, "origin": [116.092053, 40.655315], "footprint": [12, 8], "grid_original": {"origin": [72, 184], "footprint": [6, 1]}, "alignment_transform": [1.1941570876503107, -0.19662509067237793, -0.14607322968936753, 0.8852981345039943], "alignment_base": [[15.0, 90.494758], [193.907947, 238.668335], [295.0, 188.828892]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [193.907947, 238.668335]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_fortified_residence_tier_i_stylized_forti_79170f5b_NW.png", "frame_width": 192, "frame_height": 247, "frames": 1, "origin": [103.0, 180.0], "footprint": [4, 4], "grid_original": {"origin": [48, 207], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [103.0, 244.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_fortified_residence_tier_i_stylized_forti_79170f5b_W.png", "frame_width": 338, "frame_height": 224, "frames": 1, "origin": [99.0, 93.0], "footprint": [8, 8], "grid_original": {"origin": [73, 160], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [99.0, 221.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_fortified_residence_tier_i_stylized_forti_79170f5b_SW.png", "frame_width": 344, "frame_height": 158, "frames": 1, "origin": [227.0, -5.0], "footprint": [10, 10], "grid_original": {"origin": [76, 94], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [227.0, 155.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_fortified_residence_tier_i_stylized_forti_79170f5b_S.png", "frame_width": 305, "frame_height": 244, "frames": 1, "origin": [218.0, 145.0], "footprint": [6, 6], "grid_original": {"origin": [72, 188], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [218.0, 241.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-112.0, -181.0)
+hframes = 1

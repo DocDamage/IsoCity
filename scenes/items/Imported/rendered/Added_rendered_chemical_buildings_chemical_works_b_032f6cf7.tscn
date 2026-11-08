@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_chemical_buildings_chemical_works_b_032f6cf7_SE.png" id="2"]
+
+[node name="Added_rendered_chemical_buildings_chemical_works_b_032f6cf7" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_chemical_buildings_chemical_works_b_032f6cf7"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 8)
+origin_offset = Vector2(126.0, 204.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_chemical_buildings_chemical_works_b_032f6cf7_SE.png", "frame_width": 240, "frame_height": 335, "frames": 1, "origin": [126.0, 204.0], "footprint": [8, 8], "grid_original": {"origin": [120, 207], "footprint": [8, 8]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [126.0, 332.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_chemical_buildings_chemical_works_b_032f6cf7_E.png", "frame_width": 240, "frame_height": 332, "frames": 1, "origin": [151.0, 201.0], "footprint": [8, 8], "grid_original": {"origin": [120, 204], "footprint": [8, 8]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [151.0, 329.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_chemical_buildings_chemical_works_b_032f6cf7_NE.png", "frame_width": 238, "frame_height": 321, "frames": 1, "origin": [73.0, 190.0], "footprint": [8, 8], "grid_original": {"origin": [119, 209], "footprint": [7, 7]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [73.0, 318.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_chemical_buildings_chemical_works_b_032f6cf7_N.png", "frame_width": 241, "frame_height": 320, "frames": 1, "origin": [113.0, 189.0], "footprint": [8, 8], "grid_original": {"origin": [120, 192], "footprint": [8, 8]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [113.0, 317.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_chemical_buildings_chemical_works_b_032f6cf7_NW.png", "frame_width": 240, "frame_height": 319, "frames": 1, "origin": [183.0, 188.0], "footprint": [8, 8], "grid_original": {"origin": [120, 191], "footprint": [8, 8]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [183.0, 316.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_chemical_buildings_chemical_works_b_032f6cf7_W.png", "frame_width": 240, "frame_height": 349, "frames": 1, "origin": [109.0, 218.0], "footprint": [8, 8], "grid_original": {"origin": [120, 221], "footprint": [8, 8]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [109.0, 346.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_chemical_buildings_chemical_works_b_032f6cf7_SW.png", "frame_width": 238, "frame_height": 349, "frames": 1, "origin": [165.0, 219.0], "footprint": [8, 8], "grid_original": {"origin": [119, 237], "footprint": [7, 7]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [165.0, 347.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_chemical_buildings_chemical_works_b_032f6cf7_S.png", "frame_width": 241, "frame_height": 346, "frames": 1, "origin": [90.0, 215.0], "footprint": [8, 8], "grid_original": {"origin": [120, 218], "footprint": [8, 8]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [90.0, 343.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-126.0, -204.0)
+hframes = 1

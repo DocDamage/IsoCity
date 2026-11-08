@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/supplemental_prepared/Characters_Eldrin_Vaelor/Supplemental_Characters_Eldrin_Vael_Idle_ce05ed00.png" id="2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_view"]
+atlas = ExtResource("2")
+region = Rect2(0, 0, 32, 52)
+filter_clip = true
+
+[node name="Supplemental_Characters_Eldrin_Vael_Idle_ce05ed00" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Supplemental_Characters_Eldrin_Vael_Idle_ce05ed00"
+category = "Supplemental Characters"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(32, 52)
+total_frames = 1
+animation_fps = 8
+has_collision = false
+directions_data = {"SE": {"file": "../../supplemental_prepared/Characters_Eldrin_Vaelor/Supplemental_Characters_Eldrin_Vael_Idle_ce05ed00.png", "region": [0, 0, 32, 52], "frame_width": 32, "frame_height": 52, "frames": 1, "origin": [32, 52], "footprint": [1, 1], "render_contact": [32, 52], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [32, 68]}, "SW": {"file": "../../supplemental_prepared/Characters_Eldrin_Vaelor/Supplemental_Characters_Eldrin_Vael_Idle_ce05ed00.png", "region": [32, 0, 32, 52], "frame_width": 32, "frame_height": 52, "frames": 1, "origin": [32, 52], "footprint": [1, 1], "render_contact": [32, 52], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [32, 68]}, "NE": {"file": "../../supplemental_prepared/Characters_Eldrin_Vaelor/Supplemental_Characters_Eldrin_Vael_Idle_ce05ed00.png", "region": [64, 0, 32, 52], "frame_width": 32, "frame_height": 52, "frames": 1, "origin": [32, 52], "footprint": [1, 1], "render_contact": [32, 52], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [32, 68]}, "NW": {"file": "../../supplemental_prepared/Characters_Eldrin_Vaelor/Supplemental_Characters_Eldrin_Vael_Idle_ce05ed00.png", "region": [96, 0, 32, 52], "frame_width": 32, "frame_height": 52, "frames": 1, "origin": [32, 52], "footprint": [1, 1], "render_contact": [32, 52], "grid_method": "authored pivot and virtual footprint front", "grid_contact": [32, 68]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_view")
+centered = false
+offset = Vector2(-32, -52)
+hframes = 1

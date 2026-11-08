@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IsoCity golden scenario fixture, version 1",
+  "type": "object",
+  "required": ["version", "scenario", "seed", "document"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {"const": 1},
+    "scenario": {
+      "enum": [
+        "modern_block", "interior_activity_floor", "utility_shortage",
+        "construction_site", "waterfront", "space_outpost"
+      ]
+    },
+    "seed": {"type": "integer", "minimum": 0, "maximum": 2147483647},
+    "document": {
+      "type": "object",
+      "required": ["mode", "title", "template", "template_revision", "night", "spawn", "objects", "tiles"],
+      "properties": {
+        "mode": {"const": "3d"},
+        "title": {"type": "string", "minLength": 1},
+        "template": {"const": "blank"},
+        "template_revision": {"type": "integer", "minimum": 1},
+        "night": {"type": "boolean"},
+        "spawn": {"$ref": "#/$defs/position"},
+        "objects": {"type": "array", "items": {"$ref": "#/$defs/placement"}, "minItems": 1},
+        "roads": {"type": "array"},
+        "tiles": {"type": "array"}
+      }
+    }
+  },
+  "$defs": {
+    "position": {"type": "array", "items": {"type": "number"}, "minItems": 3, "maxItems": 3},
+    "placement": {
+      "type": "object",
+      "required": ["uid", "asset", "position", "direction", "scale"],
+      "properties": {
+        "uid": {"type": "string", "minLength": 1, "maxLength": 128},
+        "asset": {"type": "string", "pattern": "^(2d|3d):.+"},
+        "position": {"$ref": "#/$defs/position"},
+        "direction": {"type": "string"},
+        "scale": {"type": "number", "exclusiveMinimum": 0}
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_fire_house_fire_house_56877555_SE.png" id="2"]
+
+[node name="Added_rendered_fire_house_fire_house_56877555" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_rendered_fire_house_fire_house_56877555"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 8)
+origin_offset = Vector2(140.0, 9.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_fire_house_fire_house_56877555_SE.png", "frame_width": 236, "frame_height": 140, "frames": 1, "origin": [140.0, 9.0], "footprint": [8, 8], "grid_original": {"origin": [118, 28], "footprint": [7, 7]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [140.0, 137.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_fire_house_fire_house_56877555_E.png", "frame_width": 195, "frame_height": 154, "frames": 1, "origin": [145.0, 55.0], "footprint": [6, 6], "grid_original": {"origin": [98, 58], "footprint": [6, 6]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [145.0, 151.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_fire_house_fire_house_56877555_NE.png", "frame_width": 212, "frame_height": 148, "frames": 1, "origin": [67.0, 49.0], "footprint": [6, 6], "grid_original": {"origin": [106, 36], "footprint": [7, 7]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [67.0, 145.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_fire_house_fire_house_56877555_N.png", "frame_width": 228, "frame_height": 143, "frames": 1, "origin": [112.0, 43.0], "footprint": [6, 6], "grid_original": {"origin": [114, 31], "footprint": [7, 7]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [112.0, 139.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_fire_house_fire_house_56877555_NW.png", "frame_width": 236, "frame_height": 156, "frames": 1, "origin": [110.0, 24.0], "footprint": [8, 8], "grid_original": {"origin": [118, 44], "footprint": [7, 7]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [110.0, 152.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_fire_house_fire_house_56877555_W.png", "frame_width": 196, "frame_height": 183, "frames": 1, "origin": [120.0, 84.0], "footprint": [6, 6], "grid_original": {"origin": [98, 87], "footprint": [6, 6]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [120.0, 180.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_fire_house_fire_house_56877555_SW.png", "frame_width": 213, "frame_height": 189, "frames": 1, "origin": [90.0, 90.0], "footprint": [6, 6], "grid_original": {"origin": [106, 77], "footprint": [7, 7]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [90.0, 186.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_fire_house_fire_house_56877555_S.png", "frame_width": 228, "frame_height": 136, "frames": 1, "origin": [95.0, 37.0], "footprint": [6, 6], "grid_original": {"origin": [114, 24], "footprint": [7, 7]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [95.0, 133.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-140.0, -9.0)
+hframes = 1

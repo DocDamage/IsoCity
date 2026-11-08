@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/isometricStrategy/Added_isometricStrategy_sprite_Sheet_r02_c08_fd5355ef_SE.png" id="2"]
+
+[node name="Added_isometricStrategy_sprite_Sheet_r02_c08_fd5355ef" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_isometricStrategy_sprite_Sheet_r02_c08_fd5355ef"
+category = "Added isometricStrategy - Ground"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(32.0, 32.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = false
+directions_data = {"SE": {"file": "../../imported_prepared/isometricStrategy/Added_isometricStrategy_sprite_Sheet_r02_c08_fd5355ef_SE.png", "frame_width": 64, "frame_height": 64, "frames": 1, "origin": [32.0, 32.0], "footprint": [2, 2], "grid_original": {"origin": [32, 32], "footprint": [2, 2]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_base": [[0.0, 48.0], [32.0, 64.0], [64.0, 48.0]], "alignment_version": 2, "grid_method": "source tile cell", "grid_contact": [32.0, 64.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-32.0, -32.0)
+hframes = 1

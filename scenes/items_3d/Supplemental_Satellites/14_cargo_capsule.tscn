@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Satellites/14_cargo_capsule.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(2.741886138956802, 2.252075507231153, 3.0)
+
+[node name="14_cargo_capsule" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-1.370943069478401, 0.0, -1.5, 2.741886138956802, 2.252075507231153, 3.0]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(0.003998674176789665, 1.123258250971793, -0.012317190534253898)
+scale = Vector3(3.014858007263275, 3.014858007263275, 3.014858007263275)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 1.1260377536155766, 0)
+shape = SubResource("CollisionShape")
+disabled = true

@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/isometric_rpg_world/art_isometric/art-isometric/exterior-props/StreetLamp2.png" id="2_tex"]
+
+[node name="StreetLamp2" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "StreetLamp2"
+category = "RPG_Nature"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(14.44523, 81.085077)
+total_frames = 1
+has_collision = true
+directions_data = {"SE": {"file": "../../isometric_rpg_world/art_isometric/art-isometric/exterior-props/StreetLamp2.png", "origin": [14.44523, 81.085077], "footprint": [1, 1], "frame_width": 48, "frame_height": 96, "grid_original": {"origin": [20, 88], "footprint": [1, 1]}, "alignment_transform": [1.2326619294979801, 0.02763187956083768, 0.08529763408199487, 1.2452768715786577], "alignment_base": [[1.0, 87.807692], [13.55477, 93.953384], [27.0, 87.230769]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [13.55477, 93.953384]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-14.44523, -81.085077)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, 0, 16, -16, 8)

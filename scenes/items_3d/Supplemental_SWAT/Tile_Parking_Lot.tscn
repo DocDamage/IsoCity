@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Tile_Parking_Lot.glb" id="1_umlgq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_kymkf"]
+size = Vector3(8, 0.27, 8)
+
+[node name="Tile_Parking_Lot" type="StaticBody3D" unique_id=476023327]
+collision_mask = 0
+metadata/authored_footprint = [-4.0, -0.15, -4.0, 8.0, 0.27, 8.0]
+
+[node name="Model" type="Node3D" parent="." unique_id=1037545327]
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1189016675 instance=ExtResource("1_umlgq")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=8317737]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.015000001, 0)
+shape = SubResource("BoxShape3D_kymkf")

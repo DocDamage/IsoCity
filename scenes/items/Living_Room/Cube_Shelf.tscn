@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Living_Room/Cube_Shelf_SE.png" id="2_tex"]
+
+[node name="Cube_Shelf" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Cube_Shelf"
+category = "Living Room"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 2)
+origin_offset = Vector2(33, 23)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Living_Room/Cube_Shelf_SE.png", "frame_width": 42, "frame_height": 44, "origin": [33, 23], "footprint": [1, 2], "sheet": {"file": "Sheets/Living_Room_Sheet.png", "x": 0, "y": 449, "w": 42, "h": 44}, "grid_method": "authored", "grid_contact": [17, 47]}, "SW": {"file": "Sprites/Living_Room/Cube_Shelf_SW.png", "frame_width": 42, "frame_height": 44, "origin": [9, 23], "footprint": [2, 1], "sheet": {"file": "Sheets/Living_Room_Sheet.png", "x": 44, "y": 449, "w": 42, "h": 44}, "grid_method": "authored", "grid_contact": [25, 47]}, "NW": {"file": "Sprites/Living_Room/Cube_Shelf_NW.png", "frame_width": 42, "frame_height": 44, "origin": [25, 19], "footprint": [1, 2], "sheet": {"file": "Sheets/Living_Room_Sheet.png", "x": 88, "y": 449, "w": 42, "h": 44}, "grid_method": "authored", "grid_contact": [9, 43]}, "NE": {"file": "Sprites/Living_Room/Cube_Shelf_NE.png", "frame_width": 42, "frame_height": 44, "origin": [17, 19], "footprint": [2, 1], "sheet": {"file": "Sheets/Living_Room_Sheet.png", "x": 132, "y": 449, "w": 42, "h": 44}, "grid_method": "authored", "grid_contact": [33, 43]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-33, -23)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, -16, 24, -32, 16)

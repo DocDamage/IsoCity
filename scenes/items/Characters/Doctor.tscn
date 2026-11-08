@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_character.gd" id="1_char_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Characters/Doctor_SE.png" id="2_tex"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_char"]
+radius = 5.0
+
+[node name="Doctor" type="CharacterBody2D"]
+y_sort_enabled = true
+script = ExtResource("1_char_script")
+item_id = "Doctor"
+direction = "SE"
+origin_offset = Vector2(10, 28)
+is_pet = false
+directions_data = {"SE": {"file": "Sprites/Characters/Doctor_SE.png", "frame_width": 21, "frame_height": 41, "origin": [10, 28], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 476, "y": 0, "w": 21, "h": 41}, "grid_method": "authored", "grid_contact": [10, 44]}, "SW": {"file": "Sprites/Characters/Doctor_SW.png", "frame_width": 21, "frame_height": 41, "origin": [11, 28], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 0, "y": 45, "w": 21, "h": 41}, "grid_method": "authored", "grid_contact": [11, 44]}, "NW": {"file": "Sprites/Characters/Doctor_NW.png", "frame_width": 21, "frame_height": 41, "origin": [11, 29], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 23, "y": 45, "w": 21, "h": 41}, "grid_method": "authored", "grid_contact": [11, 45]}, "NE": {"file": "Sprites/Characters/Doctor_NE.png", "frame_width": 21, "frame_height": 41, "origin": [10, 29], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 46, "y": 45, "w": 21, "h": 41}, "grid_method": "authored", "grid_contact": [10, 45]}}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."] 
+shape = SubResource("CircleShape2D_char")
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-10, -28)
+hframes = 9

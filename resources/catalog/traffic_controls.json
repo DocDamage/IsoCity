@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "assets": {
+    "2d:Traffic_Light": {"kind": "signal", "frames": {"green": 1, "amber": 2, "red": 3}},
+    "2d:Stop_Sign": {"kind": "stop"},
+    "2d:One_Way_Sign": {"kind": "one_way", "turn": 1},
+    "3d:HanX_Traffic/Traffic_Light_Red": {"kind": "signal"},
+    "3d:HanX_Traffic/Traffic_Light_Amber": {"kind": "signal"},
+    "3d:HanX_Traffic/Traffic_Light_Green": {"kind": "signal"},
+    "3d:HanX_Traffic/Sign_Stop": {"kind": "stop"},
+    "3d:HanX_Traffic/Sign_Yield": {"kind": "yield"},
+    "3d:HanX_Traffic/Sign_One_Way": {"kind": "one_way", "turn": -1}
+  },
+  "models": {
+    "red": "3d:HanX_Traffic/Traffic_Light_Red",
+    "amber": "3d:HanX_Traffic/Traffic_Light_Amber",
+    "green": "3d:HanX_Traffic/Traffic_Light_Green"
+  }
+}

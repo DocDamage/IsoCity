@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Office/Standing_Desk_SE.png" id="2_tex"]
+
+[node name="Standing_Desk" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Standing_Desk"
+category = "Office"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 2)
+origin_offset = Vector2(32, 25)
+total_frames = 4
+animation_fps = 3
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Office/Standing_Desk_SE.png", "frame_width": 45, "frame_height": 46, "origin": [32, 25], "footprint": [1, 2], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Office_Sheet.png", "x": 376, "y": 0, "w": 45, "h": 46}, "grid_method": "authored", "grid_contact": [16, 49]}, "SW": {"file": "Sprites/Office/Standing_Desk_SW.png", "frame_width": 45, "frame_height": 46, "origin": [13, 25], "footprint": [2, 1], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Office_Sheet.png", "x": 423, "y": 0, "w": 45, "h": 46}, "grid_method": "authored", "grid_contact": [29, 49]}, "NW": {"file": "Sprites/Office/Standing_Desk_NW.png", "frame_width": 45, "frame_height": 43, "origin": [29, 21], "footprint": [1, 2], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Office_Sheet.png", "x": 0, "y": 48, "w": 45, "h": 43}, "grid_method": "authored", "grid_contact": [13, 45]}, "NE": {"file": "Sprites/Office/Standing_Desk_NE.png", "frame_width": 45, "frame_height": 43, "origin": [16, 21], "footprint": [2, 1], "layout": "horizontal strip of 4 frames", "sheet": {"file": "Sheets/Office_Sheet.png", "x": 47, "y": 48, "w": 45, "h": 43}, "grid_method": "authored", "grid_contact": [32, 45]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-32, -25)
+hframes = 4
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, -16, 24, -32, 16)

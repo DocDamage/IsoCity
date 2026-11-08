@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Satellites/03_cubesat_3u.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(0.35, 0.21329160080705953, 0.12010349656619564)
+
+[node name="03_cubesat_3u" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.175, 0.0, -0.06005174828309782, 0.35, 0.21329160080705953, 0.12010349656619564]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(-2.3088963018489314e-05, 0.10707657270366185, 0.0018708502509888587)
+scale = Vector3(0.3486665344526395, 0.3486665344526395, 0.3486665344526395)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.10664580040352976, 0)
+shape = SubResource("CollisionShape")
+disabled = true

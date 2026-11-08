@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Arcade_machines/10_arcade_10_light_gun_cabinet.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(0.9461693081183409, 1.8, 1.3117696979904558)
+
+[node name="10_arcade_10_light_gun_cabinet" type="StaticBody3D"]
+collision_layer = 1
+collision_mask = 0
+metadata/authored_footprint = [-0.47308465405917044, 0.0, -0.6558848489952279, 0.9461693081183409, 1.8, 1.3117696979904558]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(0.0002580539105329243, 0.9002397742010463, 0.016631328666444272)
+scale = Vector3(1.793465698701215, 1.793465698701215, 1.793465698701215)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.9, 0)
+shape = SubResource("CollisionShape")
+disabled = false

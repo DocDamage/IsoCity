@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/isometricvill_v2/Added_isometricvill_v2_isometricvill_v2_Building_Assets_Bakery_open_the_d_87519555_SE.png" id="2"]
+
+[node name="Added_isometricvill_v2_isometricvill_v2_Building_Assets_Bakery_open_the_d_87519555" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_isometricvill_v2_isometricvill_v2_Building_Assets_Bakery_open_the_d_87519555"
+category = "Added isometricvill - - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(3, 3)
+origin_offset = Vector2(57.5, 61.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/isometricvill_v2/Added_isometricvill_v2_isometricvill_v2_Building_Assets_Bakery_open_the_d_87519555_SE.png", "frame_width": 81, "frame_height": 110, "frames": 1, "origin": [57.5, 61.0], "footprint": [3, 3], "grid_original": {"origin": [40, 62], "footprint": [3, 3]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [57.5, 109.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-57.5, -61.0)
+hframes = 1

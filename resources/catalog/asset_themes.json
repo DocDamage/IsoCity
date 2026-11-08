@@ -1,0 +1,2634 @@
+{
+  "version": 1,
+  "definitions": {
+    "hanx_modern": {
+      "label": "HanX modern",
+      "description": "Low-poly HanX buildings and reviewed modern 3D props.",
+      "icon": "city",
+      "preview_id": "3d:HanX_Shop/Shop_Cafe"
+    },
+    "pixel_city": {
+      "label": "Pixel City",
+      "description": "Pixel streets, homes, furnishings and nearby landscapes.",
+      "icon": "build",
+      "preview_id": "2d:Coffee_Shop"
+    },
+    "village": {
+      "label": "Village",
+      "description": "Rustic homes, gardens, camp gear and village surroundings.",
+      "icon": "nature",
+      "preview_id": "2d:Supplemental_Village_buildings_apothecary_nopalette_studio_6a8a3a07"
+    },
+    "industrial": {
+      "label": "Industrial",
+      "description": "Construction, machinery, infrastructure and industrial settings.",
+      "icon": "settings",
+      "preview_id": "2d:Supplemental_Water_towers_abandoned_derelict_nopalette_studio_17d20da8"
+    },
+    "space": {
+      "label": "Space",
+      "description": "Spacecraft, satellites and off-world outpost artwork.",
+      "icon": "star",
+      "preview_id": "3d:Supplemental_Spaceships_II/belly_bay_bomber"
+    },
+    "historical": {
+      "label": "Historical",
+      "description": "Historic and fantasy buildings, fortifications, sailing ships and terrain.",
+      "icon": "layers",
+      "preview_id": "2d:1"
+    }
+  },
+  "packs": {
+    "Arcade machines": {
+      "themes": [
+        "hanx_modern"
+      ],
+      "note": "Reviewed low-poly modern buildings and props; source pack remains visible."
+    },
+    "Archology South v1.4.8": {
+      "themes": [
+        "industrial",
+        "space"
+      ],
+      "note": "Reviewed futuristic outpost and station artwork shared by industrial and space collections."
+    },
+    "BOAT": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "Bonsai trees": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "Brutalist Metropole v1.1.2": {
+      "themes": [
+        "industrial"
+      ],
+      "note": "Reviewed infrastructure or concrete industrial settings."
+    },
+    "CATS ISOMETRIC ASSET PACK": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "Camping gear kit": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "Characters · Blue robot": {
+      "themes": [
+        "industrial",
+        "space"
+      ],
+      "note": "Reviewed robotic characters suitable for machinery and science-fiction collections."
+    },
+    "Characters · Boxer": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "Characters · Businessman": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "Characters · Directional girl": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "Characters · Eldrin Vaelor": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed rustic, historic or fantasy artwork; original variants and source states remain separate assets."
+    },
+    "Characters · Great sword knight": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed rustic, historic or fantasy artwork; original variants and source states remain separate assets."
+    },
+    "Characters · Orange shirt girl": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "Characters · Red robot": {
+      "themes": [
+        "industrial",
+        "space"
+      ],
+      "note": "Reviewed robotic characters suitable for machinery and science-fiction collections."
+    },
+    "Characters · Robot": {
+      "themes": [
+        "industrial",
+        "space"
+      ],
+      "note": "Reviewed robotic characters suitable for machinery and science-fiction collections."
+    },
+    "Classroom school kit": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "Deciduous trees": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "Exo-Lunar Desolation v1.3.6": {
+      "themes": [
+        "industrial",
+        "space"
+      ],
+      "note": "Reviewed futuristic outpost and station artwork shared by industrial and space collections."
+    },
+    "Fire_Station_PSX": {
+      "themes": [
+        "hanx_modern"
+      ],
+      "note": "Reviewed low-poly modern buildings and props; source pack remains visible."
+    },
+    "Flipped Fleet EU": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "Flipped Fleet US": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "Gallian Ice Field v1.0": {
+      "themes": [],
+      "note": "This mixed or setting-neutral source group has no reviewed theme assignment yet. Everything includes it."
+    },
+    "Garden greenhouse kit": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "Gloria Station 1.2.2": {
+      "themes": [
+        "industrial",
+        "space"
+      ],
+      "note": "Reviewed futuristic outpost and station artwork shared by industrial and space collections."
+    },
+    "Golbanc Homestead v1.6.1": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed rustic, historic or fantasy artwork; original variants and source states remain separate assets."
+    },
+    "Gym fitness kit": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "HanX SWAT": {
+      "themes": [
+        "hanx_modern"
+      ],
+      "note": "Reviewed low-poly modern buildings and props; source pack remains visible."
+    },
+    "HanX_City": {
+      "themes": [
+        "hanx_modern"
+      ],
+      "note": "Reviewed low-poly modern buildings and props; source pack remains visible."
+    },
+    "HanX_Construction": {
+      "themes": [
+        "hanx_modern",
+        "industrial"
+      ],
+      "note": "Modern low-poly construction or fuel infrastructure; included in both collections."
+    },
+    "HanX_GasStation": {
+      "themes": [
+        "hanx_modern",
+        "industrial"
+      ],
+      "note": "Modern low-poly construction or fuel infrastructure; included in both collections."
+    },
+    "HanX_Park": {
+      "themes": [
+        "hanx_modern"
+      ],
+      "note": "Reviewed low-poly modern buildings and props; source pack remains visible."
+    },
+    "HanX_School": {
+      "themes": [
+        "hanx_modern"
+      ],
+      "note": "Reviewed low-poly modern buildings and props; source pack remains visible."
+    },
+    "HanX_Shop": {
+      "themes": [
+        "hanx_modern"
+      ],
+      "note": "Reviewed low-poly modern buildings and props; source pack remains visible."
+    },
+    "HanX_Traffic": {
+      "themes": [
+        "hanx_modern"
+      ],
+      "note": "Reviewed low-poly modern buildings and props; source pack remains visible."
+    },
+    "Hercynian Lowlands v1.6": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed rustic, historic or fantasy artwork; original variants and source states remain separate assets."
+    },
+    "Isometric RPG Tileset 64x32 Pixel Art V1.1": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed rustic, historic or fantasy artwork; original variants and source states remain separate assets."
+    },
+    "Isometric tileset": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed rustic, historic or fantasy artwork; original variants and source states remain separate assets."
+    },
+    "Kitchen cookware kit": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "Korean Street": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "Korean Street Rodeo": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "Laundromat kit": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "MyArt": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "MyPilesetProoject": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "MyPilesetProoject1": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "Office desk kit": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "Pixel Isometric": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "Pixel ships": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed rustic, historic or fantasy artwork; original variants and source states remain separate assets."
+    },
+    "PixelArt": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "RPG World": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "RPG icons": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed rustic, historic or fantasy artwork; original variants and source states remain separate assets."
+    },
+    "Rodwan_Cliffs": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "Rodwan_Flags": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "Rodwan_Trees": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "Satellites": {
+      "themes": [
+        "space"
+      ],
+      "note": "Reviewed spacecraft, station or off-world artwork."
+    },
+    "Spaceships": {
+      "themes": [
+        "space"
+      ],
+      "note": "Reviewed spacecraft, station or off-world artwork."
+    },
+    "Spaceships II": {
+      "themes": [
+        "space"
+      ],
+      "note": "Reviewed spacecraft, station or off-world artwork."
+    },
+    "Sports equipment kit": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "Starlight Menagerie v1.2.5": {
+      "themes": [
+        "space"
+      ],
+      "note": "Reviewed spacecraft, station or off-world artwork."
+    },
+    "Supermarket kit": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "Toy shop kit": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "Village buildings": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed rustic, historic or fantasy artwork; original variants and source states remain separate assets."
+    },
+    "Water towers": {
+      "themes": [
+        "industrial"
+      ],
+      "note": "Reviewed infrastructure or concrete industrial settings."
+    },
+    "Wave_shore tiles by Rodwan": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "Well": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "animated": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "art-isometric": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed rustic, historic or fantasy artwork; original variants and source states remain separate assets."
+    },
+    "cars": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "grass_path_folder": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed rustic, historic or fantasy artwork; original variants and source states remain separate assets."
+    },
+    "isometricStrategy": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed rustic, historic or fantasy artwork; original variants and source states remain separate assets."
+    },
+    "isometricvill": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "isometricvill - v2": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "loose": {
+      "themes": [],
+      "note": "This mixed loose-source group uses individual reviewed collections where assigned."
+    },
+    "people": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed pixel or rendered-sprite city artwork; collection membership does not change its source style or behavior."
+    },
+    "piers": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "rendered": {
+      "themes": [],
+      "note": "This mixed or setting-neutral source group has no reviewed theme assignment yet. Everything includes it."
+    },
+    "rendered_test": {
+      "themes": [],
+      "note": "This mixed or setting-neutral source group has no reviewed theme assignment yet. Everything includes it."
+    },
+    "rodwan_tileset2": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "ship": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed rustic, historic or fantasy artwork; original variants and source states remain separate assets."
+    },
+    "water tileset by Rodwan": {
+      "themes": [
+        "pixel_city",
+        "village"
+      ],
+      "note": "Reviewed nature, garden or neutral prop artwork, shared by pixel-city and village collections."
+    },
+    "ww2": {
+      "themes": [
+        "industrial",
+        "historical"
+      ],
+      "note": "Reviewed historical military vehicles, workshops and building artwork; depicted activity is not an interaction claim."
+    }
+  },
+  "assets": {
+    "2d:1": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:1-48X64": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:1_1": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:1_1_1": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:1_2": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:1_3": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:2": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:2-48X48": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:2_1": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:2_1_1": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:3": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:3-32X32": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:3_1": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:4-128X128": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:5": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:6": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:7": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:7_1": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:7_2": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:Added_loose_HERCULES_TEMPLE_FLAT_5d6df563": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_HERCULES_TEMPLE_SHADED_c26785f7": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_campfire_Sheet_92c5a568": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_128x64_water_tiles_part_001_25b20403": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_128x64_water_tiles_part_002_59f4f642": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_128x64_water_tiles_part_003_92f15419": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_128x64_water_tiles_part_004_c20c501a": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_128x64_water_tiles_part_005_f1711e9b": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_128x64_water_tiles_part_006_14efba64": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_64x128_floor_and_64x_walls_tiles_part_00_077c4317": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_64x128_floor_and_64x_walls_tiles_part_00_13ff5beb": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_64x128_floor_and_64x_walls_tiles_part_00_1e55487a": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_64x128_floor_and_64x_walls_tiles_part_00_3c27281f": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_64x128_floor_and_64x_walls_tiles_part_00_7bc7b5a4": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_64x128_floor_and_64x_walls_tiles_part_00_a59bd64b": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_64x128_floor_and_64x_walls_tiles_part_00_cd838a1c": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_64x128_floor_and_64x_walls_tiles_part_00_e5a08fc4": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_64x128_floor_and_64x_walls_tiles_part_00_f87ad6a7": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_64x128_floor_and_64x_walls_tiles_part_01_a90b8b34": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_64x128_floor_and_64x_walls_tiles_part_01_d93637ed": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_64x128_floor_and_64x_walls_tiles_part_01_fef2fe7d": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_001_105e57ff": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_002_b103fdc9": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_003_d49769b5": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_004_62c6137a": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_005_920ec4ff": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_006_688ffb24": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_007_4a8f729d": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_008_fa971796": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_009_b82a4c2b": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_010_186bc2ef": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_011_202a680a": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_012_8c071620": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_013_25547a2c": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_014_e8946083": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_015_c31fcbc3": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_016_9886c2db": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_017_d0a47377": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_018_60cd5c2e": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_019_0e026223": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_020_fa22c5ef": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_021_78f484d3": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_022_c64d2a7d": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_023_4e704da6": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_024_4b44f2d9": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_025_9dfbf028": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_assets_part_026_1ea64ee7": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_four_buildings_2_part_001_ad450865": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_four_buildings_2_part_002_b54ef726": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_four_buildings_2_part_003_5f271f60": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_four_buildings_2_part_004_9e516751": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_four_buildings_part_001_4c7b86a4": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_four_buildings_part_002_cb9f6a60": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_four_buildings_part_003_cbdf3c3d": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_four_buildings_part_004_59e9fc34": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_grass_128x64_tiles_part_001_63eaa680": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_grass_128x64_tiles_part_002_c901f101": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_grass_128x64_tiles_part_003_a1c3596e": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_grass_128x64_tiles_part_004_3b31522d": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_grass_128x64_tiles_part_005_e1c3f5aa": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_grass_128x64_tiles_part_006_a3240e35": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_1_part_001_65dbf40f": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_1_part_002_d2435cf4": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_1_part_003_cae80194": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_1_part_004_1cb37893": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_1_part_005_8e95cac5": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_1_part_006_d0ae00d7": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_1_part_007_bee53789": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_1_part_008_8fd29ef3": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_2_part_001_93732649": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_2_part_002_69daf4aa": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_2_part_003_65b59f8c": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_2_part_004_ada6cb5e": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_2_part_005_788a7678": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_2_part_006_563365fe": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_2_part_007_65b68e0d": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_2_part_008_d1d312d1": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_2_part_009_736fa0ae": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_2_part_011_4eea5975": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_2_part_012_1e041312": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_2_part_013_21602cea": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_2_part_014_4f7836a4": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_2_part_015_6e48632f": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_isometric_street_tiles_2_part_016_0497c858": {
+      "themes": [
+        "pixel_city"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_palisade_Sheet_part_001_f830e54d": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_palisade_Sheet_part_002_65dc21ea": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_palisade_Sheet_part_003_ca8d4ff4": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_palisade_Sheet_part_004_c1b9e466": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_palisade_Sheet_part_005_bbfae4da": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_palisade_Sheet_part_006_a105766f": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_palisade_Sheet_part_007_9e38f879": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_palisade_Sheet_part_008_97bde174": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_palisade_Sheet_part_009_a64e7b13": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_palisade_Sheet_part_010_5fbea62b": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_palisade_Sheet_part_011_af78ec40": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_palisade_scene_cd30908f": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_base_v2_Sheet_part_001_dd35b8a5": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_base_v2_Sheet_part_002_38e65366": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_base_v2_Sheet_part_003_171f1bee": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_base_v2_Sheet_part_004_6fc97586": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_base_v2_Sheet_part_005_f30def46": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_base_v2_Sheet_part_006_6209644e": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_base_v2_Sheet_part_007_6368349e": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_base_v2_Sheet_part_008_2bddb75a": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_base_v2_Sheet_part_009_8c4f1f27": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_base_v2_Sheet_part_010_3bf85c00": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_base_v2_Sheet_part_011_059dce13": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_base_v2_Sheet_part_012_b51f8656": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_base_v2_Sheet_part_013_98883aa9": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_base_v2_Sheet_part_014_9bf3cbf3": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_base_v2_Sheet_part_015_6d6f39b2": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_base_v2_Sheet_part_016_86c79ec7": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_base_v2_Sheet_part_017_f4435310": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_base_v2_Sheet_part_018_163257a6": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_base_v2_Sheet_part_019_1512b5c0": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_castle_v2_part_001_645513c1": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_castle_v2_part_002_003df9c8": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_castle_v2_part_003_82cec155": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_domus_part_001_6378f00c": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_domus_part_002_ffd3ff1e": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_domus_part_003_945e19f8": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_domus_part_004_9326ee92": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_domus_part_005_9d82e83b": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_domus_part_006_44e3fbe2": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_domus_part_007_08eaa595": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_domus_part_008_693b30ee": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:Added_loose_roman_domus_part_009_b3ea6c1f": {
+      "themes": [
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed whole loose-source object, terrain fragment or assembled scene; source artwork retains its existing identity."
+    },
+    "2d:BBQ_Grill": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Beach_Umbrella": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Bird_Bath": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Bush_Flowering": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Bush_Large": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Bush_Round": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Carte2": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:Fence_Metal": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Fence_Picket": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Fence_Wood_Rail": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Carpet_Beige": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Carpet_Blue": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Carpet_Gray": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Carpet_Green": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Carpet_Office": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Carpet_Pink": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Carpet_Red_Diamond": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Concrete": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Herringbone": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Linoleum_Hospital": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Marble_Black": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Marble_White": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Mosaic_Blue": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Mosaic_Mint": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Parquet": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Rubber_Gym": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Slate": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Stage_Dark": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Tile_Beige": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Tile_Checker": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Tile_Gray_Large": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Tile_Red_Checker": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Tile_Terracotta": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Tile_White": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Vinyl_Kitchen": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Wood_Birch": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Wood_Cherry": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Wood_Gray": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Wood_Oak": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Wood_Walnut": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Floor_Wood_Wide_Planks": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Flower_Bed": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Fountain": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Garden_Gnome": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Garden_Light": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Hedge_Segment": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Park_Lamp": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Picnic_Table": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Playground_Slide": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Rock_Large": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Rock_Small": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Sandbox": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Seesaw": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Spring_Rider": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:StoneWall": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:StoneWall1": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:StreetLamp": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:StreetLamp2": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:Sun_Lounger": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Swing_Set": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Tall_Grass": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Topiary": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Tree_Autumn": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Tree_Birch": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Tree_Cherry_Blossom": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Tree_Oak": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Tree_Palm": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Tree_Pine": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Tree_Round": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:Tree_Street": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed neutral floor or nature artwork shared across pixel-city, village and historical collections."
+    },
+    "2d:all-ston-128x64": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:all-ston-64x32": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:all-ston-96x48": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:bir": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:bir1": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:box": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:bridge": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:bridge2": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:cargo": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:cliff": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:crate": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:dirt": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:door": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:drass": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:drass_1": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:grass": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:grass10": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:grass3": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:grass4": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:grass5": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:grass6": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:grass7": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:grass8": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:grass9": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:grass_end1": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:grass_end2": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:grass_end3": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:grass_end4": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:hadge": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:house": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:r2": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:stone": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:stone1": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:stone2": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:stone3": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:stone4": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:stone5": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:stone6": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:stone7": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:stone8": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:stone_1": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:t1": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:t2": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:tille1": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:tille2": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:tille3": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:tr": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:tree---_-_Copie": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:tree1": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:tree2": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:tree2_3": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:tree3": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:tree3_3": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:tree_2": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:water": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:water1": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:water2": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:water3": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:water4": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:water5": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:water6": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:water7": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:water8": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    },
+    "2d:woodenFence": {
+      "themes": [
+        "pixel_city",
+        "village",
+        "historical"
+      ],
+      "note": "Reviewed native RPG cottage, prop, terrain or foliage artwork; shared across these settings."
+    }
+  },
+  "review": "Source groups inspected in U01/source_groups_0..2.png; mixed native and loose subjects cross-checked against I04 visual inventories. Tags are browse collections, not capability or scale compatibility promises."
+}

@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Bedroom/Wardrobe_Oak_SE.png" id="2_tex"]
+
+[node name="Wardrobe_Oak" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Wardrobe_Oak"
+category = "Bedroom"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 2)
+origin_offset = Vector2(33, 42)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Bedroom/Wardrobe_Oak_SE.png", "frame_width": 44, "frame_height": 63, "origin": [33, 42], "footprint": [1, 2], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 416, "y": 387, "w": 44, "h": 63}, "grid_method": "authored", "grid_contact": [17, 66]}, "SW": {"file": "Sprites/Bedroom/Wardrobe_Oak_SW.png", "frame_width": 44, "frame_height": 63, "origin": [11, 42], "footprint": [2, 1], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 462, "y": 387, "w": 44, "h": 63}, "grid_method": "authored", "grid_contact": [27, 66]}, "NW": {"file": "Sprites/Bedroom/Wardrobe_Oak_NW.png", "frame_width": 44, "frame_height": 63, "origin": [27, 39], "footprint": [1, 2], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 0, "y": 452, "w": 44, "h": 63}, "grid_method": "authored", "grid_contact": [11, 63]}, "NE": {"file": "Sprites/Bedroom/Wardrobe_Oak_NE.png", "frame_width": 44, "frame_height": 63, "origin": [17, 39], "footprint": [2, 1], "sheet": {"file": "Sheets/Bedroom_Sheet.png", "x": 46, "y": 452, "w": 44, "h": 63}, "grid_method": "authored", "grid_contact": [33, 63]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-33, -42)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, -16, 24, -32, 16)

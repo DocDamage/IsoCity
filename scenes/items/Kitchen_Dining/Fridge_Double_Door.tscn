@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Kitchen_Dining/Fridge_Double_Door_SE.png" id="2_tex"]
+
+[node name="Fridge_Double_Door" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Fridge_Double_Door"
+category = "Kitchen & Dining"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 2)
+origin_offset = Vector2(32, 38)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Kitchen_Dining/Fridge_Double_Door_SE.png", "frame_width": 44, "frame_height": 60, "origin": [32, 38], "footprint": [1, 2], "sheet": {"file": "Sheets/Kitchen_Dining_Sheet.png", "x": 270, "y": 230, "w": 44, "h": 60}, "grid_method": "authored", "grid_contact": [16, 62]}, "SW": {"file": "Sprites/Kitchen_Dining/Fridge_Double_Door_SW.png", "frame_width": 44, "frame_height": 60, "origin": [12, 38], "footprint": [2, 1], "sheet": {"file": "Sheets/Kitchen_Dining_Sheet.png", "x": 316, "y": 230, "w": 44, "h": 60}, "grid_method": "authored", "grid_contact": [28, 62]}, "NW": {"file": "Sprites/Kitchen_Dining/Fridge_Double_Door_NW.png", "frame_width": 44, "frame_height": 60, "origin": [28, 36], "footprint": [1, 2], "sheet": {"file": "Sheets/Kitchen_Dining_Sheet.png", "x": 362, "y": 230, "w": 44, "h": 60}, "grid_method": "authored", "grid_contact": [12, 60]}, "NE": {"file": "Sprites/Kitchen_Dining/Fridge_Double_Door_NE.png", "frame_width": 44, "frame_height": 60, "origin": [16, 36], "footprint": [2, 1], "sheet": {"file": "Sheets/Kitchen_Dining_Sheet.png", "x": 408, "y": 230, "w": 44, "h": 60}, "grid_method": "authored", "grid_contact": [32, 60]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-32, -38)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, -16, 24, -32, 16)

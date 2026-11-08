@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/SWAT_Display_Base.glb" id="1_vbc1a"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_htgbm"]
+size = Vector3(6.6, 0.144, 4.8)
+
+[node name="SWAT_Display_Base" type="StaticBody3D" unique_id=1860688924]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-3.3, 0.0, -2.4, 6.6, 0.144, 4.8]
+
+[node name="Model" type="Node3D" parent="." unique_id=1198118645]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.14, 0)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1963020561 instance=ExtResource("1_vbc1a")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=516741667]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.072, 0)
+shape = SubResource("BoxShape3D_htgbm")
+disabled = true

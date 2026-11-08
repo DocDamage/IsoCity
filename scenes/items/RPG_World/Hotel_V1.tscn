@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/items/RPG_World/Buildings/hotel.tscn" id="1_prefab"]
+
+[node name="Hotel_V1" instance=ExtResource("1_prefab")]

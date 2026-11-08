@@ -1,0 +1,689 @@
+{
+  "version": 1,
+  "assets": {
+    "2d:Added_Gloria_Station_1_2_2_Gloria_Station_Walls_4x_wall_neXsw_1fade71f": {
+      "source": "assets/imported_prepared/Gloria_Station_1_2_2/Added_Gloria_Station_1_2_2_Gloria_Station_Walls_4x_wall_neXsw_1fade71f_SE.png",
+      "views": {
+        "SE": [
+          {
+            "id": "a",
+            "position": [
+              -10.0,
+              81.0
+            ],
+            "normal": [
+              -0.8814424208155869,
+              0.4722914976862887
+            ],
+            "up": [
+              0,
+              -1
+            ],
+            "kind": "structure",
+            "profile": "gloria-panel-rise",
+            "size": [
+              212,
+              16
+            ],
+            "mates": [
+              "gloria-panel-rise"
+            ]
+          },
+          {
+            "id": "b",
+            "position": [
+              339.0,
+              -106.0
+            ],
+            "normal": [
+              0.8814424208155869,
+              -0.4722914976862887
+            ],
+            "up": [
+              0,
+              -1
+            ],
+            "kind": "structure",
+            "profile": "gloria-panel-rise",
+            "size": [
+              212,
+              16
+            ],
+            "mates": [
+              "gloria-panel-rise"
+            ]
+          }
+        ]
+      }
+    },
+    "2d:Added_Gloria_Station_1_2_2_Gloria_Station_Walls_4x_wall_nwXse_8fd77692": {
+      "source": "assets/imported_prepared/Gloria_Station_1_2_2/Added_Gloria_Station_1_2_2_Gloria_Station_Walls_4x_wall_nwXse_8fd77692_SE.png",
+      "views": {
+        "SE": [
+          {
+            "id": "a",
+            "position": [
+              -185.0,
+              -292.0
+            ],
+            "normal": [
+              -0.8792919665367741,
+              -0.4762831485407526
+            ],
+            "up": [
+              0,
+              -1
+            ],
+            "kind": "structure",
+            "profile": "gloria-panel-fall",
+            "size": [
+              164,
+              14
+            ],
+            "mates": [
+              "gloria-panel-fall"
+            ]
+          },
+          {
+            "id": "b",
+            "position": [
+              79.0,
+              -149.0
+            ],
+            "normal": [
+              0.8792919665367741,
+              0.4762831485407526
+            ],
+            "up": [
+              0,
+              -1
+            ],
+            "kind": "structure",
+            "profile": "gloria-panel-fall",
+            "size": [
+              164,
+              14
+            ],
+            "mates": [
+              "gloria-panel-fall"
+            ]
+          }
+        ]
+      }
+    },
+    "2d:Added_rendered_modular_pipeline_pack_modular_pipeline_pack_01_666e79e8": {
+      "source": "assets/imported_prepared/rendered/Added_rendered_modular_pipeline_pack_modular_pipeline_pack_01_666e79e8_SE.png",
+      "views": {
+        "SE": [
+          {
+            "id": "a",
+            "position": [
+              0.0,
+              -246.0
+            ],
+            "normal": [
+              -0.0,
+              -1.0
+            ],
+            "up": [
+              1,
+              0
+            ],
+            "kind": "water",
+            "profile": "pipeline-flange",
+            "size": [
+              128,
+              128
+            ],
+            "mates": [
+              "pipeline-flange"
+            ]
+          },
+          {
+            "id": "b",
+            "position": [
+              0.0,
+              28.0
+            ],
+            "normal": [
+              0.0,
+              1.0
+            ],
+            "up": [
+              1,
+              0
+            ],
+            "kind": "water",
+            "profile": "pipeline-flange",
+            "size": [
+              128,
+              128
+            ],
+            "mates": [
+              "pipeline-flange"
+            ]
+          }
+        ]
+      }
+    },
+    "2d:Added_rendered_modular_pipeline_pack_modular_pipeline_pack_04_1c9e1b6d": {
+      "source": "assets/imported_prepared/rendered/Added_rendered_modular_pipeline_pack_modular_pipeline_pack_04_1c9e1b6d_SE.png",
+      "views": {
+        "SE": [
+          {
+            "id": "a",
+            "position": [
+              0.0,
+              -278.980076
+            ],
+            "normal": [
+              -0.0,
+              -1.0
+            ],
+            "up": [
+              1,
+              0
+            ],
+            "kind": "water",
+            "profile": "pipeline-flange",
+            "size": [
+              68,
+              68
+            ],
+            "mates": [
+              "pipeline-flange"
+            ]
+          },
+          {
+            "id": "b",
+            "position": [
+              0.0,
+              -2.980075999999997
+            ],
+            "normal": [
+              0.0,
+              1.0
+            ],
+            "up": [
+              1,
+              0
+            ],
+            "kind": "water",
+            "profile": "pipeline-flange",
+            "size": [
+              68,
+              68
+            ],
+            "mates": [
+              "pipeline-flange"
+            ]
+          }
+        ]
+      }
+    },
+    "3d:Supplemental_SWAT/Training_Wall_Straight": {
+      "sockets": [
+        {
+          "id": "a",
+          "position": [
+            -2,
+            1.325,
+            0
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "kind": "structure",
+          "profile": "swat-panel",
+          "size": [
+            0.26,
+            2.65
+          ],
+          "mates": [
+            "swat-panel"
+          ]
+        },
+        {
+          "id": "b",
+          "position": [
+            2,
+            1.325,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "kind": "structure",
+          "profile": "swat-panel",
+          "size": [
+            0.26,
+            2.65
+          ],
+          "mates": [
+            "swat-panel"
+          ]
+        }
+      ]
+    },
+    "3d:Supplemental_SWAT/Training_Wall_Door": {
+      "sockets": [
+        {
+          "id": "a",
+          "position": [
+            -2,
+            1.325,
+            0
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "kind": "structure",
+          "profile": "swat-panel",
+          "size": [
+            0.26,
+            2.65
+          ],
+          "mates": [
+            "swat-panel"
+          ]
+        },
+        {
+          "id": "b",
+          "position": [
+            2,
+            1.325,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "kind": "structure",
+          "profile": "swat-panel",
+          "size": [
+            0.26,
+            2.65
+          ],
+          "mates": [
+            "swat-panel"
+          ]
+        }
+      ]
+    },
+    "3d:Supplemental_SWAT/Training_Wall_Window": {
+      "sockets": [
+        {
+          "id": "a",
+          "position": [
+            -2,
+            1.325,
+            0
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "kind": "structure",
+          "profile": "swat-panel",
+          "size": [
+            0.26,
+            2.65
+          ],
+          "mates": [
+            "swat-panel"
+          ]
+        },
+        {
+          "id": "b",
+          "position": [
+            2,
+            1.325,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "kind": "structure",
+          "profile": "swat-panel",
+          "size": [
+            0.26,
+            2.65
+          ],
+          "mates": [
+            "swat-panel"
+          ]
+        }
+      ]
+    },
+    "3d:Supplemental_SWAT/Training_Wall_Corner": {
+      "sockets": [
+        {
+          "id": "a",
+          "position": [
+            0,
+            1.325,
+            -2
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "kind": "structure",
+          "profile": "swat-panel",
+          "size": [
+            0.26,
+            2.65
+          ],
+          "mates": [
+            "swat-panel"
+          ]
+        },
+        {
+          "id": "b",
+          "position": [
+            2,
+            1.325,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "kind": "structure",
+          "profile": "swat-panel",
+          "size": [
+            0.26,
+            2.65
+          ],
+          "mates": [
+            "swat-panel"
+          ]
+        }
+      ]
+    },
+    "3d:HanX_Construction/Scaffold_Module": {
+      "sockets": [
+        {
+          "id": "a",
+          "position": [
+            -1.07,
+            1,
+            0
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "kind": "structure",
+          "profile": "scaffold-bay",
+          "size": [
+            1.14,
+            2
+          ],
+          "mates": [
+            "scaffold-bay"
+          ]
+        },
+        {
+          "id": "b",
+          "position": [
+            1.07,
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "kind": "structure",
+          "profile": "scaffold-bay",
+          "size": [
+            1.14,
+            2
+          ],
+          "mates": [
+            "scaffold-bay"
+          ]
+        }
+      ]
+    },
+    "3d:HanX_Construction/Scaffold_Module_Ladder": {
+      "sockets": [
+        {
+          "id": "a",
+          "position": [
+            -1.07,
+            1,
+            0
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "kind": "structure",
+          "profile": "scaffold-bay",
+          "size": [
+            1.14,
+            2
+          ],
+          "mates": [
+            "scaffold-bay"
+          ]
+        },
+        {
+          "id": "b",
+          "position": [
+            1.07,
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "kind": "structure",
+          "profile": "scaffold-bay",
+          "size": [
+            1.14,
+            2
+          ],
+          "mates": [
+            "scaffold-bay"
+          ]
+        }
+      ]
+    },
+    "3d:HanX_Construction/Fence_Panel": {
+      "sockets": [
+        {
+          "id": "a",
+          "position": [
+            -1.87,
+            1,
+            0
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "kind": "structure",
+          "profile": "site-fence",
+          "size": [
+            0.66,
+            2
+          ],
+          "mates": [
+            "site-fence"
+          ]
+        },
+        {
+          "id": "b",
+          "position": [
+            1.87,
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "kind": "structure",
+          "profile": "site-fence",
+          "size": [
+            0.66,
+            2
+          ],
+          "mates": [
+            "site-fence"
+          ]
+        }
+      ]
+    },
+    "3d:HanX_Construction/Fence_Panel_Screen": {
+      "sockets": [
+        {
+          "id": "a",
+          "position": [
+            -1.87,
+            1,
+            0
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "kind": "structure",
+          "profile": "site-fence",
+          "size": [
+            0.66,
+            2
+          ],
+          "mates": [
+            "site-fence"
+          ]
+        },
+        {
+          "id": "b",
+          "position": [
+            1.87,
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "kind": "structure",
+          "profile": "site-fence",
+          "size": [
+            0.66,
+            2
+          ],
+          "mates": [
+            "site-fence"
+          ]
+        }
+      ]
+    }
+  }
+}

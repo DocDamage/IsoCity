@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_wall_wall_5_corner_7ab6587d_E.png" id="2"]
+
+[node name="Added_Isometric_tileset_Isometric_tileset_tile_images_wall_wall_5_corner_7ab6587d" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Isometric_tileset_Isometric_tileset_tile_images_wall_wall_5_corner_7ab6587d"
+category = "Added Isometric tileset - Props"
+kind = "obj"
+direction = "E"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(128.0, 233.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"E": {"file": "../../imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_wall_wall_5_corner_7ab6587d_E.png", "frame_width": 179, "frame_height": 299, "frames": 1, "origin": [128.0, 233.0], "footprint": [4, 4], "grid_original": {"origin": [42, 259], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [128.0, 297.0]}, "N": {"file": "../../imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_wall_wall_5_corner_7ab6587d_N.png", "frame_width": 256, "frame_height": 237, "frames": 1, "origin": [126.421617, 116.664154], "footprint": [8, 8], "grid_original": {"origin": [64, 189], "footprint": [5, 1]}, "alignment_transform": [1.0712074004086904, -0.004304754822036849, -0.01938890659259651, 1.0742817430427283], "alignment_base": [[8.0, 175.764315], [128.578383, 235.822173], [247.0, 176.722012]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [128.578383, 235.822173]}, "S": {"file": "../../imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_wall_wall_5_corner_7ab6587d_S.png", "frame_width": 256, "frame_height": 242, "frames": 1, "origin": [29.0, 107.0], "footprint": [8, 8], "grid_original": {"origin": [64, 194], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [29.0, 235.0]}, "W": {"file": "../../imported_prepared/Isometric_tileset/Added_Isometric_tileset_Isometric_tileset_tile_images_wall_wall_5_corner_7ab6587d_W.png", "frame_width": 170, "frame_height": 301, "frames": 1, "origin": [41.5, 235.0], "footprint": [4, 4], "grid_original": {"origin": [37, 261], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [41.5, 299.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-128.0, -233.0)
+hframes = 1

@@ -1,0 +1,1837 @@
+{
+  "version": 1,
+  "notes": "Explicit reviewed subject-use groups and search aliases. These labels describe artwork and placement tasks; they never grant runtime behaviors. Other assets remain searchable with their existing metadata and an unreviewed use state.",
+  "groups": {
+    "classroom": "Classroom",
+    "schoolyard": "School grounds",
+    "cafe": "Café & dining",
+    "shop": "Shop & market",
+    "workshop": "Workshop & garage",
+    "garden": "Garden & park"
+  },
+  "assets": {
+    "3d:HanX_GasStation/Air_Water_Station": {
+      "tags": [
+        "garage",
+        "repair",
+        "vehicle maintenance",
+        "workshop"
+      ],
+      "tasks": [
+        "furnish repair workshop"
+      ],
+      "aliases": [
+        "mechanic"
+      ],
+      "use_groups": [
+        "workshop"
+      ],
+      "source_note": "Reviewed prepared HanX_GasStation subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_GasStation/Floor_Jack": {
+      "tags": [
+        "garage",
+        "repair",
+        "vehicle maintenance",
+        "workshop"
+      ],
+      "tasks": [
+        "furnish repair workshop"
+      ],
+      "aliases": [
+        "mechanic"
+      ],
+      "use_groups": [
+        "workshop"
+      ],
+      "source_note": "Reviewed prepared HanX_GasStation subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_GasStation/Repair_Garage": {
+      "tags": [
+        "garage",
+        "repair",
+        "vehicle maintenance",
+        "workshop"
+      ],
+      "tasks": [
+        "furnish repair workshop"
+      ],
+      "aliases": [
+        "mechanic"
+      ],
+      "use_groups": [
+        "workshop"
+      ],
+      "source_note": "Reviewed prepared HanX_GasStation subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_GasStation/Tire_Rack": {
+      "tags": [
+        "garage",
+        "repair",
+        "vehicle maintenance",
+        "workshop"
+      ],
+      "tasks": [
+        "furnish repair workshop"
+      ],
+      "aliases": [
+        "mechanic"
+      ],
+      "use_groups": [
+        "workshop"
+      ],
+      "source_note": "Reviewed prepared HanX_GasStation subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_GasStation/Tire_Stack": {
+      "tags": [
+        "garage",
+        "repair",
+        "vehicle maintenance",
+        "workshop"
+      ],
+      "tasks": [
+        "furnish repair workshop"
+      ],
+      "aliases": [
+        "mechanic"
+      ],
+      "use_groups": [
+        "workshop"
+      ],
+      "source_note": "Reviewed prepared HanX_GasStation subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_GasStation/Tool_Chest": {
+      "tags": [
+        "garage",
+        "repair",
+        "vehicle maintenance",
+        "workshop"
+      ],
+      "tasks": [
+        "furnish repair workshop"
+      ],
+      "aliases": [
+        "mechanic"
+      ],
+      "use_groups": [
+        "workshop"
+      ],
+      "source_note": "Reviewed prepared HanX_GasStation subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_GasStation/Tow_Truck": {
+      "tags": [
+        "garage",
+        "repair",
+        "vehicle maintenance",
+        "workshop"
+      ],
+      "tasks": [
+        "furnish repair workshop"
+      ],
+      "aliases": [
+        "mechanic"
+      ],
+      "use_groups": [
+        "workshop"
+      ],
+      "source_note": "Reviewed prepared HanX_GasStation subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_GasStation/Workbench": {
+      "tags": [
+        "garage",
+        "repair",
+        "vehicle maintenance",
+        "workshop"
+      ],
+      "tasks": [
+        "furnish repair workshop"
+      ],
+      "aliases": [
+        "mechanic"
+      ],
+      "use_groups": [
+        "workshop"
+      ],
+      "source_note": "Reviewed prepared HanX_GasStation subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Park/Bench_Log": {
+      "tags": [
+        "garden",
+        "landscape",
+        "park"
+      ],
+      "tasks": [
+        "build park",
+        "decorate garden"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "garden"
+      ],
+      "source_note": "Reviewed prepared HanX_Park subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Park/Bench_Park": {
+      "tags": [
+        "garden",
+        "landscape",
+        "park"
+      ],
+      "tasks": [
+        "build park",
+        "decorate garden"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "garden"
+      ],
+      "source_note": "Reviewed prepared HanX_Park subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Park/Birdhouse": {
+      "tags": [
+        "garden",
+        "landscape",
+        "park"
+      ],
+      "tasks": [
+        "build park",
+        "decorate garden"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "garden"
+      ],
+      "source_note": "Reviewed prepared HanX_Park subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Park/Bush_Flowering": {
+      "tags": [
+        "garden",
+        "landscape",
+        "park"
+      ],
+      "tasks": [
+        "build park",
+        "decorate garden"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "garden"
+      ],
+      "source_note": "Reviewed prepared HanX_Park subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Park/Bush_Large": {
+      "tags": [
+        "garden",
+        "landscape",
+        "park"
+      ],
+      "tasks": [
+        "build park",
+        "decorate garden"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "garden"
+      ],
+      "source_note": "Reviewed prepared HanX_Park subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Park/Bush_Small": {
+      "tags": [
+        "garden",
+        "landscape",
+        "park"
+      ],
+      "tasks": [
+        "build park",
+        "decorate garden"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "garden"
+      ],
+      "source_note": "Reviewed prepared HanX_Park subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Park/Fern": {
+      "tags": [
+        "garden",
+        "landscape",
+        "park"
+      ],
+      "tasks": [
+        "build park",
+        "decorate garden"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "garden"
+      ],
+      "source_note": "Reviewed prepared HanX_Park subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Park/Flower_Bed": {
+      "tags": [
+        "garden",
+        "landscape",
+        "park"
+      ],
+      "tasks": [
+        "build park",
+        "decorate garden"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "garden"
+      ],
+      "source_note": "Reviewed prepared HanX_Park subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Park/Flowers_Tulips": {
+      "tags": [
+        "garden",
+        "landscape",
+        "park"
+      ],
+      "tasks": [
+        "build park",
+        "decorate garden"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "garden"
+      ],
+      "source_note": "Reviewed prepared HanX_Park subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Park/Fountain_Tiered": {
+      "tags": [
+        "garden",
+        "landscape",
+        "park"
+      ],
+      "tasks": [
+        "build park",
+        "decorate garden"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "garden"
+      ],
+      "source_note": "Reviewed prepared HanX_Park subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Park/Gazebo": {
+      "tags": [
+        "garden",
+        "landscape",
+        "park"
+      ],
+      "tasks": [
+        "build park",
+        "decorate garden"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "garden"
+      ],
+      "source_note": "Reviewed prepared HanX_Park subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Park/Grass_Tall": {
+      "tags": [
+        "garden",
+        "landscape",
+        "park"
+      ],
+      "tasks": [
+        "build park",
+        "decorate garden"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "garden"
+      ],
+      "source_note": "Reviewed prepared HanX_Park subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Park/Ground_Grass": {
+      "tags": [
+        "garden",
+        "landscape",
+        "park"
+      ],
+      "tasks": [
+        "build park",
+        "decorate garden"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "garden"
+      ],
+      "source_note": "Reviewed prepared HanX_Park subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Park/Ground_Grass_Flowers": {
+      "tags": [
+        "garden",
+        "landscape",
+        "park"
+      ],
+      "tasks": [
+        "build park",
+        "decorate garden"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "garden"
+      ],
+      "source_note": "Reviewed prepared HanX_Park subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Park/Ground_Pond": {
+      "tags": [
+        "garden",
+        "landscape",
+        "park"
+      ],
+      "tasks": [
+        "build park",
+        "decorate garden"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "garden"
+      ],
+      "source_note": "Reviewed prepared HanX_Park subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Park/Hedge_Straight": {
+      "tags": [
+        "garden",
+        "landscape",
+        "park"
+      ],
+      "tasks": [
+        "build park",
+        "decorate garden"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "garden"
+      ],
+      "source_note": "Reviewed prepared HanX_Park subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Park/Lily_Pads": {
+      "tags": [
+        "garden",
+        "landscape",
+        "park"
+      ],
+      "tasks": [
+        "build park",
+        "decorate garden"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "garden"
+      ],
+      "source_note": "Reviewed prepared HanX_Park subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Park/Log_Fallen": {
+      "tags": [
+        "garden",
+        "landscape",
+        "park"
+      ],
+      "tasks": [
+        "build park",
+        "decorate garden"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "garden"
+      ],
+      "source_note": "Reviewed prepared HanX_Park subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Park/Mushrooms": {
+      "tags": [
+        "garden",
+        "landscape",
+        "park"
+      ],
+      "tasks": [
+        "build park",
+        "decorate garden"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "garden"
+      ],
+      "source_note": "Reviewed prepared HanX_Park subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Ball_Cart": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Basketball_Court": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Basketball_Hoop": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Bench_School": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Bike_Rack": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Bleachers": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Book_Stack": {
+      "tags": [
+        "classroom",
+        "school",
+        "study",
+        "teaching"
+      ],
+      "tasks": [
+        "furnish classroom"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "classroom"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Bookshelf": {
+      "tags": [
+        "classroom",
+        "school",
+        "study",
+        "teaching"
+      ],
+      "tasks": [
+        "furnish classroom"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "classroom"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Chalkboard": {
+      "tags": [
+        "classroom",
+        "school",
+        "study",
+        "teaching"
+      ],
+      "tasks": [
+        "furnish classroom"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "classroom"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Classroom_Room": {
+      "tags": [
+        "classroom",
+        "education",
+        "school"
+      ],
+      "tasks": [
+        "build school"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "classroom"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Climbing_Frame": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Computer_Desk": {
+      "tags": [
+        "classroom",
+        "desk",
+        "furniture",
+        "school"
+      ],
+      "tasks": [
+        "furnish classroom",
+        "study space"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "classroom"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Cork_Board": {
+      "tags": [
+        "classroom",
+        "school",
+        "study",
+        "teaching"
+      ],
+      "tasks": [
+        "furnish classroom"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "classroom"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Drinking_Fountain": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Fence_School": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Flagpole": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Gate_School": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Globe": {
+      "tags": [
+        "classroom",
+        "school",
+        "study",
+        "teaching"
+      ],
+      "tasks": [
+        "furnish classroom"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "classroom"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Guard_Booth": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Gym_Building": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Hedge": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Kindergarten_Building": {
+      "tags": [
+        "campus",
+        "classroom",
+        "education",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school",
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "classroom",
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Lockers": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Merry_Go_Round": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Sandbox": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/School_Building": {
+      "tags": [
+        "campus",
+        "classroom",
+        "education",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school",
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "classroom",
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/School_Bus": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/School_Sign": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Seesaw": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Sign_School_Crossing": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Slide": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Soccer_Goal": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Spring_Rider": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Student_Chair": {
+      "tags": [
+        "classroom",
+        "furniture",
+        "school",
+        "seating"
+      ],
+      "tasks": [
+        "furnish classroom"
+      ],
+      "aliases": [
+        "classroom chair",
+        "school chair"
+      ],
+      "use_groups": [
+        "classroom"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Student_Desk": {
+      "tags": [
+        "classroom",
+        "desk",
+        "furniture",
+        "school"
+      ],
+      "tasks": [
+        "furnish classroom",
+        "study space"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "classroom"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Swing_Set": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Table_Tennis_Table": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Teacher_Chair": {
+      "tags": [
+        "classroom",
+        "furniture",
+        "school",
+        "seating"
+      ],
+      "tasks": [
+        "furnish classroom"
+      ],
+      "aliases": [
+        "classroom chair",
+        "school chair"
+      ],
+      "use_groups": [
+        "classroom"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Teacher_Desk": {
+      "tags": [
+        "classroom",
+        "desk",
+        "furniture",
+        "school"
+      ],
+      "tasks": [
+        "furnish classroom",
+        "study space"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "classroom"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Tile_Hopscotch": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Tile_Lawn": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Tile_Playground": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Tile_Running_Track": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Tile_Schoolyard": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Track_Hurdle": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Tree_Round": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Wall_Clock": {
+      "tags": [
+        "classroom",
+        "school",
+        "study",
+        "teaching"
+      ],
+      "tasks": [
+        "furnish classroom"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "classroom"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Waste_Basket": {
+      "tags": [
+        "campus",
+        "school",
+        "schoolyard"
+      ],
+      "tasks": [
+        "build school grounds"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "schoolyard"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_School/Whiteboard_Mobile": {
+      "tags": [
+        "classroom",
+        "school",
+        "study",
+        "teaching"
+      ],
+      "tasks": [
+        "furnish classroom"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "classroom"
+      ],
+      "source_note": "Reviewed prepared HanX_School subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Bread_Basket": {
+      "tags": [
+        "cafe",
+        "dining",
+        "food"
+      ],
+      "tasks": [
+        "furnish cafe"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "cafe"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Bread_Rack": {
+      "tags": [
+        "cafe",
+        "dining",
+        "food"
+      ],
+      "tasks": [
+        "furnish cafe"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "cafe"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Cafe_Chair": {
+      "tags": [
+        "cafe",
+        "dining",
+        "furniture",
+        "seating"
+      ],
+      "tasks": [
+        "dining area",
+        "furnish cafe"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "cafe"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Cafe_Counter": {
+      "tags": [
+        "cafe",
+        "dining",
+        "food"
+      ],
+      "tasks": [
+        "furnish cafe"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "cafe"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Cafe_Table_Set": {
+      "tags": [
+        "cafe",
+        "dining",
+        "furniture",
+        "seating"
+      ],
+      "tasks": [
+        "dining area",
+        "furnish cafe"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "cafe"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Checkout_Counter": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Clothing_Rack": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Crate_Apples": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Crate_Bananas": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Crate_Cabbages": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Crate_Oranges": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Crate_Tomatoes": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Display_Table": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Dress_Form": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Freezer_Chest": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Fridge_Drinks": {
+      "tags": [
+        "cafe",
+        "dining",
+        "food"
+      ],
+      "tasks": [
+        "furnish cafe"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "cafe"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Mannequin": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Market_Cart": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Pastry_Display": {
+      "tags": [
+        "cafe",
+        "dining",
+        "food"
+      ],
+      "tasks": [
+        "furnish cafe"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "cafe"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Patio_Umbrella_Set": {
+      "tags": [
+        "cafe",
+        "dining",
+        "food"
+      ],
+      "tasks": [
+        "furnish cafe"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "cafe"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Price_Tags": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Shelf_Gondola": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Shelf_Wall": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Shop_Bakery": {
+      "tags": [
+        "cafe",
+        "dining",
+        "food"
+      ],
+      "tasks": [
+        "furnish cafe"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "cafe"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Shop_Boutique": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Shop_Butcher": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Shop_Cafe": {
+      "tags": [
+        "cafe",
+        "dining",
+        "food"
+      ],
+      "tasks": [
+        "furnish cafe"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "cafe"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Shop_Florist": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Shop_Grocery": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Shop_Ice_Cream": {
+      "tags": [
+        "cafe",
+        "dining",
+        "food"
+      ],
+      "tasks": [
+        "furnish cafe"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "cafe"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Shop_Pharmacy": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Shopping_Basket": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Shopping_Cart": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Stall_Flower": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Stall_Fruit": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Stall_Vegetable": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    },
+    "3d:HanX_Shop/Watermelon_Pile": {
+      "tags": [
+        "display",
+        "market",
+        "retail",
+        "shop"
+      ],
+      "tasks": [
+        "build market",
+        "furnish shop"
+      ],
+      "aliases": [],
+      "use_groups": [
+        "shop"
+      ],
+      "source_note": "Reviewed prepared HanX_Shop subject; visual search use only, not a functional capability."
+    }
+  }
+}

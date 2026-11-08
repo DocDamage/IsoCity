@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Hercynian_Lowlands_v1_6/Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Structures_Lumber_Building_2x3__76204916_SE.png" id="2"]
+
+[node name="Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Structures_Lumber_Building_2x3__76204916" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Structures_Lumber_Building_2x3__76204916"
+category = "Added Hercynian Lowlands - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 12)
+origin_offset = Vector2(233.585412, 121.265381)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Hercynian_Lowlands_v1_6/Added_Hercynian_Lowlands_v1_6_Hercynian_Lowlands_Structures_Lumber_Building_2x3__76204916_SE.png", "frame_width": 512, "frame_height": 358, "frames": 1, "origin": [233.585412, 121.265381], "footprint": [8, 12], "grid_original": {"origin": [256, 102], "footprint": [16, 16]}, "alignment_transform": [1.0036939978406871, 0.009361286916839656, 0.029402965555763605, 0.8704786226273793], "alignment_base": [[39.0, 233.642144], [164.414588, 305.816183], [359.0, 193.43942]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [164.414588, 305.816183]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-233.585412, -121.265381)
+hframes = 1

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/ww2/Added_ww2_Production_Buildings_factory_3_09a1c25a_SE.png" id="2"]
+
+[node name="Added_ww2_Production_Buildings_factory_3_09a1c25a" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_ww2_Production_Buildings_factory_3_09a1c25a"
+category = "Added ww2 - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(16, 16)
+origin_offset = Vector2(234.85656, 62.114675)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/ww2/Added_ww2_Production_Buildings_factory_3_09a1c25a_SE.png", "frame_width": 512, "frame_height": 306, "frames": 1, "origin": [234.85656, 62.114675], "footprint": [16, 16], "grid_original": {"origin": [256, 50], "footprint": [16, 16]}, "alignment_transform": [1.0559198456347538, 0.06861141616460378, -0.1984974859256008, 1.049755423186172], "alignment_base": [[18.0, 198.22146], [280.14344, 303.021078], [497.0, 166.914293]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [280.14344, 303.021078]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-234.85656, -62.114675)
+hframes = 1

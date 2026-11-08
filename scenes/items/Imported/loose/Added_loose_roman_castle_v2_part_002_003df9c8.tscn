@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/loose/Added_loose_roman_castle_v2_part_002_003df9c8_SE.png" id="2"]
+
+[node name="Added_loose_roman_castle_v2_part_002_003df9c8" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_loose_roman_castle_v2_part_002_003df9c8"
+category = "Added loose - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(3, 3)
+origin_offset = Vector2(51.478412, 73.351326)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/loose/Added_loose_roman_castle_v2_part_002_003df9c8_SE.png", "frame_width": 106, "frame_height": 122, "frames": 1, "origin": [51.478412, 73.351326], "footprint": [3, 3], "grid_original": {"origin": [37, 98], "footprint": [2, 1]}, "alignment_transform": [0.9900626309373388, -0.0088282166885921, -0.041576762921987975, 0.9869306421553581], "alignment_base": [[4.0, 97.244444], [53.521588, 122.005239], [101.0, 98.112121]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [53.521588, 122.005239]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-51.478412, -73.351326)
+hframes = 1

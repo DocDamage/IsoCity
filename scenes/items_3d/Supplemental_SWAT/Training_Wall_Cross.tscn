@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Training_Wall_Cross.glb" id="1_nvxj5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ilufg"]
+size = Vector3(4, 2.65, 4)
+
+[node name="Training_Wall_Cross" type="StaticBody3D" unique_id=238672764]
+collision_mask = 0
+metadata/authored_footprint = [-2.0, 0.0, -2.0, 4.0, 2.65, 4.0]
+
+[node name="Model" type="Node3D" parent="." unique_id=1422266932]
+
+[node name="Source" type="Node3D" parent="Model" unique_id=968440896 instance=ExtResource("1_nvxj5")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=684808202]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.325, 0)
+shape = SubResource("BoxShape3D_ilufg")

@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Vehicle_Police_Motorcycle.glb" id="1_va656"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_v3thh"]
+size = Vector3(1.06439, 1.38876, 2.31923)
+
+[node name="Vehicle_Police_Motorcycle" type="StaticBody3D" unique_id=1770554776]
+collision_mask = 0
+metadata/authored_footprint = [-0.532195, 0.0, -1.159615, 1.06439, 1.38876, 2.31923]
+
+[node name="Model" type="Node3D" parent="." unique_id=2074172711]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00035500526, -0.01124, -0.017095089)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=939595747 instance=ExtResource("1_va656")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1760599680]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.69438, 0)
+shape = SubResource("BoxShape3D_v3thh")

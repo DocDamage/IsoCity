@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Bathroom_Laundry/Towel_Rack_SE.png" id="2_tex"]
+
+[node name="Towel_Rack" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Towel_Rack"
+category = "Bathroom & Laundry"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(15, 25)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Bathroom_Laundry/Towel_Rack_SE.png", "frame_width": 16, "frame_height": 16, "origin": [15, 25], "footprint": [1, 1], "sheet": {"file": "Sheets/Bathroom_Laundry_Sheet.png", "x": 240, "y": 39, "w": 16, "h": 16}, "grid_method": "authored", "grid_contact": [15, 41]}, "SW": {"file": "Sprites/Bathroom_Laundry/Towel_Rack_SW.png", "frame_width": 16, "frame_height": 19, "origin": [1, 25], "footprint": [1, 1], "sheet": {"file": "Sheets/Bathroom_Laundry_Sheet.png", "x": 258, "y": 39, "w": 16, "h": 19}, "grid_method": "authored", "grid_contact": [1, 41]}, "NW": {"file": "Sprites/Bathroom_Laundry/Towel_Rack_NW.png", "frame_width": 16, "frame_height": 18, "origin": [1, 18], "footprint": [1, 1], "sheet": {"file": "Sheets/Bathroom_Laundry_Sheet.png", "x": 276, "y": 39, "w": 16, "h": 18}, "grid_method": "authored", "grid_contact": [1, 34]}, "NE": {"file": "Sprites/Bathroom_Laundry/Towel_Rack_NE.png", "frame_width": 16, "frame_height": 15, "origin": [15, 18], "footprint": [1, 1], "sheet": {"file": "Sheets/Bathroom_Laundry_Sheet.png", "x": 294, "y": 39, "w": 16, "h": 15}, "grid_method": "authored", "grid_contact": [15, 34]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-15, -25)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, 0, 16, -16, 8)

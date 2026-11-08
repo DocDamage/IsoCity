@@ -1,0 +1,67 @@
+{
+  "homes": {
+    "label": "Garden homes",
+    "ground": "Grass",
+    "road_style": "asphalt",
+    "2d": [
+      "2d:House_Blue",
+      "2d:House_Yellow",
+      "2d:House_Mint_Garage"
+    ],
+    "3d": [
+      "3d:HanX_City/Row_Houses_A",
+      "3d:HanX_City/Row_Houses_B"
+    ]
+  },
+  "historic": {
+    "label": "Brick and historic",
+    "ground": "Brick_Pavers",
+    "road_style": "brick",
+    "2d": [
+      "2d:House_Brick",
+      "2d:Bakery",
+      "2d:Coffee_Shop"
+    ],
+    "3d": [
+      "3d:HanX_City/Historic_Building",
+      "3d:HanX_City/Corner_Shop_Building",
+      "3d:HanX_City/Cafe_Small"
+    ]
+  },
+  "urban": {
+    "label": "Urban apartments",
+    "ground": "Sidewalk",
+    "road_style": "asphalt",
+    "2d": [
+      "2d:Apartment_Building",
+      "2d:Office_Tower",
+      "2d:Supermarket"
+    ],
+    "3d": [
+      "3d:HanX_City/Apartment_4F_A",
+      "3d:HanX_City/Apartment_4F_B",
+      "3d:HanX_City/Apartment_6F_Balcony"
+    ]
+  },
+  "supplemental_village": {
+    "label": "Village sprites",
+    "ground": "Grass",
+    "road_style": "brick",
+    "2d": [
+      "2d:Supplemental_Village_buildings_farmhouse_barn_nopalette_studio_14e998b3",
+      "2d:Supplemental_Village_buildings_longhouse_nopalette_studio_0db8823e",
+      "2d:Supplemental_Village_buildings_round_cottage_nopalette_studio_3311890e",
+      "2d:Supplemental_Village_buildings_tavern_inn_nopalette_studio_6c6ffc89",
+      "2d:Supplemental_Village_buildings_thatched_cottage_nopalette_studio_1f112197",
+      "2d:Supplemental_Village_buildings_timber_frame_house_nopalette_studio_cff7d173"
+    ],
+    "3d": [
+      "2d:Supplemental_Village_buildings_farmhouse_barn_nopalette_studio_14e998b3",
+      "2d:Supplemental_Village_buildings_longhouse_nopalette_studio_0db8823e",
+      "2d:Supplemental_Village_buildings_round_cottage_nopalette_studio_3311890e",
+      "2d:Supplemental_Village_buildings_tavern_inn_nopalette_studio_6c6ffc89",
+      "2d:Supplemental_Village_buildings_thatched_cottage_nopalette_studio_1f112197",
+      "2d:Supplemental_Village_buildings_timber_frame_house_nopalette_studio_cff7d173"
+    ]
+  }
+}

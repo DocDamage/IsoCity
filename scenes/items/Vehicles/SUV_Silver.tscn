@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Vehicles/SUV_Silver_SE.png" id="2_tex"]
+
+[node name="SUV_Silver" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "SUV_Silver"
+category = "Vehicles"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 1)
+origin_offset = Vector2(15, 13)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Vehicles/SUV_Silver_SE.png", "frame_width": 47, "frame_height": 35, "origin": [15, 13], "footprint": [2, 1], "sheet": {"file": "Sheets/Vehicles_Sheet.png", "x": 384, "y": 66, "w": 47, "h": 35}, "grid_method": "authored", "grid_contact": [31, 37]}, "SW": {"file": "Sprites/Vehicles/SUV_Silver_SW.png", "frame_width": 47, "frame_height": 34, "origin": [31, 12], "footprint": [1, 2], "sheet": {"file": "Sheets/Vehicles_Sheet.png", "x": 433, "y": 66, "w": 47, "h": 34}, "grid_method": "authored", "grid_contact": [15, 36]}, "NW": {"file": "Sprites/Vehicles/SUV_Silver_NW.png", "frame_width": 47, "frame_height": 35, "origin": [16, 13], "footprint": [2, 1], "sheet": {"file": "Sheets/Vehicles_Sheet.png", "x": 0, "y": 104, "w": 47, "h": 35}, "grid_method": "authored", "grid_contact": [32, 37]}, "NE": {"file": "Sprites/Vehicles/SUV_Silver_NE.png", "frame_width": 47, "frame_height": 36, "origin": [32, 14], "footprint": [1, 2], "sheet": {"file": "Sheets/Vehicles_Sheet.png", "x": 49, "y": 104, "w": 47, "h": 36}, "grid_method": "authored", "grid_contact": [16, 38]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-15, -13)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 32, 16, 16, 24, -16, 8)

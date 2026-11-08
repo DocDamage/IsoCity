@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Archology_South_v1_4_8/Added_Archology_South_v1_4_8_Archology_South_Infrastructure_Paved_Road_III_T_cr_9e6094c2_SE.png" id="2"]
+
+[node name="Added_Archology_South_v1_4_8_Archology_South_Infrastructure_Paved_Road_III_T_cr_9e6094c2" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Archology_South_v1_4_8_Archology_South_Infrastructure_Paved_Road_III_T_cr_9e6094c2"
+category = "Added Archology South - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 20)
+origin_offset = Vector2(331.335468, 20.125619)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Archology_South_v1_4_8/Added_Archology_South_v1_4_8_Archology_South_Infrastructure_Paved_Road_III_T_cr_9e6094c2_SE.png", "frame_width": 512, "frame_height": 297, "frames": 1, "origin": [331.335468, 20.125619], "footprint": [12, 20], "grid_original": {"origin": [144, 225], "footprint": [8, 1]}, "alignment_transform": [1.1084084628771005, 0.05493029759210295, 0.18936480968279285, 0.9591561938712027], "alignment_base": [[11.0, 205.284328], [168.664532, 296.342949], [489.0, 111.18424]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [168.664532, 296.342949]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-331.335468, -20.125619)
+hframes = 1

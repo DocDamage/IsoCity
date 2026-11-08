@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Gloria_Station_1_2_2/Added_Gloria_Station_1_2_2_Gloria_Station_Debris_Objects_Heavy_Container_oliv_7549168b_SE.png" id="2"]
+
+[node name="Added_Gloria_Station_1_2_2_Gloria_Station_Debris_Objects_Heavy_Container_oliv_7549168b" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_Gloria_Station_1_2_2_Gloria_Station_Debris_Objects_Heavy_Container_oliv_7549168b"
+category = "Added Gloria Station 1.2.2 - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 12)
+origin_offset = Vector2(186.741221, 99.463507)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/Gloria_Station_1_2_2/Added_Gloria_Station_1_2_2_Gloria_Station_Debris_Objects_Heavy_Container_oliv_7549168b_SE.png", "frame_width": 265, "frame_height": 238, "frames": 1, "origin": [186.741221, 99.463507], "footprint": [4, 12], "grid_original": {"origin": [132, 110], "footprint": [8, 8]}, "alignment_transform": [1.0553222675562157, -0.022729983347466065, -0.07525872173631937, 0.9123017562859056], "alignment_base": [[12.0, 200.338173], [75.258779, 236.990378], [250.0, 136.115712]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [75.258779, 236.990378]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-186.741221, -99.463507)
+hframes = 1

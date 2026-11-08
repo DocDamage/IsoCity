@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_moroccan_city_gate_bab_stylized_tier_i_moroccan_ci_31601802_SE.png" id="2"]
+
+[node name="Added_rendered_moroccan_city_gate_bab_stylized_tier_i_moroccan_ci_31601802" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_moroccan_city_gate_bab_stylized_tier_i_moroccan_ci_31601802"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 4)
+origin_offset = Vector2(137.5, 249.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_city_gate_bab_stylized_tier_i_moroccan_ci_31601802_SE.png", "frame_width": 224, "frame_height": 316, "frames": 1, "origin": [137.5, 249.0], "footprint": [4, 4], "grid_original": {"origin": [48, 268], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [137.5, 313.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_city_gate_bab_stylized_tier_i_moroccan_ci_31601802_E.png", "frame_width": 269, "frame_height": 333, "frames": 1, "origin": [113.0, 266.0], "footprint": [4, 4], "grid_original": {"origin": [54, 277], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [113.0, 330.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_city_gate_bab_stylized_tier_i_moroccan_ci_31601802_NE.png", "frame_width": 344, "frame_height": 286, "frames": 1, "origin": [173.0, 155.0], "footprint": [8, 8], "grid_original": {"origin": [76, 222], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [173.0, 283.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_city_gate_bab_stylized_tier_i_moroccan_ci_31601802_N.png", "frame_width": 360, "frame_height": 320, "frames": 1, "origin": [300.0, 189.0], "footprint": [8, 8], "grid_original": {"origin": [68, 248], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [300.0, 317.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_city_gate_bab_stylized_tier_i_moroccan_ci_31601802_NW.png", "frame_width": 224, "frame_height": 355, "frames": 1, "origin": [160.0, 288.0], "footprint": [4, 4], "grid_original": {"origin": [48, 307], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [160.0, 352.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_city_gate_bab_stylized_tier_i_moroccan_ci_31601802_W.png", "frame_width": 269, "frame_height": 330, "frames": 1, "origin": [51.0, 263.0], "footprint": [4, 4], "grid_original": {"origin": [54, 274], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [51.0, 327.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_city_gate_bab_stylized_tier_i_moroccan_ci_31601802_SW.png", "frame_width": 344, "frame_height": 245, "frames": 1, "origin": [235.0, 114.0], "footprint": [8, 8], "grid_original": {"origin": [76, 181], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [235.0, 242.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_moroccan_city_gate_bab_stylized_tier_i_moroccan_ci_31601802_S.png", "frame_width": 360, "frame_height": 291, "frames": 1, "origin": [198.0, 161.0], "footprint": [8, 8], "grid_original": {"origin": [68, 219], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [198.0, 289.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-137.5, -249.0)
+hframes = 1

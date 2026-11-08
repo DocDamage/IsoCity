@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Prop_Target_Steel.glb" id="1_qwups"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_32vxl"]
+size = Vector3(1.64, 1.72, 0.8)
+
+[node name="Prop_Target_Steel" type="StaticBody3D" unique_id=1205328901]
+collision_mask = 0
+metadata/authored_footprint = [-0.82, 0.0, -0.4, 1.64, 1.72, 0.8]
+
+[node name="Model" type="Node3D" parent="." unique_id=674097720]
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1187759901 instance=ExtResource("1_qwups")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1173525403]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.86, 0)
+shape = SubResource("BoxShape3D_32vxl")

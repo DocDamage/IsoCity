@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_stylized_scriptorium_tier_i_stylized_scriptorium_t_fcd22934_SE.png" id="2"]
+
+[node name="Added_rendered_stylized_scriptorium_tier_i_stylized_scriptorium_t_fcd22934" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_stylized_scriptorium_tier_i_stylized_scriptorium_t_fcd22934"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 8)
+origin_offset = Vector2(173.0, 257.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_scriptorium_tier_i_stylized_scriptorium_t_fcd22934_SE.png", "frame_width": 344, "frame_height": 388, "frames": 1, "origin": [173.0, 257.0], "footprint": [8, 8], "grid_original": {"origin": [76, 324], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [173.0, 385.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_scriptorium_tier_i_stylized_scriptorium_t_fcd22934_E.png", "frame_width": 476, "frame_height": 427, "frames": 1, "origin": [238.875237, 169.774528], "footprint": [16, 16], "grid_original": {"origin": [126, 355], "footprint": [8, 1]}, "alignment_transform": [1.1610448166657534, 0.0037746493144965587, 0.012546086534552692, 1.005794666980624], "alignment_base": [[17.0, 297.86976], [236.124763, 424.309962], [458.0, 296.21473]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [236.124763, 424.309962]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_scriptorium_tier_i_stylized_scriptorium_t_fcd22934_NE.png", "frame_width": 342, "frame_height": 386, "frames": 1, "origin": [170.5, 255.0], "footprint": [8, 8], "grid_original": {"origin": [75, 322], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [170.5, 383.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_scriptorium_tier_i_stylized_scriptorium_t_fcd22934_N.png", "frame_width": 476, "frame_height": 458, "frames": 1, "origin": [236.35524, 201.882534], "footprint": [16, 16], "grid_original": {"origin": [126, 386], "footprint": [8, 1]}, "alignment_transform": [1.1610360949677434, -0.0036946348524690142, -0.010451968839623849, 1.0066123594190397], "alignment_base": [[17.0, 328.236598], [238.64476, 456.209293], [458.0, 329.855229]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [238.64476, 456.209293]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_scriptorium_tier_i_stylized_scriptorium_t_fcd22934_NW.png", "frame_width": 344, "frame_height": 389, "frames": 1, "origin": [170.0, 258.0], "footprint": [8, 8], "grid_original": {"origin": [76, 325], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [170.0, 386.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_scriptorium_tier_i_stylized_scriptorium_t_fcd22934_W.png", "frame_width": 476, "frame_height": 459, "frames": 1, "origin": [239.252897, 202.187402], "footprint": [16, 16], "grid_original": {"origin": [126, 387], "footprint": [8, 1]}, "alignment_transform": [1.161056149128881, 0.0036741699364745695, 0.015981987894315597, 1.005201198557773], "alignment_base": [[17.0, 330.337463], [235.747103, 456.875599], [458.0, 328.725538]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [235.747103, 456.875599]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_scriptorium_tier_i_stylized_scriptorium_t_fcd22934_SW.png", "frame_width": 342, "frame_height": 387, "frames": 1, "origin": [172.0, 256.0], "footprint": [8, 8], "grid_original": {"origin": [75, 323], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [172.0, 384.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_stylized_scriptorium_tier_i_stylized_scriptorium_t_fcd22934_S.png", "frame_width": 476, "frame_height": 459, "frames": 1, "origin": [235.991418, 202.131953], "footprint": [16, 16], "grid_original": {"origin": [126, 387], "footprint": [8, 1]}, "alignment_transform": [1.1610559759103638, -0.004256542977181199, -0.013747051783856379, 1.0046603095954842], "alignment_base": [[17.0, 328.610378], [239.008582, 456.957231], [458.0, 330.478806]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [239.008582, 456.957231]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-173.0, -257.0)
+hframes = 1

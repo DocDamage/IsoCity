@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Wall_Decor/Wall_Sconce_Left.png" id="2_tex"]
+
+[node name="Wall_Sconce" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Wall_Sconce"
+category = "Wall Decor"
+kind = "obj"
+direction = "Left"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(8, 26)
+total_frames = 1
+animation_fps = 4.0
+has_collision = false
+directions_data = {"Left": {"file": "Sprites/Wall_Decor/Wall_Sconce_Left.png", "frame_width": 9, "frame_height": 10, "origin": [8, 26], "footprint": [1, 1], "sheet": {"file": "Sheets/Wall_Decor_Sheet.png", "x": 316, "y": 0, "w": 9, "h": 10}, "grid_method": "authored", "grid_contact": [8, 42]}, "Right": {"file": "Sprites/Wall_Decor/Wall_Sconce_Right.png", "frame_width": 9, "frame_height": 10, "origin": [1, 26], "footprint": [1, 1], "sheet": {"file": "Sheets/Wall_Decor_Sheet.png", "x": 327, "y": 0, "w": 9, "h": 10}, "grid_method": "authored", "grid_contact": [1, 42]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-8, -26)
+hframes = 1

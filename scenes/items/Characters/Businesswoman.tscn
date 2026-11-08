@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_character.gd" id="1_char_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Characters/Businesswoman_SE.png" id="2_tex"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_char"]
+radius = 5.0
+
+[node name="Businesswoman" type="CharacterBody2D"]
+y_sort_enabled = true
+script = ExtResource("1_char_script")
+item_id = "Businesswoman"
+direction = "SE"
+origin_offset = Vector2(10, 29)
+is_pet = false
+directions_data = {"SE": {"file": "Sprites/Characters/Businesswoman_SE.png", "frame_width": 21, "frame_height": 42, "origin": [10, 29], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 92, "y": 0, "w": 21, "h": 42}, "grid_method": "authored", "grid_contact": [10, 45]}, "SW": {"file": "Sprites/Characters/Businesswoman_SW.png", "frame_width": 21, "frame_height": 42, "origin": [11, 29], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 115, "y": 0, "w": 21, "h": 42}, "grid_method": "authored", "grid_contact": [11, 45]}, "NW": {"file": "Sprites/Characters/Businesswoman_NW.png", "frame_width": 21, "frame_height": 41, "origin": [11, 29], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 138, "y": 0, "w": 21, "h": 41}, "grid_method": "authored", "grid_contact": [11, 45]}, "NE": {"file": "Sprites/Characters/Businesswoman_NE.png", "frame_width": 21, "frame_height": 41, "origin": [10, 29], "footprint": [1, 1], "layout": "horizontal strip of 9 frames", "sheet": {"file": "Sheets/Characters_Sheet.png", "x": 161, "y": 0, "w": 21, "h": 41}, "grid_method": "authored", "grid_contact": [10, 45]}}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."] 
+shape = SubResource("CircleShape2D_char")
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-10, -29)
+hframes = 9

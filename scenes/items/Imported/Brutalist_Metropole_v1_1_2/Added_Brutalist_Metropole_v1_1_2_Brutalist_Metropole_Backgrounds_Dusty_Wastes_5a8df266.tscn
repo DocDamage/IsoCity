@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Brutalist_Metropole_v1_1_2/Added_Brutalist_Metropole_v1_1_2_Brutalist_Metropole_Backgrounds_Dusty_Wastes_5a8df266_SE.png" id="2"]
+
+[node name="Added_Brutalist_Metropole_v1_1_2_Brutalist_Metropole_Backgrounds_Dusty_Wastes_5a8df266" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_Brutalist_Metropole_v1_1_2_Brutalist_Metropole_Backgrounds_Dusty_Wastes_5a8df266"
+category = "Added Brutalist Metropole - Backdrops"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(30, 30)
+origin_offset = Vector2(511.015204, 36.189321)
+total_frames = 1
+animation_fps = 8.0
+has_collision = false
+directions_data = {"SE": {"file": "../../imported_prepared/Brutalist_Metropole_v1_1_2/Added_Brutalist_Metropole_v1_1_2_Brutalist_Metropole_Backgrounds_Dusty_Wastes_5a8df266_SE.png", "frame_width": 1024, "frame_height": 591, "frames": 1, "origin": [511.015204, 36.189321], "footprint": [30, 30], "grid_original": {"origin": [512, 271], "footprint": [20, 20]}, "alignment_transform": [0.999999939277259, -0.0009585278763178523, 5.490508921944526e-05, 0.8666943838913447], "alignment_base": [[31.0, 312.572665], [510.984796, 590.017729], [991.0, 313.634385]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [510.984796, 590.017729]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-511.015204, -36.189321)
+hframes = 1

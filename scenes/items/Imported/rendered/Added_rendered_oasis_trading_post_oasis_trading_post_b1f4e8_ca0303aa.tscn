@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_oasis_trading_post_oasis_trading_post_b1f4e8_ca0303aa_SE.png" id="2"]
+
+[node name="Added_rendered_oasis_trading_post_oasis_trading_post_b1f4e8_ca0303aa" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_oasis_trading_post_oasis_trading_post_b1f4e8_ca0303aa"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 8)
+origin_offset = Vector2(160.0, 233.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_oasis_trading_post_oasis_trading_post_b1f4e8_ca0303aa_SE.png", "frame_width": 344, "frame_height": 363, "frames": 1, "origin": [160.0, 233.0], "footprint": [8, 8], "grid_original": {"origin": [76, 299], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [160.0, 361.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_oasis_trading_post_oasis_trading_post_b1f4e8_ca0303aa_E.png", "frame_width": 423, "frame_height": 431, "frames": 1, "origin": [198.139532, 202.766089], "footprint": [16, 12], "grid_original": {"origin": [100, 359], "footprint": [8, 1]}, "alignment_transform": [1.1369829177072326, 0.041330160346059575, 0.14351354784956033, 0.9846326228783926], "alignment_base": [[16.0, 307.909727], [225.860468, 429.098514], [408.0, 323.954876]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [225.860468, 429.098514]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_oasis_trading_post_oasis_trading_post_b1f4e8_ca0303aa_NE.png", "frame_width": 286, "frame_height": 397, "frames": 1, "origin": [140.0, 266.0], "footprint": [8, 8], "grid_original": {"origin": [63, 341], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [140.0, 394.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_oasis_trading_post_oasis_trading_post_b1f4e8_ca0303aa_N.png", "frame_width": 422, "frame_height": 448, "frames": 1, "origin": [222.66673, 219.577003], "footprint": [12, 16], "grid_original": {"origin": [99, 376], "footprint": [8, 1]}, "alignment_transform": [1.1369941353231305, -0.04194517771934203, -0.14544211266695672, 0.9845169440181363], "alignment_base": [[13.0, 340.657186], [195.33327, 445.935213], [405.0, 324.85503]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [195.33327, 445.935213]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_oasis_trading_post_oasis_trading_post_b1f4e8_ca0303aa_NW.png", "frame_width": 344, "frame_height": 388, "frames": 1, "origin": [183.0, 257.0], "footprint": [8, 8], "grid_original": {"origin": [76, 324], "footprint": [7, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [183.0, 385.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_oasis_trading_post_oasis_trading_post_b1f4e8_ca0303aa_W.png", "frame_width": 423, "frame_height": 449, "frames": 1, "origin": [197.63178, 220.681496], "footprint": [16, 12], "grid_original": {"origin": [100, 377], "footprint": [8, 1]}, "alignment_transform": [1.1370138524474525, 0.04006467860340382, 0.13842341956147114, 0.9847159331929148], "alignment_base": [[16.0, 325.561508], [226.36822, 446.98908], [408.0, 342.109068]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [226.36822, 446.98908]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_oasis_trading_post_oasis_trading_post_b1f4e8_ca0303aa_SW.png", "frame_width": 286, "frame_height": 398, "frames": 1, "origin": [145.0, 267.0], "footprint": [8, 8], "grid_original": {"origin": [63, 342], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [145.0, 395.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_oasis_trading_post_oasis_trading_post_b1f4e8_ca0303aa_S.png", "frame_width": 422, "frame_height": 432, "frames": 1, "origin": [224.611679, 203.886291], "footprint": [12, 16], "grid_original": {"origin": [99, 360], "footprint": [8, 1]}, "alignment_transform": [1.1369787312861388, -0.039062035983248866, -0.1360090536562526, 0.984958142587003], "alignment_base": [[14.0, 325.488493], [195.388321, 430.148166], [406.0, 308.545964]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [195.388321, 430.148166]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-160.0, -233.0)
+hframes = 1

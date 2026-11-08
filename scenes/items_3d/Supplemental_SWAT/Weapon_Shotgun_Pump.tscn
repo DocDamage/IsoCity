@@ -1,0 +1,20 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Weapon_Shotgun_Pump.glb" id="1_gh2i1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_854hj"]
+size = Vector3(0.06667, 0.19615, 1.012)
+
+[node name="Weapon_Shotgun_Pump" type="StaticBody3D" unique_id=1618704156]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.0445, -0.06015, -0.372, 0.06667, 0.19615, 1.012]
+
+[node name="Model" type="Node3D" parent="." unique_id=465192484]
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1740232858 instance=ExtResource("1_gh2i1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1692368523]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0111650005, 0.037925, 0.13399997)
+shape = SubResource("BoxShape3D_854hj")
+disabled = true

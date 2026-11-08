@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Gear_Flashbang.glb" id="1_flwgf"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cl6q3"]
+size = Vector3(0.056849997, 0.128, 0.048)
+
+[node name="Gear_Flashbang" type="StaticBody3D" unique_id=949307817]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.028424999, 0.0, -0.024, 0.056849997, 0.128, 0.048]
+
+[node name="Model" type="Node3D" parent="." unique_id=1380105577]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0049249995, 0, 0)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1852568472 instance=ExtResource("1_flwgf")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=961554540]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.064, 0)
+shape = SubResource("BoxShape3D_cl6q3")
+disabled = true

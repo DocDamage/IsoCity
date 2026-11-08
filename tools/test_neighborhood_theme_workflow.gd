@@ -1,0 +1,32 @@
+extends "res://tools/test_neighborhood_workflow.gd"
+const OUT="res://output/verification/asset_expansion/I16/"
+func settle() -> void:
+	for frame in 12:await process_frame
+	await physics_frame
+func select(ui: RefCounted,id: String) -> void:
+	for index in ui.theme.item_count:
+		if ui.theme.get_item_metadata(index)==id:ui.theme.select(index);ui.theme.item_selected.emit(index);return
+	check(false,"Actual theme choice is available: "+id)
+func key(code: Key) -> void:
+	for pressed in [true,false]:
+		var event:=InputEventKey.new();event.keycode=code;event.pressed=pressed;Input.parse_input_event(event);await process_frame
+func shot(name: String) -> void:
+	if not "--capture" in OS.get_cmdline_user_args():return
+	await RenderingServer.frame_post_draw;check(root.get_texture().get_image().save_png(OUT+name+".png")==OK,"Actual district control capture retained: "+name)
+func run() -> void:
+	DirAccess.make_dir_recursive_absolute(OUT);root.size=Vector2i(1480,900);studio=load("res://scenes/builder.tscn").instantiate();studio.storage_enabled=false;root.add_child(studio);await settle();await settle();studio.consumer_shell.dismiss_welcome()
+	for mode in ["2d","3d"]:
+		studio.switch_mode(mode);studio.documents[mode]=preload("res://scripts/builder/document.gd").new();var doc: RefCounted=studio.current();doc.data=preload("res://scripts/builder/templates.gd").make(mode,"blank");doc.data["economy"]={"enabled":true,"starting_cash":100000};doc.data["economy_account"]=Plan.Economy.fresh_account(doc.data,studio.library);studio.changed();await settle();var ui: RefCounted=studio.neighborhood_tools;studio._command("neighborhood",null);select(ui,"village");ui.blocks.value=1;ui.density.value=100;ui.seed_input.value=17;var before: Dictionary=doc.data.duplicate(true);var history: int=doc.undo_history.size();ui.generate();check(not ui.preview_ready and ui.dialog.get_ok_button().disabled,"Apply waits for private source geometry and completed rendering: "+mode);ui.commit();check(doc.data==before,"An early activation cannot commit an unfinished preview: "+mode);await ready(ui)
+		check(ui.preview_ready and not ui.pending.is_empty() and not ui.dialog.get_ok_button().disabled and ui.summary.text.contains("courtyard") and ui.summary.text.contains("flat sprite"),"Ready themed preview explains actual scenery and flat representation: "+mode)
+		check(doc.data==before and doc.undo_history.size()==history and ui.preview_world.player.visible==false and not ui.preview_world.is_processing(),"Full private district preview stops callbacks without touching authoring, money or history: "+mode)
+		var pending: Dictionary=ui.pending["data"].duplicate(true);var camera_before: Variant=ui.preview_world.camera.zoom if mode=="2d" else ui.preview_world.distance;ui.zoom_preview(1.4);check((ui.preview_world.camera.zoom!=camera_before if mode=="2d" else ui.preview_world.distance!=camera_before) and ui.pending["data"]==pending,"Zoom inspects exact proposal artwork without changing source transforms: "+mode)
+		await key(KEY_ESCAPE);await settle();check(not ui.dialog.visible and ui.preview_world==null and doc.data==before and doc.undo_history.size()==history,"Real Escape cancels without leaving private geometry or history: "+mode)
+		for simple in [true,false]:
+			studio.consumer_shell.set_active(simple,false)
+			for size in [Vector2i(1480,900),Vector2i(960,640)]:
+				root.size=size;studio.accessibility_settings.restore({"text_scale":1.5,"high_contrast":true,"large_targets":true} if size.x==960 else {});studio._command("neighborhood",null);select(ui,"village");ui.blocks.value=1;ui.density.value=100;ui.seed_input.value=17;ui.generate();await ready(ui);await settle();check(ui.preview_ready and ui.dialog.size.x<=size.x and ui.dialog.size.y<=size.y,"Actual themed modal fits supported viewport and text settings: "+mode+str(size));check(not ui.theme.accessibility_name.is_empty() and ui.theme.focus_mode==Control.FOCUS_ALL,"Theme has a usable accessible name and keyboard focus: "+mode);await shot("theme_controls_"+mode+"_"+("simple" if simple else "precision")+"_"+str(size.x));ui.cancel();await settle()
+		root.size=Vector2i(1480,900);studio.accessibility_settings.restore({});studio._command("neighborhood",null);select(ui,"village");ui.blocks.value=1;ui.density.value=100;ui.seed_input.value=17;ui.generate();await ready(ui);var exact: Dictionary=ui.pending["data"].duplicate(true);ui.dialog.get_ok_button().grab_focus();await key(KEY_SPACE);await settle();check(not ui.dialog.visible and doc.data==exact and doc.undo_history.size()==history+1,"Real Space commits the complete reviewed district and its treasury as one history step: "+mode);studio._command("undo",null);await settle();check(doc.data==before,"Undo restores all original objects, streets, source metadata and funds: "+mode);studio._command("redo",null);await settle();check(doc.data==exact,"Redo restores exact concrete appearances, scenery, selection notes and original charge: "+mode)
+		var saved: String=OUT+"theme_workflow_"+mode+".isocity.json";check(studio.write_project(saved) and studio.load_project(saved),"Generated themed district saves and reopens normally: "+mode);await settle();doc=studio.current();check(JSON.parse_string(JSON.stringify(doc.data))==JSON.parse_string(JSON.stringify(exact)),"Normal reopen preserves every authored value in the themed world: "+mode)
+		var good_hash: String=FileAccess.get_sha256(saved);var blocker: String=OUT+"blocked_parent_"+mode;FileAccess.open(blocker,FileAccess.WRITE).store_string("Existing private file prevents a directory from being created here.");check(not studio.write_project(blocker+"/failed.isocity.json") and FileAccess.get_sha256(saved)==good_hash and JSON.parse_string(JSON.stringify(doc.data))==JSON.parse_string(JSON.stringify(exact)),"Failed ordinary save preserves the previous good city and every live generated record: "+mode)
+		ui.show();ui.beside_city();select(ui,"village");ui.blocks.value=1;ui.density.value=100;ui.generate();await ready(ui);var snapshot: Dictionary=doc.data.duplicate(true);doc.data["title"]="Changed during district review";studio.changed();ui.commit();check(ui.pending.is_empty() and ui.summary.text.contains("city changed") and doc.data["objects"]==snapshot["objects"],"Concurrent city edits cannot be overwritten by a completed themed preview: "+mode);ui.cancel()
+	studio.free();await process_frame;await process_frame;print("NEIGHBORHOOD THEME WORKFLOW: %d checks, %d failures"%[checks,failures]);quit(1 if failures else 0)

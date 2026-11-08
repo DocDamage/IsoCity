@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Prop_Concrete_Barrier_Police.glb" id="1_4bxfa"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_h1jma"]
+size = Vector3(3.12, 0.892, 0.606)
+
+[node name="Prop_Concrete_Barrier_Police" type="StaticBody3D" unique_id=314698532]
+collision_mask = 0
+metadata/authored_footprint = [-1.56, 0.0, -0.303, 3.12, 0.892, 0.606]
+
+[node name="Model" type="Node3D" parent="." unique_id=400221477]
+
+[node name="Source" type="Node3D" parent="Model" unique_id=81448909 instance=ExtResource("1_4bxfa")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1065024554]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.446, 0)
+shape = SubResource("BoxShape3D_h1jma")

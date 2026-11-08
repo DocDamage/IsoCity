@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/cars/Added_cars_cars_Ambulance_Idle_fe29f3e5_SE.png" id="2"]
+
+[node name="Added_cars_cars_Ambulance_Idle_fe29f3e5" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Added_cars_cars_Ambulance_Idle_fe29f3e5"
+category = "Added cars - Vehicles"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(8, 4)
+origin_offset = Vector2(51.730893, 62.699517)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"E": {"file": "../../imported_prepared/cars/Added_cars_cars_Ambulance_Idle_fe29f3e5_E.png", "frame_width": 183, "frame_height": 95, "frames": 1, "origin": [51.0, 30.0], "footprint": [4, 4], "grid_original": {"origin": [44, 55], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [51.0, 94.0]}, "N": {"file": "../../imported_prepared/cars/Added_cars_cars_Ambulance_Idle_fe29f3e5_N.png", "frame_width": 104, "frame_height": 128, "frames": 1, "origin": [51.5, 92.0], "footprint": [2, 2], "grid_original": {"origin": [36, 104], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [51.5, 124.0]}, "NE": {"file": "../../imported_prepared/cars/Added_cars_cars_Ambulance_Idle_fe29f3e5_NE.png", "frame_width": 175, "frame_height": 129, "frames": 1, "origin": [45.0, 57.0], "footprint": [4, 4], "grid_original": {"origin": [40, 89], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [45.0, 121.0]}, "NW": {"file": "../../imported_prepared/cars/Added_cars_cars_Ambulance_Idle_fe29f3e5_NW.png", "frame_width": 170, "frame_height": 122, "frames": 1, "origin": [124.0, 57.0], "footprint": [4, 4], "grid_original": {"origin": [37, 82], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [124.0, 121.0]}, "S": {"file": "../../imported_prepared/cars/Added_cars_cars_Ambulance_Idle_fe29f3e5_S.png", "frame_width": 101, "frame_height": 131, "frames": 1, "origin": [19.0, 98.0], "footprint": [2, 2], "grid_original": {"origin": [34, 107], "footprint": [2, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [19.0, 130.0]}, "SE": {"file": "../../imported_prepared/cars/Added_cars_cars_Ambulance_Idle_fe29f3e5_SE.png", "frame_width": 165, "frame_height": 139, "frames": 1, "origin": [51.730893, 62.699517], "footprint": [8, 4], "grid_original": {"origin": [50, 107], "footprint": [3, 1]}, "alignment_transform": [1.3374843029299486, -0.1721570316281024, -0.2460885522905849, 1.432921168606029], "alignment_base": [[7.0, 79.657367], [113.269107, 137.08898], [158.0, 120.13113]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [113.269107, 137.08898]}, "SW": {"file": "../../imported_prepared/cars/Added_cars_cars_Ambulance_Idle_fe29f3e5_SW.png", "frame_width": 165, "frame_height": 139, "frames": 1, "origin": [112.269107, 62.699517], "footprint": [4, 8], "grid_original": {"origin": [50, 107], "footprint": [3, 1]}, "alignment_transform": [1.3374843029299486, 0.17215703162810242, 0.24608855229058424, 1.4329211686060286], "alignment_base": [[6.0, 120.13113], [50.730893, 137.08898], [157.0, 79.657367]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [50.730893, 137.08898]}, "W": {"file": "../../imported_prepared/cars/Added_cars_cars_Ambulance_Idle_fe29f3e5_W.png", "frame_width": 183, "frame_height": 95, "frames": 1, "origin": [131.0, 30.0], "footprint": [4, 4], "grid_original": {"origin": [44, 55], "footprint": [4, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [131.0, 94.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-51.730893, -62.699517)
+hframes = 1

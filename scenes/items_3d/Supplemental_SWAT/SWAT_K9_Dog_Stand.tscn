@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/SWAT_K9_Dog_Stand.glb" id="1_y1jny"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jw5pw"]
+size = Vector3(0.29, 0.94191, 1.0957301)
+
+[node name="SWAT_K9_Dog_Stand" type="StaticBody3D" unique_id=317853229]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.145, 0.0, -0.54786503, 0.29, 0.94191, 1.0957301]
+
+[node name="Model" type="Node3D" parent="." unique_id=701139783]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.05567503)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=504911834 instance=ExtResource("1_y1jny")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1425088327]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.470955, 0)
+shape = SubResource("BoxShape3D_jw5pw")
+disabled = true

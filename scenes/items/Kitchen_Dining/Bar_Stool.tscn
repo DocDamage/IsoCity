@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Kitchen_Dining/Bar_Stool.png" id="2_tex"]
+
+[node name="Bar_Stool" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Bar_Stool"
+category = "Kitchen & Dining"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(7, 10)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Kitchen_Dining/Bar_Stool.png", "frame_width": 14, "frame_height": 22, "origin": [7, 10], "footprint": [1, 1], "sheet": {"file": "Sheets/Kitchen_Dining_Sheet.png", "x": 458, "y": 373, "w": 14, "h": 22}, "grid_method": "authored", "grid_contact": [7, 26]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-7, -10)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, 0, 16, -16, 8)

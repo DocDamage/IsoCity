@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Satellites/16_hexagonal_smallsat.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(2.956208488338235, 2.4960381528262547, 3.0)
+
+[node name="16_hexagonal_smallsat" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-1.4781042441691175, 0.0, -1.5, 2.956208488338235, 2.4960381528262547, 3.0]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(-0.0010290055141518246, 1.2300823347552416, -0.0033480701062116314)
+scale = Vector3(3.0018862417197347, 3.0018862417197347, 3.0018862417197347)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 1.2480190764131274, 0)
+shape = SubResource("CollisionShape")
+disabled = true

@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Prop_Briefing_Board.glb" id="1_f0lj7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_itbnw"]
+size = Vector3(1.765, 1.97226, 0.64)
+
+[node name="Prop_Briefing_Board" type="StaticBody3D" unique_id=231952401]
+collision_mask = 0
+metadata/authored_footprint = [-0.8825, 0.0, -0.32, 1.765, 1.97226, 0.64]
+
+[node name="Model" type="Node3D" parent="." unique_id=296169260]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.00274, 0)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1791617119 instance=ExtResource("1_f0lj7")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1378869365]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.98613, 0)
+shape = SubResource("BoxShape3D_itbnw")

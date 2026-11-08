@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Gear_Plate_Carrier.glb" id="1_wdq1g"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bohtq"]
+size = Vector3(0.454, 0.472, 0.3705)
+
+[node name="Gear_Plate_Carrier" type="StaticBody3D" unique_id=153099672]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-0.227, 0.0, -0.18525, 0.454, 0.472, 0.3705]
+
+[node name="Model" type="Node3D" parent="." unique_id=319571642]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.001000002, 0, -0.007249996)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=1745889412 instance=ExtResource("1_wdq1g")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1351116264]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.236, 0)
+shape = SubResource("BoxShape3D_bohtq")
+disabled = true

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_tiered_desert_oasis_building_tiered_desert_oasis_b_b84ce207_SE.png" id="2"]
+
+[node name="Added_rendered_tiered_desert_oasis_building_tiered_desert_oasis_b_b84ce207" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_tiered_desert_oasis_building_tiered_desert_oasis_b_b84ce207"
+category = "Added rendered - Buildings"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(172.0, 114.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_tiered_desert_oasis_building_tiered_desert_oasis_b_b84ce207_SE.png", "frame_width": 344, "frame_height": 309, "frames": 1, "origin": [172.0, 114.0], "footprint": [12, 12], "grid_original": {"origin": [172, 133], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [172.0, 306.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_tiered_desert_oasis_building_tiered_desert_oasis_b_b84ce207_E.png", "frame_width": 409, "frame_height": 357, "frames": 1, "origin": [180.588309, 147.532657], "footprint": [16, 12], "grid_original": {"origin": [204, 149], "footprint": [13, 13]}, "alignment_transform": [1.1915922330924973, 0.012231892169231415, 0.04343673996429043, 1.032804324522676], "alignment_base": [[16.0, 242.43275], [226.411691, 363.87518], [391.0, 268.975087]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [226.411691, 363.87518]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_tiered_desert_oasis_building_tiered_desert_oasis_b_b84ce207_NE.png", "frame_width": 344, "frame_height": 361, "frames": 1, "origin": [142.0, 166.0], "footprint": [12, 12], "grid_original": {"origin": [172, 185], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [142.0, 358.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_tiered_desert_oasis_building_tiered_desert_oasis_b_b84ce207_N.png", "frame_width": 411, "frame_height": 416, "frames": 1, "origin": [175.0, 221.0], "footprint": [12, 12], "grid_original": {"origin": [206, 208], "footprint": [13, 13]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [175.0, 413.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_tiered_desert_oasis_building_tiered_desert_oasis_b_b84ce207_NW.png", "frame_width": 344, "frame_height": 416, "frames": 1, "origin": [169.0, 221.0], "footprint": [12, 12], "grid_original": {"origin": [172, 240], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [169.0, 413.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_tiered_desert_oasis_building_tiered_desert_oasis_b_b84ce207_W.png", "frame_width": 409, "frame_height": 419, "frames": 1, "origin": [191.0, 224.0], "footprint": [12, 12], "grid_original": {"origin": [204, 211], "footprint": [13, 13]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [191.0, 416.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_tiered_desert_oasis_building_tiered_desert_oasis_b_b84ce207_SW.png", "frame_width": 344, "frame_height": 367, "frames": 1, "origin": [210.5, 172.0], "footprint": [12, 12], "grid_original": {"origin": [172, 191], "footprint": [11, 11]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [210.5, 364.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_tiered_desert_oasis_building_tiered_desert_oasis_b_b84ce207_S.png", "frame_width": 411, "frame_height": 380, "frames": 1, "origin": [185.0, 185.0], "footprint": [12, 12], "grid_original": {"origin": [206, 172], "footprint": [13, 13]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [185.0, 377.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-172.0, -114.0)
+hframes = 1

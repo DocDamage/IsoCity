@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Office/Binder_Shelf_SE.png" id="2_tex"]
+
+[node name="Binder_Shelf" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Binder_Shelf"
+category = "Office"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 2)
+origin_offset = Vector2(33, 31)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Office/Binder_Shelf_SE.png", "frame_width": 42, "frame_height": 52, "origin": [33, 31], "footprint": [1, 2], "sheet": {"file": "Sheets/Office_Sheet.png", "x": 265, "y": 301, "w": 42, "h": 52}, "grid_method": "authored", "grid_contact": [17, 55]}, "SW": {"file": "Sprites/Office/Binder_Shelf_SW.png", "frame_width": 42, "frame_height": 52, "origin": [9, 31], "footprint": [2, 1], "sheet": {"file": "Sheets/Office_Sheet.png", "x": 309, "y": 301, "w": 42, "h": 52}, "grid_method": "authored", "grid_contact": [25, 55]}, "NW": {"file": "Sprites/Office/Binder_Shelf_NW.png", "frame_width": 42, "frame_height": 52, "origin": [25, 27], "footprint": [1, 2], "sheet": {"file": "Sheets/Office_Sheet.png", "x": 353, "y": 301, "w": 42, "h": 52}, "grid_method": "authored", "grid_contact": [9, 51]}, "NE": {"file": "Sprites/Office/Binder_Shelf_NE.png", "frame_width": 42, "frame_height": 52, "origin": [17, 27], "footprint": [2, 1], "sheet": {"file": "Sheets/Office_Sheet.png", "x": 397, "y": 301, "w": 42, "h": 52}, "grid_method": "authored", "grid_contact": [33, 51]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-33, -31)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, -16, 24, -32, 16)

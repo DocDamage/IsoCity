@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/isometric_rpg_world/isometricvill_v2/isometricvill - v2/Building_Assets/school/wall -.png" id="2_tex"]
+
+[node name="wall_-" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "wall_-"
+category = "RPG_Buildings"
+kind = "build"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(31.5, 5.0)
+total_frames = 1
+has_collision = true
+directions_data = {"SE": {"file": "../../isometric_rpg_world/isometricvill_v2/isometricvill - v2/Building_Assets/school/wall -.png", "origin": [31.5, 5.0], "footprint": [2, 2], "frame_width": 64, "frame_height": 48, "grid_original": {"origin": [32, 30], "footprint": [1, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [31.5, 37.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-31.5, -5.0)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, 0, 16, -16, 8)

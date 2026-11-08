@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/supplemental_prepared/Flipped_Fleet_US/Supplemental_Flipped_Fleet_US_crew_cab_pickup_f6224c21.png" id="2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_view"]
+atlas = ExtResource("2")
+region = Rect2(384, 0, 128, 128)
+filter_clip = true
+
+[node name="Supplemental_Flipped_Fleet_US_crew_cab_pickup_f6224c21" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1")
+item_id = "Supplemental_Flipped_Fleet_US_crew_cab_pickup_f6224c21"
+category = "Supplemental Vehicles"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(4, 2)
+origin_offset = Vector2(48, 51.5)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"E": {"file": "../../supplemental_prepared/Flipped_Fleet_US/Supplemental_Flipped_Fleet_US_crew_cab_pickup_f6224c21.png", "footprint": [6, 6], "frame_height": 128.0, "frame_width": 128.0, "frames": 1.0, "grid_contact": [64, 123.5], "grid_method": "authored pivot and virtual footprint front", "origin": [64, 27.5], "region": [256.0, 0.0, 128.0, 128.0], "render_contact": [64.0, 88.0]}, "N": {"file": "../../supplemental_prepared/Flipped_Fleet_US/Supplemental_Flipped_Fleet_US_crew_cab_pickup_f6224c21.png", "footprint": [6, 6], "frame_height": 128.0, "frame_width": 128.0, "frames": 1.0, "grid_contact": [64, 123.5], "grid_method": "authored pivot and virtual footprint front", "origin": [64, 27.5], "region": [0.0, 0.0, 128.0, 128.0], "render_contact": [64.0, 104.0]}, "NE": {"file": "../../supplemental_prepared/Flipped_Fleet_US/Supplemental_Flipped_Fleet_US_crew_cab_pickup_f6224c21.png", "footprint": [2, 4], "frame_height": 128.0, "frame_width": 128.0, "frames": 1.0, "grid_contact": [48, 99.5], "grid_method": "authored pivot and virtual footprint front", "origin": [80, 51.5], "region": [128.0, 0.0, 128.0, 128.0], "render_contact": [64.0, 102.0]}, "NW": {"file": "../../supplemental_prepared/Flipped_Fleet_US/Supplemental_Flipped_Fleet_US_crew_cab_pickup_f6224c21.png", "footprint": [4, 2], "frame_height": 128.0, "frame_width": 128.0, "frames": 1.0, "grid_contact": [80, 99.5], "grid_method": "authored pivot and virtual footprint front", "origin": [48, 51.5], "region": [896.0, 0.0, 128.0, 128.0], "render_contact": [64.0, 102.0]}, "S": {"file": "../../supplemental_prepared/Flipped_Fleet_US/Supplemental_Flipped_Fleet_US_crew_cab_pickup_f6224c21.png", "footprint": [6, 6], "frame_height": 128.0, "frame_width": 128.0, "frames": 1.0, "grid_contact": [64, 123.5], "grid_method": "authored pivot and virtual footprint front", "origin": [64, 27.5], "region": [512.0, 0.0, 128.0, 128.0], "render_contact": [64.0, 101.0]}, "SE": {"file": "../../supplemental_prepared/Flipped_Fleet_US/Supplemental_Flipped_Fleet_US_crew_cab_pickup_f6224c21.png", "footprint": [4, 2], "frame_height": 128.0, "frame_width": 128.0, "frames": 1.0, "grid_contact": [80, 99.5], "grid_method": "authored pivot and virtual footprint front", "origin": [48, 51.5], "region": [384.0, 0.0, 128.0, 128.0], "render_contact": [64.0, 100.0]}, "SW": {"file": "../../supplemental_prepared/Flipped_Fleet_US/Supplemental_Flipped_Fleet_US_crew_cab_pickup_f6224c21.png", "footprint": [2, 4], "frame_height": 128.0, "frame_width": 128.0, "frames": 1.0, "grid_contact": [48, 99.5], "grid_method": "authored pivot and virtual footprint front", "origin": [80, 51.5], "region": [640.0, 0.0, 128.0, 128.0], "render_contact": [64.0, 100.0]}, "W": {"file": "../../supplemental_prepared/Flipped_Fleet_US/Supplemental_Flipped_Fleet_US_crew_cab_pickup_f6224c21.png", "footprint": [6, 6], "frame_height": 128.0, "frame_width": 128.0, "frames": 1.0, "grid_contact": [64, 123.5], "grid_method": "authored pivot and virtual footprint front", "origin": [64, 27.5], "region": [768.0, 0.0, 128.0, 128.0], "render_contact": [64.0, 88.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_view")
+centered = false
+offset = Vector2(-48, -51.5)
+hframes = 1

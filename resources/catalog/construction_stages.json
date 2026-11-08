@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "stages": {
+    "1": [
+      {"asset": "3d:HanX_Construction/Foundation_Rebar", "cell": [0.00, 0.02, 0.72, 0.96], "scale_limit": 1.6},
+      {"asset": "3d:HanX_Construction/Rebar_Bundle", "cell": [0.76, 0.05, 0.23, 0.48], "scale_limit": 1.2, "yaw_offset": 90},
+      {"asset": "3d:HanX_Construction/Gravel_Pile", "cell": [0.77, 0.58, 0.22, 0.36], "scale_limit": 1.0}
+    ],
+    "2": [
+      {"asset": "3d:HanX_Construction/Building_Frame", "cell": [0.00, 0.02, 0.72, 0.96], "scale_limit": 1.55},
+      {"asset": "3d:HanX_Construction/Scaffold_Module", "cell": [0.77, 0.08, 0.22, 0.82], "scale_limit": 1.25}
+    ],
+    "4": [
+      {"asset": "3d:HanX_Construction/Scaffold_Module_Ladder", "cell": [0.04, 0.04, 0.43, 0.90], "scale_limit": 1.35},
+      {"asset": "3d:HanX_Construction/Pallet_Bricks", "cell": [0.54, 0.06, 0.43, 0.39], "scale_limit": 1.2},
+      {"asset": "3d:HanX_Construction/Lumber_Stack", "cell": [0.54, 0.53, 0.43, 0.38], "scale_limit": 1.2}
+    ]
+  }
+}

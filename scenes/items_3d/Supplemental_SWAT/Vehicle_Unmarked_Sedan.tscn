@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Vehicle_Unmarked_Sedan.glb" id="1_vuvxa"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hd3wt"]
+size = Vector3(2.04, 1.76841, 5.156)
+
+[node name="Vehicle_Unmarked_Sedan" type="StaticBody3D" unique_id=264127044]
+collision_mask = 0
+metadata/authored_footprint = [-1.02, 0.0, -2.578, 2.04, 1.76841, 5.156]
+
+[node name="Model" type="Node3D" parent="." unique_id=1524799738]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.01159, 0)
+
+[node name="Source" type="Node3D" parent="Model" unique_id=291824225 instance=ExtResource("1_vuvxa")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=564106190]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.884205, 0)
+shape = SubResource("BoxShape3D_hd3wt")

@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Spaceships_II/hammerhead_cruiser.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(4.884957567202857, 1.0312761135482287, 6.0)
+
+[node name="hammerhead_cruiser" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-2.4424787836014286, 0.0, -3.0, 4.884957567202857, 1.0312761135482287, 6.0]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(-0.0027009947055265473, 0.4764948348621353, -0.004930415322289871)
+scale = Vector3(5.953122909807291, 5.953122909807291, 5.953122909807291)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.5156380567741143, 0)
+shape = SubResource("CollisionShape")
+disabled = true

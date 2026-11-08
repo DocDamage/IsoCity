@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Nature_Park/Rock_Large_SE.png" id="2_tex"]
+
+[node name="Rock_Large" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Rock_Large"
+category = "Nature & Park"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(2, 2)
+origin_offset = Vector2(21, 1)
+total_frames = 1
+animation_fps = 4.0
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Nature_Park/Rock_Large_SE.png", "frame_width": 39, "frame_height": 23, "origin": [21, 1], "footprint": [2, 2], "sheet": {"file": "Sheets/Nature_Park_Sheet.png", "x": 270, "y": 50, "w": 39, "h": 23}, "grid_method": "authored", "grid_contact": [21, 33]}, "SW": {"file": "Sprites/Nature_Park/Rock_Large_SW.png", "frame_width": 32, "frame_height": 24, "origin": [14, 0], "footprint": [2, 2], "sheet": {"file": "Sheets/Nature_Park_Sheet.png", "x": 311, "y": 50, "w": 32, "h": 24}, "grid_method": "authored", "grid_contact": [14, 32]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-21, -1)
+hframes = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 32, 16, 0, 32, -32, 16)

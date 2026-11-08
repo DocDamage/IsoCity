@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/Satellites/05_space_telescope_tube.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="CollisionShape"]
+size = Vector3(3.0, 1.814888495743372, 1.238169831005918)
+
+[node name="05_space_telescope_tube" type="StaticBody3D"]
+collision_layer = 0
+collision_mask = 0
+metadata/authored_footprint = [-1.5, 0.0, -0.619084915502959, 3.0, 1.814888495743372, 1.238169831005918]
+
+[node name="Model" type="Node3D" parent="."]
+position = Vector3(0.02321202075216852, 0.9028048171922706, 0.04414820299306423)
+scale = Vector3(3.0418637522943945, 3.0418637522943945, 3.0418637522943945)
+
+[node name="Source" parent="Model" instance=ExtResource("1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.907444247871686, 0)
+shape = SubResource("CollisionShape")
+disabled = true

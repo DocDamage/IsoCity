@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/Archology_South_v1_4_8/Added_Archology_South_v1_4_8_Archology_South_Backgrounds_Tiles_Concrete_Ground__624f2fb9_SE.png" id="2"]
+
+[node name="Added_Archology_South_v1_4_8_Archology_South_Backgrounds_Tiles_Concrete_Ground__624f2fb9" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(1.0, 1.0)
+script = ExtResource("1")
+item_id = "Added_Archology_South_v1_4_8_Archology_South_Backgrounds_Tiles_Concrete_Ground__624f2fb9"
+category = "Added Archology South - Backdrops"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(21, 21)
+origin_offset = Vector2(344.378149, 24.344689)
+total_frames = 1
+animation_fps = 8.0
+has_collision = false
+directions_data = {"SE": {"file": "../../imported_prepared/Archology_South_v1_4_8/Added_Archology_South_v1_4_8_Archology_South_Backgrounds_Tiles_Concrete_Ground__624f2fb9_SE.png", "frame_width": 689, "frame_height": 398, "frames": 1, "origin": [344.378149, 24.344689], "footprint": [21, 21], "grid_original": {"origin": [344, 78], "footprint": [20, 20]}, "alignment_transform": [1.0402503174351678, 0.0011272429111248393, 0.002109660052183736, 0.9009943128969218], "alignment_base": [[21.0, 211.209937], [343.621851, 397.266968], [667.0, 210.40172]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [343.621851, 397.266968]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-344.378149, -24.344689)
+hframes = 1

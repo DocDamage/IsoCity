@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/pixel_isometric/Sprites/Office/Printer_SE.png" id="2_tex"]
+
+[node name="Printer" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_script")
+item_id = "Printer"
+category = "Office"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(1, 1)
+origin_offset = Vector2(12, 7)
+total_frames = 2
+animation_fps = 2
+has_collision = true
+directions_data = {"SE": {"file": "Sprites/Office/Printer_SE.png", "frame_width": 24, "frame_height": 21, "origin": [12, 7], "footprint": [1, 1], "layout": "horizontal strip of 2 frames", "sheet": {"file": "Sheets/Office_Sheet.png", "x": 360, "y": 93, "w": 24, "h": 21}, "grid_method": "authored", "grid_contact": [12, 23]}, "SW": {"file": "Sprites/Office/Printer_SW.png", "frame_width": 24, "frame_height": 21, "origin": [12, 7], "footprint": [1, 1], "layout": "horizontal strip of 2 frames", "sheet": {"file": "Sheets/Office_Sheet.png", "x": 386, "y": 93, "w": 24, "h": 21}, "grid_method": "authored", "grid_contact": [12, 23]}, "NW": {"file": "Sprites/Office/Printer_NW.png", "frame_width": 24, "frame_height": 18, "origin": [12, 4], "footprint": [1, 1], "layout": "horizontal strip of 2 frames", "sheet": {"file": "Sheets/Office_Sheet.png", "x": 412, "y": 93, "w": 24, "h": 18}, "grid_method": "authored", "grid_contact": [12, 20]}, "NE": {"file": "Sprites/Office/Printer_NE.png", "frame_width": 24, "frame_height": 18, "origin": [12, 4], "footprint": [1, 1], "layout": "horizontal strip of 2 frames", "sheet": {"file": "Sheets/Office_Sheet.png", "x": 438, "y": 93, "w": 24, "h": 18}, "grid_method": "authored", "grid_contact": [12, 20]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."] 
+texture = ExtResource("2_tex")
+centered = false
+offset = Vector2(-12, -7)
+hframes = 2
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."] 
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"] 
+polygon = PackedVector2Array(0, 0, 16, 8, 0, 16, -16, 8)

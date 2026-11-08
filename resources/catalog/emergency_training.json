@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "drills": {
+    "fire_drill": {
+      "title": "Fire station evacuation drill",
+      "description": "Dispatch the fire crew, secure two perimeter points, account for the training marshal, and check back in at the dispatch desk after the crew returns.",
+      "service": "fire",
+      "perimeter_count": 2,
+      "station": ["2d:Fire_Station1_-_Copie"],
+      "desk": ["3d:Fire_Station_PSX/dispatch_desk"],
+      "barriers": ["3d:Fire_Station_PSX/traffic_cone", "2d:Construction_Barrier", "3d:Supplemental_SWAT/Prop_Crowd_Barrier"],
+      "subject": ["3d:Supplemental_SWAT/SWAT_Pose_Hand_Signal", "2d:Construction_Worker"],
+      "subject_action": "Account for the training marshal"
+    },
+    "medical_drill": {
+      "title": "Medical assistance drill",
+      "description": "Dispatch an ambulance, collect the training kit, secure the intake point, assist the waiting participant, and report back after the crew returns.",
+      "service": "medical",
+      "perimeter_count": 1,
+      "station": ["2d:Hopital"],
+      "desk": ["3d:Fire_Station_PSX/dispatch_radio", "3d:Fire_Station_PSX/dispatch_desk"],
+      "barriers": ["3d:Supplemental_SWAT/Prop_Crowd_Barrier", "2d:Construction_Barrier", "3d:Fire_Station_PSX/traffic_cone"],
+      "subject": ["2d:Construction_Worker", "3d:Supplemental_SWAT/SWAT_Pose_Hand_Signal"],
+      "kit": ["3d:Fire_Station_PSX/first_aid_bag", "3d:Supplemental_SWAT/Prop_First_Aid_Kit"],
+      "subject_action": "Assist the waiting participant"
+    }
+  }
+}

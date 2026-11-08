@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "buildings": [
+    "3d:HanX_School/School_Building"
+  ],
+  "seats": [
+    "3d:HanX_School/Student_Chair"
+  ],
+  "playgrounds": [
+    "2d:Playground_Slide",
+    "3d:HanX_School/Tile_Playground",
+    "3d:HanX_School/Tile_Hopscotch",
+    "3d:HanX_School/Tile_Schoolyard",
+    "3d:HanX_School/Slide",
+    "3d:HanX_School/Swing_Set",
+    "3d:HanX_School/Climbing_Frame",
+    "3d:HanX_School/Basketball_Court"
+  ],
+  "buses": {
+    "2d": "2d:School_Bus",
+    "3d": "3d:HanX_School/School_Bus"
+  },
+  "placeholder_note": "Pupils reuse the selected resident bodies. The default pixel walker is Office Worker and the model world uses the built-in generic walker. The supplied bodies are generic stand-ins for pupils."
+}

@@ -1,0 +1,436 @@
+{
+	"assets": {
+		"2d:Ambulance": {},
+		"2d:Box_Truck": {},
+		"2d:City_Bus": {},
+		"2d:Delivery_Van": {},
+		"2d:Fire_Truck": {},
+		"2d:Garbage_Truck": {},
+		"2d:Hatchback_Mint": {},
+		"2d:Hatchback_Yellow": {},
+		"2d:Ice_Cream_Truck": {},
+		"2d:Pickup_Truck": {},
+		"2d:Police_Car": {},
+		"2d:SUV_Green": {},
+		"2d:SUV_Silver": {},
+		"2d:School_Bus": {},
+		"2d:Sedan_Black": {},
+		"2d:Sedan_Blue": {},
+		"2d:Sedan_Red": {},
+		"2d:Sedan_White": {},
+		"2d:Sports_Car_Orange": {},
+		"2d:Sports_Car_Purple": {},
+		"2d:Supplemental_Flipped_Fleet_EU_ambulance_eu_d13fc3cd": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_EU_city_car_9a4bf3c7": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_EU_estate_7974abe3": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_EU_fire_suv_eu_152ca414": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_EU_hatchback_1ffa45c9": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_EU_hot_hatch_b011c9b6": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_EU_liftback_36e61bad": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_EU_microvan_two_tone_aba8a938": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_EU_minibus_two_tone_124e6c04": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_EU_off_roader_1c32c206": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_EU_police_eu_c00c8b97": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_EU_premium_van_ef079315": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_EU_sedan_11dc54b2": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_EU_sports_car_d818a56b": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_EU_utility_van_ac68ece0": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_EU_van_3356714f": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_US_ambulance_us_30763477": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_US_coupe_05fc7a36": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_US_crew_cab_pickup_f6224c21": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_US_crossover_de8b5c0b": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_US_gt_coupe_13e4b1fd": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_US_limousine_ebc09a03": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_US_minibus_dbf93316": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_US_mpv_4670d822": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_US_offroad_van_884f9b64": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_US_pickup_e7938450": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_US_police_us_899ac9cf": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_US_sports_car_yellow_69cf5a27": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_US_suv_e5cd9f84": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_US_taxi_ce135532": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_US_ute_29ac5ce5": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Supplemental_Flipped_Fleet_US_utility_pickup_47b23620": {
+			"view_yaws": {
+				"E": 135.0,
+				"N": 225.0,
+				"NE": 180.0,
+				"NW": 270.0,
+				"S": 45.0,
+				"SE": 90.0,
+				"SW": 0.0,
+				"W": 315.0
+			}
+		},
+		"2d:Taxi": {},
+		"3d:HanX_Traffic/Bus_City": {},
+		"3d:HanX_Traffic/Car_Hatchback": {},
+		"3d:HanX_Traffic/Car_Police": {},
+		"3d:HanX_Traffic/Car_SUV": {},
+		"3d:HanX_Traffic/Car_Sedan": {},
+		"3d:HanX_Traffic/Car_Taxi": {},
+		"3d:HanX_Traffic/Pickup_Truck": {},
+		"3d:HanX_Traffic/Truck_Box": {},
+		"3d:HanX_Traffic/Truck_Fire": {},
+		"3d:HanX_Traffic/Van_Delivery": {},
+		"3d:Supplemental_SWAT/Vehicle_Armored_SUV": {},
+		"3d:Supplemental_SWAT/Vehicle_Armored_Truck": {},
+		"3d:Supplemental_SWAT/Vehicle_Command_Truck": {},
+		"3d:Supplemental_SWAT/Vehicle_Patrol_SUV": {},
+		"3d:Supplemental_SWAT/Vehicle_Police_Motorcycle": {},
+		"3d:Supplemental_SWAT/Vehicle_Prisoner_Transport_Van": {},
+		"3d:Supplemental_SWAT/Vehicle_SWAT_Van": {},
+		"3d:Supplemental_SWAT/Vehicle_Unmarked_Sedan": {}
+	},
+	"defaults": {
+		"acceleration": 5.0,
+		"braking": 9.0,
+		"enabled": true,
+		"max_speed": 12.0,
+		"reach": 2.0,
+		"reverse_speed": 4.0,
+		"steering": 1.7
+	}
+}

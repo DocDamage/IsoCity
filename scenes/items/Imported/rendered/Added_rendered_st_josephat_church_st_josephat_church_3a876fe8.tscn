@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_st_josephat_church_st_josephat_church_3a876fe8_SE.png" id="2"]
+
+[node name="Added_rendered_st_josephat_church_st_josephat_church_3a876fe8" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_st_josephat_church_st_josephat_church_3a876fe8"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(165.495729, 44.539951)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_st_josephat_church_st_josephat_church_3a876fe8_SE.png", "frame_width": 373, "frame_height": 247, "frames": 1, "origin": [165.495729, 44.539951], "footprint": [12, 12], "grid_original": {"origin": [74, 175], "footprint": [8, 1]}, "alignment_transform": [1.1280478812915504, -0.04706589640138685, -0.24321093126891136, 0.9726505069214575], "alignment_base": [[15.0, 135.956943], [208.504271, 244.019861], [359.0, 152.602869]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [208.504271, 244.019861]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_st_josephat_church_st_josephat_church_3a876fe8_E.png", "frame_width": 248, "frame_height": 234, "frames": 1, "origin": [97.5, 103.0], "footprint": [8, 8], "grid_original": {"origin": [60, 186], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [97.5, 231.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_st_josephat_church_st_josephat_church_3a876fe8_NE.png", "frame_width": 371, "frame_height": 240, "frames": 1, "origin": [196.628926, 36.959276], "footprint": [12, 12], "grid_original": {"origin": [74, 168], "footprint": [8, 1]}, "alignment_transform": [1.1325727705768727, 0.07180128967392277, 0.13135091919009306, 0.9657386753302027], "alignment_base": [[14.0, 149.943249], [173.371074, 237.500011], [356.0, 124.516038]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [173.371074, 237.500011]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_st_josephat_church_st_josephat_church_3a876fe8_N.png", "frame_width": 295, "frame_height": 244, "frames": 1, "origin": [63.0, 113.0], "footprint": [8, 8], "grid_original": {"origin": [68, 188], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [63.0, 241.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_st_josephat_church_st_josephat_church_3a876fe8_NW.png", "frame_width": 372, "frame_height": 310, "frames": 1, "origin": [166.760801, 109.46517], "footprint": [12, 12], "grid_original": {"origin": [74, 238], "footprint": [8, 1]}, "alignment_transform": [1.1225228451420064, -0.026530925567388383, -0.23007179706785297, 0.977616483134305], "alignment_base": [[15.0, 203.544645], [207.239199, 306.959722], [359.0, 212.880247]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [207.239199, 306.959722]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_st_josephat_church_st_josephat_church_3a876fe8_W.png", "frame_width": 248, "frame_height": 292, "frames": 1, "origin": [45.0, 161.0], "footprint": [8, 8], "grid_original": {"origin": [60, 244], "footprint": [5, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [45.0, 289.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_st_josephat_church_st_josephat_church_3a876fe8_SW.png", "frame_width": 371, "frame_height": 318, "frames": 1, "origin": [195.461377, 120.089574], "footprint": [12, 12], "grid_original": {"origin": [74, 246], "footprint": [8, 1]}, "alignment_transform": [1.1320199000619113, 0.06872659849627263, 0.13343138191950749, 0.9953763107275757], "alignment_base": [[13.0, 229.13371], [172.538623, 314.564167], [355.0, 205.520031]], "alignment_version": 2, "grid_method": "measured base", "grid_contact": [172.538623, 314.564167]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_st_josephat_church_st_josephat_church_3a876fe8_S.png", "frame_width": 295, "frame_height": 255, "frames": 1, "origin": [109.0, 125.0], "footprint": [8, 8], "grid_original": {"origin": [68, 199], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [109.0, 253.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-165.495729, -44.539951)
+hframes = 1

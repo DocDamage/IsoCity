@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/hanx_lowpoly/low-poly-shop-market-pack-hanx-shop-pack/HanX_Shop_Pack/GLB/Price_Tags.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1"]
+size = Vector3(0.829999983, 0.500000000, 0.121999994)
+
+[node name="Price_Tags" type="StaticBody3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.025000006, 0.250000000, 0.000999998)
+shape = SubResource("BoxShape3D_1")

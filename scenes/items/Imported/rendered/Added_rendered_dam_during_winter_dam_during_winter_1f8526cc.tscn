@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/iso_object.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/imported_prepared/rendered/Added_rendered_dam_during_winter_dam_during_winter_1f8526cc_SE.png" id="2"]
+
+[node name="Added_rendered_dam_during_winter_dam_during_winter_1f8526cc" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1")
+item_id = "Added_rendered_dam_during_winter_dam_during_winter_1f8526cc"
+category = "Added rendered - Props"
+kind = "obj"
+direction = "SE"
+footprint = Vector2i(12, 12)
+origin_offset = Vector2(108.5, -22.0)
+total_frames = 1
+animation_fps = 8.0
+has_collision = true
+directions_data = {"SE": {"file": "../../imported_prepared/rendered/Added_rendered_dam_during_winter_dam_during_winter_1f8526cc_SE.png", "frame_width": 425, "frame_height": 173, "frames": 1, "origin": [108.5, -22.0], "footprint": [12, 12], "grid_original": {"origin": [100, 101], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [108.5, 170.0]}, "E": {"file": "../../imported_prepared/rendered/Added_rendered_dam_during_winter_dam_during_winter_1f8526cc_E.png", "frame_width": 432, "frame_height": 257, "frames": 1, "origin": [296.0, 126.0], "footprint": [8, 8], "grid_original": {"origin": [104, 185], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [296.0, 254.0]}, "NE": {"file": "../../imported_prepared/rendered/Added_rendered_dam_during_winter_dam_during_winter_1f8526cc_NE.png", "frame_width": 276, "frame_height": 250, "frames": 1, "origin": [22.0, 119.0], "footprint": [8, 8], "grid_original": {"origin": [58, 194], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [22.0, 247.0]}, "N": {"file": "../../imported_prepared/rendered/Added_rendered_dam_during_winter_dam_during_winter_1f8526cc_N.png", "frame_width": 489, "frame_height": 274, "frames": 1, "origin": [252.0, 79.0], "footprint": [12, 12], "grid_original": {"origin": [132, 202], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [252.0, 271.0]}, "NW": {"file": "../../imported_prepared/rendered/Added_rendered_dam_during_winter_dam_during_winter_1f8526cc_NW.png", "frame_width": 424, "frame_height": 225, "frames": 1, "origin": [189.0, 30.0], "footprint": [12, 12], "grid_original": {"origin": [100, 153], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [189.0, 222.0]}, "W": {"file": "../../imported_prepared/rendered/Added_rendered_dam_during_winter_dam_during_winter_1f8526cc_W.png", "frame_width": 432, "frame_height": 324, "frames": 1, "origin": [230.0, 193.0], "footprint": [8, 8], "grid_original": {"origin": [104, 252], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [230.0, 321.0]}, "SW": {"file": "../../imported_prepared/rendered/Added_rendered_dam_during_winter_dam_during_winter_1f8526cc_SW.png", "frame_width": 276, "frame_height": 293, "frames": 1, "origin": [99.5, 162.0], "footprint": [8, 8], "grid_original": {"origin": [58, 237], "footprint": [6, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [99.5, 290.0]}, "S": {"file": "../../imported_prepared/rendered/Added_rendered_dam_during_winter_dam_during_winter_1f8526cc_S.png", "frame_width": 489, "frame_height": 267, "frames": 1, "origin": [193.0, 136.0], "footprint": [8, 8], "grid_original": {"origin": [132, 195], "footprint": [8, 1]}, "alignment_transform": [1.0, 0.0, 0.0, 1.0], "alignment_version": 2, "grid_method": "contact anchor", "grid_contact": [193.0, 264.0]}}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+centered = false
+offset = Vector2(-108.5, 22.0)
+hframes = 1

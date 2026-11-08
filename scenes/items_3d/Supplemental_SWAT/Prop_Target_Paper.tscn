@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/supplemental_models/HanX_SWAT/Prop_Target_Paper.glb" id="1_am5vv"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wpaqc"]
+size = Vector3(0.7, 1.95, 0.6)
+
+[node name="Prop_Target_Paper" type="StaticBody3D" unique_id=1596331373]
+collision_mask = 0
+metadata/authored_footprint = [-0.35, 0.0, -0.3, 0.7, 1.95, 0.6]
+
+[node name="Model" type="Node3D" parent="." unique_id=121148348]
+
+[node name="Source" type="Node3D" parent="Model" unique_id=125035190 instance=ExtResource("1_am5vv")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=337726512]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.975, 0)
+shape = SubResource("BoxShape3D_wpaqc")
